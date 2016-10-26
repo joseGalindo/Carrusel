@@ -10,11 +10,13 @@
 #import "Personaje.h"
 #import "PersonajesProtocol.h"
 
-@interface ViewController : UIViewController <PersonajeDelegate>
+@interface ViewController : UIViewController <PersonajeDelegate,
+                            UITableViewDelegate, UITableViewDataSource,
+                            UICollectionViewDelegate, UICollectionViewDataSource>
 
 // UI
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollFechas;
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollPersonajes;
+@property (weak, nonatomic) IBOutlet UITableView *tablaFechas;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionPersonajes;
 @property (weak, nonatomic) IBOutlet UIView *vistaMiniDetalle;
 
 // Vista Detalle

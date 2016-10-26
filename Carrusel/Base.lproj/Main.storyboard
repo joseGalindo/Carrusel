@@ -18,12 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLy-nA-EXe">
-                                <rect key="frame" x="220" y="854" width="1126" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Plm-V4-LgE"/>
-                                </constraints>
-                            </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-am-uFq">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="64"/>
                                 <subviews>
@@ -109,12 +103,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-Qh-Z41">
-                                <rect key="frame" x="0.0" y="84" width="200" height="920"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="lEg-l3-FcY"/>
-                                </constraints>
-                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNB-hl-OjD">
                                 <rect key="frame" x="1076" y="794" width="190" height="30"/>
                                 <constraints>
@@ -128,22 +116,53 @@
                                     <segue destination="Nqp-8c-Yeb" kind="presentation" id="hkM-jE-Zrn"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PXX-St-XTt">
+                                <rect key="frame" x="0.0" y="84" width="200" height="920"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="d5h-nw-69f"/>
+                                </constraints>
+                            </tableView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YDj-DO-6uo">
+                                <rect key="frame" x="230" y="874" width="1106" height="120"/>
+                                <color key="backgroundColor" red="0.41960784309999999" green="0.3921568627" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="oFt-dz-YOc"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="20" id="kQT-Jb-wQg">
+                                    <size key="itemSize" width="100" height="120"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QsG-j9-TOn">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.39215686274509803" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PXX-St-XTt" secondAttribute="bottom" constant="20" id="6St-Bn-DYU"/>
+                            <constraint firstItem="M0j-c8-wwN" firstAttribute="leading" secondItem="PXX-St-XTt" secondAttribute="trailing" constant="50" id="6mO-6N-IMJ"/>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="92e-uJ-04L"/>
-                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTp-mo-K69"/>
-                            <constraint firstItem="NLy-nA-EXe" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="20" id="Fpu-5c-vUo"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NLy-nA-EXe" secondAttribute="bottom" constant="50" id="HlP-nM-cbS"/>
+                            <constraint firstItem="PXX-St-XTt" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="20" id="G3g-kk-PML"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YDj-DO-6uo" secondAttribute="bottom" constant="30" id="Rhy-cq-BPD"/>
                             <constraint firstAttribute="trailing" secondItem="VNB-hl-OjD" secondAttribute="trailing" constant="100" id="UDX-Yf-cfK"/>
-                            <constraint firstAttribute="trailing" secondItem="NLy-nA-EXe" secondAttribute="trailing" constant="20" id="WHy-AL-7Ko"/>
                             <constraint firstAttribute="trailing" secondItem="JSF-am-uFq" secondAttribute="trailing" id="YzI-8I-uEx"/>
+                            <constraint firstItem="YDj-DO-6uo" firstAttribute="leading" secondItem="PXX-St-XTt" secondAttribute="trailing" constant="30" id="aEJ-rE-3Ww"/>
+                            <constraint firstItem="PXX-St-XTt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eTG-5x-1yA"/>
+                            <constraint firstItem="YDj-DO-6uo" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="100" id="fel-KV-Wo1"/>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igL-md-H5x"/>
-                            <constraint firstItem="M0j-c8-wwN" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="50" id="k93-J2-Pey"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cNr-Qh-Z41" secondAttribute="bottom" constant="20" id="mMh-Bu-PVK"/>
+                            <constraint firstAttribute="trailing" secondItem="YDj-DO-6uo" secondAttribute="trailing" constant="30" id="mUM-dU-r8j"/>
                             <constraint firstItem="VNB-hl-OjD" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="20" id="mfN-iY-O2i"/>
-                            <constraint firstItem="NLy-nA-EXe" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="80" id="mgC-aj-wAQ"/>
-                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="20" id="r6e-4V-Tfc"/>
                             <constraint firstItem="M0j-c8-wwN" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="50" id="vur-aq-p7T"/>
                             <constraint firstAttribute="trailing" secondItem="M0j-c8-wwN" secondAttribute="trailing" constant="60" id="y3x-aU-50b"/>
                         </constraints>
@@ -151,12 +170,12 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
                     <connections>
+                        <outlet property="collectionPersonajes" destination="YDj-DO-6uo" id="6Vw-xB-kzu"/>
                         <outlet property="fechaPersonajeSelected" destination="c4W-VY-ehC" id="dbX-P1-n0J"/>
                         <outlet property="imagenPersonajeSelected" destination="ffv-RQ-OxR" id="Hd3-KL-43D"/>
                         <outlet property="nombreSelected" destination="smG-QN-aeV" id="JgQ-z7-mwL"/>
                         <outlet property="numeroSelected" destination="d8z-Ku-5OX" id="1cy-Vo-R9h"/>
-                        <outlet property="scrollFechas" destination="cNr-Qh-Z41" id="VSJ-tO-I5x"/>
-                        <outlet property="scrollPersonajes" destination="NLy-nA-EXe" id="gTz-Y8-59t"/>
+                        <outlet property="tablaFechas" destination="PXX-St-XTt" id="JKZ-7F-TCH"/>
                         <outlet property="vistaMiniDetalle" destination="M0j-c8-wwN" id="Jwd-AG-FzZ"/>
                     </connections>
                 </viewController>

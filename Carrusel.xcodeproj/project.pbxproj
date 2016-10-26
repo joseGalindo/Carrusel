@@ -22,6 +22,10 @@
 		E958E1571DC11B25008656A8 /* Personaje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1561DC11B25008656A8 /* Personaje.xib */; };
 		E958E1591DC12CDE008656A8 /* Personajes.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1581DC12CDE008656A8 /* Personajes.json */; };
 		E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E15D1DC166AC008656A8 /* DetalleViewController.m */; };
+		E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1611DC16BBA008656A8 /* TVCFecha.m */; };
+		E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1621DC16BBA008656A8 /* TVCFecha.xib */; };
+		E958E1691DC17593008656A8 /* CVCPersonaje.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1671DC17593008656A8 /* CVCPersonaje.m */; };
+		E958E16A1DC17593008656A8 /* CVCPersonaje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1681DC17593008656A8 /* CVCPersonaje.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,12 @@
 		E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonajesProtocol.h; sourceTree = "<group>"; };
 		E958E15C1DC166AC008656A8 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleViewController.h; path = Classes/DetalleViewController.h; sourceTree = "<group>"; };
 		E958E15D1DC166AC008656A8 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleViewController.m; path = Classes/DetalleViewController.m; sourceTree = "<group>"; };
+		E958E1601DC16BBA008656A8 /* TVCFecha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCFecha.h; path = TVCells/TVCFecha.h; sourceTree = "<group>"; };
+		E958E1611DC16BBA008656A8 /* TVCFecha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCFecha.m; path = TVCells/TVCFecha.m; sourceTree = "<group>"; };
+		E958E1621DC16BBA008656A8 /* TVCFecha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TVCFecha.xib; path = TVCells/TVCFecha.xib; sourceTree = "<group>"; };
+		E958E1661DC17593008656A8 /* CVCPersonaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonaje.h; path = CVCells/CVCPersonaje.h; sourceTree = "<group>"; };
+		E958E1671DC17593008656A8 /* CVCPersonaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonaje.m; path = CVCells/CVCPersonaje.m; sourceTree = "<group>"; };
+		E958E1681DC17593008656A8 /* CVCPersonaje.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCPersonaje.xib; path = CVCells/CVCPersonaje.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		E958E1201DC10E98008656A8 /* Carrusel */ = {
 			isa = PBXGroup;
 			children = (
+				E958E1651DC17565008656A8 /* CVCells */,
+				E958E15F1DC16B63008656A8 /* TVCells */,
 				E958E15A1DC15A47008656A8 /* Protocols */,
 				E958E1501DC1187B008656A8 /* JSON */,
 				E958E14A1DC11176008656A8 /* CustomViews */,
@@ -173,6 +185,26 @@
 				E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E958E15F1DC16B63008656A8 /* TVCells */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1601DC16BBA008656A8 /* TVCFecha.h */,
+				E958E1611DC16BBA008656A8 /* TVCFecha.m */,
+				E958E1621DC16BBA008656A8 /* TVCFecha.xib */,
+			);
+			name = TVCells;
+			sourceTree = "<group>";
+		};
+		E958E1651DC17565008656A8 /* CVCells */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1661DC17593008656A8 /* CVCPersonaje.h */,
+				E958E1671DC17593008656A8 /* CVCPersonaje.m */,
+				E958E1681DC17593008656A8 /* CVCPersonaje.xib */,
+			);
+			name = CVCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E958E16A1DC17593008656A8 /* CVCPersonaje.xib in Resources */,
 				E958E1521DC118AE008656A8 /* Fechas.json in Resources */,
+				E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */,
 				E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */,
 				E958E1341DC10E98008656A8 /* LaunchScreen.storyboard in Resources */,
 				E958E1571DC11B25008656A8 /* Personaje.xib in Resources */,
@@ -280,7 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E958E1291DC10E98008656A8 /* ViewController.m in Sources */,
+				E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */,
 				E958E1261DC10E98008656A8 /* AppDelegate.m in Sources */,
+				E958E1691DC17593008656A8 /* CVCPersonaje.m in Sources */,
 				E958E12F1DC10E98008656A8 /* Carrusel.xcdatamodeld in Sources */,
 				E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */,
 				E958E1231DC10E98008656A8 /* main.m in Sources */,

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TVCFecha">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QnA-ue-lCo">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="129"/>
+                        <color key="backgroundColor" red="0.41960784309999999" green="0.3921568627" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1900 - 2000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAH-4A-Jw1">
+                        <rect key="frame" x="8" y="10" width="184" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="BfL-TW-gbS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                        <color key="textColor" red="0.69019607839999997" green="0.64705882349999999" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Época de los Caudillos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmO-eF-8bG">
+                        <rect key="frame" x="8" y="60" width="184" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="35v-x7-KcT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="KAH-4A-Jw1" secondAttribute="trailing" constant="8" id="2bR-iE-qIN"/>
+                    <constraint firstItem="QnA-ue-lCo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3YX-S5-bRv"/>
+                    <constraint firstAttribute="bottom" secondItem="QnA-ue-lCo" secondAttribute="bottom" id="Cb6-3W-rq8"/>
+                    <constraint firstAttribute="trailing" secondItem="QnA-ue-lCo" secondAttribute="trailing" id="FtB-sd-1Yl"/>
+                    <constraint firstItem="WmO-eF-8bG" firstAttribute="top" secondItem="KAH-4A-Jw1" secondAttribute="bottom" constant="10" id="Jyc-XR-Hxu"/>
+                    <constraint firstItem="WmO-eF-8bG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="cjF-RF-df2"/>
+                    <constraint firstItem="KAH-4A-Jw1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="h8d-om-Pci"/>
+                    <constraint firstAttribute="trailing" secondItem="WmO-eF-8bG" secondAttribute="trailing" constant="8" id="k3M-Dc-zNz"/>
+                    <constraint firstItem="KAH-4A-Jw1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="kgk-uX-IGj"/>
+                    <constraint firstItem="QnA-ue-lCo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xc4-Ma-cwW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="fondo" destination="QnA-ue-lCo" id="wRY-Nf-RbR"/>
+                <outlet property="intervaloFechas" destination="KAH-4A-Jw1" id="UCu-Ad-jnu"/>
+                <outlet property="tituloIntervalo" destination="WmO-eF-8bG" id="70g-N0-dpx"/>
+            </connections>
+            <point key="canvasLocation" x="158" y="256"/>
+        </tableViewCell>
+    </objects>
+</document>
