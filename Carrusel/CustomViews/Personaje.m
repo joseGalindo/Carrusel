@@ -13,7 +13,9 @@
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview:[self createView]];
+        UIView* vista = [self createView];
+        vista.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+        [self addSubview: vista];
     }
     
     return self;
@@ -25,9 +27,23 @@
     return vista;
 }
 
+
++(CGSize)vistaSize {
+    return CGSizeMake(100.0, 120.0);
+}
+
 -(void)configurarPersonaje:(NSString *)imagen withNumero:(int)numero {
     _retrato.image = [UIImage imageNamed:imagen];
     _posicion.text = [NSString stringWithFormat:@"%d", numero];
+}
+
+-(void)seleccionarPersonaje {
+}
+
+-(void)deseleccionarPersonaje {
+}
+
+- (IBAction)selectPersonaje:(id)sender {
 }
 
 /*

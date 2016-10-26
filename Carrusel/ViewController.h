@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollFechas;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollPersonajes;
+@property (weak, nonatomic) IBOutlet UIView *vistaMiniDetalle;
 
 @end
 

@@ -29,13 +29,23 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfC-Kb-GpP">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
+                    <connections>
+                        <action selector="selectPersonaje:" destination="-1" eventType="touchUpInside" id="RY1-o5-sb0"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="rSp-Jp-9Mv" secondAttribute="trailing" id="6s0-hf-d4h"/>
+                <constraint firstItem="dfC-Kb-GpP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Fa0-HZ-Q7d"/>
                 <constraint firstAttribute="bottom" secondItem="rSp-Jp-9Mv" secondAttribute="bottom" id="LbY-ka-mWm"/>
                 <constraint firstAttribute="bottom" secondItem="OAe-NK-tQK" secondAttribute="bottom" constant="1" id="QDl-6I-hyN"/>
+                <constraint firstAttribute="trailing" secondItem="dfC-Kb-GpP" secondAttribute="trailing" id="QZq-Xq-d6x"/>
+                <constraint firstItem="dfC-Kb-GpP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RZt-3e-XOp"/>
                 <constraint firstItem="OAe-NK-tQK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="SPz-R4-uaA"/>
+                <constraint firstAttribute="bottom" secondItem="dfC-Kb-GpP" secondAttribute="bottom" id="Y4x-KO-Pao"/>
                 <constraint firstItem="rSp-Jp-9Mv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pgc-R7-d11"/>
                 <constraint firstItem="rSp-Jp-9Mv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xd4-Jg-nPU"/>
             </constraints>

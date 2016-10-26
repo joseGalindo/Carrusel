@@ -14,51 +14,77 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-Qh-Z41">
-                                <rect key="frame" x="0.0" y="64" width="200" height="536"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLy-nA-EXe">
+                                <rect key="frame" x="210" y="854" width="1146" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="lEg-l3-FcY"/>
+                                    <constraint firstAttribute="height" constant="120" id="Plm-V4-LgE"/>
                                 </constraints>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-am-uFq">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="64"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RJA-N9-wBF">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="WW0-VC-NM5"/>
+                                            <constraint firstAttribute="width" constant="200" id="cU9-tR-C5t"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINISTROS Y SECRETARIOS DE GOBERNACIÓN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE3-fl-bBO">
+                                        <rect key="frame" x="220" y="0.0" width="1136" height="64"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.35686274509803922" green="0.32549019607843138" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="IE3-fl-bBO" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="top" id="7pd-D2-4a1"/>
+                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="top" id="Cdd-dy-d6B"/>
+                                    <constraint firstAttribute="trailing" secondItem="IE3-fl-bBO" secondAttribute="trailing" constant="10" id="QQp-SG-eCJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="IE3-fl-bBO" secondAttribute="bottom" id="Wug-YM-QTa"/>
+                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="leading" secondItem="JSF-am-uFq" secondAttribute="leading" id="kb9-vW-eIQ"/>
                                     <constraint firstAttribute="height" constant="64" id="rof-nk-d6L"/>
+                                    <constraint firstItem="IE3-fl-bBO" firstAttribute="leading" secondItem="RJA-N9-wBF" secondAttribute="trailing" constant="20" id="w9j-QI-XrZ"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLy-nA-EXe">
-                                <rect key="frame" x="210" y="350" width="380" height="200"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-c8-wwN">
+                                <rect key="frame" x="250" y="114" width="1056" height="680"/>
+                                <color key="backgroundColor" red="0.39215686274509803" green="0.37254901960784315" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-Qh-Z41">
+                                <rect key="frame" x="0.0" y="84" width="200" height="920"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Plm-V4-LgE"/>
+                                    <constraint firstAttribute="width" constant="200" id="lEg-l3-FcY"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.39215686274509803" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="92e-uJ-04L"/>
-                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="DAz-f3-IYa"/>
                             <constraint firstItem="cNr-Qh-Z41" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTp-mo-K69"/>
                             <constraint firstItem="NLy-nA-EXe" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="10" id="Fpu-5c-vUo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NLy-nA-EXe" secondAttribute="bottom" constant="50" id="HlP-nM-cbS"/>
                             <constraint firstAttribute="trailing" secondItem="NLy-nA-EXe" secondAttribute="trailing" constant="10" id="WHy-AL-7Ko"/>
                             <constraint firstAttribute="trailing" secondItem="JSF-am-uFq" secondAttribute="trailing" id="YzI-8I-uEx"/>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igL-md-H5x"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cNr-Qh-Z41" secondAttribute="bottom" id="mMh-Bu-PVK"/>
-                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" id="r6e-4V-Tfc"/>
+                            <constraint firstItem="M0j-c8-wwN" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="50" id="k93-J2-Pey"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cNr-Qh-Z41" secondAttribute="bottom" constant="20" id="mMh-Bu-PVK"/>
+                            <constraint firstItem="NLy-nA-EXe" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="60" id="mgC-aj-wAQ"/>
+                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="20" id="r6e-4V-Tfc"/>
+                            <constraint firstItem="M0j-c8-wwN" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="50" id="vur-aq-p7T"/>
+                            <constraint firstAttribute="trailing" secondItem="M0j-c8-wwN" secondAttribute="trailing" constant="60" id="y3x-aU-50b"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="DAz-f3-IYa"/>
-                            </mask>
-                        </variation>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
                     <connections>
                         <outlet property="scrollFechas" destination="cNr-Qh-Z41" id="VSJ-tO-I5x"/>
                         <outlet property="scrollPersonajes" destination="NLy-nA-EXe" id="gTz-Y8-59t"/>
+                        <outlet property="vistaMiniDetalle" destination="M0j-c8-wwN" id="Jwd-AG-FzZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

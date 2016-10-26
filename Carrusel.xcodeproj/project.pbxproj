@@ -20,6 +20,7 @@
 		E958E1521DC118AE008656A8 /* Fechas.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1511DC118AE008656A8 /* Fechas.json */; };
 		E958E1551DC11B0D008656A8 /* Personaje.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1541DC11B0D008656A8 /* Personaje.m */; };
 		E958E1571DC11B25008656A8 /* Personaje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1561DC11B25008656A8 /* Personaje.xib */; };
+		E958E1591DC12CDE008656A8 /* Personajes.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1581DC12CDE008656A8 /* Personajes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E958E1531DC11B0D008656A8 /* Personaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Personaje.h; path = CustomViews/Personaje.h; sourceTree = "<group>"; };
 		E958E1541DC11B0D008656A8 /* Personaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Personaje.m; path = CustomViews/Personaje.m; sourceTree = "<group>"; };
 		E958E1561DC11B25008656A8 /* Personaje.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Personaje.xib; path = CustomViews/Personaje.xib; sourceTree = "<group>"; };
+		E958E1581DC12CDE008656A8 /* Personajes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personajes.json; path = JSON/Personajes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				E958E1511DC118AE008656A8 /* Fechas.json */,
+				E958E1581DC12CDE008656A8 /* Personajes.json */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */,
 				E958E1341DC10E98008656A8 /* LaunchScreen.storyboard in Resources */,
 				E958E1571DC11B25008656A8 /* Personaje.xib in Resources */,
+				E958E1591DC12CDE008656A8 /* Personajes.json in Resources */,
 				E958E1311DC10E98008656A8 /* Assets.xcassets in Resources */,
 				E958E12C1DC10E98008656A8 /* Main.storyboard in Resources */,
 			);

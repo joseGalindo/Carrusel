@@ -14,9 +14,15 @@
 @property (weak, nonatomic) IBOutlet UIImageView *retrato;
 @property (weak, nonatomic) IBOutlet UILabel *posicion;
 
++(CGSize) vistaSize;
+
 //
 -(void) configurarPersonaje:(NSString*) imagen withNumero:(int) numero;
 // -(void) configurarPersonaje:(Persona*) persona;
 
+-(void) seleccionarPersonaje;
+-(void) deseleccionarPersonaje;
+
+- (IBAction)selectPersonaje:(id)sender;
 
 @end
