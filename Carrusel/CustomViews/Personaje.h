@@ -7,12 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PersonajesProtocol.h"
 
-@interface Personaje : UIView
+@interface Personaje : UIView {
+    int numeroPersonaje;
+}
 
 // UI
 @property (weak, nonatomic) IBOutlet UIImageView *retrato;
 @property (weak, nonatomic) IBOutlet UILabel *posicion;
+@property (weak, nonatomic) IBOutlet UIImageView *vistaOpaca;
+
+// Logic
+@property (getter=isSelected) BOOL personajeSelected;
+@property (weak, nonatomic) id<PersonajeDelegate> delegado;
 
 +(CGSize) vistaSize;
 

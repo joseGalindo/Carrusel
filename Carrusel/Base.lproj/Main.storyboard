@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLy-nA-EXe">
-                                <rect key="frame" x="210" y="854" width="1146" height="120"/>
+                                <rect key="frame" x="220" y="854" width="1126" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Plm-V4-LgE"/>
                                 </constraints>
@@ -51,29 +52,82 @@
                                     <constraint firstItem="IE3-fl-bBO" firstAttribute="leading" secondItem="RJA-N9-wBF" secondAttribute="trailing" constant="20" id="w9j-QI-XrZ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-c8-wwN">
-                                <rect key="frame" x="250" y="114" width="1056" height="680"/>
-                                <color key="backgroundColor" red="0.39215686274509803" green="0.37254901960784315" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-Qh-Z41">
                                 <rect key="frame" x="0.0" y="84" width="200" height="920"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="lEg-l3-FcY"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-c8-wwN">
+                                <rect key="frame" x="250" y="114" width="1056" height="660"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8z-Ku-5OX">
+                                        <rect key="frame" x="20" y="550" width="100" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="Efy-CK-6uq"/>
+                                            <constraint firstAttribute="width" constant="100" id="tgW-gm-H1m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                        <color key="textColor" red="0.52941176469999995" green="0.52941176469999995" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1920 - 1923" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4W-VY-ehC">
+                                        <rect key="frame" x="140" y="590" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="pyD-3m-8Jr"/>
+                                            <constraint firstAttribute="height" constant="50" id="zac-Mc-G0V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="textColor" red="0.52941176470588236" green="0.52941176470588236" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plutarco Elías Calles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smG-QN-aeV">
+                                        <rect key="frame" x="140" y="365" width="250" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="2V0-sA-w56"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="220" id="qaR-Wc-tsW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plutarco" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-RQ-OxR">
+                                        <rect key="frame" x="684" y="50" width="352" height="590"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.39215686274509803" green="0.37254901960784315" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ffv-RQ-OxR" firstAttribute="width" secondItem="M0j-c8-wwN" secondAttribute="width" multiplier="1:3" id="3ak-tC-pFt"/>
+                                    <constraint firstItem="ffv-RQ-OxR" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="top" constant="50" id="AgQ-ha-tCJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ffv-RQ-OxR" secondAttribute="bottom" constant="20" id="Ana-h9-DXH"/>
+                                    <constraint firstItem="smG-QN-aeV" firstAttribute="leading" secondItem="d8z-Ku-5OX" secondAttribute="trailing" constant="20" id="B01-1o-XqA"/>
+                                    <constraint firstItem="c4W-VY-ehC" firstAttribute="leading" secondItem="d8z-Ku-5OX" secondAttribute="trailing" constant="20" id="PLd-B5-WV4"/>
+                                    <constraint firstAttribute="bottom" secondItem="c4W-VY-ehC" secondAttribute="bottom" constant="20" id="ZXh-N4-VaA"/>
+                                    <constraint firstItem="ffv-RQ-OxR" firstAttribute="height" secondItem="M0j-c8-wwN" secondAttribute="height" multiplier="2:3" id="cyy-ui-y54"/>
+                                    <constraint firstItem="d8z-Ku-5OX" firstAttribute="leading" secondItem="M0j-c8-wwN" secondAttribute="leading" constant="20" id="jLg-gi-Yec"/>
+                                    <constraint firstItem="c4W-VY-ehC" firstAttribute="top" secondItem="smG-QN-aeV" secondAttribute="bottom" constant="5" id="mKw-Y3-naL"/>
+                                    <constraint firstAttribute="trailing" secondItem="ffv-RQ-OxR" secondAttribute="trailing" constant="20" id="tkx-jv-Tze"/>
+                                    <constraint firstAttribute="bottom" secondItem="d8z-Ku-5OX" secondAttribute="bottom" constant="20" id="yqP-d5-sNY"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cyy-ui-y54"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.39215686274509803" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="92e-uJ-04L"/>
                             <constraint firstItem="cNr-Qh-Z41" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTp-mo-K69"/>
-                            <constraint firstItem="NLy-nA-EXe" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="10" id="Fpu-5c-vUo"/>
+                            <constraint firstItem="NLy-nA-EXe" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="20" id="Fpu-5c-vUo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NLy-nA-EXe" secondAttribute="bottom" constant="50" id="HlP-nM-cbS"/>
-                            <constraint firstAttribute="trailing" secondItem="NLy-nA-EXe" secondAttribute="trailing" constant="10" id="WHy-AL-7Ko"/>
+                            <constraint firstAttribute="trailing" secondItem="NLy-nA-EXe" secondAttribute="trailing" constant="20" id="WHy-AL-7Ko"/>
                             <constraint firstAttribute="trailing" secondItem="JSF-am-uFq" secondAttribute="trailing" id="YzI-8I-uEx"/>
                             <constraint firstItem="JSF-am-uFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igL-md-H5x"/>
                             <constraint firstItem="M0j-c8-wwN" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="50" id="k93-J2-Pey"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cNr-Qh-Z41" secondAttribute="bottom" constant="20" id="mMh-Bu-PVK"/>
-                            <constraint firstItem="NLy-nA-EXe" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="60" id="mgC-aj-wAQ"/>
+                            <constraint firstItem="NLy-nA-EXe" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="80" id="mgC-aj-wAQ"/>
                             <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="20" id="r6e-4V-Tfc"/>
                             <constraint firstItem="M0j-c8-wwN" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="50" id="vur-aq-p7T"/>
                             <constraint firstAttribute="trailing" secondItem="M0j-c8-wwN" secondAttribute="trailing" constant="60" id="y3x-aU-50b"/>
@@ -82,6 +136,10 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
                     <connections>
+                        <outlet property="fechaPersonajeSelected" destination="c4W-VY-ehC" id="dbX-P1-n0J"/>
+                        <outlet property="imagenPersonajeSelected" destination="ffv-RQ-OxR" id="Hd3-KL-43D"/>
+                        <outlet property="nombreSelected" destination="smG-QN-aeV" id="JgQ-z7-mwL"/>
+                        <outlet property="numeroSelected" destination="d8z-Ku-5OX" id="1cy-Vo-R9h"/>
                         <outlet property="scrollFechas" destination="cNr-Qh-Z41" id="VSJ-tO-I5x"/>
                         <outlet property="scrollPersonajes" destination="NLy-nA-EXe" id="gTz-Y8-59t"/>
                         <outlet property="vistaMiniDetalle" destination="M0j-c8-wwN" id="Jwd-AG-FzZ"/>
@@ -89,7 +147,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="310" y="301"/>
+            <point key="canvasLocation" x="152" y="191"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plutarco" width="100" height="134"/>
+    </resources>
 </document>

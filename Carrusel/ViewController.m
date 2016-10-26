@@ -74,11 +74,19 @@
     for (int i = 0; i < 15; i++) {
         marco = CGRectMake((tam.width + 30) * i, 0, tam.width, tam.height);
         vista = [[Personaje alloc] initWithFrame:marco];
+        vista.delegado = self;
         [vista configurarPersonaje:@"plutarco" withNumero:(i + 1)];
         [_scrollPersonajes addSubview:vista];
     }
     
     _scrollPersonajes.contentSize = CGSizeMake((tam.width + 30) * 15, tam.height);
+}
+
+#pragma mark - PersonajeDelegate
+
+-(void)didSelectPersonaje:(NSString *)nombre withNumber:(int)numPer {
+    NSLog(@"Voy a actualizar a %d", numPer);
+    self.numeroSelected.text = [NSString stringWithFormat:@"%d", numPer];
 }
 
 @end

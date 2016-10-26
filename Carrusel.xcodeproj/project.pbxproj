@@ -56,6 +56,7 @@
 		E958E1541DC11B0D008656A8 /* Personaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Personaje.m; path = CustomViews/Personaje.m; sourceTree = "<group>"; };
 		E958E1561DC11B25008656A8 /* Personaje.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Personaje.xib; path = CustomViews/Personaje.xib; sourceTree = "<group>"; };
 		E958E1581DC12CDE008656A8 /* Personajes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personajes.json; path = JSON/Personajes.json; sourceTree = "<group>"; };
+		E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonajesProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		E958E1201DC10E98008656A8 /* Carrusel */ = {
 			isa = PBXGroup;
 			children = (
+				E958E15A1DC15A47008656A8 /* Protocols */,
 				E958E1501DC1187B008656A8 /* JSON */,
 				E958E14A1DC11176008656A8 /* CustomViews */,
 				E958E1491DC10FE9008656A8 /* Classes */,
@@ -158,6 +160,14 @@
 				E958E1581DC12CDE008656A8 /* Personajes.json */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		E958E15A1DC15A47008656A8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

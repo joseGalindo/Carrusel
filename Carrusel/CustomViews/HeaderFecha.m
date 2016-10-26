@@ -17,7 +17,7 @@
         vista = [self createView];
         vista.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
         _intervaloFechas.layer.shadowColor = [UIColor blackColor].CGColor;
-        _intervaloFechas.layer.shadowOffset = CGSizeMake(0, 0);
+        _intervaloFechas.layer.shadowOffset = CGSizeMake(5, 1);
         _intervaloFechas.layer.shadowRadius = 3;
         _intervaloFechas.layer.shadowOpacity = 0.5;
         _intervaloFechas.layer.shouldRasterize = NO;

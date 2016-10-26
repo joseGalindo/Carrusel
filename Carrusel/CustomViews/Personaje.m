@@ -13,6 +13,7 @@
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        numeroPersonaje = 0;
         UIView* vista = [self createView];
         vista.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
         [self addSubview: vista];
@@ -34,16 +35,28 @@
 
 -(void)configurarPersonaje:(NSString *)imagen withNumero:(int)numero {
     _retrato.image = [UIImage imageNamed:imagen];
+    numeroPersonaje = numero;
     _posicion.text = [NSString stringWithFormat:@"%d", numero];
 }
 
 -(void)seleccionarPersonaje {
+    _vistaOpaca.hidden = YES;
+    if (_delegado) {
+        [_delegado didSelectPersonaje:@"Nuevo personaje" withNumber:numeroPersonaje];
+    }
 }
 
 -(void)deseleccionarPersonaje {
+    _vistaOpaca.hidden = NO;
 }
 
 - (IBAction)selectPersonaje:(id)sender {
+    if (!_personajeSelected) {
+        [self seleccionarPersonaje];
+    } else {
+        [self deseleccionarPersonaje];
+    }
+    _personajeSelected = !_personajeSelected;
 }
 
 /*
