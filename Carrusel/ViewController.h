@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollFechas;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollPersonajes;
 
 @end
 

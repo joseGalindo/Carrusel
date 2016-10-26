@@ -14,8 +14,24 @@
 
 @implementation ViewController
 
+@synthesize scrollFechas = _scrollFechas;
+@synthesize scrollPersonajes = _scrollPersonajes;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
+    NSData* datos = [NSData dataWithContentsOfFile:ruta];
+    NSError* error;
+    NSArray* dates = (NSArray*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
+    if (error) {
+        NSLog(@"Error: %@", error.localizedDescription);
+    }
+    for (NSDictionary* dic  in dates) {
+        NSLog(@"Fecha: %@", [dic objectForKey:@"Fecha"]);
+    }
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,54 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-Qh-Z41">
+                                <rect key="frame" x="0.0" y="64" width="200" height="536"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="lEg-l3-FcY"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-am-uFq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" red="0.35686274509803922" green="0.32549019607843138" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="rof-nk-d6L"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLy-nA-EXe">
+                                <rect key="frame" x="210" y="350" width="380" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Plm-V4-LgE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41960784313725491" green="0.39215686274509803" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JSF-am-uFq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="92e-uJ-04L"/>
+                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="DAz-f3-IYa"/>
+                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DTp-mo-K69"/>
+                            <constraint firstItem="NLy-nA-EXe" firstAttribute="leading" secondItem="cNr-Qh-Z41" secondAttribute="trailing" constant="10" id="Fpu-5c-vUo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NLy-nA-EXe" secondAttribute="bottom" constant="50" id="HlP-nM-cbS"/>
+                            <constraint firstAttribute="trailing" secondItem="NLy-nA-EXe" secondAttribute="trailing" constant="10" id="WHy-AL-7Ko"/>
+                            <constraint firstAttribute="trailing" secondItem="JSF-am-uFq" secondAttribute="trailing" id="YzI-8I-uEx"/>
+                            <constraint firstItem="JSF-am-uFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igL-md-H5x"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cNr-Qh-Z41" secondAttribute="bottom" id="mMh-Bu-PVK"/>
+                            <constraint firstItem="cNr-Qh-Z41" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" id="r6e-4V-Tfc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DAz-f3-IYa"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="scrollFechas" destination="cNr-Qh-Z41" id="VSJ-tO-I5x"/>
+                        <outlet property="scrollPersonajes" destination="NLy-nA-EXe" id="gTz-Y8-59t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="310" y="301"/>
         </scene>
     </scenes>
 </document>
