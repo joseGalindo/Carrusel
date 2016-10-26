@@ -21,6 +21,7 @@
 		E958E1551DC11B0D008656A8 /* Personaje.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1541DC11B0D008656A8 /* Personaje.m */; };
 		E958E1571DC11B25008656A8 /* Personaje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1561DC11B25008656A8 /* Personaje.xib */; };
 		E958E1591DC12CDE008656A8 /* Personajes.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1581DC12CDE008656A8 /* Personajes.json */; };
+		E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E15D1DC166AC008656A8 /* DetalleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		E958E1561DC11B25008656A8 /* Personaje.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Personaje.xib; path = CustomViews/Personaje.xib; sourceTree = "<group>"; };
 		E958E1581DC12CDE008656A8 /* Personajes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personajes.json; path = JSON/Personajes.json; sourceTree = "<group>"; };
 		E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonajesProtocol.h; sourceTree = "<group>"; };
+		E958E15C1DC166AC008656A8 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleViewController.h; path = Classes/DetalleViewController.h; sourceTree = "<group>"; };
+		E958E15D1DC166AC008656A8 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleViewController.m; path = Classes/DetalleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 			children = (
 				E958E1271DC10E98008656A8 /* ViewController.h */,
 				E958E1281DC10E98008656A8 /* ViewController.m */,
+				E958E15C1DC166AC008656A8 /* DetalleViewController.h */,
+				E958E15D1DC166AC008656A8 /* DetalleViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				E958E1291DC10E98008656A8 /* ViewController.m in Sources */,
 				E958E1261DC10E98008656A8 /* AppDelegate.m in Sources */,
 				E958E12F1DC10E98008656A8 /* Carrusel.xcdatamodeld in Sources */,
+				E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */,
 				E958E1231DC10E98008656A8 /* main.m in Sources */,
 				E958E14D1DC11214008656A8 /* HeaderFecha.m in Sources */,
 				E958E1551DC11B0D008656A8 /* Personaje.m in Sources */,

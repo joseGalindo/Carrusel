@@ -85,7 +85,6 @@
 #pragma mark - PersonajeDelegate
 
 -(void)didSelectPersonaje:(NSString *)nombre withNumber:(int)numPer {
-    NSLog(@"Voy a actualizar a %d", numPer);
     self.numeroSelected.text = [NSString stringWithFormat:@"%d", numPer];
 }
 
