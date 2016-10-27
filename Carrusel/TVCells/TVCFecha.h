@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class Cronologica;
+
 @interface TVCFecha : UITableViewCell
 
 // UI
@@ -18,6 +20,6 @@
 
 +(CGFloat) vistaHeight;
 
--(void) configurarCelda:(NSString*) fecha withTitulo:(NSString*) title;
+-(void) configurarCelda:(Cronologica*) cronologica;
 
 @end

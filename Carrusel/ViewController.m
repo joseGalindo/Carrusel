@@ -8,20 +8,25 @@
 
 #import "ViewController.h"
 #import "HeaderFecha.h"
-#import "Personaje.h"
 #import "TVCFecha.h"
 #import "CVCPersonaje.h"
+#import "Carrusel-Swift.h"
+#import <MagicalRecord/MagicalRecord.h>
 
 @interface ViewController ()
+
+@property NSMutableArray<Cronologica*>* fechasArray;
 
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self configurarScrollFechas];
+    [self configurarScrollFechas];
     [self configurarScrollPersonajes];
     
     UINib* nibTabla = [UINib nibWithNibName:@"TVCFecha" bundle:nil];
@@ -46,27 +51,22 @@
 }
 
 -(void) configurarScrollFechas {
-//    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
-//    NSData* datos = [NSData dataWithContentsOfFile:ruta];
-//    NSError* error;
-//    NSArray* fechas = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
-//    if (error) {
-//        NSLog(@"Error: %@", error.localizedDescription);
-//    }
+    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
+    NSData* datos = [NSData dataWithContentsOfFile:ruta];
+    NSError* error;
+    NSArray* fechas = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
+    if (error) {
+        NSLog(@"Error: %@", error.localizedDescription);
+    }
+    Cronologica* cronos;
+    _fechasArray = [NSMutableArray array];
+    for (NSDictionary* dic in fechas) {
+        cronos = [Cronologica MR_createEntity];
+        [cronos MR_importValuesForKeysWithObject:dic];
+        [_fechasArray addObject:cronos];
+    }
     
-//    HeaderFecha* vista;
-//    CGRect marco;
-//    int posicion = 0;
-//    CGSize tam = [HeaderFecha vistaSize];
-//    for (NSDictionary* dicc in fechas) {
-//        marco = CGRectMake(0, tam.height * posicion, tam.width, tam.height);
-//        vista = [[HeaderFecha alloc] initWithFrame:marco];
-//        [vista configurarVista:[dicc objectForKey:@"Fecha"] withTitulo:[dicc objectForKey:@"titulo"]];
-//        [_scrollFechas addSubview:vista];
-//        posicion++;
-//    }
-//    
-//    _scrollFechas.contentSize = CGSizeMake(tam.width, tam.height * fechas.count);
+    [_tablaFechas reloadData];
 }
 
 -(void) configurarScrollPersonajes {
@@ -94,12 +94,14 @@
 #pragma mark - UITableView Methods
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return _fechasArray.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     TVCFecha* cell = [tableView dequeueReusableCellWithIdentifier:@"TVCFechas" forIndexPath:indexPath];
+    Cronologica* cronol = [_fechasArray objectAtIndex:indexPath.row];
     
+    [cell configurarCelda:cronol];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -127,7 +129,8 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     CVCPersonaje* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CVCPersonajes" forIndexPath:indexPath];
-    
+    int numInd = (int)(indexPath.row + 1);
+    [cell configurarCeldaPersonaje:@"" withNumero:numInd];
     return cell;
 }
 
@@ -141,10 +144,10 @@
     person.vistaOpaca.hidden = NO;
 }
 
-#pragma mark - PersonajeDelegate
+#pragma mark Configuracion Vista Personaje
 
--(void)didSelectPersonaje:(NSString *)nombre withNumber:(int)numPer {
-    self.numeroSelected.text = [NSString stringWithFormat:@"%d", numPer];
+-(void) configurarVistaPersonaje:(NSString*) nombre withNumero:(int) numero andFoto:(NSString*) filePath {
+    _numeroSelected.text = [NSString stringWithFormat:@"%d", numero];
 }
 
 @end

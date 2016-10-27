@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Personaje.h"
 #import "PersonajesProtocol.h"
 
-@interface ViewController : UIViewController <PersonajeDelegate,
+@interface ViewController : UIViewController <
                             UITableViewDelegate, UITableViewDataSource,
                             UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -25,8 +24,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *fechaPersonajeSelected;
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonajeSelected;
 
-// Logic
-@property (weak, nonatomic) Personaje* lastPersonajeSelected;
 
 @end
 

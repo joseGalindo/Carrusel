@@ -7,6 +7,7 @@
 //
 
 #import "TVCFecha.h"
+#import "Carrusel-Swift.h"
 
 @implementation TVCFecha
 
@@ -20,12 +21,17 @@
 }
 
 +(CGFloat)vistaHeight {
-    return 130;
+    return 110;
 }
 
--(void)configurarCelda:(NSString *)fecha withTitulo:(NSString *)title {
-    _intervaloFechas.text = fecha;
-    _tituloIntervalo.text = title;
+-(void)configurarCelda:(Cronologica*) cronologica{
+    NSDateFormatter* formater = [[NSDateFormatter alloc] init];
+    formater.dateFormat = @"yyyy";
+    NSString* fechas = [NSString stringWithFormat:@"%@ - %@",
+                        [formater stringFromDate:cronologica.fechaInicio],
+                        [formater stringFromDate:cronologica.fechaFin]];
+    _intervaloFechas.text = fechas;
+    _tituloIntervalo.text = cronologica.descripcion;
 }
 
 @end

@@ -20,7 +20,8 @@
 }
 
 -(void)configurarCeldaPersonaje:(NSString *)imagen withNumero:(int)numero {
-    
+    _retrato.image = [UIImage imageNamed:@"plutarco"];
+    _numeroIndicador.text = [NSString stringWithFormat:@"%d", numero];
 }
 
 @end

@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cronologica" representedClassName=".Cronologica" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaFin" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="dateFormat" value="yyyy-MM-dd"/>
+            </userInfo>
+        </attribute>
+        <attribute name="fechaInicio" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="dateFormat" value="yyyy-MM-dd"/>
+            </userInfo>
+        </attribute>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Personaje" representedClassName=".Personaje" syncable="YES">
+        <attribute name="biografia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaDefuncion" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordenCronologico" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="posicion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Personaje" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Cronologica" positionX="162" positionY="-0" width="128" height="103"/>
+    </elements>
 </model>
