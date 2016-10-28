@@ -65,7 +65,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plutarco Elías Bocanegra" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smG-QN-aeV">
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="230" id="2V0-sA-w56"/>
+                                            <constraint firstAttribute="width" constant="250" id="2V0-sA-w56"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="220" id="qaR-Wc-tsW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="48"/>

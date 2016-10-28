@@ -85,6 +85,42 @@
 		E9DD94581DC3D29700AF3A7F /* lazaro_cardenaz.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94501DC3D29700AF3A7F /* lazaro_cardenaz.txt */; };
 		E9DD94591DC3D29700AF3A7F /* manuel_tellez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94511DC3D29700AF3A7F /* manuel_tellez.txt */; };
 		E9DD945A1DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94521DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt */; };
+		E9DD947F1DC402FB00AF3A7F /* abraham_gonzalez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */; };
+		E9DD94801DC402FB00AF3A7F /* alberto_garcia_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */; };
+		E9DD94811DC402FB00AF3A7F /* aureliano_urrutia.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */; };
+		E9DD94821DC402FB00AF3A7F /* benito_juarez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */; };
+		E9DD94831DC402FB00AF3A7F /* carlos_diez_gutierrez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */; };
+		E9DD94841DC402FB00AF3A7F /* eduardo_g_pankhurst.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */; };
+		E9DD94851DC402FB00AF3A7F /* emilio_vazquez_gomez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */; };
+		E9DD94861DC402FB00AF3A7F /* enrique_colunga.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */; };
+		E9DD94871DC402FB00AF3A7F /* felipe_berriozabal.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */; };
+		E9DD94881DC402FB00AF3A7F /* gilberto_valenzuela.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */; };
+		E9DD94891DC402FB00AF3A7F /* hilario_elguero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */; };
+		E9DD948A1DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */; };
+		E9DD948B1DC402FB00AF3A7F /* ignacio_llave.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */; };
+		E9DD948C1DC402FB00AF3A7F /* jesus_acuna.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */; };
+		E9DD948D1DC402FB00AF3A7F /* jesus_flores_magon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */; };
+		E9DD948E1DC402FB00AF3A7F /* jesus_teran_peredo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */; };
+		E9DD948F1DC402FB00AF3A7F /* jose_inocente_lugo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */; };
+		E9DD94901DC402FB00AF3A7F /* jose_quevedo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */; };
+		E9DD94911DC402FB00AF3A7F /* jose_urbano_fonseca.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */; };
+		E9DD94921DC402FB00AF3A7F /* juan_antonio_fuente.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */; };
+		E9DD94931DC402FB00AF3A7F /* juan_jose_baz_palafox.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */; };
+		E9DD94941DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */; };
+		E9DD94951DC402FB00AF3A7F /* lucio_blanco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */; };
+		E9DD94961DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */; };
+		E9DD94971DC402FB00AF3A7F /* manuel_garza_aldape.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */; };
+		E9DD94981DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */; };
+		E9DD94991DC402FB00AF3A7F /* manuel_romero_rubio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */; };
+		E9DD949A1DC402FB00AF3A7F /* mariano_macedo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */; };
+		E9DD949B1DC402FB00AF3A7F /* mariano_yanez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */; };
+		E9DD949C1DC402FB00AF3A7F /* plutarco_elias_calles.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */; };
+		E9DD949D1DC402FB00AF3A7F /* protasio_tagle.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */; };
+		E9DD949E1DC402FB00AF3A7F /* rafael_hernandez_madero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */; };
+		E9DD949F1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */; };
+		E9DD94A01DC402FB00AF3A7F /* ramon_corral.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */; };
+		E9DD94A11DC402FB00AF3A7F /* trinidad_garcia_cadena.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */; };
+		E9DD94A21DC402FB00AF3A7F /* victoriano_huerta.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */; };
 		E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */; };
 		E9F82D191DC3B4B000991A47 /* domingo_ibarra_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */; };
 		E9F82D1A1DC3B4B100991A47 /* ignacio_rayon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */; };
@@ -208,6 +244,42 @@
 		E9DD94501DC3D29700AF3A7F /* lazaro_cardenaz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lazaro_cardenaz.txt; path = ../../../../../Desktop/Jsons/Secretarios/lazaro_cardenaz.txt; sourceTree = "<group>"; };
 		E9DD94511DC3D29700AF3A7F /* manuel_tellez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_tellez.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_tellez.txt; sourceTree = "<group>"; };
 		E9DD94521DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = patrocinio_gonzalez_blanco.txt; path = ../../../../../Desktop/Jsons/Secretarios/patrocinio_gonzalez_blanco.txt; sourceTree = "<group>"; };
+		E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = abraham_gonzalez.txt; path = ../../../../../Desktop/Jsons/Secretarios/abraham_gonzalez.txt; sourceTree = "<group>"; };
+		E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = alberto_garcia_ramos.txt; path = ../../../../../Desktop/Jsons/Secretarios/alberto_garcia_ramos.txt; sourceTree = "<group>"; };
+		E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = aureliano_urrutia.txt; path = ../../../../../Desktop/Jsons/Secretarios/aureliano_urrutia.txt; sourceTree = "<group>"; };
+		E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = benito_juarez.txt; path = ../../../../../Desktop/Jsons/Secretarios/benito_juarez.txt; sourceTree = "<group>"; };
+		E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = carlos_diez_gutierrez.txt; path = ../../../../../Desktop/Jsons/Secretarios/carlos_diez_gutierrez.txt; sourceTree = "<group>"; };
+		E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = eduardo_g_pankhurst.txt; path = ../../../../../Desktop/Jsons/Secretarios/eduardo_g_pankhurst.txt; sourceTree = "<group>"; };
+		E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = emilio_vazquez_gomez.txt; path = ../../../../../Desktop/Jsons/Secretarios/emilio_vazquez_gomez.txt; sourceTree = "<group>"; };
+		E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enrique_colunga.txt; path = ../../../../../Desktop/Jsons/Secretarios/enrique_colunga.txt; sourceTree = "<group>"; };
+		E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = felipe_berriozabal.txt; path = ../../../../../Desktop/Jsons/Secretarios/felipe_berriozabal.txt; sourceTree = "<group>"; };
+		E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gilberto_valenzuela.txt; path = ../../../../../Desktop/Jsons/Secretarios/gilberto_valenzuela.txt; sourceTree = "<group>"; };
+		E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hilario_elguero.txt; path = ../../../../../Desktop/Jsons/Secretarios/hilario_elguero.txt; sourceTree = "<group>"; };
+		E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_aguilar_marocho.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_aguilar_marocho.txt; sourceTree = "<group>"; };
+		E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_llave.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_llave.txt; sourceTree = "<group>"; };
+		E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_acuna.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_acuna.txt; sourceTree = "<group>"; };
+		E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_flores_magon.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_flores_magon.txt; sourceTree = "<group>"; };
+		E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_teran_peredo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_teran_peredo.txt; sourceTree = "<group>"; };
+		E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_inocente_lugo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_inocente_lugo.txt; sourceTree = "<group>"; };
+		E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_quevedo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_quevedo.txt; sourceTree = "<group>"; };
+		E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_urbano_fonseca.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_urbano_fonseca.txt; sourceTree = "<group>"; };
+		E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_antonio_fuente.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_antonio_fuente.txt; sourceTree = "<group>"; };
+		E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_jose_baz_palafox.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_jose_baz_palafox.txt; sourceTree = "<group>"; };
+		E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_manuel_fernandez_jauregui.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_manuel_fernandez_jauregui.txt; sourceTree = "<group>"; };
+		E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lucio_blanco.txt; path = ../../../../../Desktop/Jsons/Secretarios/lucio_blanco.txt; sourceTree = "<group>"; };
+		E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_aguirre_berlanga.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_aguirre_berlanga.txt; sourceTree = "<group>"; };
+		E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_garza_aldape.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_garza_aldape.txt; sourceTree = "<group>"; };
+		E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_gonzalez_cosio.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_gonzalez_cosio.txt; sourceTree = "<group>"; };
+		E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_romero_rubio.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_romero_rubio.txt; sourceTree = "<group>"; };
+		E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mariano_macedo.txt; path = ../../../../../Desktop/Jsons/Secretarios/mariano_macedo.txt; sourceTree = "<group>"; };
+		E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mariano_yanez.txt; path = ../../../../../Desktop/Jsons/Secretarios/mariano_yanez.txt; sourceTree = "<group>"; };
+		E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plutarco_elias_calles.txt; path = ../../../../../Desktop/Jsons/Secretarios/plutarco_elias_calles.txt; sourceTree = "<group>"; };
+		E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = protasio_tagle.txt; path = ../../../../../Desktop/Jsons/Secretarios/protasio_tagle.txt; sourceTree = "<group>"; };
+		E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rafael_hernandez_madero.txt; path = ../../../../../Desktop/Jsons/Secretarios/rafael_hernandez_madero.txt; sourceTree = "<group>"; };
+		E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rafael_zubaran_capmany.txt; path = ../../../../../Desktop/Jsons/Secretarios/rafael_zubaran_capmany.txt; sourceTree = "<group>"; };
+		E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ramon_corral.txt; path = ../../../../../Desktop/Jsons/Secretarios/ramon_corral.txt; sourceTree = "<group>"; };
+		E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trinidad_garcia_cadena.txt; path = ../../../../../Desktop/Jsons/Secretarios/trinidad_garcia_cadena.txt; sourceTree = "<group>"; };
+		E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = victoriano_huerta.txt; path = ../../../../../Desktop/Jsons/Secretarios/victoriano_huerta.txt; sourceTree = "<group>"; };
 		E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_perez_lebrija.txt; path = ../../../../../Desktop/Jsons/Secretarios/agustin_perez_lebrija.txt; sourceTree = "<group>"; };
 		E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = domingo_ibarra_ramos.txt; path = ../../../../../Desktop/Jsons/Secretarios/domingo_ibarra_ramos.txt; sourceTree = "<group>"; };
 		E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_rayon.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_rayon.txt; sourceTree = "<group>"; };
@@ -280,6 +352,42 @@
 		E93FED891DC2A26900F87108 /* Bios */ = {
 			isa = PBXGroup;
 			children = (
+				E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */,
+				E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */,
+				E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */,
+				E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */,
+				E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */,
+				E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */,
+				E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */,
+				E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */,
+				E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */,
+				E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */,
+				E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */,
+				E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */,
+				E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */,
+				E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */,
+				E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */,
+				E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */,
+				E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */,
+				E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */,
+				E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */,
+				E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */,
+				E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */,
+				E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */,
+				E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */,
+				E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */,
+				E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */,
+				E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */,
+				E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */,
+				E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */,
+				E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */,
+				E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */,
+				E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */,
+				E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */,
+				E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */,
+				E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */,
+				E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */,
+				E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */,
 				E9DD944B1DC3D29700AF3A7F /* carlos_riva_palacio.txt */,
 				E9DD944C1DC3D29700AF3A7F /* eduardo_vasconcelos.txt */,
 				E9DD944D1DC3D29700AF3A7F /* felipe_canales_salinas.txt */,
@@ -559,23 +667,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DD94961DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt in Resources */,
+				E9DD94A01DC402FB00AF3A7F /* ramon_corral.txt in Resources */,
 				E958E16A1DC17593008656A8 /* CVCPersonaje.xib in Resources */,
+				E9DD94811DC402FB00AF3A7F /* aureliano_urrutia.txt in Resources */,
 				E93FEDA11DC2C68F00F87108 /* manuel_ortiz_torre.txt in Resources */,
+				E9DD948D1DC402FB00AF3A7F /* jesus_flores_magon.txt in Resources */,
 				E9F82D281DC3B4B100991A47 /* mariano_otero.txt in Resources */,
+				E9DD949D1DC402FB00AF3A7F /* protasio_tagle.txt in Resources */,
+				E9DD949F1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt in Resources */,
+				E9DD94871DC402FB00AF3A7F /* felipe_berriozabal.txt in Resources */,
 				E93FED9B1DC2C68F00F87108 /* agustin_viesca_montes.txt in Resources */,
 				E93FEDB81DC2C9A300F87108 /* manuel_diez_bonilla.txt in Resources */,
+				E9DD94971DC402FB00AF3A7F /* manuel_garza_aldape.txt in Resources */,
 				E9DD94391DC3CC3400AF3A7F /* jose_emparan.txt in Resources */,
 				E9DD94351DC3CC3400AF3A7F /* emilio_portes_gil.txt in Resources */,
+				E9DD948F1DC402FB00AF3A7F /* jose_inocente_lugo.txt in Resources */,
 				E93FEDB41DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt in Resources */,
+				E9DD94991DC402FB00AF3A7F /* manuel_romero_rubio.txt in Resources */,
 				E9DD943D1DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt in Resources */,
+				E9DD94881DC402FB00AF3A7F /* gilberto_valenzuela.txt in Resources */,
 				E9F82D201DC3B4B100991A47 /* jose_maria_lacunza_blengio.txt in Resources */,
 				E958E1521DC118AE008656A8 /* Fechas.json in Resources */,
+				E9DD948C1DC402FB00AF3A7F /* jesus_acuna.txt in Resources */,
 				E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */,
 				E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */,
+				E9DD94A21DC402FB00AF3A7F /* victoriano_huerta.txt in Resources */,
 				E9DD943C1DC3CC3400AF3A7F /* jose_maria_esteva.txt in Resources */,
 				E93FED8D1DC2AB0C00F87108 /* santiago_creel.txt in Resources */,
 				E9DD945A1DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt in Resources */,
+				E9DD948E1DC402FB00AF3A7F /* jesus_teran_peredo.txt in Resources */,
 				E958E1341DC10E98008656A8 /* LaunchScreen.storyboard in Resources */,
+				E9DD94A11DC402FB00AF3A7F /* trinidad_garcia_cadena.txt in Resources */,
+				E9DD94821DC402FB00AF3A7F /* benito_juarez.txt in Resources */,
+				E9DD948A1DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt in Resources */,
 				E9F82D1C1DC3B4B100991A47 /* joaquin_maria_castillo_lanza.txt in Resources */,
 				E9DD94581DC3D29700AF3A7F /* lazaro_cardenaz.txt in Resources */,
 				E93FEDB11DC2C9A300F87108 /* francisco_fagoaga.txt in Resources */,
@@ -586,36 +711,50 @@
 				E9F82D1A1DC3B4B100991A47 /* ignacio_rayon.txt in Resources */,
 				E93FED9E1DC2C68F00F87108 /* juan_dios_canedo.txt in Resources */,
 				E93FED9C1DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt in Resources */,
+				E9DD94951DC402FB00AF3A7F /* lucio_blanco.txt in Resources */,
 				E9F82D191DC3B4B000991A47 /* domingo_ibarra_ramos.txt in Resources */,
+				E9DD94841DC402FB00AF3A7F /* eduardo_g_pankhurst.txt in Resources */,
+				E9DD94911DC402FB00AF3A7F /* jose_urbano_fonseca.txt in Resources */,
 				E9DD94361DC3CC3400AF3A7F /* francisco_zarco.txt in Resources */,
+				E9DD949E1DC402FB00AF3A7F /* rafael_hernandez_madero.txt in Resources */,
 				E9F82D1B1DC3B4B100991A47 /* joaquin_iturbide.txt in Resources */,
 				E958E1591DC12CDE008656A8 /* Personajes.json in Resources */,
 				E9DD943E1DC3CC3400AF3A7F /* jose_maria_iglesias.txt in Resources */,
 				E93FEDAF1DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt in Resources */,
 				E9DD94451DC3CC3400AF3A7F /* manuel_siliceo.txt in Resources */,
+				E9DD94931DC402FB00AF3A7F /* juan_jose_baz_palafox.txt in Resources */,
+				E9DD94801DC402FB00AF3A7F /* alberto_garcia_ramos.txt in Resources */,
+				E9DD948B1DC402FB00AF3A7F /* ignacio_llave.txt in Resources */,
 				E9DD94421DC3CC3400AF3A7F /* manuel_maria_zamacona.txt in Resources */,
 				E93FEDB91DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt in Resources */,
 				E9DD943B1DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt in Resources */,
+				E9DD94981DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt in Resources */,
 				E93FEDB01DC2C9A300F87108 /* carlos_garcia_bocanegra.txt in Resources */,
 				E9DD94541DC3D29700AF3A7F /* eduardo_vasconcelos.txt in Resources */,
 				E93FED9D1DC2C68F00F87108 /* jose_maria_bocanegra.txt in Resources */,
+				E9DD94941DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt in Resources */,
 				E9F82D1F1DC3B4B100991A47 /* jose_maria_jimenez.txt in Resources */,
 				E93FED911DC2C08900F87108 /* jose_cecilio_valle.txt in Resources */,
 				E9DD94381DC3CC3400AF3A7F /* isidro_diaz.txt in Resources */,
 				E9F82D251DC3B4B100991A47 /* manuel_baranda.txt in Resources */,
 				E93FED8F1DC2BF2F00F87108 /* jose_manuel_herrera.txt in Resources */,
+				E9DD949C1DC402FB00AF3A7F /* plutarco_elias_calles.txt in Resources */,
 				E9DD94551DC3D29700AF3A7F /* felipe_canales_salinas.txt in Resources */,
 				E958E1311DC10E98008656A8 /* Assets.xcassets in Resources */,
 				E9DD94531DC3D29700AF3A7F /* carlos_riva_palacio.txt in Resources */,
 				E9F82D261DC3B4B100991A47 /* manuel_crecencio_rejon.txt in Resources */,
 				E93FEDB61DC2C9A300F87108 /* juan_rodriguez_puebla.txt in Resources */,
 				E9F82D211DC3B4B100991A47 /* jose_maria_lafragua.txt in Resources */,
+				E9DD94831DC402FB00AF3A7F /* carlos_diez_gutierrez.txt in Resources */,
+				E9DD94861DC402FB00AF3A7F /* enrique_colunga.txt in Resources */,
+				E9DD949A1DC402FB00AF3A7F /* mariano_macedo.txt in Resources */,
 				E9DD94561DC3D29700AF3A7F /* jorge_carpizo.txt in Resources */,
 				E93FED9F1DC2C68F00F87108 /* lucas_alaman.txt in Resources */,
 				E9DD94371DC3CC3400AF3A7F /* ignacio_l_vallarta.txt in Resources */,
 				E93FEDB31DC2C9A300F87108 /* jose_antonio_romero.txt in Resources */,
 				E958E12C1DC10E98008656A8 /* Main.storyboard in Resources */,
 				E93FED8B1DC2A28100F87108 /* lazaro_cardenas.txt in Resources */,
+				E9DD94901DC402FB00AF3A7F /* jose_quevedo.txt in Resources */,
 				E9F82D1D1DC3B4B100991A47 /* jose_fernando_ramirez.txt in Resources */,
 				E9F82D241DC3B4B100991A47 /* luis_rosa_oteiza.txt in Resources */,
 				E9F82D231DC3B4B100991A47 /* jose_ramon_pacheco.txt in Resources */,
@@ -627,15 +766,20 @@
 				E9DD94411DC3CC3400AF3A7F /* manuel_doblado.txt in Resources */,
 				E9DD944A1DC3CC3400AF3A7F /* teofilo_marin.txt in Resources */,
 				E93FEDA21DC2C68F00F87108 /* pablo_llave.txt in Resources */,
+				E9DD94921DC402FB00AF3A7F /* juan_antonio_fuente.txt in Resources */,
 				E9DD94591DC3D29700AF3A7F /* manuel_tellez.txt in Resources */,
 				E9DD94441DC3CC3400AF3A7F /* manuel_saavedra.txt in Resources */,
 				E9F82D221DC3B4B100991A47 /* jose_mariano_marin.txt in Resources */,
 				E9F82D271DC3B4B100991A47 /* manuel_pena_pena.txt in Resources */,
 				E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */,
 				E9F82D291DC3B4B100991A47 /* remigio_yarza.txt in Resources */,
+				E9DD94851DC402FB00AF3A7F /* emilio_vazquez_gomez.txt in Resources */,
 				E93FEDA01DC2C68F00F87108 /* manuel_gomez_pedraza.txt in Resources */,
+				E9DD947F1DC402FB00AF3A7F /* abraham_gonzalez.txt in Resources */,
+				E9DD94891DC402FB00AF3A7F /* hilario_elguero.txt in Resources */,
 				E9DD94461DC3CC3400AF3A7F /* melchor_ocampo.txt in Resources */,
 				E9F82D1E1DC3B4B100991A47 /* jose_maria_chico.txt in Resources */,
+				E9DD949B1DC402FB00AF3A7F /* mariano_yanez.txt in Resources */,
 				E9DD94401DC3CC3400AF3A7F /* leon_guzman.txt in Resources */,
 				E9DD943A1DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt in Resources */,
 				E9DD94491DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt in Resources */,
