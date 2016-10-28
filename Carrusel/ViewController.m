@@ -102,8 +102,7 @@
      [NSIndexPath indexPathForRow:posicionActual inSection:0]
                                   atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally
                                           animated:YES];
-    posicionActual = (posicionActual + 5) % _personajesArray.count;
-    NSLog(@"Posicion Actual: %d", posicionActual);
+    posicionActual = (posicionActual + 3) % _personajesArray.count;
 }
 
 #pragma mark - UITableView Methods
@@ -157,6 +156,7 @@
     person.vistaOpaca.hidden = YES;
     Personaje* persona = [_personajesArray objectAtIndex:indexPath.row];
     _personajeActual = persona;
+    posicionActual = (int)indexPath.row;
     [self configurarVistaPersonaje:persona];
 }
 
