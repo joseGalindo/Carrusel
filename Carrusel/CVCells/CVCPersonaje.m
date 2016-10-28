@@ -7,6 +7,7 @@
 //
 
 #import "CVCPersonaje.h"
+#import "Carrusel-Swift.h"
 
 @implementation CVCPersonaje
 
@@ -22,6 +23,11 @@
 -(void)configurarCeldaPersonaje:(NSString *)imagen withNumero:(int)numero {
     _retrato.image = [UIImage imageNamed:@"plutarco"];
     _numeroIndicador.text = [NSString stringWithFormat:@"%d", numero];
+}
+
+-(void)configurarCeldaPersonaje:(Personaje *)persona {
+    _retrato.image = [UIImage imageNamed:persona.imagen];
+    _numeroIndicador.text = [NSString stringWithFormat:@"%d", persona.posicion];
 }
 
 @end

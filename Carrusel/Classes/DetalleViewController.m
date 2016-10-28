@@ -7,6 +7,7 @@
 //
 
 #import "DetalleViewController.h"
+#import "Carrusel-Swift.h"
 
 @interface DetalleViewController ()
 
@@ -16,12 +17,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
+    _nombrePersonaje.text = _personaje.nombre;
+    
+    NSString* nombreBio = _personaje.biografia;
+    NSError* error;
+    NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
+    NSString* textoBio = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+    if (!error) {
+        _biografiaPersonaje.text = textoBio;
+    } else {
+        NSLog(@"Error: %@", error.localizedDescription);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [_biografiaPersonaje scrollRangeToVisible:(NSMakeRange(0, 0))];
 }
 
 /*

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class Personaje;
+
 @interface CVCPersonaje : UICollectionViewCell
 
 // UI
@@ -17,6 +19,6 @@
 
 +(CGFloat) vistaHeight;
 
--(void) configurarCeldaPersonaje:(NSString*) imagen withNumero:(int) numero;
+-(void) configurarCeldaPersonaje:(Personaje*) persona;
 
 @end
