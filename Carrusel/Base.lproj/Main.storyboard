@@ -213,7 +213,8 @@
                                             <constraint firstAttribute="height" constant="44" id="4Hb-mr-oMh"/>
                                             <constraint firstAttribute="width" constant="100" id="cwI-IA-gDP"/>
                                         </constraints>
-                                        <state key="normal" title="Cerrar"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Atras"/>
                                         <connections>
                                             <action selector="cerrar:" destination="Nqp-8c-Yeb" eventType="touchUpInside" id="yjQ-Hm-7Le"/>
                                         </connections>
@@ -223,16 +224,24 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="segobBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="1pT-2X-ACa">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="ZsU-tS-lyy"/>
+                                            <constraint firstAttribute="height" constant="60" id="nnw-vM-19w"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="0Lr-df-8FO" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="top" constant="8" id="0Yw-it-Bmf"/>
-                                    <constraint firstItem="VUx-qP-bf1" firstAttribute="leading" secondItem="0Lr-df-8FO" secondAttribute="trailing" constant="20" id="4lZ-IN-FmX"/>
                                     <constraint firstItem="0Lr-df-8FO" firstAttribute="leading" secondItem="pXa-OW-V7S" secondAttribute="leading" constant="8" id="LPB-ZL-nNj"/>
+                                    <constraint firstItem="VUx-qP-bf1" firstAttribute="leading" secondItem="1pT-2X-ACa" secondAttribute="trailing" constant="10" id="MOQ-ov-OHg"/>
                                     <constraint firstAttribute="height" constant="64" id="MgZ-y7-gyP"/>
                                     <constraint firstItem="VUx-qP-bf1" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="top" id="fFQ-0p-ES9"/>
                                     <constraint firstAttribute="trailing" secondItem="VUx-qP-bf1" secondAttribute="trailing" constant="20" id="jSj-Mx-Fdm"/>
                                     <constraint firstAttribute="bottom" secondItem="VUx-qP-bf1" secondAttribute="bottom" id="kSV-yD-At1"/>
+                                    <constraint firstItem="1pT-2X-ACa" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="top" constant="2" id="nEu-aH-UfQ"/>
+                                    <constraint firstItem="1pT-2X-ACa" firstAttribute="leading" secondItem="0Lr-df-8FO" secondAttribute="trailing" constant="10" id="u3T-yC-VNq"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -255,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nvb-ZP-gft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1202" y="190"/>
+            <point key="canvasLocation" x="1201.7578125" y="189.75109809663249"/>
         </scene>
     </scenes>
     <resources>

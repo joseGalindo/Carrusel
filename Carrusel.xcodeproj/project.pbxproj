@@ -133,6 +133,7 @@
 		E9DD94B81DC41C7500AF3A7F /* enrique_olivares_santana.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */; };
 		E9DD94B91DC41C7500AF3A7F /* jesus_reyes_heroles.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */; };
 		E9DD94BA1DC41C7500AF3A7F /* manuel_bartlett.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */; };
+		E9DD94BC1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */; };
 		E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */; };
 		E9F82D191DC3B4B000991A47 /* domingo_ibarra_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */; };
 		E9F82D1A1DC3B4B100991A47 /* ignacio_rayon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */; };
@@ -304,6 +305,7 @@
 		E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enrique_olivares_santana.txt; path = ../../../../../Desktop/Jsons/Secretarios/enrique_olivares_santana.txt; sourceTree = "<group>"; };
 		E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_reyes_heroles.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_reyes_heroles.txt; sourceTree = "<group>"; };
 		E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_bartlett.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_bartlett.txt; sourceTree = "<group>"; };
+		E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fernando_gutierrez_barrios.txt; path = ../../../../../Desktop/Jsons/Secretarios/fernando_gutierrez_barrios.txt; sourceTree = "<group>"; };
 		E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_perez_lebrija.txt; path = ../../../../../Desktop/Jsons/Secretarios/agustin_perez_lebrija.txt; sourceTree = "<group>"; };
 		E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = domingo_ibarra_ramos.txt; path = ../../../../../Desktop/Jsons/Secretarios/domingo_ibarra_ramos.txt; sourceTree = "<group>"; };
 		E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_rayon.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_rayon.txt; sourceTree = "<group>"; };
@@ -376,6 +378,7 @@
 		E93FED891DC2A26900F87108 /* Bios */ = {
 			isa = PBXGroup;
 			children = (
+				E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */,
 				E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */,
 				E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */,
 				E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */,
@@ -821,6 +824,7 @@
 				E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */,
 				E9F82D291DC3B4B100991A47 /* remigio_yarza.txt in Resources */,
 				E9DD94851DC402FB00AF3A7F /* emilio_vazquez_gomez.txt in Resources */,
+				E9DD94BC1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt in Resources */,
 				E93FEDA01DC2C68F00F87108 /* manuel_gomez_pedraza.txt in Resources */,
 				E9DD947F1DC402FB00AF3A7F /* abraham_gonzalez.txt in Resources */,
 				E9DD94891DC402FB00AF3A7F /* hilario_elguero.txt in Resources */,
