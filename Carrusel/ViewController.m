@@ -29,6 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self prefersStatusBarHidden];
+    
     _fechasArray = [NSMutableArray array];
     _personajesArray = [NSMutableArray array];
     [self configurarScrollFechas];
@@ -51,6 +53,9 @@
     
     posicionActual = 10;
     [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
+    
+    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceDidRotate:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -103,6 +108,26 @@
                                   atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally
                                           animated:YES];
     posicionActual = (posicionActual + 3) % _personajesArray.count;
+}
+
+- (void)deviceDidRotate:(NSNotification *)notification
+{
+    UIDeviceOrientation orientacion = [[UIDevice currentDevice] orientation];
+    
+    BOOL isLandscape = UIDeviceOrientationIsLandscape(orientacion);
+    BOOL isPortrait = UIDeviceOrientationIsPortrait(orientacion);
+    
+    if (isPortrait) {
+        _numeroBottomConstraint.constant = 600.0;
+        _fechaBottomConstraint.constant = 600.0;
+    }
+    
+    if (isLandscape) {
+        _numeroBottomConstraint.constant = 40.0;
+        _fechaBottomConstraint.constant = 40.0;
+    }
+    
+    // Do what you want here
 }
 
 #pragma mark - UITableView Methods

@@ -32,6 +32,12 @@
                         [formater stringFromDate:cronologica.fechaFin]];
     _intervaloFechas.text = fechas;
     _tituloIntervalo.text = cronologica.descripcion;
+    
+    _intervaloFechas.layer.shadowColor = [UIColor blackColor].CGColor;
+    _intervaloFechas.layer.shadowOffset = CGSizeMake(5, 1);
+    _intervaloFechas.layer.shadowRadius = 3;
+    _intervaloFechas.layer.shadowOpacity = 0.5;
+    _intervaloFechas.layer.shouldRasterize = NO;
 }
 
 @end

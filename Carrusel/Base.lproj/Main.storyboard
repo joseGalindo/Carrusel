@@ -15,14 +15,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-am-uFq">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RJA-N9-wBF">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="segobBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="RJA-N9-wBF">
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="WW0-VC-NM5"/>
+                                            <constraint firstAttribute="height" constant="60" id="WW0-VC-NM5"/>
                                             <constraint firstAttribute="width" constant="200" id="cU9-tR-C5t"/>
                                         </constraints>
                                     </imageView>
@@ -35,10 +35,10 @@
                                 <color key="backgroundColor" red="0.35686274509803922" green="0.32549019607843138" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="IE3-fl-bBO" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="top" id="7pd-D2-4a1"/>
-                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="top" id="Cdd-dy-d6B"/>
+                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="top" constant="2" id="Cdd-dy-d6B"/>
                                     <constraint firstAttribute="trailing" secondItem="IE3-fl-bBO" secondAttribute="trailing" constant="10" id="QQp-SG-eCJ"/>
                                     <constraint firstAttribute="bottom" secondItem="IE3-fl-bBO" secondAttribute="bottom" id="Wug-YM-QTa"/>
-                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="leading" secondItem="JSF-am-uFq" secondAttribute="leading" id="kb9-vW-eIQ"/>
+                                    <constraint firstItem="RJA-N9-wBF" firstAttribute="leading" secondItem="JSF-am-uFq" secondAttribute="leading" constant="10" id="kb9-vW-eIQ"/>
                                     <constraint firstAttribute="height" constant="64" id="rof-nk-d6L"/>
                                     <constraint firstItem="IE3-fl-bBO" firstAttribute="leading" secondItem="RJA-N9-wBF" secondAttribute="trailing" constant="20" id="w9j-QI-XrZ"/>
                                 </constraints>
@@ -144,9 +144,11 @@
                     </view>
                     <connections>
                         <outlet property="collectionPersonajes" destination="YDj-DO-6uo" id="6Vw-xB-kzu"/>
+                        <outlet property="fechaBottomConstraint" destination="ZXh-N4-VaA" id="GBp-l2-6HH"/>
                         <outlet property="fechaPersonajeSelected" destination="c4W-VY-ehC" id="dbX-P1-n0J"/>
                         <outlet property="imagenPersonajeSelected" destination="ffv-RQ-OxR" id="Hd3-KL-43D"/>
                         <outlet property="nombreSelected" destination="smG-QN-aeV" id="JgQ-z7-mwL"/>
+                        <outlet property="numeroBottomConstraint" destination="yqP-d5-sNY" id="dNH-IR-L9o"/>
                         <outlet property="numeroSelected" destination="d8z-Ku-5OX" id="1cy-Vo-R9h"/>
                         <outlet property="tablaFechas" destination="PXX-St-XTt" id="JKZ-7F-TCH"/>
                         <outlet property="vistaMiniDetalle" destination="M0j-c8-wwN" id="Jwd-AG-FzZ"/>
@@ -165,7 +167,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JYQ-PI-EWo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jMd-h0-OiF">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VD9-6Y-FY8">
@@ -260,5 +262,6 @@
         <image name="flecha" width="15" height="20"/>
         <image name="lazaroCardenas" width="162" height="217"/>
         <image name="plutarco" width="100" height="134"/>
+        <image name="segobBlanco" width="373" height="113"/>
     </resources>
 </document>

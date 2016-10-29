@@ -18,6 +18,11 @@
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionPersonajes;
 @property (weak, nonatomic) IBOutlet UIView *vistaMiniDetalle;
 
+// Constraints
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *numeroBottomConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *fechaBottomConstraint;
+
+
 // Vista Detalle
 @property (weak, nonatomic) IBOutlet UILabel *numeroSelected;
 @property (weak, nonatomic) IBOutlet UILabel *nombreSelected;
