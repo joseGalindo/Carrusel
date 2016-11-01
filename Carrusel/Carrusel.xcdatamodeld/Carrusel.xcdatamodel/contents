@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Cronologica" representedClassName=".Cronologica" syncable="YES">
         <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="fechaFin" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
@@ -13,6 +13,7 @@
             </userInfo>
         </attribute>
         <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="personajes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personaje" inverseName="cronologia" inverseEntity="Personaje" syncable="YES"/>
     </entity>
     <entity name="Personaje" representedClassName=".Personaje" syncable="YES">
         <attribute name="biografia" optional="YES" attributeType="String" syncable="YES"/>
@@ -23,9 +24,10 @@
         <attribute name="ordenCronologico" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="posicion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="cronologia" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cronologica" inverseName="personajes" inverseEntity="Cronologica" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Personaje" positionX="-63" positionY="-18" width="128" height="165"/>
-        <element name="Cronologica" positionX="162" positionY="-0" width="128" height="103"/>
+        <element name="Cronologica" positionX="162" positionY="-0" width="128" height="118"/>
+        <element name="Personaje" positionX="-126" positionY="-72" width="128" height="178"/>
     </elements>
 </model>

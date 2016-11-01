@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *tablaFechas;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionPersonajes;
 @property (weak, nonatomic) IBOutlet UIView *vistaMiniDetalle;
+@property (weak, nonatomic) IBOutlet UISwitch *switchAnimacion;
+@property (weak, nonatomic) IBOutlet UIImageView *fondo;
 
 // Constraints
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *numeroBottomConstraint;
@@ -29,6 +31,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *fechaPersonajeSelected;
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonajeSelected;
 
+- (IBAction)setSlide:(id)sender;
 
 @end
 

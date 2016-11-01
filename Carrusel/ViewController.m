@@ -24,6 +24,7 @@
 
 @implementation ViewController {
     int posicionActual;
+    NSTimer* animarCarrusel;
 }
 
 - (void)viewDidLoad {
@@ -52,10 +53,27 @@
     _vistaMiniDetalle.layer.shadowOpacity = 0.5;
     
     posicionActual = 10;
-    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
+    animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceDidRotate:) name:UIDeviceOrientationDidChangeNotification object:nil];
+    
+    // Gradiente
+    CAGradientLayer* capaBandera = [[CAGradientLayer alloc] init];
+    capaBandera.frame = self.view.frame;
+    capaBandera.colors = [NSArray arrayWithObjects:
+                          (id)[UIColor colorWithRed:(7.0/255.0) green:(100.0/255.0) blue:(26.0/255.0) alpha:0.5].CGColor,
+                          (id)[UIColor whiteColor].CGColor,
+                          (id)[UIColor colorWithRed:(179.0/255.0) green:0 blue:(16.0/255.0) alpha:0.5].CGColor, nil];
+    capaBandera.locations = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0],
+                             [NSNumber numberWithFloat:0.5],
+                             [NSNumber numberWithFloat:1.0], nil];
+    capaBandera.startPoint = CGPointMake(0, 0.4);
+    capaBandera.endPoint = CGPointMake(1.0, 1.0);
+    
+    
+    [_fondo.layer addSublayer:capaBandera];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -126,8 +144,6 @@
         _numeroBottomConstraint.constant = 40.0;
         _fechaBottomConstraint.constant = 40.0;
     }
-    
-    // Do what you want here
 }
 
 #pragma mark - UITableView Methods
@@ -205,5 +221,25 @@
         controller.personaje = _personajeActual;
     }
 }
+
+
+
+- (IBAction)cambiarEfecto:(id)sender {
+    
+}
+
+
+- (IBAction)setSlide:(id)sender {
+    NSLog(@"Cambiar efecto");
+    if (_switchAnimacion.on) {
+        NSLog(@"Switch On");
+        animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
+    } else {
+        [animarCarrusel invalidate];
+        animarCarrusel = nil;
+        NSLog(@"Switch Off");
+    }
+}
+
 
 @end
