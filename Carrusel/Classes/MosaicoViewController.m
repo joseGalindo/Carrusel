@@ -9,10 +9,11 @@
 #import "MosaicoViewController.h"
 #import "CVCPersonajeSimple.h"
 #import "Carrusel-Swift.h"
+#import "DetalleViewController.h"
 #import <MagicalRecord/MagicalRecord.h>
 
 @interface MosaicoViewController ()
-
+    @property Personaje* personajeActual;
 @end
 
 static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
@@ -78,15 +79,16 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     capaBandera.frame = CGRectMake(0, 0, size.width, size.height);
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    DetalleViewController* controller = (DetalleViewController*)segue.destinationViewController;
+    controller.personaje = _personajeActual;
 }
-*/
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return personajesArray.count;
@@ -97,25 +99,34 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     
     Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
     [cell configurarCelda:persona.imagen];
-    //[cell deseleccionarPersonaje];
+    [cell deseleccionarPersonaje];
     
     return cell;
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    CVCPersonajeSimple* cell = [collectionView dequeueReusableCellWithReuseIdentifier:REUSE_IDENTIFIER forIndexPath:indexPath];
+    CVCPersonajeSimple* cell = (CVCPersonajeSimple*)[collectionView cellForItemAtIndexPath:indexPath];
     if (cell) {
+        _personajeActual = [personajesArray objectAtIndex:indexPath.row];
         CGRect marcoNuevo = cell.frame;
         marcoNuevo.size = CGSizeMake(192, 258);
         [cell seleccionarPersonaje];
-        [UIView animateWithDuration:0.3 animations:^{
+        [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
+        /*[UIView animateWithDuration:0.2 animations:^{
             cell.frame = marcoNuevo;
             [collectionView.collectionViewLayout invalidateLayout];
         } completion:^(BOOL finished) {
             selectedIndexPath = indexPath;
             [collectionView.collectionViewLayout invalidateLayout];
         }];
+        */
     }
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+    CVCPersonajeSimple* cell = (CVCPersonajeSimple*)[collectionView cellForItemAtIndexPath:indexPath];
+    [cell deseleccionarPersonaje];
+    _personajeActual = nil;
 }
 
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {

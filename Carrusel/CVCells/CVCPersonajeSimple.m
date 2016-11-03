@@ -20,11 +20,10 @@
 }
 
 -(void) seleccionarPersonaje {
-    NSLog(@"personaje alpha = %f", _imagenPersonaje.alpha);
-    //[UIView animateWithDuration:0.3 animations:^{
-       _imagenPersonaje.alpha = 1.0; 
-    //}];
-    NSLog(@"after personaje alpha = %f", _imagenPersonaje.alpha);
+    [UIView animateWithDuration:0.5 animations:^{
+        _imagenPersonaje.alpha = 1.0;
+    }];
+    
 }
 
 -(void) deseleccionarPersonaje {

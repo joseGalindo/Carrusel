@@ -232,7 +232,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QY8-N6-a8S">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondoCompleto" translatesAutoresizingMaskIntoConstraints="NO" id="5on-ca-EB2">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="894"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QY8-N6-a8S">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="894"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-JW-Ke8">
@@ -245,9 +248,11 @@
                                             <constraint firstAttribute="height" constant="113" id="TLr-tj-vGE"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-0N-j1U">
-                                        <rect key="frame" x="441" y="30" width="836" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-0N-j1U">
+                                        <rect key="frame" x="401" y="30" width="945" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="cp8-sf-O6C"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Trajan-Normal" family="Trajan-Normal" pointSize="32"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -255,7 +260,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0NE-0N-j1U" secondAttribute="trailing" constant="20" id="B0j-M9-WfC"/>
                                     <constraint firstItem="EAH-fk-yB6" firstAttribute="centerY" secondItem="z4u-JW-Ke8" secondAttribute="centerY" id="Eh4-of-JbA"/>
+                                    <constraint firstItem="0NE-0N-j1U" firstAttribute="centerY" secondItem="z4u-JW-Ke8" secondAttribute="centerY" id="RCA-ta-hu4"/>
+                                    <constraint firstItem="0NE-0N-j1U" firstAttribute="leading" secondItem="EAH-fk-yB6" secondAttribute="trailing" constant="20" id="RcM-rM-6To"/>
                                     <constraint firstAttribute="height" constant="130" id="b45-9b-9rH"/>
                                     <constraint firstItem="EAH-fk-yB6" firstAttribute="leading" secondItem="z4u-JW-Ke8" secondAttribute="leading" constant="8" id="kzH-XJ-Pje"/>
                                 </constraints>
@@ -287,18 +295,23 @@
                             <constraint firstItem="z4u-JW-Ke8" firstAttribute="top" secondItem="g1G-jQ-4dZ" secondAttribute="bottom" id="44m-kp-8ah"/>
                             <constraint firstItem="z4u-JW-Ke8" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="8EG-bv-IEW"/>
                             <constraint firstItem="QY8-N6-a8S" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="8Yr-xE-hxQ"/>
+                            <constraint firstItem="5on-ca-EB2" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="A7G-D8-jwD"/>
                             <constraint firstItem="g1G-jQ-4dZ" firstAttribute="top" secondItem="ubt-nZ-jKQ" secondAttribute="top" id="Bgv-pa-ATs"/>
                             <constraint firstItem="g1G-jQ-4dZ" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="IsL-JL-Gvh"/>
+                            <constraint firstItem="z4u-JW-Ke8" firstAttribute="top" secondItem="5on-ca-EB2" secondAttribute="bottom" id="Lnt-k2-cuH"/>
                             <constraint firstItem="QY8-N6-a8S" firstAttribute="top" secondItem="ubt-nZ-jKQ" secondAttribute="top" id="Nmw-8U-uYs"/>
+                            <constraint firstAttribute="trailing" secondItem="5on-ca-EB2" secondAttribute="trailing" id="beG-z4-oq8"/>
                             <constraint firstAttribute="trailing" secondItem="QY8-N6-a8S" secondAttribute="trailing" id="dBr-pG-RGK"/>
                             <constraint firstAttribute="trailing" secondItem="g1G-jQ-4dZ" secondAttribute="trailing" id="ilN-8b-oBu"/>
                             <constraint firstItem="WCH-sp-oci" firstAttribute="top" secondItem="z4u-JW-Ke8" secondAttribute="bottom" id="n1N-cq-E0V"/>
+                            <constraint firstItem="5on-ca-EB2" firstAttribute="top" secondItem="ubt-nZ-jKQ" secondAttribute="top" id="q3o-GY-IW3"/>
                             <constraint firstItem="z4u-JW-Ke8" firstAttribute="top" secondItem="QY8-N6-a8S" secondAttribute="bottom" id="tkZ-vI-yJo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="fondo" destination="QY8-N6-a8S" id="DcH-AJ-bjp"/>
                         <outlet property="mCollectionView" destination="g1G-jQ-4dZ" id="ZmE-AV-BvJ"/>
+                        <segue destination="Nqp-8c-Yeb" kind="presentation" identifier="mostrarDetalle" id="1j4-ui-A6T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdC-FJ-auV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -424,8 +437,12 @@
     </scenes>
     <resources>
         <image name="flecha" width="15" height="20"/>
+        <image name="fondoCompleto" width="5705" height="4262"/>
         <image name="lazaroCardenas" width="162" height="217"/>
         <image name="plutarco" width="100" height="134"/>
         <image name="segobBlanco" width="373" height="113"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1j4-ui-A6T"/>
+    </inferredMetricsTieBreakers>
 </document>
