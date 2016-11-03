@@ -12,6 +12,9 @@
         <array key="TrajanProRegular.ttf">
             <string>TrajanPro-Regular</string>
         </array>
+        <array key="trajan_normal.ttf">
+            <string>Trajan-Normal</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -234,26 +237,44 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-JW-Ke8">
                                 <rect key="frame" x="0.0" y="894" width="1366" height="130"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="segobBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="EAH-fk-yB6">
+                                        <rect key="frame" x="8" y="9" width="373" height="113"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="373" id="Igf-pR-8fW"/>
+                                            <constraint firstAttribute="height" constant="113" id="TLr-tj-vGE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-0N-j1U">
+                                        <rect key="frame" x="441" y="30" width="836" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Trajan-Normal" family="Trajan-Normal" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="EAH-fk-yB6" firstAttribute="centerY" secondItem="z4u-JW-Ke8" secondAttribute="centerY" id="Eh4-of-JbA"/>
                                     <constraint firstAttribute="height" constant="130" id="b45-9b-9rH"/>
+                                    <constraint firstItem="EAH-fk-yB6" firstAttribute="leading" secondItem="z4u-JW-Ke8" secondAttribute="leading" constant="8" id="kzH-XJ-Pje"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="g1G-jQ-4dZ">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="g1G-jQ-4dZ">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="894"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vxS-0v-bnG">
-                                    <size key="itemSize" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="70" minimumInteritemSpacing="0.0" id="vxS-0v-bnG">
+                                    <size key="itemSize" width="128" height="170"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2Kg-99-mT2">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
                                     </collectionViewCell>
@@ -282,7 +303,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdC-FJ-auV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="152" y="928"/>
+            <point key="canvasLocation" x="151.97657393850659" y="927.53906249999989"/>
         </scene>
         <!--Detalle View Controller-->
         <scene sceneID="2Y7-oU-AO2">

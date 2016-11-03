@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MosaicoViewController : UIViewController
+@interface MosaicoViewController : UIViewController <UICollectionViewDataSource,
+                                    UICollectionViewDelegate,
+                                    UICollectionViewDelegateFlowLayout>
 
 
 @property (weak, nonatomic) IBOutlet UIImageView *fondo;

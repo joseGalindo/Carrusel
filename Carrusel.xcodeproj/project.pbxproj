@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CF6163243CD2C9F8AC10CCD2 /* Pods_Carrusel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */; };
+		E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */; };
+		E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */; };
 		E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */; };
 		E93FED841DC2788700F87108 /* Personaje+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */; };
 		E93FED861DC278A000F87108 /* Cronologica+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED851DC278A000F87108 /* Cronologica+CoreDataClass.swift */; };
@@ -175,6 +177,9 @@
 		0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrusel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.debug.xcconfig"; sourceTree = "<group>"; };
 		E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.release.xcconfig"; sourceTree = "<group>"; };
+		E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonajeSimple.h; path = CVCells/CVCPersonajeSimple.h; sourceTree = "<group>"; };
+		E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonajeSimple.m; path = CVCells/CVCPersonajeSimple.m; sourceTree = "<group>"; };
+		E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCPersonajeSimple.xib; path = CVCells/CVCPersonajeSimple.xib; sourceTree = "<group>"; };
 		E93FED801DC2788600F87108 /* Carrusel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carrusel-Bridging-Header.h"; sourceTree = "<group>"; };
 		E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Cronologica+CoreDataProperties.swift"; path = "Model/Cronologica+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Personaje+CoreDataProperties.swift"; path = "Model/Personaje+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -640,6 +645,9 @@
 				E958E1661DC17593008656A8 /* CVCPersonaje.h */,
 				E958E1671DC17593008656A8 /* CVCPersonaje.m */,
 				E958E1681DC17593008656A8 /* CVCPersonaje.xib */,
+				E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */,
+				E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */,
+				E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */,
 			);
 			name = CVCells;
 			sourceTree = "<group>";
@@ -781,6 +789,7 @@
 				E9F82D1C1DC3B4B100991A47 /* joaquin_maria_castillo_lanza.txt in Resources */,
 				E9DD94581DC3D29700AF3A7F /* lazaro_cardenaz.txt in Resources */,
 				E93FEDB11DC2C9A300F87108 /* francisco_fagoaga.txt in Resources */,
+				E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */,
 				E9DD94331DC3CC3400AF3A7F /* adalberto_tejeda.txt in Resources */,
 				E93FEDA31DC2C68F00F87108 /* sebastian_garcia_camacho.txt in Resources */,
 				E9DD94481DC3CC3400AF3A7F /* santos_degollado.txt in Resources */,
@@ -945,6 +954,7 @@
 				E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */,
 				E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */,
 				E958E1261DC10E98008656A8 /* AppDelegate.m in Sources */,
+				E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */,
 				E958E1691DC17593008656A8 /* CVCPersonaje.m in Sources */,
 				E958E12F1DC10E98008656A8 /* Carrusel.xcdatamodeld in Sources */,
 				E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */,
