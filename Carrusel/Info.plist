@@ -24,6 +24,12 @@
 	<array>
 		<string>trajan_normal.ttf</string>
 		<string>TrajanProRegular.ttf</string>
+		<string>ACasionPro-Bold.otf</string>
+		<string>ACasionPro-BoldItalic.otf</string>
+		<string>ACasionPro-Italic.otf</string>
+		<string>ACasionPro-Regular.otf</string>
+		<string>ACasionPro-Semibold.otf</string>
+		<string>ACasionPro-SemiboldItalic.otf</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

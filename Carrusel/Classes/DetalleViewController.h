@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonaje;
 @property (weak, nonatomic) IBOutlet UILabel *nombrePersonaje;
 @property (weak, nonatomic) IBOutlet UITextView *biografiaPersonaje;
+@property (weak, nonatomic) IBOutlet UIButton *cerrarBtn;
 
 // Logic
 @property (strong, nonatomic) Personaje* personaje;

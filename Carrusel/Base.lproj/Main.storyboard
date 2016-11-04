@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="ACaslonPro-Semibold.otf">
+            <string>ACaslonPro-Semibold</string>
+        </array>
         <array key="TrajanProRegular.ttf">
             <string>TrajanPro-Regular</string>
         </array>
@@ -232,7 +235,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo09" translatesAutoresizingMaskIntoConstraints="NO" id="5on-ca-EB2">
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo03" translatesAutoresizingMaskIntoConstraints="NO" id="5on-ca-EB2">
                                 <rect key="frame" x="0.0" y="120" width="1366" height="904"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-JW-Ke8">
@@ -435,12 +438,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo01" translatesAutoresizingMaskIntoConstraints="NO" id="AmQ-Lt-1Jo">
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo03" translatesAutoresizingMaskIntoConstraints="NO" id="AmQ-Lt-1Jo">
                                 <rect key="frame" x="0.0" y="120" width="1366" height="904"/>
                             </imageView>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VD9-6Y-FY8">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VD9-6Y-FY8">
                                 <rect key="frame" x="50" y="170" width="1266" height="804"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6zA-JC-EKx">
+                                        <rect key="frame" x="0.0" y="0.0" width="1266" height="804"/>
+                                        <color key="backgroundColor" red="0.74901960779999999" green="0.74901960779999999" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lazaroCardenas" translatesAutoresizingMaskIntoConstraints="NO" id="lyt-mM-Zvp">
                                         <rect key="frame" x="30" y="30" width="200" height="270"/>
                                         <constraints>
@@ -453,7 +460,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="K5G-c8-yDP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="45"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -461,18 +468,22 @@
                                         <rect key="frame" x="260" y="140" width="976" height="604"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="ACaslonPro-Semibold" family="Adobe Caslon Pro" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.74901960784313726" green="0.74901960784313726" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="lyt-mM-Zvp" firstAttribute="top" secondItem="VD9-6Y-FY8" secondAttribute="top" constant="30" id="02F-bp-C76"/>
+                                    <constraint firstItem="6zA-JC-EKx" firstAttribute="top" secondItem="VD9-6Y-FY8" secondAttribute="top" id="2Uk-Px-IfC"/>
                                     <constraint firstAttribute="bottom" secondItem="7PZ-Pl-bKH" secondAttribute="bottom" constant="60" id="5s6-e6-tK5"/>
                                     <constraint firstAttribute="trailing" secondItem="7PZ-Pl-bKH" secondAttribute="trailing" constant="30" id="CBk-LY-acW"/>
                                     <constraint firstItem="xOu-9X-DsQ" firstAttribute="leading" secondItem="lyt-mM-Zvp" secondAttribute="trailing" constant="30" id="GE6-9q-3tB"/>
                                     <constraint firstItem="7PZ-Pl-bKH" firstAttribute="top" secondItem="xOu-9X-DsQ" secondAttribute="bottom" constant="60" id="Iib-ce-1Ku"/>
                                     <constraint firstAttribute="trailing" secondItem="xOu-9X-DsQ" secondAttribute="trailing" constant="30" id="LxN-AO-Dod"/>
+                                    <constraint firstAttribute="bottom" secondItem="6zA-JC-EKx" secondAttribute="bottom" id="NSp-vs-CA4"/>
+                                    <constraint firstItem="6zA-JC-EKx" firstAttribute="leading" secondItem="VD9-6Y-FY8" secondAttribute="leading" id="Q1h-Me-WRf"/>
+                                    <constraint firstAttribute="trailing" secondItem="6zA-JC-EKx" secondAttribute="trailing" id="RXz-hP-euf"/>
                                     <constraint firstItem="7PZ-Pl-bKH" firstAttribute="leading" secondItem="lyt-mM-Zvp" secondAttribute="trailing" constant="30" id="S7W-vM-qPb"/>
                                     <constraint firstItem="xOu-9X-DsQ" firstAttribute="top" secondItem="VD9-6Y-FY8" secondAttribute="top" constant="30" id="fp0-s2-NMG"/>
                                     <constraint firstItem="lyt-mM-Zvp" firstAttribute="leading" secondItem="VD9-6Y-FY8" secondAttribute="leading" constant="30" id="zbH-ys-cRC"/>
@@ -481,45 +492,44 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pXa-OW-V7S">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="120"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lr-df-8FO">
-                                        <rect key="frame" x="8" y="8" width="100" height="44"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="4Hb-mr-oMh"/>
-                                            <constraint firstAttribute="width" constant="100" id="cwI-IA-gDP"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Atras"/>
-                                        <connections>
-                                            <action selector="cerrar:" destination="Nqp-8c-Yeb" eventType="touchUpInside" id="yjQ-Hm-7Le"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINISTROS Y SECRETARIOS DE GOBERNACIÓN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUx-qP-bf1">
-                                        <rect key="frame" x="418" y="0.0" width="928" height="120"/>
+                                        <rect key="frame" x="350" y="0.0" width="996" height="120"/>
                                         <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="25"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="segobBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="1pT-2X-ACa">
-                                        <rect key="frame" x="118" y="10" width="290" height="100"/>
+                                        <rect key="frame" x="20" y="10" width="320" height="100"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="290" id="ZsU-tS-lyy"/>
+                                            <constraint firstAttribute="width" constant="320" id="ZsU-tS-lyy"/>
                                             <constraint firstAttribute="height" constant="100" id="nnw-vM-19w"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.32549019610000002" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="0Lr-df-8FO" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="top" constant="8" id="0Yw-it-Bmf"/>
-                                    <constraint firstItem="0Lr-df-8FO" firstAttribute="leading" secondItem="pXa-OW-V7S" secondAttribute="leading" constant="8" id="LPB-ZL-nNj"/>
                                     <constraint firstItem="VUx-qP-bf1" firstAttribute="leading" secondItem="1pT-2X-ACa" secondAttribute="trailing" constant="10" id="MOQ-ov-OHg"/>
                                     <constraint firstAttribute="height" constant="120" id="MgZ-y7-gyP"/>
                                     <constraint firstItem="VUx-qP-bf1" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="top" id="fFQ-0p-ES9"/>
                                     <constraint firstAttribute="trailing" secondItem="VUx-qP-bf1" secondAttribute="trailing" constant="20" id="jSj-Mx-Fdm"/>
                                     <constraint firstAttribute="bottom" secondItem="VUx-qP-bf1" secondAttribute="bottom" id="kSV-yD-At1"/>
                                     <constraint firstItem="1pT-2X-ACa" firstAttribute="centerY" secondItem="pXa-OW-V7S" secondAttribute="centerY" id="tmx-by-FEd"/>
-                                    <constraint firstItem="1pT-2X-ACa" firstAttribute="leading" secondItem="0Lr-df-8FO" secondAttribute="trailing" constant="10" id="u3T-yC-VNq"/>
+                                    <constraint firstItem="1pT-2X-ACa" firstAttribute="leading" secondItem="pXa-OW-V7S" secondAttribute="leading" constant="20" id="z24-4h-b8Y"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lr-df-8FO">
+                                <rect key="frame" x="1276" y="130" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jXY-aC-ElO"/>
+                                    <constraint firstAttribute="width" constant="80" id="mwL-Di-N8U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Cerrar"/>
+                                <connections>
+                                    <action selector="cerrar:" destination="Nqp-8c-Yeb" eventType="touchUpInside" id="yjQ-Hm-7Le"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784309999999" green="0.3921568627" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -528,8 +538,10 @@
                             <constraint firstItem="VD9-6Y-FY8" firstAttribute="leading" secondItem="jMd-h0-OiF" secondAttribute="leading" constant="50" id="Cft-Em-fOs"/>
                             <constraint firstAttribute="trailing" secondItem="pXa-OW-V7S" secondAttribute="trailing" id="D1x-Eh-RZL"/>
                             <constraint firstAttribute="trailing" secondItem="AmQ-Lt-1Jo" secondAttribute="trailing" id="Dho-Pk-KUd"/>
+                            <constraint firstAttribute="trailing" secondItem="0Lr-df-8FO" secondAttribute="trailing" constant="10" id="Mq7-IB-4do"/>
                             <constraint firstAttribute="trailing" secondItem="VD9-6Y-FY8" secondAttribute="trailing" constant="50" id="OK0-27-Asg"/>
                             <constraint firstItem="JYQ-PI-EWo" firstAttribute="top" secondItem="AmQ-Lt-1Jo" secondAttribute="bottom" id="Unf-fm-46i"/>
+                            <constraint firstItem="0Lr-df-8FO" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="bottom" constant="10" id="eXa-mF-QoP"/>
                             <constraint firstItem="JYQ-PI-EWo" firstAttribute="top" secondItem="VD9-6Y-FY8" secondAttribute="bottom" constant="50" id="gfR-JS-Hlu"/>
                             <constraint firstItem="AmQ-Lt-1Jo" firstAttribute="top" secondItem="pXa-OW-V7S" secondAttribute="bottom" id="iyk-qg-vhM"/>
                             <constraint firstItem="AmQ-Lt-1Jo" firstAttribute="leading" secondItem="jMd-h0-OiF" secondAttribute="leading" id="ue0-80-hla"/>
@@ -538,6 +550,7 @@
                     </view>
                     <connections>
                         <outlet property="biografiaPersonaje" destination="7PZ-Pl-bKH" id="fxg-cT-pEa"/>
+                        <outlet property="cerrarBtn" destination="0Lr-df-8FO" id="whr-9e-Hy2"/>
                         <outlet property="imagenPersonaje" destination="lyt-mM-Zvp" id="MaK-0Z-UXL"/>
                         <outlet property="nombrePersonaje" destination="xOu-9X-DsQ" id="RI9-1d-WFw"/>
                     </connections>
@@ -549,8 +562,7 @@
     </scenes>
     <resources>
         <image name="flecha" width="15" height="20"/>
-        <image name="fondo01" width="1366" height="1024"/>
-        <image name="fondo09" width="1366" height="1024"/>
+        <image name="fondo03" width="1366" height="1024"/>
         <image name="lazaroCardenas" width="162" height="217"/>
         <image name="melchorOcampo" width="200" height="258"/>
         <image name="plutarco" width="100" height="134"/>
