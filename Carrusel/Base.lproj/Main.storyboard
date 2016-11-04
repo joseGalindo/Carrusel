@@ -238,7 +238,7 @@
                             <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo03" translatesAutoresizingMaskIntoConstraints="NO" id="5on-ca-EB2">
                                 <rect key="frame" x="0.0" y="120" width="1366" height="904"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-JW-Ke8">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4u-JW-Ke8" userLabel="headerView">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="120"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-0N-j1U">
@@ -283,10 +283,33 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfn-HP-9lf">
+                            <tableView clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zgr-u4-5xG">
+                                <rect key="frame" x="846" y="150" width="500" height="764"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="REF-0x-iKg"/>
+                                </constraints>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfn-HP-9lf" userLabel="footerView">
                                 <rect key="frame" x="0.0" y="924" width="1366" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk0-Qp-A9D">
+                                        <rect key="frame" x="1036" y="20" width="300" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="4uk-c6-RaE"/>
+                                            <constraint firstAttribute="height" constant="60" id="L8u-XZ-PFk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Buscar por nombre"/>
+                                        <connections>
+                                            <action selector="mostrarFiltroNombres:" destination="E0c-nJ-yJV" eventType="touchUpInside" id="QAl-Bw-y1n"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="yk0-Qp-A9D" secondAttribute="trailing" constant="30" id="RAZ-Ve-JDh"/>
+                                    <constraint firstItem="yk0-Qp-A9D" firstAttribute="centerY" secondItem="nfn-HP-9lf" secondAttribute="centerY" id="h61-7J-MXd"/>
                                     <constraint firstAttribute="height" constant="100" id="rPP-6E-Yb7"/>
                                 </constraints>
                             </view>
@@ -401,11 +424,14 @@
                             <constraint firstAttribute="trailing" secondItem="z4u-JW-Ke8" secondAttribute="trailing" id="I4q-IN-RZO"/>
                             <constraint firstItem="2pr-7N-vdZ" firstAttribute="top" secondItem="ubt-nZ-jKQ" secondAttribute="top" id="IKe-tI-3VZ"/>
                             <constraint firstAttribute="trailing" secondItem="2pr-7N-vdZ" secondAttribute="trailing" id="PBV-Ci-4KE"/>
+                            <constraint firstAttribute="trailing" secondItem="zgr-u4-5xG" secondAttribute="trailing" constant="20" id="Vov-KN-g0z"/>
                             <constraint firstAttribute="bottom" secondItem="nfn-HP-9lf" secondAttribute="bottom" id="Yhb-Ue-SNA"/>
+                            <constraint firstItem="zgr-u4-5xG" firstAttribute="top" secondItem="z4u-JW-Ke8" secondAttribute="bottom" constant="30" id="b8K-NK-JRx"/>
                             <constraint firstItem="2pr-7N-vdZ" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="bFe-kv-ynd"/>
                             <constraint firstItem="nfn-HP-9lf" firstAttribute="leading" secondItem="ubt-nZ-jKQ" secondAttribute="leading" id="d0d-gv-BCi"/>
                             <constraint firstItem="g1G-jQ-4dZ" firstAttribute="top" secondItem="z4u-JW-Ke8" secondAttribute="bottom" id="ni6-Gl-1l4"/>
                             <constraint firstAttribute="trailing" secondItem="nfn-HP-9lf" secondAttribute="trailing" id="onL-BF-Zxs"/>
+                            <constraint firstItem="nfn-HP-9lf" firstAttribute="top" secondItem="zgr-u4-5xG" secondAttribute="bottom" constant="10" id="qeR-JT-vxt"/>
                             <constraint firstItem="5on-ca-EB2" firstAttribute="top" secondItem="z4u-JW-Ke8" secondAttribute="bottom" id="rhB-D8-5uO"/>
                             <constraint firstAttribute="bottom" secondItem="2pr-7N-vdZ" secondAttribute="bottom" id="t2Q-gx-fNK"/>
                             <constraint firstAttribute="bottom" secondItem="5on-ca-EB2" secondAttribute="bottom" id="vX0-FW-QsX"/>
@@ -418,6 +444,7 @@
                         <outlet property="mCollectionView" destination="g1G-jQ-4dZ" id="ZmE-AV-BvJ"/>
                         <outlet property="nombrePopUp" destination="MIw-Qi-3uw" id="M2l-4l-png"/>
                         <outlet property="popUpView" destination="2pr-7N-vdZ" id="Ig9-kB-aSC"/>
+                        <outlet property="tablaNombres" destination="zgr-u4-5xG" id="uS3-Sj-HeB"/>
                         <outlet property="vistaBioContainer" destination="hOH-a5-yez" id="Pwc-ih-4AT"/>
                         <segue destination="Nqp-8c-Yeb" kind="presentation" identifier="mostrarDetalle" id="1j4-ui-A6T"/>
                     </connections>

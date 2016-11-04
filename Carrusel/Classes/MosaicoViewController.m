@@ -22,6 +22,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     CAGradientLayer* capaBandera;
     NSMutableArray* personajesArray;
     NSIndexPath* selectedIndexPath;
+    BOOL filtroNombresShowed;
 }
 
 - (void)viewDidLoad {
@@ -41,12 +42,22 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 //    capaBandera.endPoint = CGPointMake(1.0, 1.0);
 //    [_fondo.layer addSublayer:capaBandera];
 
+    
+    // Mosaico de imagenes
     _mCollectionView.dataSource = self;
     _mCollectionView.delegate = self;
     UINib* nib = [UINib nibWithNibName:@"CVCPersonajeSimple" bundle:nil];
     [_mCollectionView registerNib:nib forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     
     [self configurarPersonajes];
+    
+    // Tabla de Nombres
+    _tablaNombres.dataSource = self;
+    _tablaNombres.delegate = self;
+    _tablaNombres.alpha = 0;
+    _tablaNombres.hidden = YES;
+    filtroNombresShowed = NO;
+    
     
     // Configuramos el popUp
     _popUpView.hidden = YES;
@@ -107,6 +118,38 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     controller.personaje = _personajeActual;
 }
 
+#pragma mark - UITableView DataSource & Delegate
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return personajesArray.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell* celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:[NSString stringWithFormat:@"ReuseIdentifier_%ld", indexPath.row]];
+    
+    Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
+    celda.textLabel.font = [UIFont fontWithName:@"Trajan-Normal" size:25.f];
+    celda.textLabel.text = persona.nombre;
+    celda.textLabel.textColor = [UIColor whiteColor];
+    UIView* bg = [[UIView alloc] initWithFrame:celda.frame];
+    bg.backgroundColor = [UIColor blackColor];
+    bg.alpha = 0.5;
+    celda.backgroundView = bg;
+    return celda;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
+
+
+#pragma mark - UICollectionView DataSource & Delegate
+
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return personajesArray.count;
 }
@@ -156,6 +199,8 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     }
 }
 
+#pragma mark - IBActions
+
 - (IBAction)cerrarPopUp:(id)sender {
     [UIView animateWithDuration:1 animations:^{
         _popUpView.alpha = 0;
@@ -167,4 +212,25 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 - (IBAction)mostrarDetalle:(id)sender {
     [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
 }
+
+- (IBAction)mostrarFiltroNombres:(id)sender {
+    if (filtroNombresShowed) {
+        [UIView animateWithDuration:0.5 animations:^{
+            _tablaNombres.alpha = 0.f;
+        } completion:^(BOOL finished) {
+            _tablaNombres.hidden = YES;
+        }];
+        [_mCollectionView setUserInteractionEnabled:YES];
+    } else {
+        _tablaNombres.hidden = NO;
+        [UIView animateWithDuration:0.5 animations:^{
+            _tablaNombres.alpha = 1.f;
+        }];
+        [_mCollectionView setUserInteractionEnabled:NO];
+    }
+    
+    filtroNombresShowed = !filtroNombresShowed;
+}
+
+
 @end

@@ -10,10 +10,12 @@
 
 @interface MosaicoViewController : UIViewController <UICollectionViewDataSource,
                                     UICollectionViewDelegate,
-                                    UICollectionViewDelegateFlowLayout>
+                                    UICollectionViewDelegateFlowLayout,
+ UITableViewDataSource, UITableViewDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UICollectionView *mCollectionView;
+@property (weak, nonatomic) IBOutlet UITableView *tablaNombres;
 
 // Popup View
 @property (weak, nonatomic) IBOutlet UIView *popUpView;
@@ -25,5 +27,6 @@
 
 - (IBAction)cerrarPopUp:(id)sender;
 - (IBAction)mostrarDetalle:(id)sender;
+- (IBAction)mostrarFiltroNombres:(id)sender;
 
 @end
