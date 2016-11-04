@@ -143,7 +143,10 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
+    _personajeActual = persona;
+    [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
+    [self mostrarFiltroNombres:FALSE];
 }
 
 
