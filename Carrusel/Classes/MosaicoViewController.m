@@ -99,7 +99,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     
     Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
     [cell configurarCelda:persona.imagen];
-    [cell deseleccionarPersonaje];
     
     return cell;
 }
@@ -112,14 +111,13 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
         marcoNuevo.size = CGSizeMake(192, 258);
         [cell seleccionarPersonaje];
         [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
-        /*[UIView animateWithDuration:0.2 animations:^{
+        [UIView animateWithDuration:0.2 animations:^{
             cell.frame = marcoNuevo;
             [collectionView.collectionViewLayout invalidateLayout];
         } completion:^(BOOL finished) {
             selectedIndexPath = indexPath;
             [collectionView.collectionViewLayout invalidateLayout];
         }];
-        */
     }
 }
 
