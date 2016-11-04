@@ -20,7 +20,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 @implementation MosaicoViewController {
     CAGradientLayer* capaBandera;
-    NSMutableArray* personajesArray;
+    NSArray* personajesArray;
     NSIndexPath* selectedIndexPath;
     BOOL filtroNombresShowed;
 }
@@ -49,6 +49,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     UINib* nib = [UINib nibWithNibName:@"CVCPersonajeSimple" bundle:nil];
     [_mCollectionView registerNib:nib forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     
+    personajesArray = [NSArray array];
     [self configurarPersonajes];
     
     // Tabla de Nombres
@@ -77,7 +78,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void) configurarPersonajes {
-    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
+    /*NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
     NSData* datos = [NSData dataWithContentsOfFile:ruta];
     NSError* error;
     NSArray* personalities = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
@@ -86,13 +87,14 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     }
     
     Personaje* person;
-    personajesArray = [NSMutableArray array];
+    
     for (NSDictionary* dic in personalities) {
         person = [Personaje MR_createEntity];
         [person MR_importValuesForKeysWithObject:dic];
         [personajesArray addObject:person];
     }
-    
+    */
+    personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
     [_mCollectionView reloadData];
 }
 

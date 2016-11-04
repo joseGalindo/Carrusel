@@ -1,8 +1,8 @@
 //
 //  Personaje+CoreDataProperties.swift
-//  Carrusel
+//  Cuadros
 //
-//  Created by José Cruz Galindo Martínez on 01/11/16.
+//  Created by José Cruz Galindo Martínez on 04/11/16.
 //  Copyright © 2016 José Cruz Galindo Martínez. All rights reserved.
 //
 
@@ -24,6 +24,8 @@ extension Personaje {
     @NSManaged public var ordenCronologico: NSDate?
     @NSManaged public var posicion: Int32
     @NSManaged public var sid: Int32
+    @NSManaged public var epocaSid: String?
+    @NSManaged public var apellidos: String?
     @NSManaged public var cronologia: Cronologica?
 
 }

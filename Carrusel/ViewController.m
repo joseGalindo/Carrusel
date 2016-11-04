@@ -16,8 +16,8 @@
 
 @interface ViewController ()
 
-@property NSMutableArray<Cronologica*>* fechasArray;
-@property NSMutableArray<Personaje*>* personajesArray;
+@property NSArray<Cronologica*>* fechasArray;
+@property NSArray<Personaje*>* personajesArray;
 @property Personaje* personajeActual;
 
 @end
@@ -32,8 +32,8 @@
     
     [self prefersStatusBarHidden];
     
-    _fechasArray = [NSMutableArray array];
-    _personajesArray = [NSMutableArray array];
+    _fechasArray = [NSArray array];
+    _personajesArray = [NSArray array];
     [self configurarScrollFechas];
     [self configurarScrollPersonajes];
     
@@ -51,6 +51,11 @@
     _vistaMiniDetalle.layer.shadowOffset = CGSizeMake(5, 5);
     _vistaMiniDetalle.layer.shadowRadius = 5;
     _vistaMiniDetalle.layer.shadowOpacity = 0.5;
+    
+    _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
+    _cerrarBtn.layer.masksToBounds = YES;
+    _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    _cerrarBtn.layer.borderWidth = 2;
     
     posicionActual = 10;
     animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
@@ -81,7 +86,7 @@
 }
 
 -(void) configurarScrollFechas {
-    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
+    /*NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
     NSData* datos = [NSData dataWithContentsOfFile:ruta];
     NSError* error;
     NSArray* fechas = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
@@ -93,12 +98,14 @@
         cronos = [Cronologica MR_createEntity];
         [cronos MR_importValuesForKeysWithObject:dic];
         [_fechasArray addObject:cronos];
-    }
+    }*/
+    _fechasArray = [Cronologica MR_findAllSortedBy:@"fechaInicio" ascending:YES];
     
     [_tablaFechas reloadData];
 }
 
 -(void) configurarScrollPersonajes {
+    /*
     NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
     NSData* datos = [NSData dataWithContentsOfFile:ruta];
     NSError* error;
@@ -112,7 +119,8 @@
         person = [Personaje MR_createEntity];
         [person MR_importValuesForKeysWithObject:dic];
         [_personajesArray addObject:person];
-    }
+    }*/
+    _personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
     
     [_collectionPersonajes reloadData];
     NSIndexPath* indice = [NSIndexPath indexPathForRow:0 inSection:0];
@@ -167,6 +175,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     TVCFecha* cell = [tableView cellForRowAtIndexPath:indexPath];
+    Cronologica* cronSlctd = [_fechasArray objectAtIndex:indexPath.row];
+    NSPredicate* predicado = [NSPredicate predicateWithFormat:@"epocaSid like %@", cronSlctd.sid];
+    _personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES withPredicate:predicado];
+    [_collectionPersonajes reloadData];
     cell.fondo.backgroundColor = [UIColor darkGrayColor];
 }
 
@@ -239,6 +251,10 @@
         animarCarrusel = nil;
         NSLog(@"Switch Off");
     }
+}
+
+- (IBAction)cerrarVista:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

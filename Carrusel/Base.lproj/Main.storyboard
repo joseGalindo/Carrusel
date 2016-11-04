@@ -181,6 +181,20 @@
                                     <action selector="setSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="f2U-Ba-yB9"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttn-TN-Ju5">
+                                <rect key="frame" x="1256" y="140" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="6VL-8f-L4K"/>
+                                    <constraint firstAttribute="width" constant="80" id="Skd-x3-BeV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <state key="normal" title="Cerrar"/>
+                                <connections>
+                                    <action selector="cerrarPopUp:" destination="E0c-nJ-yJV" eventType="touchUpInside" id="1zL-r6-kt8"/>
+                                    <action selector="cerrarVista:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIG-fm-nB0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.39215686274509803" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -203,6 +217,8 @@
                             <constraint firstItem="JSF-am-uFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igL-md-H5x"/>
                             <constraint firstAttribute="trailing" secondItem="YDj-DO-6uo" secondAttribute="trailing" constant="30" id="mUM-dU-r8j"/>
                             <constraint firstItem="VNB-hl-OjD" firstAttribute="top" secondItem="M0j-c8-wwN" secondAttribute="bottom" constant="20" id="mfN-iY-O2i"/>
+                            <constraint firstItem="ttn-TN-Ju5" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="20" id="nB7-Kj-SCc"/>
+                            <constraint firstAttribute="trailing" secondItem="ttn-TN-Ju5" secondAttribute="trailing" constant="30" id="pyt-Xd-6Fy"/>
                             <constraint firstItem="Ai7-iR-yUS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qMP-zS-7oN"/>
                             <constraint firstItem="M0j-c8-wwN" firstAttribute="top" secondItem="JSF-am-uFq" secondAttribute="bottom" constant="50" id="vur-aq-p7T"/>
                             <constraint firstAttribute="trailing" secondItem="M0j-c8-wwN" secondAttribute="trailing" constant="60" id="y3x-aU-50b"/>
@@ -210,6 +226,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cerrarBtn" destination="ttn-TN-Ju5" id="xjG-K8-ijQ"/>
                         <outlet property="collectionPersonajes" destination="YDj-DO-6uo" id="6Vw-xB-kzu"/>
                         <outlet property="fechaBottomConstraint" destination="ZXh-N4-VaA" id="GBp-l2-6HH"/>
                         <outlet property="fechaPersonajeSelected" destination="c4W-VY-ehC" id="dbX-P1-n0J"/>

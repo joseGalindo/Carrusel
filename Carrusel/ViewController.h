@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIView *vistaMiniDetalle;
 @property (weak, nonatomic) IBOutlet UISwitch *switchAnimacion;
 @property (weak, nonatomic) IBOutlet UIImageView *fondo;
+@property (weak, nonatomic) IBOutlet UIButton *cerrarBtn;
 
 // Constraints
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *numeroBottomConstraint;
@@ -32,6 +33,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonajeSelected;
 
 - (IBAction)setSlide:(id)sender;
+- (IBAction)cerrarVista:(id)sender;
 
 @end
 
