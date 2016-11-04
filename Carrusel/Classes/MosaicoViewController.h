@@ -28,5 +28,6 @@
 - (IBAction)cerrarPopUp:(id)sender;
 - (IBAction)mostrarDetalle:(id)sender;
 - (IBAction)mostrarFiltroNombres:(id)sender;
+- (IBAction)mostrarFiltroFechas:(id)sender;
 
 @end

@@ -18,7 +18,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juanJoseGarza" translatesAutoresizingMaskIntoConstraints="NO" id="IFN-MD-Inn">
+                    <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juanJoseGarza" translatesAutoresizingMaskIntoConstraints="NO" id="IFN-MD-Inn">
                         <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
                     </imageView>
                 </subviews>

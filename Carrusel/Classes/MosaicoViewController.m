@@ -114,8 +114,13 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    DetalleViewController* controller = (DetalleViewController*)segue.destinationViewController;
-    controller.personaje = _personajeActual;
+    if ([segue.destinationViewController isKindOfClass:[DetalleViewController class]]) {
+        DetalleViewController* controller = (DetalleViewController*)segue.destinationViewController;
+        controller.personaje = _personajeActual;
+    } else {
+        // TODO: Mandar la fecha seleccionada
+    }
+    
 }
 
 #pragma mark - UITableView DataSource & Delegate
@@ -135,10 +140,12 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     celda.textLabel.font = [UIFont fontWithName:@"Trajan-Normal" size:25.f];
     celda.textLabel.text = persona.nombre;
     celda.textLabel.textColor = [UIColor whiteColor];
-    UIView* bg = [[UIView alloc] initWithFrame:celda.frame];
+    
+    celda.backgroundColor = [UIColor clearColor];
+    /*UIView* bg = [[UIView alloc] initWithFrame:celda.frame];
     bg.backgroundColor = [UIColor blackColor];
     bg.alpha = 0.5;
-    celda.backgroundView = bg;
+    celda.backgroundView = bg;*/
     return celda;
 }
 
@@ -174,7 +181,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
         CGRect marcoNuevo = cell.frame;
         marcoNuevo.size = CGSizeMake(192, 258);
         _popUpView.hidden = NO;
-        [UIView animateWithDuration:1 animations:^{
+        [UIView animateWithDuration:0.5 animations:^{
             _popUpView.alpha = 1;
         }];
         //[cell seleccionarPersonaje];
@@ -205,7 +212,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 #pragma mark - IBActions
 
 - (IBAction)cerrarPopUp:(id)sender {
-    [UIView animateWithDuration:1 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         _popUpView.alpha = 0;
     } completion:^(BOOL finished) {
         _popUpView.hidden = YES;
@@ -233,6 +240,10 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     }
     
     filtroNombresShowed = !filtroNombresShowed;
+}
+
+- (IBAction)mostrarFiltroFechas:(id)sender {
+    [self performSegueWithIdentifier:@"mostrarCarrusel" sender:self];
 }
 
 
