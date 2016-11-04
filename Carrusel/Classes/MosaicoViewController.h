@@ -13,7 +13,17 @@
                                     UICollectionViewDelegateFlowLayout>
 
 
-@property (weak, nonatomic) IBOutlet UIImageView *fondo;
 @property (weak, nonatomic) IBOutlet UICollectionView *mCollectionView;
+
+// Popup View
+@property (weak, nonatomic) IBOutlet UIView *popUpView;
+@property (weak, nonatomic) IBOutlet UIImageView *imagenPopUp;
+@property (weak, nonatomic) IBOutlet UILabel *nombrePopUp;
+@property (weak, nonatomic) IBOutlet UIButton *cerrarBorderBtn;
+@property (weak, nonatomic) IBOutlet UIView *vistaBioContainer;
+
+
+- (IBAction)cerrarPopUp:(id)sender;
+- (IBAction)mostrarDetalle:(id)sender;
 
 @end
