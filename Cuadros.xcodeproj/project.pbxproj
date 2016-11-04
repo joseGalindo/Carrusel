@@ -625,12 +625,12 @@
 		E958E1491DC10FE9008656A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E958E1271DC10E98008656A8 /* ViewController.h */,
-				E958E1281DC10E98008656A8 /* ViewController.m */,
 				E958E15C1DC166AC008656A8 /* DetalleViewController.h */,
 				E958E15D1DC166AC008656A8 /* DetalleViewController.m */,
 				E966FAA91DC9585400E0A6F6 /* MosaicoViewController.h */,
 				E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */,
+				E958E1271DC10E98008656A8 /* ViewController.h */,
+				E958E1281DC10E98008656A8 /* ViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

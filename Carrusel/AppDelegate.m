@@ -84,9 +84,9 @@
     
     [MagicalRecord saveWithBlock:^(NSManagedObjectContext * _Nonnull localContext) {
         [Cronologica MR_importFromArray:fechas inContext:localContext];
-        /*NSArray*arry=*/[Personaje MR_importFromArray:personalities inContext:localContext];
+        [Personaje MR_importFromArray:personalities inContext:localContext];
     } completion:^(BOOL contextDidSave, NSError * _Nullable error) {
-        
+        // Crear una notificacion para la carga por primera vez
     }];
     
     

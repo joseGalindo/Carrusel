@@ -50,7 +50,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     [_mCollectionView registerNib:nib forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     
     personajesArray = [NSArray array];
-    [self configurarPersonajes];
     
     // Tabla de Nombres
     _tablaNombres.dataSource = self;
@@ -75,6 +74,10 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [self configurarPersonajes];
 }
 
 -(void) configurarPersonajes {
