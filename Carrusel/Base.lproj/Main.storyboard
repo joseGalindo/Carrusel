@@ -39,7 +39,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="120"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="segobBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="Egn-DS-thi">
-                                        <rect key="frame" x="10" y="10" width="290" height="100"/>
+                                        <rect key="frame" x="20" y="10" width="290" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="9iJ-Lk-AXW"/>
                                             <constraint firstAttribute="width" constant="290" id="gAc-4G-Ozn"/>
@@ -57,9 +57,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="kmI-xI-GCo" firstAttribute="leading" secondItem="Egn-DS-thi" secondAttribute="trailing" constant="30" id="0Wi-Y4-ajw"/>
+                                    <constraint firstItem="kmI-xI-GCo" firstAttribute="leading" secondItem="Egn-DS-thi" secondAttribute="trailing" constant="20" id="0Wi-Y4-ajw"/>
                                     <constraint firstAttribute="trailing" secondItem="kmI-xI-GCo" secondAttribute="trailing" constant="20" id="3f9-o0-pPg"/>
-                                    <constraint firstItem="Egn-DS-thi" firstAttribute="leading" secondItem="JSF-am-uFq" secondAttribute="leading" constant="10" id="JKu-nm-UHs"/>
+                                    <constraint firstItem="Egn-DS-thi" firstAttribute="leading" secondItem="JSF-am-uFq" secondAttribute="leading" constant="20" id="JKu-nm-UHs"/>
                                     <constraint firstItem="Egn-DS-thi" firstAttribute="centerY" secondItem="JSF-am-uFq" secondAttribute="centerY" id="m6d-od-rmq"/>
                                     <constraint firstItem="kmI-xI-GCo" firstAttribute="centerY" secondItem="JSF-am-uFq" secondAttribute="centerY" id="mdA-yN-K2Y"/>
                                     <constraint firstAttribute="height" constant="120" id="rof-nk-d6L"/>
@@ -93,7 +93,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plutarco Elías Bocanegra" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smG-QN-aeV">
-                                        <rect key="frame" x="210" y="357" width="250" height="82"/>
+                                        <rect key="frame" x="210" y="334" width="250" height="105"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="2V0-sA-w56"/>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="qaR-Wc-tsW"/>
@@ -263,7 +263,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="120"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-0N-j1U">
-                                        <rect key="frame" x="340" y="25" width="1006" height="70"/>
+                                        <rect key="frame" x="330" y="25" width="1016" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="i0M-5r-pss"/>
                                         </constraints>
@@ -281,7 +281,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="0NE-0N-j1U" firstAttribute="leading" secondItem="EAH-fk-yB6" secondAttribute="trailing" constant="30" id="3nk-XM-YTf"/>
+                                    <constraint firstItem="0NE-0N-j1U" firstAttribute="leading" secondItem="EAH-fk-yB6" secondAttribute="trailing" constant="20" id="3nk-XM-YTf"/>
                                     <constraint firstAttribute="height" constant="120" id="D07-DA-EVF"/>
                                     <constraint firstItem="EAH-fk-yB6" firstAttribute="centerY" secondItem="z4u-JW-Ke8" secondAttribute="centerY" id="LKh-4R-ddC"/>
                                     <constraint firstAttribute="trailing" secondItem="0NE-0N-j1U" secondAttribute="trailing" constant="20" id="YSt-9I-nSd"/>
@@ -438,7 +438,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melchor Ocampo y mota de nombre largo" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIw-Qi-3uw">
-                                                <rect key="frame" x="20" y="192.5" width="500" height="116.5"/>
+                                                <rect key="frame" x="20" y="175" width="500" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="QMJ-Bo-AJI"/>
                                                 </constraints>
@@ -611,7 +611,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="120"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministros y Secretarios de Gobernación" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMn-nf-sjG">
-                                        <rect key="frame" x="340" y="25" width="1006" height="70"/>
+                                        <rect key="frame" x="330" y="25" width="1016" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="OkI-5L-mAq"/>
                                         </constraints>
@@ -634,7 +634,7 @@
                                     <constraint firstItem="D8p-TF-3k7" firstAttribute="centerY" secondItem="pXa-OW-V7S" secondAttribute="centerY" id="d5h-7d-Db8"/>
                                     <constraint firstItem="D8p-TF-3k7" firstAttribute="leading" secondItem="pXa-OW-V7S" secondAttribute="leading" constant="20" id="f8m-6O-5Ec"/>
                                     <constraint firstItem="cMn-nf-sjG" firstAttribute="centerY" secondItem="pXa-OW-V7S" secondAttribute="centerY" id="hFy-bl-rIQ"/>
-                                    <constraint firstItem="cMn-nf-sjG" firstAttribute="leading" secondItem="D8p-TF-3k7" secondAttribute="trailing" constant="30" id="yXG-ve-hpO"/>
+                                    <constraint firstItem="cMn-nf-sjG" firstAttribute="leading" secondItem="D8p-TF-3k7" secondAttribute="trailing" constant="20" id="yXG-ve-hpO"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lr-df-8FO">
