@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CVCPersonajeSimple">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juanJoseGarza" translatesAutoresizingMaskIntoConstraints="NO" id="IFN-MD-Inn">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="170"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="IFN-MD-Inn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="97v-gs-MBm"/>
+                <constraint firstAttribute="bottom" secondItem="IFN-MD-Inn" secondAttribute="bottom" id="DJD-IV-F4I"/>
+                <constraint firstItem="IFN-MD-Inn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VcO-XD-qkB"/>
+                <constraint firstAttribute="trailing" secondItem="IFN-MD-Inn" secondAttribute="trailing" id="bPi-Re-aoH"/>
+            </constraints>
+            <connections>
+                <outlet property="imagenPersonaje" destination="IFN-MD-Inn" id="UaC-Q5-KZ7"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="juanJoseGarza" width="200" height="297"/>
+    </resources>
+</document>

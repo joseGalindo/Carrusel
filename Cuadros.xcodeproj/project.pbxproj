@@ -1,0 +1,1248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6163243CD2C9F8AC10CCD2 /* Pods_Carrusel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */; };
+		E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */; };
+		E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */; };
+		E93ABA9E1DCCEFD200253828 /* ACaslonPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA981DCCEFD200253828 /* ACaslonPro-Bold.otf */; };
+		E93ABA9F1DCCEFD200253828 /* ACaslonPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA991DCCEFD200253828 /* ACaslonPro-BoldItalic.otf */; };
+		E93ABAA01DCCEFD200253828 /* ACaslonPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA9A1DCCEFD200253828 /* ACaslonPro-Italic.otf */; };
+		E93ABAA11DCCEFD200253828 /* ACaslonPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA9B1DCCEFD200253828 /* ACaslonPro-Regular.otf */; };
+		E93ABAA21DCCEFD200253828 /* ACaslonPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA9C1DCCEFD200253828 /* ACaslonPro-Semibold.otf */; };
+		E93ABAA31DCCEFD200253828 /* ACaslonPro-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93ABA9D1DCCEFD200253828 /* ACaslonPro-SemiboldItalic.otf */; };
+		E93ABAAC1DCCF90F00253828 /* carlos_abascal.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA41DCCF90F00253828 /* carlos_abascal.txt */; };
+		E93ABAAD1DCCF90F00253828 /* diodoro_carrasco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA51DCCF90F00253828 /* diodoro_carrasco.txt */; };
+		E93ABAAE1DCCF90F00253828 /* emilio_chuayffet.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA61DCCF90F00253828 /* emilio_chuayffet.txt */; };
+		E93ABAAF1DCCF90F00253828 /* esteban_moctezuma.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA71DCCF90F00253828 /* esteban_moctezuma.txt */; };
+		E93ABAB01DCCF90F00253828 /* francisco_labastida.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA81DCCF90F00253828 /* francisco_labastida.txt */; };
+		E93ABAB11DCCF90F00253828 /* francisco_ramirez_acuna.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAA91DCCF90F00253828 /* francisco_ramirez_acuna.txt */; };
+		E93ABAB21DCCF90F00253828 /* juan_camilo_mourino.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAAA1DCCF90F00253828 /* juan_camilo_mourino.txt */; };
+		E93ABAB31DCCF90F00253828 /* santiago_creel.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93ABAAB1DCCF90F00253828 /* santiago_creel.txt */; };
+		E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */; };
+		E93FED841DC2788700F87108 /* Personaje+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */; };
+		E93FED861DC278A000F87108 /* Cronologica+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED851DC278A000F87108 /* Cronologica+CoreDataClass.swift */; };
+		E93FED881DC278D900F87108 /* Personaje+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED871DC278D900F87108 /* Personaje+CoreDataClass.swift */; };
+		E93FED8B1DC2A28100F87108 /* lazaro_cardenas.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED8A1DC2A28100F87108 /* lazaro_cardenas.txt */; };
+		E93FED8F1DC2BF2F00F87108 /* jose_manuel_herrera.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED8E1DC2BF2F00F87108 /* jose_manuel_herrera.txt */; };
+		E93FED911DC2C08900F87108 /* jose_cecilio_valle.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED901DC2C08900F87108 /* jose_cecilio_valle.txt */; };
+		E93FED9B1DC2C68F00F87108 /* agustin_viesca_montes.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED921DC2C68F00F87108 /* agustin_viesca_montes.txt */; };
+		E93FED9C1DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED931DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt */; };
+		E93FED9D1DC2C68F00F87108 /* jose_maria_bocanegra.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED941DC2C68F00F87108 /* jose_maria_bocanegra.txt */; };
+		E93FED9E1DC2C68F00F87108 /* juan_dios_canedo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED951DC2C68F00F87108 /* juan_dios_canedo.txt */; };
+		E93FED9F1DC2C68F00F87108 /* lucas_alaman.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED961DC2C68F00F87108 /* lucas_alaman.txt */; };
+		E93FEDA01DC2C68F00F87108 /* manuel_gomez_pedraza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED971DC2C68F00F87108 /* manuel_gomez_pedraza.txt */; };
+		E93FEDA11DC2C68F00F87108 /* manuel_ortiz_torre.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED981DC2C68F00F87108 /* manuel_ortiz_torre.txt */; };
+		E93FEDA21DC2C68F00F87108 /* pablo_llave.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED991DC2C68F00F87108 /* pablo_llave.txt */; };
+		E93FEDA31DC2C68F00F87108 /* sebastian_garcia_camacho.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FED9A1DC2C68F00F87108 /* sebastian_garcia_camacho.txt */; };
+		E93FEDAF1DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA41DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt */; };
+		E93FEDB01DC2C9A300F87108 /* carlos_garcia_bocanegra.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA51DC2C9A300F87108 /* carlos_garcia_bocanegra.txt */; };
+		E93FEDB11DC2C9A300F87108 /* francisco_fagoaga.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA61DC2C9A300F87108 /* francisco_fagoaga.txt */; };
+		E93FEDB21DC2C9A300F87108 /* francisco_maria_lombardo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA71DC2C9A300F87108 /* francisco_maria_lombardo.txt */; };
+		E93FEDB31DC2C9A300F87108 /* jose_antonio_romero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA81DC2C9A300F87108 /* jose_antonio_romero.txt */; };
+		E93FEDB41DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDA91DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt */; };
+		E93FEDB51DC2C9A300F87108 /* jose_maria_guitierrez_estrada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDAA1DC2C9A300F87108 /* jose_maria_guitierrez_estrada.txt */; };
+		E93FEDB61DC2C9A300F87108 /* juan_rodriguez_puebla.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDAB1DC2C9A300F87108 /* juan_rodriguez_puebla.txt */; };
+		E93FEDB71DC2C9A300F87108 /* luis_gonzaga_cuevas.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDAC1DC2C9A300F87108 /* luis_gonzaga_cuevas.txt */; };
+		E93FEDB81DC2C9A300F87108 /* manuel_diez_bonilla.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDAD1DC2C9A300F87108 /* manuel_diez_bonilla.txt */; };
+		E93FEDB91DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E93FEDAE1DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt */; };
+		E958E1231DC10E98008656A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1221DC10E98008656A8 /* main.m */; };
+		E958E1261DC10E98008656A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1251DC10E98008656A8 /* AppDelegate.m */; };
+		E958E1291DC10E98008656A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1281DC10E98008656A8 /* ViewController.m */; };
+		E958E12C1DC10E98008656A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E958E12A1DC10E98008656A8 /* Main.storyboard */; };
+		E958E12F1DC10E98008656A8 /* Carrusel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E958E12D1DC10E98008656A8 /* Carrusel.xcdatamodeld */; };
+		E958E1311DC10E98008656A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E958E1301DC10E98008656A8 /* Assets.xcassets */; };
+		E958E1341DC10E98008656A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E958E1321DC10E98008656A8 /* LaunchScreen.storyboard */; };
+		E958E13F1DC10E98008656A8 /* CarruselUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E13E1DC10E98008656A8 /* CarruselUITests.m */; };
+		E958E14D1DC11214008656A8 /* HeaderFecha.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E14C1DC11214008656A8 /* HeaderFecha.m */; };
+		E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E14E1DC1122C008656A8 /* HeaderFecha.xib */; };
+		E958E1521DC118AE008656A8 /* Fechas.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1511DC118AE008656A8 /* Fechas.json */; };
+		E958E1591DC12CDE008656A8 /* Personajes.json in Resources */ = {isa = PBXBuildFile; fileRef = E958E1581DC12CDE008656A8 /* Personajes.json */; };
+		E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E15D1DC166AC008656A8 /* DetalleViewController.m */; };
+		E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1611DC16BBA008656A8 /* TVCFecha.m */; };
+		E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1621DC16BBA008656A8 /* TVCFecha.xib */; };
+		E958E1691DC17593008656A8 /* CVCPersonaje.m in Sources */ = {isa = PBXBuildFile; fileRef = E958E1671DC17593008656A8 /* CVCPersonaje.m */; };
+		E958E16A1DC17593008656A8 /* CVCPersonaje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E958E1681DC17593008656A8 /* CVCPersonaje.xib */; };
+		E966FAA71DC9481900E0A6F6 /* TrajanProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E966FAA51DC9481900E0A6F6 /* TrajanProRegular.ttf */; };
+		E966FAA81DC9481900E0A6F6 /* trajan_normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E966FAA61DC9481900E0A6F6 /* trajan_normal.ttf */; };
+		E966FAAB1DC9585400E0A6F6 /* MosaicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */; };
+		E9DD94331DC3CC3400AF3A7F /* adalberto_tejeda.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD941B1DC3CC3400AF3A7F /* adalberto_tejeda.txt */; };
+		E9DD94341DC3CC3400AF3A7F /* antonio_corona.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD941C1DC3CC3400AF3A7F /* antonio_corona.txt */; };
+		E9DD94351DC3CC3400AF3A7F /* emilio_portes_gil.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD941D1DC3CC3400AF3A7F /* emilio_portes_gil.txt */; };
+		E9DD94361DC3CC3400AF3A7F /* francisco_zarco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD941E1DC3CC3400AF3A7F /* francisco_zarco.txt */; };
+		E9DD94371DC3CC3400AF3A7F /* ignacio_l_vallarta.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD941F1DC3CC3400AF3A7F /* ignacio_l_vallarta.txt */; };
+		E9DD94381DC3CC3400AF3A7F /* isidro_diaz.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94201DC3CC3400AF3A7F /* isidro_diaz.txt */; };
+		E9DD94391DC3CC3400AF3A7F /* jose_emparan.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94211DC3CC3400AF3A7F /* jose_emparan.txt */; };
+		E9DD943A1DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94221DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt */; };
+		E9DD943B1DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94231DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt */; };
+		E9DD943C1DC3CC3400AF3A7F /* jose_maria_esteva.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94241DC3CC3400AF3A7F /* jose_maria_esteva.txt */; };
+		E9DD943D1DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94251DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt */; };
+		E9DD943E1DC3CC3400AF3A7F /* jose_maria_iglesias.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94261DC3CC3400AF3A7F /* jose_maria_iglesias.txt */; };
+		E9DD943F1DC3CC3400AF3A7F /* juan_jose_garza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94271DC3CC3400AF3A7F /* juan_jose_garza.txt */; };
+		E9DD94401DC3CC3400AF3A7F /* leon_guzman.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94281DC3CC3400AF3A7F /* leon_guzman.txt */; };
+		E9DD94411DC3CC3400AF3A7F /* manuel_doblado.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94291DC3CC3400AF3A7F /* manuel_doblado.txt */; };
+		E9DD94421DC3CC3400AF3A7F /* manuel_maria_zamacona.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942A1DC3CC3400AF3A7F /* manuel_maria_zamacona.txt */; };
+		E9DD94431DC3CC3400AF3A7F /* manuel_ruiz.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942B1DC3CC3400AF3A7F /* manuel_ruiz.txt */; };
+		E9DD94441DC3CC3400AF3A7F /* manuel_saavedra.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942C1DC3CC3400AF3A7F /* manuel_saavedra.txt */; };
+		E9DD94451DC3CC3400AF3A7F /* manuel_siliceo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942D1DC3CC3400AF3A7F /* manuel_siliceo.txt */; };
+		E9DD94461DC3CC3400AF3A7F /* melchor_ocampo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942E1DC3CC3400AF3A7F /* melchor_ocampo.txt */; };
+		E9DD94471DC3CC3400AF3A7F /* pedro_ogazon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD942F1DC3CC3400AF3A7F /* pedro_ogazon.txt */; };
+		E9DD94481DC3CC3400AF3A7F /* santos_degollado.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94301DC3CC3400AF3A7F /* santos_degollado.txt */; };
+		E9DD94491DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94311DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt */; };
+		E9DD944A1DC3CC3400AF3A7F /* teofilo_marin.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94321DC3CC3400AF3A7F /* teofilo_marin.txt */; };
+		E9DD94531DC3D29700AF3A7F /* carlos_riva_palacio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD944B1DC3D29700AF3A7F /* carlos_riva_palacio.txt */; };
+		E9DD94541DC3D29700AF3A7F /* eduardo_vasconcelos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD944C1DC3D29700AF3A7F /* eduardo_vasconcelos.txt */; };
+		E9DD94551DC3D29700AF3A7F /* felipe_canales_salinas.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD944D1DC3D29700AF3A7F /* felipe_canales_salinas.txt */; };
+		E9DD94561DC3D29700AF3A7F /* jorge_carpizo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD944E1DC3D29700AF3A7F /* jorge_carpizo.txt */; };
+		E9DD94571DC3D29700AF3A7F /* juan_jose_rios.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD944F1DC3D29700AF3A7F /* juan_jose_rios.txt */; };
+		E9DD94581DC3D29700AF3A7F /* lazaro_cardenaz.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94501DC3D29700AF3A7F /* lazaro_cardenaz.txt */; };
+		E9DD94591DC3D29700AF3A7F /* manuel_tellez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94511DC3D29700AF3A7F /* manuel_tellez.txt */; };
+		E9DD945A1DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94521DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt */; };
+		E9DD947F1DC402FB00AF3A7F /* abraham_gonzalez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */; };
+		E9DD94801DC402FB00AF3A7F /* alberto_garcia_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */; };
+		E9DD94811DC402FB00AF3A7F /* aureliano_urrutia.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */; };
+		E9DD94821DC402FB00AF3A7F /* benito_juarez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */; };
+		E9DD94831DC402FB00AF3A7F /* carlos_diez_gutierrez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */; };
+		E9DD94841DC402FB00AF3A7F /* eduardo_g_pankhurst.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */; };
+		E9DD94851DC402FB00AF3A7F /* emilio_vazquez_gomez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */; };
+		E9DD94861DC402FB00AF3A7F /* enrique_colunga.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */; };
+		E9DD94871DC402FB00AF3A7F /* felipe_berriozabal.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */; };
+		E9DD94881DC402FB00AF3A7F /* gilberto_valenzuela.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */; };
+		E9DD94891DC402FB00AF3A7F /* hilario_elguero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */; };
+		E9DD948A1DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */; };
+		E9DD948B1DC402FB00AF3A7F /* ignacio_llave.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */; };
+		E9DD948C1DC402FB00AF3A7F /* jesus_acuna.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */; };
+		E9DD948D1DC402FB00AF3A7F /* jesus_flores_magon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */; };
+		E9DD948E1DC402FB00AF3A7F /* jesus_teran_peredo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */; };
+		E9DD948F1DC402FB00AF3A7F /* jose_inocente_lugo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */; };
+		E9DD94901DC402FB00AF3A7F /* jose_quevedo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */; };
+		E9DD94911DC402FB00AF3A7F /* jose_urbano_fonseca.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */; };
+		E9DD94921DC402FB00AF3A7F /* juan_antonio_fuente.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */; };
+		E9DD94931DC402FB00AF3A7F /* juan_jose_baz_palafox.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */; };
+		E9DD94941DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */; };
+		E9DD94951DC402FB00AF3A7F /* lucio_blanco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */; };
+		E9DD94961DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */; };
+		E9DD94971DC402FB00AF3A7F /* manuel_garza_aldape.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */; };
+		E9DD94981DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */; };
+		E9DD94991DC402FB00AF3A7F /* manuel_romero_rubio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */; };
+		E9DD949A1DC402FB00AF3A7F /* mariano_macedo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */; };
+		E9DD949B1DC402FB00AF3A7F /* mariano_yanez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */; };
+		E9DD949C1DC402FB00AF3A7F /* plutarco_elias_calles.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */; };
+		E9DD949D1DC402FB00AF3A7F /* protasio_tagle.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */; };
+		E9DD949E1DC402FB00AF3A7F /* rafael_hernandez_madero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */; };
+		E9DD949F1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */; };
+		E9DD94A01DC402FB00AF3A7F /* ramon_corral.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */; };
+		E9DD94A11DC402FB00AF3A7F /* trinidad_garcia_cadena.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */; };
+		E9DD94A21DC402FB00AF3A7F /* victoriano_huerta.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */; };
+		E9DD94AC1DC4142300AF3A7F /* adolfo_ruiz_cortines.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A31DC4142300AF3A7F /* adolfo_ruiz_cortines.txt */; };
+		E9DD94AD1DC4142300AF3A7F /* hector_perez_martinez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A41DC4142300AF3A7F /* hector_perez_martinez.txt */; };
+		E9DD94AE1DC4142300AF3A7F /* ignacio_garcia_tellez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A51DC4142300AF3A7F /* ignacio_garcia_tellez.txt */; };
+		E9DD94AF1DC4142300AF3A7F /* juan_dios_bojorquez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A61DC4142300AF3A7F /* juan_dios_bojorquez.txt */; };
+		E9DD94B01DC4142300AF3A7F /* miguel_aleman_valdes.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A71DC4142300AF3A7F /* miguel_aleman_valdes.txt */; };
+		E9DD94B11DC4142300AF3A7F /* narciso_bassols.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A81DC4142300AF3A7F /* narciso_bassols.txt */; };
+		E9DD94B21DC4142300AF3A7F /* primo_villa_michel.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94A91DC4142300AF3A7F /* primo_villa_michel.txt */; };
+		E9DD94B31DC4142300AF3A7F /* silvano_barba_gonzalez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94AA1DC4142300AF3A7F /* silvano_barba_gonzalez.txt */; };
+		E9DD94B41DC4142300AF3A7F /* silvestre_guerrero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94AB1DC4142300AF3A7F /* silvestre_guerrero.txt */; };
+		E9DD94B81DC41C7500AF3A7F /* enrique_olivares_santana.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */; };
+		E9DD94B91DC41C7500AF3A7F /* jesus_reyes_heroles.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */; };
+		E9DD94BA1DC41C7500AF3A7F /* manuel_bartlett.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */; };
+		E9DD94BC1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */; };
+		E9DD94C11DC42EF400AF3A7F /* angel_carvajal_bernal.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94BD1DC42EF400AF3A7F /* angel_carvajal_bernal.txt */; };
+		E9DD94C21DC42EF400AF3A7F /* gustavo_diaz_ordaz.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94BE1DC42EF400AF3A7F /* gustavo_diaz_ordaz.txt */; };
+		E9DD94C31DC42EF400AF3A7F /* luis_echeverria.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94BF1DC42EF400AF3A7F /* luis_echeverria.txt */; };
+		E9DD94C41DC42EF400AF3A7F /* mario_moya_palencia.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9DD94C01DC42EF400AF3A7F /* mario_moya_palencia.txt */; };
+		E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */; };
+		E9F82D191DC3B4B000991A47 /* domingo_ibarra_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */; };
+		E9F82D1A1DC3B4B100991A47 /* ignacio_rayon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */; };
+		E9F82D1B1DC3B4B100991A47 /* joaquin_iturbide.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D091DC3B4B000991A47 /* joaquin_iturbide.txt */; };
+		E9F82D1C1DC3B4B100991A47 /* joaquin_maria_castillo_lanza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0A1DC3B4B000991A47 /* joaquin_maria_castillo_lanza.txt */; };
+		E9F82D1D1DC3B4B100991A47 /* jose_fernando_ramirez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0B1DC3B4B000991A47 /* jose_fernando_ramirez.txt */; };
+		E9F82D1E1DC3B4B100991A47 /* jose_maria_chico.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0C1DC3B4B000991A47 /* jose_maria_chico.txt */; };
+		E9F82D1F1DC3B4B100991A47 /* jose_maria_jimenez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0D1DC3B4B000991A47 /* jose_maria_jimenez.txt */; };
+		E9F82D201DC3B4B100991A47 /* jose_maria_lacunza_blengio.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0E1DC3B4B000991A47 /* jose_maria_lacunza_blengio.txt */; };
+		E9F82D211DC3B4B100991A47 /* jose_maria_lafragua.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D0F1DC3B4B000991A47 /* jose_maria_lafragua.txt */; };
+		E9F82D221DC3B4B100991A47 /* jose_mariano_marin.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D101DC3B4B000991A47 /* jose_mariano_marin.txt */; };
+		E9F82D231DC3B4B100991A47 /* jose_ramon_pacheco.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D111DC3B4B000991A47 /* jose_ramon_pacheco.txt */; };
+		E9F82D241DC3B4B100991A47 /* luis_rosa_oteiza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D121DC3B4B000991A47 /* luis_rosa_oteiza.txt */; };
+		E9F82D251DC3B4B100991A47 /* manuel_baranda.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D131DC3B4B000991A47 /* manuel_baranda.txt */; };
+		E9F82D261DC3B4B100991A47 /* manuel_crecencio_rejon.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D141DC3B4B000991A47 /* manuel_crecencio_rejon.txt */; };
+		E9F82D271DC3B4B100991A47 /* manuel_pena_pena.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D151DC3B4B000991A47 /* manuel_pena_pena.txt */; };
+		E9F82D281DC3B4B100991A47 /* mariano_otero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D161DC3B4B000991A47 /* mariano_otero.txt */; };
+		E9F82D291DC3B4B100991A47 /* remigio_yarza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F82D171DC3B4B000991A47 /* remigio_yarza.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E958E13B1DC10E98008656A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E958E1161DC10E98008656A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E958E11D1DC10E98008656A8;
+			remoteInfo = Carrusel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrusel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.debug.xcconfig"; sourceTree = "<group>"; };
+		E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.release.xcconfig"; sourceTree = "<group>"; };
+		E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonajeSimple.h; path = CVCells/CVCPersonajeSimple.h; sourceTree = "<group>"; };
+		E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonajeSimple.m; path = CVCells/CVCPersonajeSimple.m; sourceTree = "<group>"; };
+		E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCPersonajeSimple.xib; path = CVCells/CVCPersonajeSimple.xib; sourceTree = "<group>"; };
+		E93ABA981DCCEFD200253828 /* ACaslonPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-Bold.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-Bold.otf"; sourceTree = "<group>"; };
+		E93ABA991DCCEFD200253828 /* ACaslonPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-BoldItalic.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		E93ABA9A1DCCEFD200253828 /* ACaslonPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-Italic.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-Italic.otf"; sourceTree = "<group>"; };
+		E93ABA9B1DCCEFD200253828 /* ACaslonPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-Regular.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-Regular.otf"; sourceTree = "<group>"; };
+		E93ABA9C1DCCEFD200253828 /* ACaslonPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-Semibold.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-Semibold.otf"; sourceTree = "<group>"; };
+		E93ABA9D1DCCEFD200253828 /* ACaslonPro-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-SemiboldItalic.otf"; path = "../../../../../Desktop/MINIS_SEC_GOB_16/Fonts/ACaslonPro-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		E93ABAA41DCCF90F00253828 /* carlos_abascal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = carlos_abascal.txt; path = ../../../../../Desktop/Jsons/Secretarios/carlos_abascal.txt; sourceTree = "<group>"; };
+		E93ABAA51DCCF90F00253828 /* diodoro_carrasco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = diodoro_carrasco.txt; path = ../../../../../Desktop/Jsons/Secretarios/diodoro_carrasco.txt; sourceTree = "<group>"; };
+		E93ABAA61DCCF90F00253828 /* emilio_chuayffet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = emilio_chuayffet.txt; path = ../../../../../Desktop/Jsons/Secretarios/emilio_chuayffet.txt; sourceTree = "<group>"; };
+		E93ABAA71DCCF90F00253828 /* esteban_moctezuma.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = esteban_moctezuma.txt; path = ../../../../../Desktop/Jsons/Secretarios/esteban_moctezuma.txt; sourceTree = "<group>"; };
+		E93ABAA81DCCF90F00253828 /* francisco_labastida.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = francisco_labastida.txt; path = ../../../../../Desktop/Jsons/Secretarios/francisco_labastida.txt; sourceTree = "<group>"; };
+		E93ABAA91DCCF90F00253828 /* francisco_ramirez_acuna.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = francisco_ramirez_acuna.txt; path = ../../../../../Desktop/Jsons/Secretarios/francisco_ramirez_acuna.txt; sourceTree = "<group>"; };
+		E93ABAAA1DCCF90F00253828 /* juan_camilo_mourino.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_camilo_mourino.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_camilo_mourino.txt; sourceTree = "<group>"; };
+		E93ABAAB1DCCF90F00253828 /* santiago_creel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = santiago_creel.txt; path = ../../../../../Desktop/Jsons/Secretarios/santiago_creel.txt; sourceTree = "<group>"; };
+		E93FED801DC2788600F87108 /* Carrusel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carrusel-Bridging-Header.h"; sourceTree = "<group>"; };
+		E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Cronologica+CoreDataProperties.swift"; path = "Model/Cronologica+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Personaje+CoreDataProperties.swift"; path = "Model/Personaje+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E93FED851DC278A000F87108 /* Cronologica+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Cronologica+CoreDataClass.swift"; path = "Model/Cronologica+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E93FED871DC278D900F87108 /* Personaje+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Personaje+CoreDataClass.swift"; path = "Model/Personaje+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E93FED8A1DC2A28100F87108 /* lazaro_cardenas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lazaro_cardenas.txt; path = ../../../../../Desktop/Jsons/lazaro_cardenas.txt; sourceTree = "<group>"; };
+		E93FED8E1DC2BF2F00F87108 /* jose_manuel_herrera.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_manuel_herrera.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_manuel_herrera.txt; sourceTree = "<group>"; };
+		E93FED901DC2C08900F87108 /* jose_cecilio_valle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_cecilio_valle.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_cecilio_valle.txt; sourceTree = "<group>"; };
+		E93FED921DC2C68F00F87108 /* agustin_viesca_montes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_viesca_montes.txt; path = ../../../../../Desktop/Jsons/Secretarios/agustin_viesca_montes.txt; sourceTree = "<group>"; };
+		E93FED931DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_ignacio_garcia_illueca.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_ignacio_garcia_illueca.txt; sourceTree = "<group>"; };
+		E93FED941DC2C68F00F87108 /* jose_maria_bocanegra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_bocanegra.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_bocanegra.txt; sourceTree = "<group>"; };
+		E93FED951DC2C68F00F87108 /* juan_dios_canedo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_dios_canedo.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_dios_canedo.txt; sourceTree = "<group>"; };
+		E93FED961DC2C68F00F87108 /* lucas_alaman.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lucas_alaman.txt; path = ../../../../../Desktop/Jsons/Secretarios/lucas_alaman.txt; sourceTree = "<group>"; };
+		E93FED971DC2C68F00F87108 /* manuel_gomez_pedraza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_gomez_pedraza.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_gomez_pedraza.txt; sourceTree = "<group>"; };
+		E93FED981DC2C68F00F87108 /* manuel_ortiz_torre.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_ortiz_torre.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_ortiz_torre.txt; sourceTree = "<group>"; };
+		E93FED991DC2C68F00F87108 /* pablo_llave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pablo_llave.txt; path = ../../../../../Desktop/Jsons/Secretarios/pablo_llave.txt; sourceTree = "<group>"; };
+		E93FED9A1DC2C68F00F87108 /* sebastian_garcia_camacho.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sebastian_garcia_camacho.txt; path = ../../../../../Desktop/Jsons/Secretarios/sebastian_garcia_camacho.txt; sourceTree = "<group>"; };
+		E93FEDA41DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bernardo_gonzalez_perez_angulo.txt; path = ../../../../../Desktop/Jsons/Secretarios/bernardo_gonzalez_perez_angulo.txt; sourceTree = "<group>"; };
+		E93FEDA51DC2C9A300F87108 /* carlos_garcia_bocanegra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = carlos_garcia_bocanegra.txt; path = ../../../../../Desktop/Jsons/Secretarios/carlos_garcia_bocanegra.txt; sourceTree = "<group>"; };
+		E93FEDA61DC2C9A300F87108 /* francisco_fagoaga.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = francisco_fagoaga.txt; path = ../../../../../Desktop/Jsons/Secretarios/francisco_fagoaga.txt; sourceTree = "<group>"; };
+		E93FEDA71DC2C9A300F87108 /* francisco_maria_lombardo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = francisco_maria_lombardo.txt; path = ../../../../../Desktop/Jsons/Secretarios/francisco_maria_lombardo.txt; sourceTree = "<group>"; };
+		E93FEDA81DC2C9A300F87108 /* jose_antonio_romero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_antonio_romero.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_antonio_romero.txt; sourceTree = "<group>"; };
+		E93FEDA91DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_joaquin_pesado_perez.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_joaquin_pesado_perez.txt; sourceTree = "<group>"; };
+		E93FEDAA1DC2C9A300F87108 /* jose_maria_guitierrez_estrada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_guitierrez_estrada.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_guitierrez_estrada.txt; sourceTree = "<group>"; };
+		E93FEDAB1DC2C9A300F87108 /* juan_rodriguez_puebla.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_rodriguez_puebla.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_rodriguez_puebla.txt; sourceTree = "<group>"; };
+		E93FEDAC1DC2C9A300F87108 /* luis_gonzaga_cuevas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = luis_gonzaga_cuevas.txt; path = ../../../../../Desktop/Jsons/Secretarios/luis_gonzaga_cuevas.txt; sourceTree = "<group>"; };
+		E93FEDAD1DC2C9A300F87108 /* manuel_diez_bonilla.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_diez_bonilla.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_diez_bonilla.txt; sourceTree = "<group>"; };
+		E93FEDAE1DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_eduardo_gorostiza.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_eduardo_gorostiza.txt; sourceTree = "<group>"; };
+		E958E11E1DC10E98008656A8 /* Carrusel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carrusel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E958E1221DC10E98008656A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E958E1241DC10E98008656A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E958E1251DC10E98008656A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E958E1271DC10E98008656A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E958E1281DC10E98008656A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E958E12B1DC10E98008656A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E958E12E1DC10E98008656A8 /* Carrusel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carrusel.xcdatamodel; sourceTree = "<group>"; };
+		E958E1301DC10E98008656A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E958E1331DC10E98008656A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E958E1351DC10E98008656A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E958E13A1DC10E98008656A8 /* CarruselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarruselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E958E13E1DC10E98008656A8 /* CarruselUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarruselUITests.m; sourceTree = "<group>"; };
+		E958E1401DC10E98008656A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E958E14B1DC11214008656A8 /* HeaderFecha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderFecha.h; path = CustomViews/HeaderFecha.h; sourceTree = "<group>"; };
+		E958E14C1DC11214008656A8 /* HeaderFecha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderFecha.m; path = CustomViews/HeaderFecha.m; sourceTree = "<group>"; };
+		E958E14E1DC1122C008656A8 /* HeaderFecha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderFecha.xib; path = CustomViews/HeaderFecha.xib; sourceTree = "<group>"; };
+		E958E1511DC118AE008656A8 /* Fechas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Fechas.json; path = JSON/Fechas.json; sourceTree = "<group>"; };
+		E958E1581DC12CDE008656A8 /* Personajes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personajes.json; path = JSON/Personajes.json; sourceTree = "<group>"; };
+		E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonajesProtocol.h; sourceTree = "<group>"; };
+		E958E15C1DC166AC008656A8 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleViewController.h; path = Classes/DetalleViewController.h; sourceTree = "<group>"; };
+		E958E15D1DC166AC008656A8 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleViewController.m; path = Classes/DetalleViewController.m; sourceTree = "<group>"; };
+		E958E1601DC16BBA008656A8 /* TVCFecha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCFecha.h; path = TVCells/TVCFecha.h; sourceTree = "<group>"; };
+		E958E1611DC16BBA008656A8 /* TVCFecha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCFecha.m; path = TVCells/TVCFecha.m; sourceTree = "<group>"; };
+		E958E1621DC16BBA008656A8 /* TVCFecha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TVCFecha.xib; path = TVCells/TVCFecha.xib; sourceTree = "<group>"; };
+		E958E1661DC17593008656A8 /* CVCPersonaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonaje.h; path = CVCells/CVCPersonaje.h; sourceTree = "<group>"; };
+		E958E1671DC17593008656A8 /* CVCPersonaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonaje.m; path = CVCells/CVCPersonaje.m; sourceTree = "<group>"; };
+		E958E1681DC17593008656A8 /* CVCPersonaje.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCPersonaje.xib; path = CVCells/CVCPersonaje.xib; sourceTree = "<group>"; };
+		E966FAA51DC9481900E0A6F6 /* TrajanProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrajanProRegular.ttf; path = ../../../../../Desktop/MINIS_SEC_GOB_16/Trajan_Pro/TrajanProRegular.ttf; sourceTree = "<group>"; };
+		E966FAA61DC9481900E0A6F6 /* trajan_normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = trajan_normal.ttf; path = ../../../../../Desktop/MINIS_SEC_GOB_16/Trajan_Pro/trajan_normal.ttf; sourceTree = "<group>"; };
+		E966FAA91DC9585400E0A6F6 /* MosaicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MosaicoViewController.h; path = Classes/MosaicoViewController.h; sourceTree = "<group>"; };
+		E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MosaicoViewController.m; path = Classes/MosaicoViewController.m; sourceTree = "<group>"; };
+		E9DD941B1DC3CC3400AF3A7F /* adalberto_tejeda.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = adalberto_tejeda.txt; path = ../../../../../Desktop/Jsons/Secretarios/adalberto_tejeda.txt; sourceTree = "<group>"; };
+		E9DD941C1DC3CC3400AF3A7F /* antonio_corona.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = antonio_corona.txt; path = ../../../../../Desktop/Jsons/Secretarios/antonio_corona.txt; sourceTree = "<group>"; };
+		E9DD941D1DC3CC3400AF3A7F /* emilio_portes_gil.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = emilio_portes_gil.txt; path = ../../../../../Desktop/Jsons/Secretarios/emilio_portes_gil.txt; sourceTree = "<group>"; };
+		E9DD941E1DC3CC3400AF3A7F /* francisco_zarco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = francisco_zarco.txt; path = ../../../../../Desktop/Jsons/Secretarios/francisco_zarco.txt; sourceTree = "<group>"; };
+		E9DD941F1DC3CC3400AF3A7F /* ignacio_l_vallarta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_l_vallarta.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_l_vallarta.txt; sourceTree = "<group>"; };
+		E9DD94201DC3CC3400AF3A7F /* isidro_diaz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = isidro_diaz.txt; path = ../../../../../Desktop/Jsons/Secretarios/isidro_diaz.txt; sourceTree = "<group>"; };
+		E9DD94211DC3CC3400AF3A7F /* jose_emparan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_emparan.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_emparan.txt; sourceTree = "<group>"; };
+		E9DD94221DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_castillo_velasco.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_castillo_velasco.txt; sourceTree = "<group>"; };
+		E9DD94231DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_cortes_esparza.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_cortes_esparza.txt; sourceTree = "<group>"; };
+		E9DD94241DC3CC3400AF3A7F /* jose_maria_esteva.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_esteva.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_esteva.txt; sourceTree = "<group>"; };
+		E9DD94251DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_gonzalez_vega.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_gonzalez_vega.txt; sourceTree = "<group>"; };
+		E9DD94261DC3CC3400AF3A7F /* jose_maria_iglesias.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_iglesias.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_iglesias.txt; sourceTree = "<group>"; };
+		E9DD94271DC3CC3400AF3A7F /* juan_jose_garza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_jose_garza.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_jose_garza.txt; sourceTree = "<group>"; };
+		E9DD94281DC3CC3400AF3A7F /* leon_guzman.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leon_guzman.txt; path = ../../../../../Desktop/Jsons/Secretarios/leon_guzman.txt; sourceTree = "<group>"; };
+		E9DD94291DC3CC3400AF3A7F /* manuel_doblado.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_doblado.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_doblado.txt; sourceTree = "<group>"; };
+		E9DD942A1DC3CC3400AF3A7F /* manuel_maria_zamacona.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_maria_zamacona.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_maria_zamacona.txt; sourceTree = "<group>"; };
+		E9DD942B1DC3CC3400AF3A7F /* manuel_ruiz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_ruiz.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_ruiz.txt; sourceTree = "<group>"; };
+		E9DD942C1DC3CC3400AF3A7F /* manuel_saavedra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_saavedra.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_saavedra.txt; sourceTree = "<group>"; };
+		E9DD942D1DC3CC3400AF3A7F /* manuel_siliceo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_siliceo.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_siliceo.txt; sourceTree = "<group>"; };
+		E9DD942E1DC3CC3400AF3A7F /* melchor_ocampo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = melchor_ocampo.txt; path = ../../../../../Desktop/Jsons/Secretarios/melchor_ocampo.txt; sourceTree = "<group>"; };
+		E9DD942F1DC3CC3400AF3A7F /* pedro_ogazon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pedro_ogazon.txt; path = ../../../../../Desktop/Jsons/Secretarios/pedro_ogazon.txt; sourceTree = "<group>"; };
+		E9DD94301DC3CC3400AF3A7F /* santos_degollado.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = santos_degollado.txt; path = ../../../../../Desktop/Jsons/Secretarios/santos_degollado.txt; sourceTree = "<group>"; };
+		E9DD94311DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sebastian_lerdo_tejada.txt; path = ../../../../../Desktop/Jsons/Secretarios/sebastian_lerdo_tejada.txt; sourceTree = "<group>"; };
+		E9DD94321DC3CC3400AF3A7F /* teofilo_marin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teofilo_marin.txt; path = ../../../../../Desktop/Jsons/Secretarios/teofilo_marin.txt; sourceTree = "<group>"; };
+		E9DD944B1DC3D29700AF3A7F /* carlos_riva_palacio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = carlos_riva_palacio.txt; path = ../../../../../Desktop/Jsons/Secretarios/carlos_riva_palacio.txt; sourceTree = "<group>"; };
+		E9DD944C1DC3D29700AF3A7F /* eduardo_vasconcelos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = eduardo_vasconcelos.txt; path = ../../../../../Desktop/Jsons/Secretarios/eduardo_vasconcelos.txt; sourceTree = "<group>"; };
+		E9DD944D1DC3D29700AF3A7F /* felipe_canales_salinas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = felipe_canales_salinas.txt; path = ../../../../../Desktop/Jsons/Secretarios/felipe_canales_salinas.txt; sourceTree = "<group>"; };
+		E9DD944E1DC3D29700AF3A7F /* jorge_carpizo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jorge_carpizo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jorge_carpizo.txt; sourceTree = "<group>"; };
+		E9DD944F1DC3D29700AF3A7F /* juan_jose_rios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_jose_rios.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_jose_rios.txt; sourceTree = "<group>"; };
+		E9DD94501DC3D29700AF3A7F /* lazaro_cardenaz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lazaro_cardenaz.txt; path = ../../../../../Desktop/Jsons/Secretarios/lazaro_cardenaz.txt; sourceTree = "<group>"; };
+		E9DD94511DC3D29700AF3A7F /* manuel_tellez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_tellez.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_tellez.txt; sourceTree = "<group>"; };
+		E9DD94521DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = patrocinio_gonzalez_blanco.txt; path = ../../../../../Desktop/Jsons/Secretarios/patrocinio_gonzalez_blanco.txt; sourceTree = "<group>"; };
+		E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = abraham_gonzalez.txt; path = ../../../../../Desktop/Jsons/Secretarios/abraham_gonzalez.txt; sourceTree = "<group>"; };
+		E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = alberto_garcia_ramos.txt; path = ../../../../../Desktop/Jsons/Secretarios/alberto_garcia_ramos.txt; sourceTree = "<group>"; };
+		E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = aureliano_urrutia.txt; path = ../../../../../Desktop/Jsons/Secretarios/aureliano_urrutia.txt; sourceTree = "<group>"; };
+		E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = benito_juarez.txt; path = ../../../../../Desktop/Jsons/Secretarios/benito_juarez.txt; sourceTree = "<group>"; };
+		E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = carlos_diez_gutierrez.txt; path = ../../../../../Desktop/Jsons/Secretarios/carlos_diez_gutierrez.txt; sourceTree = "<group>"; };
+		E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = eduardo_g_pankhurst.txt; path = ../../../../../Desktop/Jsons/Secretarios/eduardo_g_pankhurst.txt; sourceTree = "<group>"; };
+		E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = emilio_vazquez_gomez.txt; path = ../../../../../Desktop/Jsons/Secretarios/emilio_vazquez_gomez.txt; sourceTree = "<group>"; };
+		E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enrique_colunga.txt; path = ../../../../../Desktop/Jsons/Secretarios/enrique_colunga.txt; sourceTree = "<group>"; };
+		E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = felipe_berriozabal.txt; path = ../../../../../Desktop/Jsons/Secretarios/felipe_berriozabal.txt; sourceTree = "<group>"; };
+		E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gilberto_valenzuela.txt; path = ../../../../../Desktop/Jsons/Secretarios/gilberto_valenzuela.txt; sourceTree = "<group>"; };
+		E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hilario_elguero.txt; path = ../../../../../Desktop/Jsons/Secretarios/hilario_elguero.txt; sourceTree = "<group>"; };
+		E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_aguilar_marocho.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_aguilar_marocho.txt; sourceTree = "<group>"; };
+		E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_llave.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_llave.txt; sourceTree = "<group>"; };
+		E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_acuna.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_acuna.txt; sourceTree = "<group>"; };
+		E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_flores_magon.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_flores_magon.txt; sourceTree = "<group>"; };
+		E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_teran_peredo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_teran_peredo.txt; sourceTree = "<group>"; };
+		E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_inocente_lugo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_inocente_lugo.txt; sourceTree = "<group>"; };
+		E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_quevedo.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_quevedo.txt; sourceTree = "<group>"; };
+		E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_urbano_fonseca.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_urbano_fonseca.txt; sourceTree = "<group>"; };
+		E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_antonio_fuente.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_antonio_fuente.txt; sourceTree = "<group>"; };
+		E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_jose_baz_palafox.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_jose_baz_palafox.txt; sourceTree = "<group>"; };
+		E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_manuel_fernandez_jauregui.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_manuel_fernandez_jauregui.txt; sourceTree = "<group>"; };
+		E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lucio_blanco.txt; path = ../../../../../Desktop/Jsons/Secretarios/lucio_blanco.txt; sourceTree = "<group>"; };
+		E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_aguirre_berlanga.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_aguirre_berlanga.txt; sourceTree = "<group>"; };
+		E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_garza_aldape.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_garza_aldape.txt; sourceTree = "<group>"; };
+		E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_gonzalez_cosio.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_gonzalez_cosio.txt; sourceTree = "<group>"; };
+		E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_romero_rubio.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_romero_rubio.txt; sourceTree = "<group>"; };
+		E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mariano_macedo.txt; path = ../../../../../Desktop/Jsons/Secretarios/mariano_macedo.txt; sourceTree = "<group>"; };
+		E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mariano_yanez.txt; path = ../../../../../Desktop/Jsons/Secretarios/mariano_yanez.txt; sourceTree = "<group>"; };
+		E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plutarco_elias_calles.txt; path = ../../../../../Desktop/Jsons/Secretarios/plutarco_elias_calles.txt; sourceTree = "<group>"; };
+		E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = protasio_tagle.txt; path = ../../../../../Desktop/Jsons/Secretarios/protasio_tagle.txt; sourceTree = "<group>"; };
+		E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rafael_hernandez_madero.txt; path = ../../../../../Desktop/Jsons/Secretarios/rafael_hernandez_madero.txt; sourceTree = "<group>"; };
+		E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = rafael_zubaran_capmany.txt; path = ../../../../../Desktop/Jsons/Secretarios/rafael_zubaran_capmany.txt; sourceTree = "<group>"; };
+		E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ramon_corral.txt; path = ../../../../../Desktop/Jsons/Secretarios/ramon_corral.txt; sourceTree = "<group>"; };
+		E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trinidad_garcia_cadena.txt; path = ../../../../../Desktop/Jsons/Secretarios/trinidad_garcia_cadena.txt; sourceTree = "<group>"; };
+		E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = victoriano_huerta.txt; path = ../../../../../Desktop/Jsons/Secretarios/victoriano_huerta.txt; sourceTree = "<group>"; };
+		E9DD94A31DC4142300AF3A7F /* adolfo_ruiz_cortines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = adolfo_ruiz_cortines.txt; path = ../../../../../Desktop/Jsons/Secretarios/adolfo_ruiz_cortines.txt; sourceTree = "<group>"; };
+		E9DD94A41DC4142300AF3A7F /* hector_perez_martinez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hector_perez_martinez.txt; path = ../../../../../Desktop/Jsons/Secretarios/hector_perez_martinez.txt; sourceTree = "<group>"; };
+		E9DD94A51DC4142300AF3A7F /* ignacio_garcia_tellez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_garcia_tellez.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_garcia_tellez.txt; sourceTree = "<group>"; };
+		E9DD94A61DC4142300AF3A7F /* juan_dios_bojorquez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = juan_dios_bojorquez.txt; path = ../../../../../Desktop/Jsons/Secretarios/juan_dios_bojorquez.txt; sourceTree = "<group>"; };
+		E9DD94A71DC4142300AF3A7F /* miguel_aleman_valdes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = miguel_aleman_valdes.txt; path = ../../../../../Desktop/Jsons/Secretarios/miguel_aleman_valdes.txt; sourceTree = "<group>"; };
+		E9DD94A81DC4142300AF3A7F /* narciso_bassols.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = narciso_bassols.txt; path = ../../../../../Desktop/Jsons/Secretarios/narciso_bassols.txt; sourceTree = "<group>"; };
+		E9DD94A91DC4142300AF3A7F /* primo_villa_michel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primo_villa_michel.txt; path = ../../../../../Desktop/Jsons/Secretarios/primo_villa_michel.txt; sourceTree = "<group>"; };
+		E9DD94AA1DC4142300AF3A7F /* silvano_barba_gonzalez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = silvano_barba_gonzalez.txt; path = ../../../../../Desktop/Jsons/Secretarios/silvano_barba_gonzalez.txt; sourceTree = "<group>"; };
+		E9DD94AB1DC4142300AF3A7F /* silvestre_guerrero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = silvestre_guerrero.txt; path = ../../../../../Desktop/Jsons/Secretarios/silvestre_guerrero.txt; sourceTree = "<group>"; };
+		E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = enrique_olivares_santana.txt; path = ../../../../../Desktop/Jsons/Secretarios/enrique_olivares_santana.txt; sourceTree = "<group>"; };
+		E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jesus_reyes_heroles.txt; path = ../../../../../Desktop/Jsons/Secretarios/jesus_reyes_heroles.txt; sourceTree = "<group>"; };
+		E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_bartlett.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_bartlett.txt; sourceTree = "<group>"; };
+		E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fernando_gutierrez_barrios.txt; path = ../../../../../Desktop/Jsons/Secretarios/fernando_gutierrez_barrios.txt; sourceTree = "<group>"; };
+		E9DD94BD1DC42EF400AF3A7F /* angel_carvajal_bernal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = angel_carvajal_bernal.txt; path = ../../../../../Desktop/Jsons/Secretarios/angel_carvajal_bernal.txt; sourceTree = "<group>"; };
+		E9DD94BE1DC42EF400AF3A7F /* gustavo_diaz_ordaz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gustavo_diaz_ordaz.txt; path = ../../../../../Desktop/Jsons/Secretarios/gustavo_diaz_ordaz.txt; sourceTree = "<group>"; };
+		E9DD94BF1DC42EF400AF3A7F /* luis_echeverria.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = luis_echeverria.txt; path = ../../../../../Desktop/Jsons/Secretarios/luis_echeverria.txt; sourceTree = "<group>"; };
+		E9DD94C01DC42EF400AF3A7F /* mario_moya_palencia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mario_moya_palencia.txt; path = ../../../../../Desktop/Jsons/Secretarios/mario_moya_palencia.txt; sourceTree = "<group>"; };
+		E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_perez_lebrija.txt; path = ../../../../../Desktop/Jsons/Secretarios/agustin_perez_lebrija.txt; sourceTree = "<group>"; };
+		E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = domingo_ibarra_ramos.txt; path = ../../../../../Desktop/Jsons/Secretarios/domingo_ibarra_ramos.txt; sourceTree = "<group>"; };
+		E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ignacio_rayon.txt; path = ../../../../../Desktop/Jsons/Secretarios/ignacio_rayon.txt; sourceTree = "<group>"; };
+		E9F82D091DC3B4B000991A47 /* joaquin_iturbide.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = joaquin_iturbide.txt; path = ../../../../../Desktop/Jsons/Secretarios/joaquin_iturbide.txt; sourceTree = "<group>"; };
+		E9F82D0A1DC3B4B000991A47 /* joaquin_maria_castillo_lanza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = joaquin_maria_castillo_lanza.txt; path = ../../../../../Desktop/Jsons/Secretarios/joaquin_maria_castillo_lanza.txt; sourceTree = "<group>"; };
+		E9F82D0B1DC3B4B000991A47 /* jose_fernando_ramirez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_fernando_ramirez.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_fernando_ramirez.txt; sourceTree = "<group>"; };
+		E9F82D0C1DC3B4B000991A47 /* jose_maria_chico.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_chico.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_chico.txt; sourceTree = "<group>"; };
+		E9F82D0D1DC3B4B000991A47 /* jose_maria_jimenez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_jimenez.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_jimenez.txt; sourceTree = "<group>"; };
+		E9F82D0E1DC3B4B000991A47 /* jose_maria_lacunza_blengio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_lacunza_blengio.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_lacunza_blengio.txt; sourceTree = "<group>"; };
+		E9F82D0F1DC3B4B000991A47 /* jose_maria_lafragua.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_lafragua.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_maria_lafragua.txt; sourceTree = "<group>"; };
+		E9F82D101DC3B4B000991A47 /* jose_mariano_marin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_mariano_marin.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_mariano_marin.txt; sourceTree = "<group>"; };
+		E9F82D111DC3B4B000991A47 /* jose_ramon_pacheco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_ramon_pacheco.txt; path = ../../../../../Desktop/Jsons/Secretarios/jose_ramon_pacheco.txt; sourceTree = "<group>"; };
+		E9F82D121DC3B4B000991A47 /* luis_rosa_oteiza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = luis_rosa_oteiza.txt; path = ../../../../../Desktop/Jsons/Secretarios/luis_rosa_oteiza.txt; sourceTree = "<group>"; };
+		E9F82D131DC3B4B000991A47 /* manuel_baranda.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_baranda.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_baranda.txt; sourceTree = "<group>"; };
+		E9F82D141DC3B4B000991A47 /* manuel_crecencio_rejon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_crecencio_rejon.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_crecencio_rejon.txt; sourceTree = "<group>"; };
+		E9F82D151DC3B4B000991A47 /* manuel_pena_pena.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manuel_pena_pena.txt; path = ../../../../../Desktop/Jsons/Secretarios/manuel_pena_pena.txt; sourceTree = "<group>"; };
+		E9F82D161DC3B4B000991A47 /* mariano_otero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mariano_otero.txt; path = ../../../../../Desktop/Jsons/Secretarios/mariano_otero.txt; sourceTree = "<group>"; };
+		E9F82D171DC3B4B000991A47 /* remigio_yarza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = remigio_yarza.txt; path = ../../../../../Desktop/Jsons/Secretarios/remigio_yarza.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E958E11B1DC10E98008656A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6163243CD2C9F8AC10CCD2 /* Pods_Carrusel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E958E1371DC10E98008656A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171B46DC9B8DEDBFC5A4B1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78E4CBF31018DFEC3280CC42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */,
+				E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E93FED6D1DC26EFD00F87108 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				E958E12D1DC10E98008656A8 /* Carrusel.xcdatamodeld */,
+				E93FED871DC278D900F87108 /* Personaje+CoreDataClass.swift */,
+				E93FED851DC278A000F87108 /* Cronologica+CoreDataClass.swift */,
+				E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */,
+				E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */,
+				E93FED801DC2788600F87108 /* Carrusel-Bridging-Header.h */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		E93FED891DC2A26900F87108 /* Bios */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD945B1DC402FB00AF3A7F /* abraham_gonzalez.txt */,
+				E9DD941B1DC3CC3400AF3A7F /* adalberto_tejeda.txt */,
+				E9DD94A31DC4142300AF3A7F /* adolfo_ruiz_cortines.txt */,
+				E9F82D061DC3B4B000991A47 /* agustin_perez_lebrija.txt */,
+				E93FED921DC2C68F00F87108 /* agustin_viesca_montes.txt */,
+				E9DD945C1DC402FB00AF3A7F /* alberto_garcia_ramos.txt */,
+				E9DD94BD1DC42EF400AF3A7F /* angel_carvajal_bernal.txt */,
+				E9DD941C1DC3CC3400AF3A7F /* antonio_corona.txt */,
+				E9DD945D1DC402FB00AF3A7F /* aureliano_urrutia.txt */,
+				E9DD945E1DC402FB00AF3A7F /* benito_juarez.txt */,
+				E93FEDA41DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt */,
+				E93ABAA41DCCF90F00253828 /* carlos_abascal.txt */,
+				E9DD945F1DC402FB00AF3A7F /* carlos_diez_gutierrez.txt */,
+				E93FEDA51DC2C9A300F87108 /* carlos_garcia_bocanegra.txt */,
+				E9DD944B1DC3D29700AF3A7F /* carlos_riva_palacio.txt */,
+				E93ABAA51DCCF90F00253828 /* diodoro_carrasco.txt */,
+				E9F82D071DC3B4B000991A47 /* domingo_ibarra_ramos.txt */,
+				E9DD94601DC402FB00AF3A7F /* eduardo_g_pankhurst.txt */,
+				E9DD944C1DC3D29700AF3A7F /* eduardo_vasconcelos.txt */,
+				E93ABAA61DCCF90F00253828 /* emilio_chuayffet.txt */,
+				E9DD941D1DC3CC3400AF3A7F /* emilio_portes_gil.txt */,
+				E9DD94611DC402FB00AF3A7F /* emilio_vazquez_gomez.txt */,
+				E9DD94621DC402FB00AF3A7F /* enrique_colunga.txt */,
+				E9DD94B51DC41C7500AF3A7F /* enrique_olivares_santana.txt */,
+				E93ABAA71DCCF90F00253828 /* esteban_moctezuma.txt */,
+				E9DD94631DC402FB00AF3A7F /* felipe_berriozabal.txt */,
+				E9DD944D1DC3D29700AF3A7F /* felipe_canales_salinas.txt */,
+				E9DD94BB1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt */,
+				E93FEDA61DC2C9A300F87108 /* francisco_fagoaga.txt */,
+				E93ABAA81DCCF90F00253828 /* francisco_labastida.txt */,
+				E93FEDA71DC2C9A300F87108 /* francisco_maria_lombardo.txt */,
+				E93ABAA91DCCF90F00253828 /* francisco_ramirez_acuna.txt */,
+				E9DD941E1DC3CC3400AF3A7F /* francisco_zarco.txt */,
+				E9DD94641DC402FB00AF3A7F /* gilberto_valenzuela.txt */,
+				E9DD94BE1DC42EF400AF3A7F /* gustavo_diaz_ordaz.txt */,
+				E9DD94A41DC4142300AF3A7F /* hector_perez_martinez.txt */,
+				E9DD94651DC402FB00AF3A7F /* hilario_elguero.txt */,
+				E9DD94661DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt */,
+				E9DD94A51DC4142300AF3A7F /* ignacio_garcia_tellez.txt */,
+				E9DD941F1DC3CC3400AF3A7F /* ignacio_l_vallarta.txt */,
+				E9DD94671DC402FB00AF3A7F /* ignacio_llave.txt */,
+				E9F82D081DC3B4B000991A47 /* ignacio_rayon.txt */,
+				E9DD94201DC3CC3400AF3A7F /* isidro_diaz.txt */,
+				E9DD94681DC402FB00AF3A7F /* jesus_acuna.txt */,
+				E9DD94691DC402FB00AF3A7F /* jesus_flores_magon.txt */,
+				E9DD94B61DC41C7500AF3A7F /* jesus_reyes_heroles.txt */,
+				E9DD946A1DC402FB00AF3A7F /* jesus_teran_peredo.txt */,
+				E9F82D091DC3B4B000991A47 /* joaquin_iturbide.txt */,
+				E9F82D0A1DC3B4B000991A47 /* joaquin_maria_castillo_lanza.txt */,
+				E9DD944E1DC3D29700AF3A7F /* jorge_carpizo.txt */,
+				E93FEDA81DC2C9A300F87108 /* jose_antonio_romero.txt */,
+				E93FED901DC2C08900F87108 /* jose_cecilio_valle.txt */,
+				E9DD94211DC3CC3400AF3A7F /* jose_emparan.txt */,
+				E9F82D0B1DC3B4B000991A47 /* jose_fernando_ramirez.txt */,
+				E93FED931DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt */,
+				E9DD946B1DC402FB00AF3A7F /* jose_inocente_lugo.txt */,
+				E93FEDA91DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt */,
+				E93FED8E1DC2BF2F00F87108 /* jose_manuel_herrera.txt */,
+				E93FED941DC2C68F00F87108 /* jose_maria_bocanegra.txt */,
+				E9DD94221DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt */,
+				E9F82D0C1DC3B4B000991A47 /* jose_maria_chico.txt */,
+				E9DD94231DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt */,
+				E9DD94241DC3CC3400AF3A7F /* jose_maria_esteva.txt */,
+				E9DD94251DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt */,
+				E93FEDAA1DC2C9A300F87108 /* jose_maria_guitierrez_estrada.txt */,
+				E9DD94261DC3CC3400AF3A7F /* jose_maria_iglesias.txt */,
+				E9F82D0D1DC3B4B000991A47 /* jose_maria_jimenez.txt */,
+				E9F82D0E1DC3B4B000991A47 /* jose_maria_lacunza_blengio.txt */,
+				E9F82D0F1DC3B4B000991A47 /* jose_maria_lafragua.txt */,
+				E9F82D101DC3B4B000991A47 /* jose_mariano_marin.txt */,
+				E9DD946C1DC402FB00AF3A7F /* jose_quevedo.txt */,
+				E9F82D111DC3B4B000991A47 /* jose_ramon_pacheco.txt */,
+				E9DD946D1DC402FB00AF3A7F /* jose_urbano_fonseca.txt */,
+				E9DD946E1DC402FB00AF3A7F /* juan_antonio_fuente.txt */,
+				E93ABAAA1DCCF90F00253828 /* juan_camilo_mourino.txt */,
+				E9DD94A61DC4142300AF3A7F /* juan_dios_bojorquez.txt */,
+				E93FED951DC2C68F00F87108 /* juan_dios_canedo.txt */,
+				E9DD946F1DC402FB00AF3A7F /* juan_jose_baz_palafox.txt */,
+				E9DD94271DC3CC3400AF3A7F /* juan_jose_garza.txt */,
+				E9DD944F1DC3D29700AF3A7F /* juan_jose_rios.txt */,
+				E9DD94701DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt */,
+				E93FEDAB1DC2C9A300F87108 /* juan_rodriguez_puebla.txt */,
+				E93FED8A1DC2A28100F87108 /* lazaro_cardenas.txt */,
+				E9DD94501DC3D29700AF3A7F /* lazaro_cardenaz.txt */,
+				E9DD94281DC3CC3400AF3A7F /* leon_guzman.txt */,
+				E93FED961DC2C68F00F87108 /* lucas_alaman.txt */,
+				E9DD94711DC402FB00AF3A7F /* lucio_blanco.txt */,
+				E9DD94BF1DC42EF400AF3A7F /* luis_echeverria.txt */,
+				E93FEDAC1DC2C9A300F87108 /* luis_gonzaga_cuevas.txt */,
+				E9F82D121DC3B4B000991A47 /* luis_rosa_oteiza.txt */,
+				E9DD94721DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt */,
+				E9F82D131DC3B4B000991A47 /* manuel_baranda.txt */,
+				E9DD94B71DC41C7500AF3A7F /* manuel_bartlett.txt */,
+				E9F82D141DC3B4B000991A47 /* manuel_crecencio_rejon.txt */,
+				E93FEDAD1DC2C9A300F87108 /* manuel_diez_bonilla.txt */,
+				E9DD94291DC3CC3400AF3A7F /* manuel_doblado.txt */,
+				E93FEDAE1DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt */,
+				E9DD94731DC402FB00AF3A7F /* manuel_garza_aldape.txt */,
+				E93FED971DC2C68F00F87108 /* manuel_gomez_pedraza.txt */,
+				E9DD94741DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt */,
+				E9DD942A1DC3CC3400AF3A7F /* manuel_maria_zamacona.txt */,
+				E93FED981DC2C68F00F87108 /* manuel_ortiz_torre.txt */,
+				E9F82D151DC3B4B000991A47 /* manuel_pena_pena.txt */,
+				E9DD94751DC402FB00AF3A7F /* manuel_romero_rubio.txt */,
+				E9DD942B1DC3CC3400AF3A7F /* manuel_ruiz.txt */,
+				E9DD942C1DC3CC3400AF3A7F /* manuel_saavedra.txt */,
+				E9DD942D1DC3CC3400AF3A7F /* manuel_siliceo.txt */,
+				E9DD94511DC3D29700AF3A7F /* manuel_tellez.txt */,
+				E9DD94761DC402FB00AF3A7F /* mariano_macedo.txt */,
+				E9F82D161DC3B4B000991A47 /* mariano_otero.txt */,
+				E9DD94771DC402FB00AF3A7F /* mariano_yanez.txt */,
+				E9DD94C01DC42EF400AF3A7F /* mario_moya_palencia.txt */,
+				E9DD942E1DC3CC3400AF3A7F /* melchor_ocampo.txt */,
+				E9DD94A71DC4142300AF3A7F /* miguel_aleman_valdes.txt */,
+				E9DD94A81DC4142300AF3A7F /* narciso_bassols.txt */,
+				E93FED991DC2C68F00F87108 /* pablo_llave.txt */,
+				E9DD94521DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt */,
+				E9DD942F1DC3CC3400AF3A7F /* pedro_ogazon.txt */,
+				E9DD94781DC402FB00AF3A7F /* plutarco_elias_calles.txt */,
+				E9DD94A91DC4142300AF3A7F /* primo_villa_michel.txt */,
+				E9DD94791DC402FB00AF3A7F /* protasio_tagle.txt */,
+				E9DD947A1DC402FB00AF3A7F /* rafael_hernandez_madero.txt */,
+				E9DD947B1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt */,
+				E9DD947C1DC402FB00AF3A7F /* ramon_corral.txt */,
+				E9F82D171DC3B4B000991A47 /* remigio_yarza.txt */,
+				E93ABAAB1DCCF90F00253828 /* santiago_creel.txt */,
+				E9DD94301DC3CC3400AF3A7F /* santos_degollado.txt */,
+				E93FED9A1DC2C68F00F87108 /* sebastian_garcia_camacho.txt */,
+				E9DD94311DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt */,
+				E9DD94AA1DC4142300AF3A7F /* silvano_barba_gonzalez.txt */,
+				E9DD94AB1DC4142300AF3A7F /* silvestre_guerrero.txt */,
+				E9DD94321DC3CC3400AF3A7F /* teofilo_marin.txt */,
+				E9DD947D1DC402FB00AF3A7F /* trinidad_garcia_cadena.txt */,
+				E9DD947E1DC402FB00AF3A7F /* victoriano_huerta.txt */,
+			);
+			name = Bios;
+			sourceTree = "<group>";
+		};
+		E958E1151DC10E98008656A8 = {
+			isa = PBXGroup;
+			children = (
+				E958E1201DC10E98008656A8 /* Carrusel */,
+				E958E13D1DC10E98008656A8 /* CarruselUITests */,
+				E958E11F1DC10E98008656A8 /* Products */,
+				78E4CBF31018DFEC3280CC42 /* Pods */,
+				171B46DC9B8DEDBFC5A4B1B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E958E11F1DC10E98008656A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E958E11E1DC10E98008656A8 /* Carrusel.app */,
+				E958E13A1DC10E98008656A8 /* CarruselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E958E1201DC10E98008656A8 /* Carrusel */ = {
+			isa = PBXGroup;
+			children = (
+				E966FAA01DC9478500E0A6F6 /* Resources */,
+				E958E1241DC10E98008656A8 /* AppDelegate.h */,
+				E958E1251DC10E98008656A8 /* AppDelegate.m */,
+				E958E1351DC10E98008656A8 /* Info.plist */,
+				E958E1301DC10E98008656A8 /* Assets.xcassets */,
+				E93FED891DC2A26900F87108 /* Bios */,
+				E958E1491DC10FE9008656A8 /* Classes */,
+				E958E14A1DC11176008656A8 /* CustomViews */,
+				E958E1651DC17565008656A8 /* CVCells */,
+				E958E1501DC1187B008656A8 /* JSON */,
+				E958E1321DC10E98008656A8 /* LaunchScreen.storyboard */,
+				E958E12A1DC10E98008656A8 /* Main.storyboard */,
+				E93FED6D1DC26EFD00F87108 /* Modelo */,
+				E958E15A1DC15A47008656A8 /* Protocols */,
+				E958E1211DC10E98008656A8 /* Supporting Files */,
+				E958E15F1DC16B63008656A8 /* TVCells */,
+			);
+			path = Carrusel;
+			sourceTree = "<group>";
+		};
+		E958E1211DC10E98008656A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1221DC10E98008656A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E958E13D1DC10E98008656A8 /* CarruselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E958E13E1DC10E98008656A8 /* CarruselUITests.m */,
+				E958E1401DC10E98008656A8 /* Info.plist */,
+			);
+			path = CarruselUITests;
+			sourceTree = "<group>";
+		};
+		E958E1491DC10FE9008656A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E958E15C1DC166AC008656A8 /* DetalleViewController.h */,
+				E958E15D1DC166AC008656A8 /* DetalleViewController.m */,
+				E966FAA91DC9585400E0A6F6 /* MosaicoViewController.h */,
+				E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */,
+				E958E1271DC10E98008656A8 /* ViewController.h */,
+				E958E1281DC10E98008656A8 /* ViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E958E14A1DC11176008656A8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E958E14B1DC11214008656A8 /* HeaderFecha.h */,
+				E958E14C1DC11214008656A8 /* HeaderFecha.m */,
+				E958E14E1DC1122C008656A8 /* HeaderFecha.xib */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		E958E1501DC1187B008656A8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1511DC118AE008656A8 /* Fechas.json */,
+				E958E1581DC12CDE008656A8 /* Personajes.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		E958E15A1DC15A47008656A8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E958E15B1DC15A73008656A8 /* PersonajesProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E958E15F1DC16B63008656A8 /* TVCells */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1601DC16BBA008656A8 /* TVCFecha.h */,
+				E958E1611DC16BBA008656A8 /* TVCFecha.m */,
+				E958E1621DC16BBA008656A8 /* TVCFecha.xib */,
+			);
+			name = TVCells;
+			sourceTree = "<group>";
+		};
+		E958E1651DC17565008656A8 /* CVCells */ = {
+			isa = PBXGroup;
+			children = (
+				E958E1661DC17593008656A8 /* CVCPersonaje.h */,
+				E958E1671DC17593008656A8 /* CVCPersonaje.m */,
+				E958E1681DC17593008656A8 /* CVCPersonaje.xib */,
+				E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */,
+				E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */,
+				E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */,
+			);
+			name = CVCells;
+			sourceTree = "<group>";
+		};
+		E966FAA01DC9478500E0A6F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93ABA981DCCEFD200253828 /* ACaslonPro-Bold.otf */,
+				E93ABA991DCCEFD200253828 /* ACaslonPro-BoldItalic.otf */,
+				E93ABA9A1DCCEFD200253828 /* ACaslonPro-Italic.otf */,
+				E93ABA9B1DCCEFD200253828 /* ACaslonPro-Regular.otf */,
+				E93ABA9C1DCCEFD200253828 /* ACaslonPro-Semibold.otf */,
+				E93ABA9D1DCCEFD200253828 /* ACaslonPro-SemiboldItalic.otf */,
+				E966FAA51DC9481900E0A6F6 /* TrajanProRegular.ttf */,
+				E966FAA61DC9481900E0A6F6 /* trajan_normal.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E958E11D1DC10E98008656A8 /* Carrusel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E958E1431DC10E98008656A8 /* Build configuration list for PBXNativeTarget "Carrusel" */;
+			buildPhases = (
+				2A0BE24CE80BB5FC4A1C64BD /* [CP] Check Pods Manifest.lock */,
+				E958E11A1DC10E98008656A8 /* Sources */,
+				E958E11B1DC10E98008656A8 /* Frameworks */,
+				E958E11C1DC10E98008656A8 /* Resources */,
+				918CE1398C66DF7E08194DE5 /* [CP] Embed Pods Frameworks */,
+				C3BAC5F49720CC3C2B427C14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carrusel;
+			productName = Carrusel;
+			productReference = E958E11E1DC10E98008656A8 /* Carrusel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E958E1391DC10E98008656A8 /* CarruselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E958E1461DC10E98008656A8 /* Build configuration list for PBXNativeTarget "CarruselUITests" */;
+			buildPhases = (
+				E958E1361DC10E98008656A8 /* Sources */,
+				E958E1371DC10E98008656A8 /* Frameworks */,
+				E958E1381DC10E98008656A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E958E13C1DC10E98008656A8 /* PBXTargetDependency */,
+			);
+			name = CarruselUITests;
+			productName = CarruselUITests;
+			productReference = E958E13A1DC10E98008656A8 /* CarruselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E958E1161DC10E98008656A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "José Cruz Galindo Martínez";
+				TargetAttributes = {
+					E958E11D1DC10E98008656A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					E958E1391DC10E98008656A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E958E11D1DC10E98008656A8;
+					};
+				};
+			};
+			buildConfigurationList = E958E1191DC10E98008656A8 /* Build configuration list for PBXProject "Cuadros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E958E1151DC10E98008656A8;
+			productRefGroup = E958E11F1DC10E98008656A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E958E11D1DC10E98008656A8 /* Carrusel */,
+				E958E1391DC10E98008656A8 /* CarruselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E958E11C1DC10E98008656A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD94961DC402FB00AF3A7F /* manuel_aguirre_berlanga.txt in Resources */,
+				E9DD94A01DC402FB00AF3A7F /* ramon_corral.txt in Resources */,
+				E9DD94AE1DC4142300AF3A7F /* ignacio_garcia_tellez.txt in Resources */,
+				E958E16A1DC17593008656A8 /* CVCPersonaje.xib in Resources */,
+				E9DD94811DC402FB00AF3A7F /* aureliano_urrutia.txt in Resources */,
+				E93FEDA11DC2C68F00F87108 /* manuel_ortiz_torre.txt in Resources */,
+				E9DD948D1DC402FB00AF3A7F /* jesus_flores_magon.txt in Resources */,
+				E9F82D281DC3B4B100991A47 /* mariano_otero.txt in Resources */,
+				E966FAA81DC9481900E0A6F6 /* trajan_normal.ttf in Resources */,
+				E9DD949D1DC402FB00AF3A7F /* protasio_tagle.txt in Resources */,
+				E9DD949F1DC402FB00AF3A7F /* rafael_zubaran_capmany.txt in Resources */,
+				E9DD94871DC402FB00AF3A7F /* felipe_berriozabal.txt in Resources */,
+				E93ABAA11DCCEFD200253828 /* ACaslonPro-Regular.otf in Resources */,
+				E93FED9B1DC2C68F00F87108 /* agustin_viesca_montes.txt in Resources */,
+				E93FEDB81DC2C9A300F87108 /* manuel_diez_bonilla.txt in Resources */,
+				E9DD94971DC402FB00AF3A7F /* manuel_garza_aldape.txt in Resources */,
+				E9DD94391DC3CC3400AF3A7F /* jose_emparan.txt in Resources */,
+				E9DD94351DC3CC3400AF3A7F /* emilio_portes_gil.txt in Resources */,
+				E9DD948F1DC402FB00AF3A7F /* jose_inocente_lugo.txt in Resources */,
+				E9DD94C21DC42EF400AF3A7F /* gustavo_diaz_ordaz.txt in Resources */,
+				E93FEDB41DC2C9A300F87108 /* jose_joaquin_pesado_perez.txt in Resources */,
+				E9DD94991DC402FB00AF3A7F /* manuel_romero_rubio.txt in Resources */,
+				E9DD943D1DC3CC3400AF3A7F /* jose_maria_gonzalez_vega.txt in Resources */,
+				E9DD94881DC402FB00AF3A7F /* gilberto_valenzuela.txt in Resources */,
+				E9F82D201DC3B4B100991A47 /* jose_maria_lacunza_blengio.txt in Resources */,
+				E958E1521DC118AE008656A8 /* Fechas.json in Resources */,
+				E9DD948C1DC402FB00AF3A7F /* jesus_acuna.txt in Resources */,
+				E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */,
+				E9DD94AF1DC4142300AF3A7F /* juan_dios_bojorquez.txt in Resources */,
+				E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */,
+				E9DD94A21DC402FB00AF3A7F /* victoriano_huerta.txt in Resources */,
+				E9DD94B41DC4142300AF3A7F /* silvestre_guerrero.txt in Resources */,
+				E9DD943C1DC3CC3400AF3A7F /* jose_maria_esteva.txt in Resources */,
+				E9DD945A1DC3D29700AF3A7F /* patrocinio_gonzalez_blanco.txt in Resources */,
+				E9DD948E1DC402FB00AF3A7F /* jesus_teran_peredo.txt in Resources */,
+				E958E1341DC10E98008656A8 /* LaunchScreen.storyboard in Resources */,
+				E9DD94BA1DC41C7500AF3A7F /* manuel_bartlett.txt in Resources */,
+				E9DD94A11DC402FB00AF3A7F /* trinidad_garcia_cadena.txt in Resources */,
+				E9DD94821DC402FB00AF3A7F /* benito_juarez.txt in Resources */,
+				E9DD948A1DC402FB00AF3A7F /* ignacio_aguilar_marocho.txt in Resources */,
+				E9DD94C41DC42EF400AF3A7F /* mario_moya_palencia.txt in Resources */,
+				E9F82D1C1DC3B4B100991A47 /* joaquin_maria_castillo_lanza.txt in Resources */,
+				E93ABAAC1DCCF90F00253828 /* carlos_abascal.txt in Resources */,
+				E93ABA9F1DCCEFD200253828 /* ACaslonPro-BoldItalic.otf in Resources */,
+				E9DD94581DC3D29700AF3A7F /* lazaro_cardenaz.txt in Resources */,
+				E93FEDB11DC2C9A300F87108 /* francisco_fagoaga.txt in Resources */,
+				E93ABA9E1DCCEFD200253828 /* ACaslonPro-Bold.otf in Resources */,
+				E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */,
+				E9DD94331DC3CC3400AF3A7F /* adalberto_tejeda.txt in Resources */,
+				E93FEDA31DC2C68F00F87108 /* sebastian_garcia_camacho.txt in Resources */,
+				E9DD94481DC3CC3400AF3A7F /* santos_degollado.txt in Resources */,
+				E9DD94B11DC4142300AF3A7F /* narciso_bassols.txt in Resources */,
+				E9DD94B81DC41C7500AF3A7F /* enrique_olivares_santana.txt in Resources */,
+				E9DD94B01DC4142300AF3A7F /* miguel_aleman_valdes.txt in Resources */,
+				E9DD94431DC3CC3400AF3A7F /* manuel_ruiz.txt in Resources */,
+				E9F82D1A1DC3B4B100991A47 /* ignacio_rayon.txt in Resources */,
+				E93FED9E1DC2C68F00F87108 /* juan_dios_canedo.txt in Resources */,
+				E93FED9C1DC2C68F00F87108 /* jose_ignacio_garcia_illueca.txt in Resources */,
+				E9DD94951DC402FB00AF3A7F /* lucio_blanco.txt in Resources */,
+				E9F82D191DC3B4B000991A47 /* domingo_ibarra_ramos.txt in Resources */,
+				E9DD94841DC402FB00AF3A7F /* eduardo_g_pankhurst.txt in Resources */,
+				E9DD94911DC402FB00AF3A7F /* jose_urbano_fonseca.txt in Resources */,
+				E9DD94361DC3CC3400AF3A7F /* francisco_zarco.txt in Resources */,
+				E9DD949E1DC402FB00AF3A7F /* rafael_hernandez_madero.txt in Resources */,
+				E93ABAB11DCCF90F00253828 /* francisco_ramirez_acuna.txt in Resources */,
+				E9F82D1B1DC3B4B100991A47 /* joaquin_iturbide.txt in Resources */,
+				E958E1591DC12CDE008656A8 /* Personajes.json in Resources */,
+				E9DD943E1DC3CC3400AF3A7F /* jose_maria_iglesias.txt in Resources */,
+				E93ABAAE1DCCF90F00253828 /* emilio_chuayffet.txt in Resources */,
+				E93FEDAF1DC2C9A300F87108 /* bernardo_gonzalez_perez_angulo.txt in Resources */,
+				E9DD94451DC3CC3400AF3A7F /* manuel_siliceo.txt in Resources */,
+				E9DD94931DC402FB00AF3A7F /* juan_jose_baz_palafox.txt in Resources */,
+				E9DD94801DC402FB00AF3A7F /* alberto_garcia_ramos.txt in Resources */,
+				E93ABAA21DCCEFD200253828 /* ACaslonPro-Semibold.otf in Resources */,
+				E9DD948B1DC402FB00AF3A7F /* ignacio_llave.txt in Resources */,
+				E9DD94421DC3CC3400AF3A7F /* manuel_maria_zamacona.txt in Resources */,
+				E9DD94B91DC41C7500AF3A7F /* jesus_reyes_heroles.txt in Resources */,
+				E93FEDB91DC2C9A300F87108 /* manuel_eduardo_gorostiza.txt in Resources */,
+				E93ABAA01DCCEFD200253828 /* ACaslonPro-Italic.otf in Resources */,
+				E9DD943B1DC3CC3400AF3A7F /* jose_maria_cortes_esparza.txt in Resources */,
+				E9DD94981DC402FB00AF3A7F /* manuel_gonzalez_cosio.txt in Resources */,
+				E93FEDB01DC2C9A300F87108 /* carlos_garcia_bocanegra.txt in Resources */,
+				E9DD94541DC3D29700AF3A7F /* eduardo_vasconcelos.txt in Resources */,
+				E93FED9D1DC2C68F00F87108 /* jose_maria_bocanegra.txt in Resources */,
+				E9DD94AC1DC4142300AF3A7F /* adolfo_ruiz_cortines.txt in Resources */,
+				E9DD94AD1DC4142300AF3A7F /* hector_perez_martinez.txt in Resources */,
+				E966FAA71DC9481900E0A6F6 /* TrajanProRegular.ttf in Resources */,
+				E9DD94941DC402FB00AF3A7F /* juan_manuel_fernandez_jauregui.txt in Resources */,
+				E9F82D1F1DC3B4B100991A47 /* jose_maria_jimenez.txt in Resources */,
+				E93FED911DC2C08900F87108 /* jose_cecilio_valle.txt in Resources */,
+				E9DD94381DC3CC3400AF3A7F /* isidro_diaz.txt in Resources */,
+				E9F82D251DC3B4B100991A47 /* manuel_baranda.txt in Resources */,
+				E93FED8F1DC2BF2F00F87108 /* jose_manuel_herrera.txt in Resources */,
+				E9DD949C1DC402FB00AF3A7F /* plutarco_elias_calles.txt in Resources */,
+				E9DD94551DC3D29700AF3A7F /* felipe_canales_salinas.txt in Resources */,
+				E958E1311DC10E98008656A8 /* Assets.xcassets in Resources */,
+				E9DD94531DC3D29700AF3A7F /* carlos_riva_palacio.txt in Resources */,
+				E9F82D261DC3B4B100991A47 /* manuel_crecencio_rejon.txt in Resources */,
+				E93FEDB61DC2C9A300F87108 /* juan_rodriguez_puebla.txt in Resources */,
+				E9F82D211DC3B4B100991A47 /* jose_maria_lafragua.txt in Resources */,
+				E9DD94831DC402FB00AF3A7F /* carlos_diez_gutierrez.txt in Resources */,
+				E93ABAB31DCCF90F00253828 /* santiago_creel.txt in Resources */,
+				E9DD94861DC402FB00AF3A7F /* enrique_colunga.txt in Resources */,
+				E93ABAB01DCCF90F00253828 /* francisco_labastida.txt in Resources */,
+				E9DD949A1DC402FB00AF3A7F /* mariano_macedo.txt in Resources */,
+				E9DD94561DC3D29700AF3A7F /* jorge_carpizo.txt in Resources */,
+				E9DD94C31DC42EF400AF3A7F /* luis_echeverria.txt in Resources */,
+				E93FED9F1DC2C68F00F87108 /* lucas_alaman.txt in Resources */,
+				E9DD94B21DC4142300AF3A7F /* primo_villa_michel.txt in Resources */,
+				E9DD94371DC3CC3400AF3A7F /* ignacio_l_vallarta.txt in Resources */,
+				E93FEDB31DC2C9A300F87108 /* jose_antonio_romero.txt in Resources */,
+				E93ABAAD1DCCF90F00253828 /* diodoro_carrasco.txt in Resources */,
+				E958E12C1DC10E98008656A8 /* Main.storyboard in Resources */,
+				E93FED8B1DC2A28100F87108 /* lazaro_cardenas.txt in Resources */,
+				E9DD94901DC402FB00AF3A7F /* jose_quevedo.txt in Resources */,
+				E9F82D1D1DC3B4B100991A47 /* jose_fernando_ramirez.txt in Resources */,
+				E9F82D241DC3B4B100991A47 /* luis_rosa_oteiza.txt in Resources */,
+				E9F82D231DC3B4B100991A47 /* jose_ramon_pacheco.txt in Resources */,
+				E9DD94571DC3D29700AF3A7F /* juan_jose_rios.txt in Resources */,
+				E9DD94341DC3CC3400AF3A7F /* antonio_corona.txt in Resources */,
+				E9DD94471DC3CC3400AF3A7F /* pedro_ogazon.txt in Resources */,
+				E93FEDB21DC2C9A300F87108 /* francisco_maria_lombardo.txt in Resources */,
+				E9DD943F1DC3CC3400AF3A7F /* juan_jose_garza.txt in Resources */,
+				E9DD94411DC3CC3400AF3A7F /* manuel_doblado.txt in Resources */,
+				E93ABAB21DCCF90F00253828 /* juan_camilo_mourino.txt in Resources */,
+				E9DD94C11DC42EF400AF3A7F /* angel_carvajal_bernal.txt in Resources */,
+				E93ABAAF1DCCF90F00253828 /* esteban_moctezuma.txt in Resources */,
+				E93ABAA31DCCEFD200253828 /* ACaslonPro-SemiboldItalic.otf in Resources */,
+				E9DD944A1DC3CC3400AF3A7F /* teofilo_marin.txt in Resources */,
+				E93FEDA21DC2C68F00F87108 /* pablo_llave.txt in Resources */,
+				E9DD94921DC402FB00AF3A7F /* juan_antonio_fuente.txt in Resources */,
+				E9DD94591DC3D29700AF3A7F /* manuel_tellez.txt in Resources */,
+				E9DD94441DC3CC3400AF3A7F /* manuel_saavedra.txt in Resources */,
+				E9F82D221DC3B4B100991A47 /* jose_mariano_marin.txt in Resources */,
+				E9F82D271DC3B4B100991A47 /* manuel_pena_pena.txt in Resources */,
+				E9F82D181DC3B4B000991A47 /* agustin_perez_lebrija.txt in Resources */,
+				E9F82D291DC3B4B100991A47 /* remigio_yarza.txt in Resources */,
+				E9DD94851DC402FB00AF3A7F /* emilio_vazquez_gomez.txt in Resources */,
+				E9DD94BC1DC421D100AF3A7F /* fernando_gutierrez_barrios.txt in Resources */,
+				E93FEDA01DC2C68F00F87108 /* manuel_gomez_pedraza.txt in Resources */,
+				E9DD947F1DC402FB00AF3A7F /* abraham_gonzalez.txt in Resources */,
+				E9DD94891DC402FB00AF3A7F /* hilario_elguero.txt in Resources */,
+				E9DD94461DC3CC3400AF3A7F /* melchor_ocampo.txt in Resources */,
+				E9F82D1E1DC3B4B100991A47 /* jose_maria_chico.txt in Resources */,
+				E9DD949B1DC402FB00AF3A7F /* mariano_yanez.txt in Resources */,
+				E9DD94401DC3CC3400AF3A7F /* leon_guzman.txt in Resources */,
+				E9DD943A1DC3CC3400AF3A7F /* jose_maria_castillo_velasco.txt in Resources */,
+				E9DD94B31DC4142300AF3A7F /* silvano_barba_gonzalez.txt in Resources */,
+				E9DD94491DC3CC3400AF3A7F /* sebastian_lerdo_tejada.txt in Resources */,
+				E93FEDB71DC2C9A300F87108 /* luis_gonzaga_cuevas.txt in Resources */,
+				E93FEDB51DC2C9A300F87108 /* jose_maria_guitierrez_estrada.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E958E1381DC10E98008656A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0BE24CE80BB5FC4A1C64BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		918CE1398C66DF7E08194DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BAC5F49720CC3C2B427C14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E958E11A1DC10E98008656A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93FED841DC2788700F87108 /* Personaje+CoreDataProperties.swift in Sources */,
+				E958E1291DC10E98008656A8 /* ViewController.m in Sources */,
+				E93FED861DC278A000F87108 /* Cronologica+CoreDataClass.swift in Sources */,
+				E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */,
+				E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */,
+				E958E1261DC10E98008656A8 /* AppDelegate.m in Sources */,
+				E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */,
+				E958E1691DC17593008656A8 /* CVCPersonaje.m in Sources */,
+				E958E12F1DC10E98008656A8 /* Carrusel.xcdatamodeld in Sources */,
+				E958E15E1DC166AC008656A8 /* DetalleViewController.m in Sources */,
+				E966FAAB1DC9585400E0A6F6 /* MosaicoViewController.m in Sources */,
+				E958E1231DC10E98008656A8 /* main.m in Sources */,
+				E93FED881DC278D900F87108 /* Personaje+CoreDataClass.swift in Sources */,
+				E958E14D1DC11214008656A8 /* HeaderFecha.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E958E1361DC10E98008656A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E958E13F1DC10E98008656A8 /* CarruselUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E958E13C1DC10E98008656A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E958E11D1DC10E98008656A8 /* Carrusel */;
+			targetProxy = E958E13B1DC10E98008656A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E958E12A1DC10E98008656A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E958E12B1DC10E98008656A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E958E1321DC10E98008656A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E958E1331DC10E98008656A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E958E1411DC10E98008656A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E958E1421DC10E98008656A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E958E1441DC10E98008656A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Carrusel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gesfor.Carrusel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carrusel/Carrusel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E958E1451DC10E98008656A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Carrusel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gesfor.Carrusel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carrusel/Carrusel-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E958E1471DC10E98008656A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarruselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gesfor.CarruselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carrusel;
+			};
+			name = Debug;
+		};
+		E958E1481DC10E98008656A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarruselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gesfor.CarruselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carrusel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E958E1191DC10E98008656A8 /* Build configuration list for PBXProject "Cuadros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E958E1411DC10E98008656A8 /* Debug */,
+				E958E1421DC10E98008656A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E958E1431DC10E98008656A8 /* Build configuration list for PBXNativeTarget "Carrusel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E958E1441DC10E98008656A8 /* Debug */,
+				E958E1451DC10E98008656A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E958E1461DC10E98008656A8 /* Build configuration list for PBXNativeTarget "CarruselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E958E1471DC10E98008656A8 /* Debug */,
+				E958E1481DC10E98008656A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E958E12D1DC10E98008656A8 /* Carrusel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E958E12E1DC10E98008656A8 /* Carrusel.xcdatamodel */,
+			);
+			currentVersion = E958E12E1DC10E98008656A8 /* Carrusel.xcdatamodel */;
+			path = Carrusel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E958E1161DC10E98008656A8 /* Project object */;
+}

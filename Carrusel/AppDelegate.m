@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Carrusel-Swift.h"
+#import <MagicalRecord/MagicalRecord.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [MagicalRecord setupCoreDataStack];
+    
+    [self guardarBaseJSON];
+    /*for (NSString* family in [UIFont familyNames]) {
+        NSLog(@"%@", family);
+        for (NSString* name in [UIFont fontNamesForFamilyName: family]) {
+            NSLog(@"  %@", name);
+        }
+    }*/
     return YES;
 }
 
@@ -41,7 +52,51 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
+    [MagicalRecord cleanUp];
     [self saveContext];
+}
+
+-(void) guardarBaseJSON {
+    // Guardo las fechas
+    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
+    NSData* datos = [NSData dataWithContentsOfFile:ruta];
+    NSError* error;
+    NSArray* fechas = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
+    if (error) {
+        NSLog(@"Error: %@", error.localizedDescription);
+    }
+    //Cronologica* cronos;
+    /*
+    for (NSDictionary* dic in fechas) {
+        cronos = [Cronologica MR_createEntity];
+        [cronos MR_importValuesForKeysWithObject:dic];
+        //[_fechasArray addObject:cronos];
+    }*/
+    
+    // Guardo los personajes
+    NSString* rutaP = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
+    NSData* datosP = [NSData dataWithContentsOfFile:rutaP];
+    NSError* errorP;
+    NSArray* personalities = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datosP options:NSJSONReadingMutableContainers error:&errorP];
+    if (errorP) {
+        NSLog(@"Error: %@", errorP.localizedDescription);
+    }
+    
+    [MagicalRecord saveWithBlock:^(NSManagedObjectContext * _Nonnull localContext) {
+        [Cronologica MR_importFromArray:fechas inContext:localContext];
+        [Personaje MR_importFromArray:personalities inContext:localContext];
+    } completion:^(BOOL contextDidSave, NSError * _Nullable error) {
+        // Crear una notificacion para la carga por primera vez
+    }];
+    
+    
+    //Personaje* person;
+    /*
+    for (NSDictionary* dic in personalities) {
+        person = [Personaje MR_createEntity];
+        [person MR_importValuesForKeysWithObject:dic];
+        //[_personajesArray addObject:person];
+    }*/
 }
 
 #pragma mark - Core Data stack
