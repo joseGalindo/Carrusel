@@ -93,7 +93,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plutarco Elías Bocanegra" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smG-QN-aeV">
-                                        <rect key="frame" x="210" y="334" width="250" height="105"/>
+                                        <rect key="frame" x="210" y="357" width="250" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="2V0-sA-w56"/>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="qaR-Wc-tsW"/>
@@ -438,7 +438,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melchor Ocampo y mota de nombre largo" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIw-Qi-3uw">
-                                                <rect key="frame" x="20" y="175.5" width="500" height="150"/>
+                                                <rect key="frame" x="20" y="192.5" width="500" height="116.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="QMJ-Bo-AJI"/>
                                                 </constraints>

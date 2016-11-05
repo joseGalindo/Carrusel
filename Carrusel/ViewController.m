@@ -86,45 +86,14 @@
 }
 
 -(void) configurarScrollFechas {
-    /*NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Fechas" ofType:@"json"];
-    NSData* datos = [NSData dataWithContentsOfFile:ruta];
-    NSError* error;
-    NSArray* fechas = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
-    if (error) {
-        NSLog(@"Error: %@", error.localizedDescription);
-    }
-    Cronologica* cronos;
-    for (NSDictionary* dic in fechas) {
-        cronos = [Cronologica MR_createEntity];
-        [cronos MR_importValuesForKeysWithObject:dic];
-        [_fechasArray addObject:cronos];
-    }*/
     _fechasArray = [Cronologica MR_findAllSortedBy:@"fechaInicio" ascending:YES];
-    
     [_tablaFechas reloadData];
 }
 
 -(void) configurarScrollPersonajes {
-    /*
-    NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
-    NSData* datos = [NSData dataWithContentsOfFile:ruta];
-    NSError* error;
-    NSArray* personalities = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
-    if (error) {
-        NSLog(@"Error: %@", error.localizedDescription);
-    }
-    
-    Personaje* person;
-    for (NSDictionary* dic in personalities) {
-        person = [Personaje MR_createEntity];
-        [person MR_importValuesForKeysWithObject:dic];
-        [_personajesArray addObject:person];
-    }*/
     _personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
-    
     [_collectionPersonajes reloadData];
     NSIndexPath* indice = [NSIndexPath indexPathForRow:0 inSection:0];
-    //[_collectionPersonajes selectItemAtIndexPath:indice animated:NO scrollPosition:UICollectionViewScrollPositionNone];
     [self collectionView:_collectionPersonajes didSelectItemAtIndexPath:indice];
 }
 
@@ -178,6 +147,7 @@
     Cronologica* cronSlctd = [_fechasArray objectAtIndex:indexPath.row];
     NSPredicate* predicado = [NSPredicate predicateWithFormat:@"epocaSid like %@", cronSlctd.sid];
     _personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES withPredicate:predicado];
+    posicionActual = 0;
     [_collectionPersonajes reloadData];
     cell.fondo.backgroundColor = [UIColor darkGrayColor];
 }
@@ -198,8 +168,6 @@
     CVCPersonaje* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CVCPersonajes" forIndexPath:indexPath];
     Personaje* person = [_personajesArray objectAtIndex:indexPath.row];
     [cell configurarCeldaPersonaje:person];
-    //int numInd = (int)(indexPath.row + 1);
-    //[cell configurarCeldaPersonaje:@"" withNumero:numInd];
     
     return cell;
 }
@@ -233,13 +201,6 @@
         controller.personaje = _personajeActual;
     }
 }
-
-
-
-- (IBAction)cambiarEfecto:(id)sender {
-    
-}
-
 
 - (IBAction)setSlide:(id)sender {
     NSLog(@"Cambiar efecto");

@@ -81,22 +81,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void) configurarPersonajes {
-    /*NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
-    NSData* datos = [NSData dataWithContentsOfFile:ruta];
-    NSError* error;
-    NSArray* personalities = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
-    if (error) {
-        NSLog(@"Error: %@", error.localizedDescription);
-    }
-    
-    Personaje* person;
-    
-    for (NSDictionary* dic in personalities) {
-        person = [Personaje MR_createEntity];
-        [person MR_importValuesForKeysWithObject:dic];
-        [personajesArray addObject:person];
-    }
-    */
     personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
     [_mCollectionView reloadData];
 }
@@ -109,7 +93,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 -(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     //NSLog(@"Vista: %@", NSStringFromCGRect(_fondo.frame));
     //NSLog(@"Will View: %@", NSStringFromCGSize(size));
-//    capaBandera.frame = CGRectMake(0, 0, size.width, size.height);
+    //capaBandera.frame = CGRectMake(0, 0, size.width, size.height);
 }
 
 
@@ -147,10 +131,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     celda.textLabel.textColor = [UIColor whiteColor];
     
     celda.backgroundColor = [UIColor clearColor];
-    /*UIView* bg = [[UIView alloc] initWithFrame:celda.frame];
-    bg.backgroundColor = [UIColor blackColor];
-    bg.alpha = 0.5;
-    celda.backgroundView = bg;*/
     return celda;
 }
 
@@ -160,8 +140,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
     [self mostrarFiltroNombres:FALSE];
 }
-
-
 
 #pragma mark - UICollectionView DataSource & Delegate
 
@@ -189,14 +167,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
         [UIView animateWithDuration:0.5 animations:^{
             _popUpView.alpha = 1;
         }];
-        //[cell seleccionarPersonaje];
-        /*[UIView animateWithDuration:0.2 animations:^{
-            cell.frame = marcoNuevo;
-            [collectionView.collectionViewLayout invalidateLayout];
-        } completion:^(BOOL finished) {
-            selectedIndexPath = indexPath;
-            [collectionView.collectionViewLayout invalidateLayout];
-        }];*/
     }
 }
 
