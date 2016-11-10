@@ -172,6 +172,12 @@
 		E9657A791DD2354500E00917 /* ACaslonPro-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A711DD2354500E00917 /* ACaslonPro-SemiboldItalic.otf */; };
 		E9657A7A1DD2354500E00917 /* trajan_normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A721DD2354500E00917 /* trajan_normal.ttf */; };
 		E9657A7B1DD2354500E00917 /* TrajanProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A731DD2354500E00917 /* TrajanProRegular.ttf */; };
+		E9657A831DD3F30800E00917 /* Cicle-Fina-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A7C1DD3F30800E00917 /* Cicle-Fina-Italic.ttf */; };
+		E9657A841DD3F30800E00917 /* Cicle-Fina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A7D1DD3F30800E00917 /* Cicle-Fina.ttf */; };
+		E9657A851DD3F30800E00917 /* Cicle-Gordita-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A7E1DD3F30800E00917 /* Cicle-Gordita-Italic.ttf */; };
+		E9657A861DD3F30800E00917 /* Cicle-Gordita.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A7F1DD3F30800E00917 /* Cicle-Gordita.ttf */; };
+		E9657A871DD3F30800E00917 /* Cicle-Semi-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A801DD3F30800E00917 /* Cicle-Semi-Italic.ttf */; };
+		E9657A881DD3F30800E00917 /* Cicle-Semi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A811DD3F30800E00917 /* Cicle-Semi.ttf */; };
 		E966FAAB1DC9585400E0A6F6 /* MosaicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -366,6 +372,12 @@
 		E9657A711DD2354500E00917 /* ACaslonPro-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACaslonPro-SemiboldItalic.otf"; path = "fuentes/ACaslonPro-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		E9657A721DD2354500E00917 /* trajan_normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = trajan_normal.ttf; path = fuentes/trajan_normal.ttf; sourceTree = "<group>"; };
 		E9657A731DD2354500E00917 /* TrajanProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrajanProRegular.ttf; path = fuentes/TrajanProRegular.ttf; sourceTree = "<group>"; };
+		E9657A7C1DD3F30800E00917 /* Cicle-Fina-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Fina-Italic.ttf"; path = "fuentes/Cicle-Fina-Italic.ttf"; sourceTree = "<group>"; };
+		E9657A7D1DD3F30800E00917 /* Cicle-Fina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Fina.ttf"; path = "fuentes/Cicle-Fina.ttf"; sourceTree = "<group>"; };
+		E9657A7E1DD3F30800E00917 /* Cicle-Gordita-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Gordita-Italic.ttf"; path = "fuentes/Cicle-Gordita-Italic.ttf"; sourceTree = "<group>"; };
+		E9657A7F1DD3F30800E00917 /* Cicle-Gordita.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Gordita.ttf"; path = "fuentes/Cicle-Gordita.ttf"; sourceTree = "<group>"; };
+		E9657A801DD3F30800E00917 /* Cicle-Semi-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Semi-Italic.ttf"; path = "fuentes/Cicle-Semi-Italic.ttf"; sourceTree = "<group>"; };
+		E9657A811DD3F30800E00917 /* Cicle-Semi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Semi.ttf"; path = "fuentes/Cicle-Semi.ttf"; sourceTree = "<group>"; };
 		E966FAA91DC9585400E0A6F6 /* MosaicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MosaicoViewController.h; path = Classes/MosaicoViewController.h; sourceTree = "<group>"; };
 		E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MosaicoViewController.m; path = Classes/MosaicoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -685,6 +697,12 @@
 		E966FAA01DC9478500E0A6F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E9657A7C1DD3F30800E00917 /* Cicle-Fina-Italic.ttf */,
+				E9657A7D1DD3F30800E00917 /* Cicle-Fina.ttf */,
+				E9657A7E1DD3F30800E00917 /* Cicle-Gordita-Italic.ttf */,
+				E9657A7F1DD3F30800E00917 /* Cicle-Gordita.ttf */,
+				E9657A801DD3F30800E00917 /* Cicle-Semi-Italic.ttf */,
+				E9657A811DD3F30800E00917 /* Cicle-Semi.ttf */,
 				E9657A6C1DD2354500E00917 /* ACaslonPro-Bold.otf */,
 				E9657A6D1DD2354500E00917 /* ACaslonPro-BoldItalic.otf */,
 				E9657A6E1DD2354500E00917 /* ACaslonPro-Italic.otf */,
@@ -795,6 +813,7 @@
 				E9657A141DD2349D00E00917 /* jesus_reyes_heroles.txt in Resources */,
 				E9657A2D1DD2349D00E00917 /* jose_quevedo.txt in Resources */,
 				E9657A471DD2349D00E00917 /* manuel_garza_aldape.txt in Resources */,
+				E9657A851DD3F30800E00917 /* Cicle-Gordita-Italic.ttf in Resources */,
 				E9657A101DD2349D00E00917 /* ignacio_rayon.txt in Resources */,
 				E9657A461DD2349D00E00917 /* manuel_eduardo_gorostiza.txt in Resources */,
 				E9657A171DD2349D00E00917 /* joaquin_maria_castillo_lanza.txt in Resources */,
@@ -813,6 +832,7 @@
 				E9657A571DD2349D00E00917 /* miguel_aleman_valdes.txt in Resources */,
 				E9657A5F1DD2349D00E00917 /* rafael_hernandez_madero.txt in Resources */,
 				E9657A451DD2349D00E00917 /* manuel_doblado.txt in Resources */,
+				E9657A831DD3F30800E00917 /* Cicle-Fina-Italic.ttf in Resources */,
 				E9657A351DD2349D00E00917 /* juan_jose_garza.txt in Resources */,
 				E96579FC1DD2349D00E00917 /* emilio_vazquez_gomez.txt in Resources */,
 				E9657A2E1DD2349D00E00917 /* jose_ramon_pacheco.txt in Resources */,
@@ -825,6 +845,7 @@
 				E9657A6A1DD2349D00E00917 /* trinidad_garcia_cadena.txt in Resources */,
 				E9657A791DD2354500E00917 /* ACaslonPro-SemiboldItalic.otf in Resources */,
 				E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */,
+				E9657A861DD3F30800E00917 /* Cicle-Gordita.ttf in Resources */,
 				E9657A2A1DD2349D00E00917 /* jose_maria_lacunza_blengio.txt in Resources */,
 				E96579F81DD2349D00E00917 /* eduardo_g_pankhurst.txt in Resources */,
 				E9657A4C1DD2349D00E00917 /* manuel_pena_pena.txt in Resources */,
@@ -866,6 +887,7 @@
 				E96579FF1DD2349D00E00917 /* esteban_moctezuma.txt in Resources */,
 				E96579F71DD2349D00E00917 /* domingo_ibarra_ramos.txt in Resources */,
 				E9657A4B1DD2349D00E00917 /* manuel_ortiz_torre.txt in Resources */,
+				E9657A871DD3F30800E00917 /* Cicle-Semi-Italic.ttf in Resources */,
 				E9657A2C1DD2349D00E00917 /* jose_mariano_marin.txt in Resources */,
 				E9657A331DD2349D00E00917 /* juan_dios_canedo.txt in Resources */,
 				E9657A5E1DD2349D00E00917 /* protasio_tagle.txt in Resources */,
@@ -877,6 +899,7 @@
 				E96579F51DD2349D00E00917 /* carlos_riva_palacio.txt in Resources */,
 				E9657A7B1DD2354500E00917 /* TrajanProRegular.ttf in Resources */,
 				E9657A151DD2349D00E00917 /* jesus_teran_peredo.txt in Resources */,
+				E9657A841DD3F30800E00917 /* Cicle-Fina.ttf in Resources */,
 				E96579ED1DD2349D00E00917 /* angel_carvajal_bernal.txt in Resources */,
 				E9657A611DD2349D00E00917 /* ramon_corral.txt in Resources */,
 				E9657A491DD2349D00E00917 /* manuel_gonzalez_cosio.txt in Resources */,
@@ -909,6 +932,7 @@
 				E9657A761DD2354500E00917 /* ACaslonPro-Italic.otf in Resources */,
 				E9657A371DD2349D00E00917 /* juan_manuel_fernandez_jauregui.txt in Resources */,
 				E96579E91DD2349D00E00917 /* adolfo_ruiz_cortines.txt in Resources */,
+				E9657A881DD3F30800E00917 /* Cicle-Semi.ttf in Resources */,
 				E9657A581DD2349D00E00917 /* narciso_bassols.txt in Resources */,
 				E9657A041DD2349D00E00917 /* francisco_labastida.txt in Resources */,
 				E9657A051DD2349D00E00917 /* francisco_maria_lombardo.txt in Resources */,

@@ -199,6 +199,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 - (IBAction)mostrarFiltroNombres:(id)sender {
+    //_tablaNombres
     if (filtroNombresShowed) {
         [UIView animateWithDuration:0.5 animations:^{
             _tablaNombres.alpha = 0.f;

@@ -34,6 +34,12 @@
 		<string>ACasionPro-Regular.otf</string>
 		<string>ACasionPro-Semibold.otf</string>
 		<string>ACasionPro-SemiboldItalic.otf</string>
+		<string>Cicle-Fina-Italic.ttf</string>
+		<string>Cicle-Fina.ttf</string>
+		<string>Cicle-Gordita-Italic.ttf</string>
+		<string>Cicle-Gordita.ttf</string>
+		<string>Cicle-Semi-Italic.ttf</string>
+		<string>Cicle-Semi.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
