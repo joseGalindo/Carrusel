@@ -14,7 +14,6 @@
 
 // UI
 @property (weak, nonatomic) IBOutlet UILabel *intervaloFechas;
-@property (weak, nonatomic) IBOutlet UILabel *tituloIntervalo;
 @property (weak, nonatomic) IBOutlet UIImageView *fondo;
 
 

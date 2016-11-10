@@ -52,10 +52,10 @@
     _vistaMiniDetalle.layer.shadowRadius = 5;
     _vistaMiniDetalle.layer.shadowOpacity = 0.5;
     
-    _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
-    _cerrarBtn.layer.masksToBounds = YES;
-    _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
-    _cerrarBtn.layer.borderWidth = 2;
+    //_cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
+    //_cerrarBtn.layer.masksToBounds = YES;
+    //_cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    //_cerrarBtn.layer.borderWidth = 2;
     
     posicionActual = 10;
     animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
@@ -76,8 +76,7 @@
     capaBandera.startPoint = CGPointMake(0, 0.4);
     capaBandera.endPoint = CGPointMake(1.0, 1.0);
     
-    
-    [_fondo.layer addSublayer:capaBandera];
+    //[_fondo.layer addSublayer:capaBandera];
     
 }
 
@@ -105,8 +104,7 @@
     posicionActual = (posicionActual + 3) % _personajesArray.count;
 }
 
-- (void)deviceDidRotate:(NSNotification *)notification
-{
+- (void)deviceDidRotate:(NSNotification *)notification {
     UIDeviceOrientation orientacion = [[UIDevice currentDevice] orientation];
     
     BOOL isLandscape = UIDeviceOrientationIsLandscape(orientacion);
@@ -115,11 +113,15 @@
     if (isPortrait) {
         _numeroBottomConstraint.constant = 600.0;
         _fechaBottomConstraint.constant = 600.0;
+        _backViewConstraint.constant = 270;
+        _tablaWidthConstraint.constant = 200;
     }
     
     if (isLandscape) {
         _numeroBottomConstraint.constant = 40.0;
         _fechaBottomConstraint.constant = 40.0;
+        _backViewConstraint.constant = 320;
+        _tablaWidthConstraint.constant = 250;
     }
 }
 
@@ -149,14 +151,18 @@
     _personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES withPredicate:predicado];
     posicionActual = 0;
     [_collectionPersonajes reloadData];
-    cell.fondo.backgroundColor = [UIColor darkGrayColor];
+    cronSlctd.seleccionado = YES;
+    cell.intervaloFechas.font = [UIFont fontWithName:@"CicleSemi" size:43];
+    // 0,47,27
+    cell.intervaloFechas.textColor = [UIColor colorWithRed:0 green:(47.0 / 255.0) blue:(27.0 / 255.0) alpha:1];
 }
 
 -(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
     TVCFecha* cell = [tableView cellForRowAtIndexPath:indexPath];
-    cell.fondo.backgroundColor = [UIColor colorWithRed:(107.0 / 255.0)
-                                                 green:(100.0 / 255.0)
-                                                  blue:(95.0 / 255.0) alpha:1.0];
+    Cronologica* cronSlctd = [_fechasArray objectAtIndex:indexPath.row];
+    cronSlctd.seleccionado = NO;
+    cell.intervaloFechas.font = [UIFont fontWithName:@"CicleSemi" size:30];
+    cell.intervaloFechas.textColor = [UIColor blackColor];
 }
 
 #pragma mark - UICollectionView Methods
@@ -174,7 +180,7 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     CVCPersonaje* person = (CVCPersonaje*)[collectionView cellForItemAtIndexPath:indexPath];
-    person.vistaOpaca.hidden = YES;
+    [person seleccionarCelda];
     Personaje* persona = [_personajesArray objectAtIndex:indexPath.row];
     _personajeActual = persona;
     posicionActual = (int)indexPath.row;
@@ -183,7 +189,7 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
     CVCPersonaje* person = (CVCPersonaje*)[collectionView cellForItemAtIndexPath:indexPath];
-    person.vistaOpaca.hidden = NO;
+    [person deseleccionarCelda];
 }
 
 #pragma mark Configuracion Vista Personaje
@@ -192,6 +198,7 @@
     _numeroSelected.text = [NSString stringWithFormat:@"%d", personaje.posicion];
     _nombreSelected.text = personaje.nombre;
     _imagenPersonajeSelected.image = [UIImage imageNamed:personaje.imagen];
+    _fechaPersonajeSelected.text = personaje.periodo;
 }
 
 #pragma mark Navigation

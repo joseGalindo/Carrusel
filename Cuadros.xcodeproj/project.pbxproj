@@ -157,7 +157,7 @@
 		E9657A621DD2349D00E00917 /* remigio_yarza.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579DD1DD2349D00E00917 /* remigio_yarza.txt */; };
 		E9657A631DD2349D00E00917 /* santiago_creel.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579DE1DD2349D00E00917 /* santiago_creel.txt */; };
 		E9657A641DD2349D00E00917 /* santos_degollado.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579DF1DD2349D00E00917 /* santos_degollado.txt */; };
-		E9657A651DD2349D00E00917 /* sebastian_garcia_camacho.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579E01DD2349D00E00917 /* sebastian_garcia_camacho.txt */; };
+		E9657A651DD2349D00E00917 /* sebastian_camacho_castillo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579E01DD2349D00E00917 /* sebastian_camacho_castillo.txt */; };
 		E9657A661DD2349D00E00917 /* sebastian_lerdo_tejada.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579E11DD2349D00E00917 /* sebastian_lerdo_tejada.txt */; };
 		E9657A671DD2349D00E00917 /* silvano_barba_gonzalez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579E21DD2349D00E00917 /* silvano_barba_gonzalez.txt */; };
 		E9657A681DD2349D00E00917 /* silvestre_guerrero.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579E31DD2349D00E00917 /* silvestre_guerrero.txt */; };
@@ -357,7 +357,7 @@
 		E96579DD1DD2349D00E00917 /* remigio_yarza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = remigio_yarza.txt; path = textos/remigio_yarza.txt; sourceTree = "<group>"; };
 		E96579DE1DD2349D00E00917 /* santiago_creel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = santiago_creel.txt; path = textos/santiago_creel.txt; sourceTree = "<group>"; };
 		E96579DF1DD2349D00E00917 /* santos_degollado.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = santos_degollado.txt; path = textos/santos_degollado.txt; sourceTree = "<group>"; };
-		E96579E01DD2349D00E00917 /* sebastian_garcia_camacho.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sebastian_garcia_camacho.txt; path = textos/sebastian_garcia_camacho.txt; sourceTree = "<group>"; };
+		E96579E01DD2349D00E00917 /* sebastian_camacho_castillo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sebastian_camacho_castillo.txt; path = textos/sebastian_camacho_castillo.txt; sourceTree = "<group>"; };
 		E96579E11DD2349D00E00917 /* sebastian_lerdo_tejada.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sebastian_lerdo_tejada.txt; path = textos/sebastian_lerdo_tejada.txt; sourceTree = "<group>"; };
 		E96579E21DD2349D00E00917 /* silvano_barba_gonzalez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = silvano_barba_gonzalez.txt; path = textos/silvano_barba_gonzalez.txt; sourceTree = "<group>"; };
 		E96579E31DD2349D00E00917 /* silvestre_guerrero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = silvestre_guerrero.txt; path = textos/silvestre_guerrero.txt; sourceTree = "<group>"; };
@@ -560,7 +560,7 @@
 				E96579DD1DD2349D00E00917 /* remigio_yarza.txt */,
 				E96579DE1DD2349D00E00917 /* santiago_creel.txt */,
 				E96579DF1DD2349D00E00917 /* santos_degollado.txt */,
-				E96579E01DD2349D00E00917 /* sebastian_garcia_camacho.txt */,
+				E96579E01DD2349D00E00917 /* sebastian_camacho_castillo.txt */,
 				E96579E11DD2349D00E00917 /* sebastian_lerdo_tejada.txt */,
 				E96579E21DD2349D00E00917 /* silvano_barba_gonzalez.txt */,
 				E96579E31DD2349D00E00917 /* silvestre_guerrero.txt */,
@@ -805,7 +805,7 @@
 				E9657A241DD2349D00E00917 /* jose_maria_cortes_esparza.txt in Resources */,
 				E9657A1C1DD2349D00E00917 /* jose_fernando_ramirez.txt in Resources */,
 				E96579FA1DD2349D00E00917 /* emilio_chuayffet.txt in Resources */,
-				E9657A651DD2349D00E00917 /* sebastian_garcia_camacho.txt in Resources */,
+				E9657A651DD2349D00E00917 /* sebastian_camacho_castillo.txt in Resources */,
 				E9657A1A1DD2349D00E00917 /* jose_cecilio_valle.txt in Resources */,
 				E9657A2F1DD2349D00E00917 /* jose_urbano_fonseca.txt in Resources */,
 				E9657A1D1DD2349D00E00917 /* jose_ignacio_garcia_illueca.txt in Resources */,

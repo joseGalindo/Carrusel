@@ -26,6 +26,7 @@
     
 }
 
+
 -(void) deseleccionarPersonaje {
     _imagenPersonaje.alpha = 0.5;
 }

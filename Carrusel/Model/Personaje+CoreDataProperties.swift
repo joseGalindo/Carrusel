@@ -2,7 +2,7 @@
 //  Personaje+CoreDataProperties.swift
 //  Cuadros
 //
-//  Created by José Cruz Galindo Martínez on 04/11/16.
+//  Created by José Cruz Galindo Martínez on 10/11/16.
 //  Copyright © 2016 José Cruz Galindo Martínez. All rights reserved.
 //
 
@@ -16,7 +16,9 @@ extension Personaje {
         return NSFetchRequest<Personaje>(entityName: "Personaje");
     }
 
+    @NSManaged public var apellidos: String?
     @NSManaged public var biografia: String?
+    @NSManaged public var epocaSid: String?
     @NSManaged public var fechaDefuncion: NSDate?
     @NSManaged public var fechaNacimiento: NSDate?
     @NSManaged public var imagen: String?
@@ -24,8 +26,8 @@ extension Personaje {
     @NSManaged public var ordenCronologico: NSDate?
     @NSManaged public var posicion: Int32
     @NSManaged public var sid: Int32
-    @NSManaged public var epocaSid: String?
-    @NSManaged public var apellidos: String?
+    @NSManaged public var seleccionado: Bool
+    @NSManaged public var periodo: String?
     @NSManaged public var cronologia: Cronologica?
 
 }

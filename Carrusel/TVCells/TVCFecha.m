@@ -13,15 +13,15 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+    
 }
 
 +(CGFloat)vistaHeight {
-    return 110;
+    return 80;
 }
 
 -(void)configurarCelda:(Cronologica*) cronologica{
@@ -31,13 +31,21 @@
                         [formater stringFromDate:cronologica.fechaInicio],
                         [formater stringFromDate:cronologica.fechaFin]];
     _intervaloFechas.text = fechas;
-    _tituloIntervalo.text = cronologica.descripcion;
+    //_tituloIntervalo.text = cronologica.descripcion;
     
     _intervaloFechas.layer.shadowColor = [UIColor blackColor].CGColor;
     _intervaloFechas.layer.shadowOffset = CGSizeMake(5, 1);
     _intervaloFechas.layer.shadowRadius = 3;
     _intervaloFechas.layer.shadowOpacity = 0.5;
     _intervaloFechas.layer.shouldRasterize = NO;
+    
+    if (cronologica.seleccionado) {
+        _intervaloFechas.font = [UIFont fontWithName:@"CicleSemi" size:43];
+        _intervaloFechas.textColor = [UIColor colorWithRed:0 green:(47.0 / 255.0) blue:(27.0 / 255.0) alpha:1];
+    } else {
+        _intervaloFechas.font = [UIFont fontWithName:@"CicleSemi" size:30];
+        _intervaloFechas.textColor = [UIColor blackColor];
+    }
 }
 
 @end

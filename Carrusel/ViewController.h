@@ -24,6 +24,8 @@
 // Constraints
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *numeroBottomConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *fechaBottomConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *backViewConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *tablaWidthConstraint;
 
 
 // Vista Detalle

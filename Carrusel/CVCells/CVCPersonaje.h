@@ -20,5 +20,7 @@
 +(CGFloat) vistaHeight;
 
 -(void) configurarCeldaPersonaje:(Personaje*) persona;
+-(void) seleccionarCelda;
+-(void) deseleccionarCelda;
 
 @end

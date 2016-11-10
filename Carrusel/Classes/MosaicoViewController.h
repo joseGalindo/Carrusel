@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIView *popUpView;
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPopUp;
 @property (weak, nonatomic) IBOutlet UILabel *nombrePopUp;
+@property (weak, nonatomic) IBOutlet UILabel *fechasPopUp;
 @property (weak, nonatomic) IBOutlet UIButton *cerrarBorderBtn;
 @property (weak, nonatomic) IBOutlet UIView *vistaBioContainer;
 

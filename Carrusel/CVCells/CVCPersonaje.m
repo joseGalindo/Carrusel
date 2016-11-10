@@ -30,4 +30,15 @@
     _numeroIndicador.text = [NSString stringWithFormat:@"%d", persona.posicion];
 }
 
+-(void)seleccionarCelda {
+    _vistaOpaca.hidden = NO;
+    _retrato.alpha = 1.0;
+}
+
+-(void)deseleccionarCelda {
+    _vistaOpaca.hidden = YES;
+    _retrato.alpha = 0.3;
+}
+
+
 @end

@@ -87,7 +87,8 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 -(void) configurarPopUp {
     _nombrePopUp.text = _personajeActual.nombre;
-    _imagenPopUp.image = [UIImage imageNamed:_personajeActual.imagen ];
+    _imagenPopUp.image = [UIImage imageNamed:_personajeActual.imagen];
+    _fechasPopUp.text = _personajeActual.periodo;
 }
 
 -(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
