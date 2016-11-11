@@ -36,7 +36,7 @@
 		E96579E91DD2349D00E00917 /* adolfo_ruiz_cortines.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579641DD2349D00E00917 /* adolfo_ruiz_cortines.txt */; };
 		E96579EA1DD2349D00E00917 /* agustin_perez_lebrija.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579651DD2349D00E00917 /* agustin_perez_lebrija.txt */; };
 		E96579EB1DD2349D00E00917 /* agustin_viesca_montes.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579661DD2349D00E00917 /* agustin_viesca_montes.txt */; };
-		E96579EC1DD2349D00E00917 /* alberto_garcia_ramos.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579671DD2349D00E00917 /* alberto_garcia_ramos.txt */; };
+		E96579EC1DD2349D00E00917 /* alberto_garcia_granados.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579671DD2349D00E00917 /* alberto_garcia_granados.txt */; };
 		E96579ED1DD2349D00E00917 /* angel_carvajal_bernal.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579681DD2349D00E00917 /* angel_carvajal_bernal.txt */; };
 		E96579EE1DD2349D00E00917 /* antonio_corona.txt in Resources */ = {isa = PBXBuildFile; fileRef = E96579691DD2349D00E00917 /* antonio_corona.txt */; };
 		E96579EF1DD2349D00E00917 /* aureliano_urrutia.txt in Resources */ = {isa = PBXBuildFile; fileRef = E965796A1DD2349D00E00917 /* aureliano_urrutia.txt */; };
@@ -236,7 +236,7 @@
 		E96579641DD2349D00E00917 /* adolfo_ruiz_cortines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = adolfo_ruiz_cortines.txt; path = textos/adolfo_ruiz_cortines.txt; sourceTree = "<group>"; };
 		E96579651DD2349D00E00917 /* agustin_perez_lebrija.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_perez_lebrija.txt; path = textos/agustin_perez_lebrija.txt; sourceTree = "<group>"; };
 		E96579661DD2349D00E00917 /* agustin_viesca_montes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = agustin_viesca_montes.txt; path = textos/agustin_viesca_montes.txt; sourceTree = "<group>"; };
-		E96579671DD2349D00E00917 /* alberto_garcia_ramos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = alberto_garcia_ramos.txt; path = textos/alberto_garcia_ramos.txt; sourceTree = "<group>"; };
+		E96579671DD2349D00E00917 /* alberto_garcia_granados.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = alberto_garcia_granados.txt; path = textos/alberto_garcia_granados.txt; sourceTree = "<group>"; };
 		E96579681DD2349D00E00917 /* angel_carvajal_bernal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = angel_carvajal_bernal.txt; path = textos/angel_carvajal_bernal.txt; sourceTree = "<group>"; };
 		E96579691DD2349D00E00917 /* antonio_corona.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = antonio_corona.txt; path = textos/antonio_corona.txt; sourceTree = "<group>"; };
 		E965796A1DD2349D00E00917 /* aureliano_urrutia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = aureliano_urrutia.txt; path = textos/aureliano_urrutia.txt; sourceTree = "<group>"; };
@@ -439,7 +439,7 @@
 				E96579641DD2349D00E00917 /* adolfo_ruiz_cortines.txt */,
 				E96579651DD2349D00E00917 /* agustin_perez_lebrija.txt */,
 				E96579661DD2349D00E00917 /* agustin_viesca_montes.txt */,
-				E96579671DD2349D00E00917 /* alberto_garcia_ramos.txt */,
+				E96579671DD2349D00E00917 /* alberto_garcia_granados.txt */,
 				E96579681DD2349D00E00917 /* angel_carvajal_bernal.txt */,
 				E96579691DD2349D00E00917 /* antonio_corona.txt */,
 				E965796A1DD2349D00E00917 /* aureliano_urrutia.txt */,
@@ -908,7 +908,7 @@
 				E9657A121DD2349D00E00917 /* jesus_acuna.txt in Resources */,
 				E9657A221DD2349D00E00917 /* jose_maria_castillo_velasco.txt in Resources */,
 				E9657A071DD2349D00E00917 /* francisco_zarco.txt in Resources */,
-				E96579EC1DD2349D00E00917 /* alberto_garcia_ramos.txt in Resources */,
+				E96579EC1DD2349D00E00917 /* alberto_garcia_granados.txt in Resources */,
 				E9657A251DD2349D00E00917 /* jose_maria_esteva.txt in Resources */,
 				E96579FD1DD2349D00E00917 /* enrique_colunga.txt in Resources */,
 				E96579E81DD2349D00E00917 /* adalberto_tejeda.txt in Resources */,
