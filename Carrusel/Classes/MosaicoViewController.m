@@ -62,10 +62,10 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     // Configuramos el popUp
     _popUpView.hidden = YES;
     _popUpView.alpha = 0.f;
-    _cerrarBorderBtn.layer.cornerRadius = _cerrarBorderBtn.frame.size.width / 2;
-    _cerrarBorderBtn.layer.masksToBounds = YES;
-    _cerrarBorderBtn.layer.borderColor = [UIColor whiteColor].CGColor;
-    _cerrarBorderBtn.layer.borderWidth = 2.0f;
+    //_cerrarBorderBtn.layer.cornerRadius = _cerrarBorderBtn.frame.size.width / 2;
+    //_cerrarBorderBtn.layer.masksToBounds = YES;
+    //_cerrarBorderBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    //_cerrarBorderBtn.layer.borderWidth = 2.0f;
     
     _vistaBioContainer.layer.cornerRadius = 10;
     _vistaBioContainer.layer.masksToBounds = YES;
@@ -92,9 +92,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
-    //NSLog(@"Vista: %@", NSStringFromCGRect(_fondo.frame));
-    //NSLog(@"Will View: %@", NSStringFromCGSize(size));
-    //capaBandera.frame = CGRectMake(0, 0, size.width, size.height);
 }
 
 
@@ -172,8 +169,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
-    CVCPersonajeSimple* cell = (CVCPersonajeSimple*)[collectionView cellForItemAtIndexPath:indexPath];
-    [cell deseleccionarPersonaje];
+    //CVCPersonajeSimple* cell = (CVCPersonajeSimple*)[collectionView cellForItemAtIndexPath:indexPath];
     _personajeActual = nil;
 }
 

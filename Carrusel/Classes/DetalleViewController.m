@@ -21,10 +21,10 @@
     _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
     _nombrePersonaje.text = _personaje.nombre;
     
-    _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
-    _cerrarBtn.layer.masksToBounds = YES;
-    _cerrarBtn.layer.borderWidth = 2.f;
-    _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    //_cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
+    //_cerrarBtn.layer.masksToBounds = YES;
+    //_cerrarBtn.layer.borderWidth = 2.f;
+    //_cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
     NSString* nombreBio = _personaje.biografia;
     NSError* error;

@@ -28,6 +28,13 @@
 -(void)configurarCeldaPersonaje:(Personaje *)persona {
     _retrato.image = [UIImage imageNamed:persona.imagen];
     _numeroIndicador.text = [NSString stringWithFormat:@"%d", persona.posicion];
+    if (persona.seleccionado) {
+        _vistaOpaca.hidden = NO;
+        _retrato.alpha = 1.0;
+    } else {
+        _vistaOpaca.hidden = YES;
+        _retrato.alpha = 0.3;
+    }
 }
 
 -(void)seleccionarCelda {

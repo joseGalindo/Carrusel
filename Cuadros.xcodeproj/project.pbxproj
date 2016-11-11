@@ -10,6 +10,9 @@
 		CF6163243CD2C9F8AC10CCD2 /* Pods_Carrusel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */; };
 		E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */; };
 		E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */; };
+		E92D49BB1DD5467800AF987C /* cayetano_gomez_perez.txt in Resources */ = {isa = PBXBuildFile; fileRef = E92D49B81DD5467800AF987C /* cayetano_gomez_perez.txt */; };
+		E92D49BC1DD5467800AF987C /* jose_maria_iribarren.txt in Resources */ = {isa = PBXBuildFile; fileRef = E92D49B91DD5467800AF987C /* jose_maria_iribarren.txt */; };
+		E92D49BD1DD5467800AF987C /* jose_salazar_ilarregui.txt in Resources */ = {isa = PBXBuildFile; fileRef = E92D49BA1DD5467800AF987C /* jose_salazar_ilarregui.txt */; };
 		E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */; };
 		E93FED841DC2788700F87108 /* Personaje+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */; };
 		E93FED861DC278A000F87108 /* Cronologica+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FED851DC278A000F87108 /* Cronologica+CoreDataClass.swift */; };
@@ -198,6 +201,9 @@
 		E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonajeSimple.h; path = CVCells/CVCPersonajeSimple.h; sourceTree = "<group>"; };
 		E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonajeSimple.m; path = CVCells/CVCPersonajeSimple.m; sourceTree = "<group>"; };
 		E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCPersonajeSimple.xib; path = CVCells/CVCPersonajeSimple.xib; sourceTree = "<group>"; };
+		E92D49B81DD5467800AF987C /* cayetano_gomez_perez.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cayetano_gomez_perez.txt; path = textos/cayetano_gomez_perez.txt; sourceTree = "<group>"; };
+		E92D49B91DD5467800AF987C /* jose_maria_iribarren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_maria_iribarren.txt; path = textos/jose_maria_iribarren.txt; sourceTree = "<group>"; };
+		E92D49BA1DD5467800AF987C /* jose_salazar_ilarregui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jose_salazar_ilarregui.txt; path = textos/jose_salazar_ilarregui.txt; sourceTree = "<group>"; };
 		E93FED801DC2788600F87108 /* Carrusel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carrusel-Bridging-Header.h"; sourceTree = "<group>"; };
 		E93FED811DC2788700F87108 /* Cronologica+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Cronologica+CoreDataProperties.swift"; path = "Model/Cronologica+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E93FED821DC2788700F87108 /* Personaje+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Personaje+CoreDataProperties.swift"; path = "Model/Personaje+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -434,6 +440,9 @@
 		E93FED891DC2A26900F87108 /* Bios */ = {
 			isa = PBXGroup;
 			children = (
+				E92D49B81DD5467800AF987C /* cayetano_gomez_perez.txt */,
+				E92D49B91DD5467800AF987C /* jose_maria_iribarren.txt */,
+				E92D49BA1DD5467800AF987C /* jose_salazar_ilarregui.txt */,
 				E96579621DD2349D00E00917 /* abraham_gonzalez.txt */,
 				E96579631DD2349D00E00917 /* adalberto_tejeda.txt */,
 				E96579641DD2349D00E00917 /* adolfo_ruiz_cortines.txt */,
@@ -845,8 +854,10 @@
 				E9657A6A1DD2349D00E00917 /* trinidad_garcia_cadena.txt in Resources */,
 				E9657A791DD2354500E00917 /* ACaslonPro-SemiboldItalic.otf in Resources */,
 				E958E1641DC16BBA008656A8 /* TVCFecha.xib in Resources */,
+				E92D49BC1DD5467800AF987C /* jose_maria_iribarren.txt in Resources */,
 				E9657A861DD3F30800E00917 /* Cicle-Gordita.ttf in Resources */,
 				E9657A2A1DD2349D00E00917 /* jose_maria_lacunza_blengio.txt in Resources */,
+				E92D49BD1DD5467800AF987C /* jose_salazar_ilarregui.txt in Resources */,
 				E96579F81DD2349D00E00917 /* eduardo_g_pankhurst.txt in Resources */,
 				E9657A4C1DD2349D00E00917 /* manuel_pena_pena.txt in Resources */,
 				E958E14F1DC1122C008656A8 /* HeaderFecha.xib in Resources */,
@@ -855,6 +866,7 @@
 				E9657A4F1DD2349D00E00917 /* manuel_saavedra.txt in Resources */,
 				E9657A781DD2354500E00917 /* ACaslonPro-Semibold.otf in Resources */,
 				E9657A601DD2349D00E00917 /* rafael_zubaran_capmany.txt in Resources */,
+				E92D49BB1DD5467800AF987C /* cayetano_gomez_perez.txt in Resources */,
 				E9657A391DD2349D00E00917 /* lazaro_cardenaz.txt in Resources */,
 				E9657A311DD2349D00E00917 /* juan_camilo_mourino.txt in Resources */,
 				E9657A111DD2349D00E00917 /* isidro_diaz.txt in Resources */,

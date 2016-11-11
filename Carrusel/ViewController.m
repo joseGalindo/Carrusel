@@ -182,6 +182,7 @@
     CVCPersonaje* person = (CVCPersonaje*)[collectionView cellForItemAtIndexPath:indexPath];
     [person seleccionarCelda];
     Personaje* persona = [_personajesArray objectAtIndex:indexPath.row];
+    persona.seleccionado = YES;
     _personajeActual = persona;
     posicionActual = (int)indexPath.row;
     [self configurarVistaPersonaje:persona];
@@ -189,6 +190,8 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
     CVCPersonaje* person = (CVCPersonaje*)[collectionView cellForItemAtIndexPath:indexPath];
+    Personaje* persona = [_personajesArray objectAtIndex:indexPath.row];
+    persona.seleccionado = NO;
     [person deseleccionarCelda];
 }
 
