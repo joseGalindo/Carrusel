@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,17 +18,17 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="6F2252AE-7C21-42D6-8B59-AB5EFDFC2D2B" translatesAutoresizingMaskIntoConstraints="NO" id="ILV-6u-1ly">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="55962FA6-7C7F-4BDC-8F54-F7F6A2CACEC0" translatesAutoresizingMaskIntoConstraints="NO" id="ILV-6u-1ly">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="iconoOficial" translatesAutoresizingMaskIntoConstraints="NO" id="uSr-HT-Sdz">
-                                <rect key="frame" x="53.5" y="234.5" width="268" height="198"/>
+                                <rect key="frame" x="201" y="284" width="622" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="198" id="9tS-dI-lzb"/>
-                                    <constraint firstAttribute="width" constant="268" id="nJI-iX-RoB"/>
+                                    <constraint firstAttribute="height" constant="200" id="Yj0-gQ-nau"/>
+                                    <constraint firstAttribute="width" constant="622" id="mfv-cw-07q"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -49,7 +49,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="6F2252AE-7C21-42D6-8B59-AB5EFDFC2D2B" width="540" height="960">
+        <image name="55962FA6-7C7F-4BDC-8F54-F7F6A2CACEC0" width="540" height="960">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
