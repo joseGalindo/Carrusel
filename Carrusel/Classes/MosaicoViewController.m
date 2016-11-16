@@ -21,6 +21,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 @implementation MosaicoViewController {
     CAGradientLayer* capaBandera;
     NSArray* personajesArray;
+    NSArray* personajesSort;
     NSIndexPath* selectedIndexPath;
     BOOL filtroNombresShowed;
 }
@@ -50,6 +51,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     [_mCollectionView registerNib:nib forCellWithReuseIdentifier:REUSE_IDENTIFIER];
     
     personajesArray = [NSArray array];
+    personajesSort = [NSArray array];
     
     // Tabla de Nombres
     _tablaNombres.dataSource = self;
@@ -83,10 +85,13 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 -(void) configurarPersonajes {
     personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
     [_mCollectionView reloadData];
+    
+    personajesSort = [Personaje MR_findAllSortedBy:@"apellidoPaterno" ascending:YES];
+    [_tablaNombres reloadData];
 }
 
 -(void) configurarPopUp {
-    _nombrePopUp.text = _personajeActual.nombre;
+    _nombrePopUp.text = _personajeActual.nombreCompleto;
     _imagenPopUp.image = [UIImage imageNamed:_personajeActual.imagen];
     _fechasPopUp.text = _personajeActual.periodo;
 }
@@ -117,15 +122,18 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return personajesArray.count;
+    return personajesSort.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell* celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:[NSString stringWithFormat:@"ReuseIdentifier_%ld", indexPath.row]];
     
-    Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
+    Personaje* persona = [personajesSort objectAtIndex:indexPath.row];
     celda.textLabel.font = [UIFont fontWithName:@"Trajan-Normal" size:25.f];
-    celda.textLabel.text = persona.nombre;
+    celda.textLabel.text = [NSString stringWithFormat:@"%@ %@, %@",
+                            persona.apellidoPaterno,
+                            persona.apellidoMaterno,
+                            persona.nombre];
     celda.textLabel.textColor = [UIColor whiteColor];
     
     celda.backgroundColor = [UIColor clearColor];
@@ -133,7 +141,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
+    Personaje* persona = [personajesSort objectAtIndex:indexPath.row];
     _personajeActual = persona;
     [self performSegueWithIdentifier:@"mostrarDetalle" sender:self];
     [self mostrarFiltroNombres:FALSE];
@@ -149,7 +157,7 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     CVCPersonajeSimple* cell = [collectionView dequeueReusableCellWithReuseIdentifier:REUSE_IDENTIFIER forIndexPath:indexPath];
     
     Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
-    [cell configurarCelda:persona.imagen];
+    [cell configurarCelda:persona];
     
     return cell;
 }
@@ -159,8 +167,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     if (cell) {
         _personajeActual = [personajesArray objectAtIndex:indexPath.row];
         [self configurarPopUp];
-        CGRect marcoNuevo = cell.frame;
-        marcoNuevo.size = CGSizeMake(192, 258);
         _popUpView.hidden = NO;
         [UIView animateWithDuration:0.5 animations:^{
             _popUpView.alpha = 1;
@@ -173,13 +179,15 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     _personajeActual = nil;
 }
 
+/*
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     if (selectedIndexPath && [selectedIndexPath isEqual:indexPath]) {
-        return CGSizeMake(192, 258);
+        return CGSizeMake(192, 255);
     } else {
         return CGSizeMake(128, 170);
     }
 }
+*/
 
 #pragma mark - IBActions
 

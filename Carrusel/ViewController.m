@@ -58,7 +58,7 @@
     //_cerrarBtn.layer.borderWidth = 2;
     
     posicionActual = 10;
-    animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
+    //animarCarrusel = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(cambiarFocoCollection) userInfo:nil repeats:YES];
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceDidRotate:) name:UIDeviceOrientationDidChangeNotification object:nil];
@@ -97,11 +97,13 @@
 }
 
 -(void) cambiarFocoCollection {
+    /*
     [_collectionPersonajes scrollToItemAtIndexPath:
      [NSIndexPath indexPathForRow:posicionActual inSection:0]
                                   atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally
                                           animated:YES];
     posicionActual = (posicionActual + 3) % _personajesArray.count;
+     */
 }
 
 - (void)deviceDidRotate:(NSNotification *)notification {
@@ -213,6 +215,7 @@
 }
 
 - (IBAction)setSlide:(id)sender {
+   /* 
     NSLog(@"Cambiar efecto");
     if (_switchAnimacion.on) {
         NSLog(@"Switch On");
@@ -222,6 +225,7 @@
         animarCarrusel = nil;
         NSLog(@"Switch Off");
     }
+    */
 }
 
 - (IBAction)cerrarVista:(id)sender {

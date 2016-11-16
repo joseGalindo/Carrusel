@@ -19,12 +19,8 @@
     [super viewDidLoad];
     
     _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
-    _nombrePersonaje.text = _personaje.nombre;
-    
-    //_cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
-    //_cerrarBtn.layer.masksToBounds = YES;
-    //_cerrarBtn.layer.borderWidth = 2.f;
-    //_cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    _nombrePersonaje.text = _personaje.nombreCompleto;
+    _imagenBig.image = [UIImage imageNamed:_personaje.imagen];
     
     NSString* nombreBio = _personaje.biografia;
     NSError* error;
@@ -57,6 +53,22 @@
 
 - (IBAction)cerrar:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)mostrarZoom:(id)sender {
+    _zoomView.alpha = 0;
+    _zoomView.hidden = NO;
+    [UIView animateWithDuration:0.5 animations:^{
+        _zoomView.alpha = 1;
+    }];
+}
+
+- (IBAction)cerrarZoom:(id)sender {
+    [UIView animateWithDuration:0.5 animations:^{
+        _zoomView.alpha = 0;
+    } completion:^(BOOL finished) {
+        _zoomView.hidden = YES;
+    }];
 }
 
 

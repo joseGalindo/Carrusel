@@ -17,11 +17,15 @@
 @property (weak, nonatomic) IBOutlet UILabel *nombrePersonaje;
 @property (weak, nonatomic) IBOutlet UITextView *biografiaPersonaje;
 @property (weak, nonatomic) IBOutlet UIButton *cerrarBtn;
+@property (strong, nonatomic) IBOutlet UIView *zoomView;
+@property (weak, nonatomic) IBOutlet UIImageView *imagenBig;
 
 // Logic
 @property (strong, nonatomic) Personaje* personaje;
 
 
 - (IBAction)cerrar:(id)sender;
+- (IBAction)mostrarZoom:(id)sender;
+- (IBAction)cerrarZoom:(id)sender;
 
 @end

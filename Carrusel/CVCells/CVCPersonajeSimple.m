@@ -7,16 +7,24 @@
 //
 
 #import "CVCPersonajeSimple.h"
+#import "Carrusel-Swift.h"
 
 @implementation CVCPersonajeSimple
 
 - (void)awakeFromNib {
     [super awakeFromNib];
- //   _imagenPersonaje.alpha = 0.5;
 }
 
+/*
 -(void) configurarCelda:(NSString*) nombre {
     _imagenPersonaje.image = [UIImage imageNamed:nombre];
+}
+*/
+
+-(void) configurarCelda:(Personaje *)personaje {
+    _imagenPersonaje.image = [UIImage imageNamed:personaje.imagen];
+    _nombrePersona.text = personaje.nombreCompleto;
+    _fechaPersona.text = personaje.periodo;
 }
 
 -(void) seleccionarPersonaje {

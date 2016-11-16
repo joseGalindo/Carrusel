@@ -8,12 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class Personaje;
+
 @interface CVCPersonajeSimple : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonaje;
+@property (weak, nonatomic) IBOutlet UIImageView *placa;
+@property (weak, nonatomic) IBOutlet UILabel *nombrePersona;
+@property (weak, nonatomic) IBOutlet UILabel *fechaPersona;
 
--(void) configurarCelda:(NSString*) nombre;
+-(void) configurarCelda:(Personaje*) personaje;
 -(void) seleccionarPersonaje;
 -(void) deseleccionarPersonaje;
+
+
 
 @end
