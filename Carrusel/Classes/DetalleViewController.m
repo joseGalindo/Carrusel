@@ -10,7 +10,6 @@
 #import "Carrusel-Swift.h"
 
 @interface DetalleViewController ()
-
 @end
 
 @implementation DetalleViewController
@@ -70,6 +69,5 @@
         _zoomView.hidden = YES;
     }];
 }
-
 
 @end
