@@ -216,12 +216,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="454" height="1026"/>
                                         <color key="backgroundColor" red="3.5137193009999997e-05" green="0.18276610770000001" blue="0.10492282040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1920 - 1923" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4W-VY-ehC">
-                                        <rect key="frame" x="30" y="623" width="404" height="100"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1920 - 1923" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4W-VY-ehC">
+                                        <rect key="frame" x="30" y="613" width="404" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="3PA-dz-poK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="25"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plutarco Elías Bocanegra" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smG-QN-aeV">
@@ -241,7 +241,7 @@
                                     <constraint firstAttribute="trailing" secondItem="smG-QN-aeV" secondAttribute="trailing" constant="30" id="JHH-sB-49t"/>
                                     <constraint firstAttribute="trailing" secondItem="c4W-VY-ehC" secondAttribute="trailing" constant="20" id="RjK-w8-50l"/>
                                     <constraint firstAttribute="trailing" secondItem="N8g-OJ-AFR" secondAttribute="trailing" id="VYV-fY-5TD"/>
-                                    <constraint firstItem="c4W-VY-ehC" firstAttribute="top" secondItem="smG-QN-aeV" secondAttribute="bottom" constant="10" id="bJg-OM-eRh"/>
+                                    <constraint firstItem="c4W-VY-ehC" firstAttribute="top" secondItem="smG-QN-aeV" secondAttribute="bottom" id="bJg-OM-eRh"/>
                                     <constraint firstItem="smG-QN-aeV" firstAttribute="centerY" secondItem="xuF-dk-5GO" secondAttribute="centerY" id="gad-N3-p2e"/>
                                     <constraint firstItem="c4W-VY-ehC" firstAttribute="leading" secondItem="xuF-dk-5GO" secondAttribute="leading" constant="30" id="mbI-co-akE"/>
                                     <constraint firstItem="smG-QN-aeV" firstAttribute="leading" secondItem="xuF-dk-5GO" secondAttribute="leading" constant="30" id="zrc-76-k5z"/>
@@ -507,12 +507,12 @@
                                                     <action selector="mostrarDetalle:" destination="E0c-nJ-yJV" eventType="touchUpInside" id="qDo-Ci-iX9"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3He-Pz-1ed">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3He-Pz-1ed">
                                                 <rect key="frame" x="20" y="345.5" width="504" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="XNZ-Uz-131"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="25"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
