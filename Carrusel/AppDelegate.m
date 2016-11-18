@@ -74,7 +74,7 @@
     }*/
     
     // Guardo los personajes
-    NSString* rutaP = [[NSBundle mainBundle] pathForResource:@"Personajes" ofType:@"json"];
+    NSString* rutaP = [[NSBundle mainBundle] pathForResource:@"PersonajesOficiales" ofType:@"json"];
     NSData* datosP = [NSData dataWithContentsOfFile:rutaP];
     NSError* errorP;
     NSArray* personalities = (NSArray<NSDictionary*>*)[NSJSONSerialization JSONObjectWithData:datosP options:NSJSONReadingMutableContainers error:&errorP];
@@ -86,6 +86,7 @@
         [Cronologica MR_importFromArray:fechas inContext:localContext];
         [Personaje MR_importFromArray:personalities inContext:localContext];
     } completion:^(BOOL contextDidSave, NSError * _Nullable error) {
+        NSLog(@"Ya termine de importar");
         // Crear una notificacion para la carga por primera vez
     }];
     

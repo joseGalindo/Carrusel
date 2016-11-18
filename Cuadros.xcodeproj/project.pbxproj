@@ -182,6 +182,7 @@
 		E9657A871DD3F30800E00917 /* Cicle-Semi-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A801DD3F30800E00917 /* Cicle-Semi-Italic.ttf */; };
 		E9657A881DD3F30800E00917 /* Cicle-Semi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9657A811DD3F30800E00917 /* Cicle-Semi.ttf */; };
 		E966FAAB1DC9585400E0A6F6 /* MosaicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */; };
+		E990A5A81DDE77D800B2B964 /* PersonajesOficiales.json in Resources */ = {isa = PBXBuildFile; fileRef = E990A5A71DDE77D800B2B964 /* PersonajesOficiales.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -386,6 +387,7 @@
 		E9657A811DD3F30800E00917 /* Cicle-Semi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cicle-Semi.ttf"; path = "fuentes/Cicle-Semi.ttf"; sourceTree = "<group>"; };
 		E966FAA91DC9585400E0A6F6 /* MosaicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MosaicoViewController.h; path = Classes/MosaicoViewController.h; sourceTree = "<group>"; };
 		E966FAAA1DC9585400E0A6F6 /* MosaicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MosaicoViewController.m; path = Classes/MosaicoViewController.m; sourceTree = "<group>"; };
+		E990A5A71DDE77D800B2B964 /* PersonajesOficiales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PersonajesOficiales.json; path = JSON/PersonajesOficiales.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -666,6 +668,7 @@
 		E958E1501DC1187B008656A8 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				E990A5A71DDE77D800B2B964 /* PersonajesOficiales.json */,
 				E958E1511DC118AE008656A8 /* Fechas.json */,
 				E958E1581DC12CDE008656A8 /* Personajes.json */,
 			);
@@ -946,6 +949,7 @@
 				E96579E91DD2349D00E00917 /* adolfo_ruiz_cortines.txt in Resources */,
 				E9657A881DD3F30800E00917 /* Cicle-Semi.ttf in Resources */,
 				E9657A581DD2349D00E00917 /* narciso_bassols.txt in Resources */,
+				E990A5A81DDE77D800B2B964 /* PersonajesOficiales.json in Resources */,
 				E9657A041DD2349D00E00917 /* francisco_labastida.txt in Resources */,
 				E9657A051DD2349D00E00917 /* francisco_maria_lombardo.txt in Resources */,
 				E9657A551DD2349D00E00917 /* mario_moya_palencia.txt in Resources */,

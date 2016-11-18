@@ -21,6 +21,11 @@
     _nombrePersonaje.text = _personaje.nombreCompleto;
     _imagenBig.image = [UIImage imageNamed:_personaje.imagen];
     
+    _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
+    _cerrarBtn.layer.borderWidth = 2;
+    _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    
+    
     NSString* nombreBio = _personaje.biografia;
     NSError* error;
     NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
