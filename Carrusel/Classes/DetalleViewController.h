@@ -13,6 +13,7 @@
 @interface DetalleViewController : UIViewController
 
 // UI
+@property (weak, nonatomic) IBOutlet UIView *retratoView;
 @property (weak, nonatomic) IBOutlet UIImageView *imagenPersonaje;
 @property (weak, nonatomic) IBOutlet UILabel *nombrePersonaje;
 @property (weak, nonatomic) IBOutlet UITextView *biografiaPersonaje;

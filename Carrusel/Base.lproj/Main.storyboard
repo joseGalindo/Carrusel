@@ -756,14 +756,14 @@
                                         <rect key="frame" x="670" y="0.0" width="334" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3f-ds-YBX">
-                                                <rect key="frame" x="117" y="0.0" width="100" height="50"/>
+                                                <rect key="frame" x="147" y="5" width="40" height="40"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="1dO-OG-9bS"/>
-                                                    <constraint firstAttribute="height" constant="50" id="LSO-fb-QtV"/>
+                                                    <constraint firstAttribute="height" constant="40" id="Gcl-Ed-OWU"/>
+                                                    <constraint firstAttribute="width" constant="40" id="vcO-IF-ZkY"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <state key="normal" backgroundImage="cerrar"/>
+                                                <state key="normal" image="tache"/>
                                                 <connections>
                                                     <action selector="cerrarZoom:" destination="Nqp-8c-Yeb" eventType="touchUpInside" id="bmc-3Z-Wd9"/>
                                                 </connections>
@@ -771,9 +771,9 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="f3f-ds-YBX" firstAttribute="centerY" secondItem="hhR-Hl-geT" secondAttribute="centerY" id="Ya8-4S-DPq"/>
-                                            <constraint firstItem="f3f-ds-YBX" firstAttribute="centerX" secondItem="hhR-Hl-geT" secondAttribute="centerX" id="ZD3-dg-g9D"/>
+                                            <constraint firstItem="f3f-ds-YBX" firstAttribute="centerX" secondItem="hhR-Hl-geT" secondAttribute="centerX" id="OtB-m6-cdc"/>
                                             <constraint firstAttribute="height" constant="50" id="evk-vf-PgZ"/>
+                                            <constraint firstItem="f3f-ds-YBX" firstAttribute="centerY" secondItem="hhR-Hl-geT" secondAttribute="centerY" id="g2g-aQ-UjV"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -820,6 +820,7 @@
                         <outlet property="imagenBig" destination="8br-J9-fKE" id="xWy-S1-NTb"/>
                         <outlet property="imagenPersonaje" destination="lyt-mM-Zvp" id="MaK-0Z-UXL"/>
                         <outlet property="nombrePersonaje" destination="xOu-9X-DsQ" id="RI9-1d-WFw"/>
+                        <outlet property="retratoView" destination="0Xr-53-yfI" id="Rng-AT-d7M"/>
                         <outlet property="zoomView" destination="v05-ls-ne7" id="z2q-HZ-NNj"/>
                     </connections>
                 </viewController>
@@ -841,7 +842,7 @@
         <image name="melchorOcampo" width="200" height="258"/>
         <image name="plutarco" width="100" height="134"/>
         <image name="segobBlanco" width="373" height="113"/>
-        <image name="tache" width="35" height="35"/>
+        <image name="tache" width="20" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="1j4-ui-A6T"/>

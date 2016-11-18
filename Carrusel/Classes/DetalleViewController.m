@@ -25,6 +25,10 @@
     _cerrarBtn.layer.borderWidth = 2;
     _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
+    _retratoView.layer.masksToBounds = NO;
+    _retratoView.layer.shadowOffset = CGSizeMake(10, 10);
+    _retratoView.layer.shadowRadius = 5.0;
+    _retratoView.layer.shadowOpacity = 0.5;
     
     NSString* nombreBio = _personaje.biografia;
     NSError* error;

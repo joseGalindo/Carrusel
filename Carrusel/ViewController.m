@@ -201,7 +201,7 @@
 
 -(void) configurarVistaPersonaje:(Personaje*) personaje {
     _numeroSelected.text = [NSString stringWithFormat:@"%d", personaje.posicion];
-    _nombreSelected.text = personaje.nombre;
+    _nombreSelected.text = personaje.nombreCompleto;
     _imagenPersonajeSelected.image = [UIImage imageNamed:personaje.imagen];
     _fechaPersonajeSelected.text = personaje.periodo;
 }
