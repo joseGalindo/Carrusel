@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *cerrarBtn;
 @property (strong, nonatomic) IBOutlet UIView *zoomView;
 @property (weak, nonatomic) IBOutlet UIImageView *imagenBig;
+@property (weak, nonatomic) IBOutlet UIButton *cerrarZoomBtn;
 
 // Logic
 @property (strong, nonatomic) Personaje* personaje;

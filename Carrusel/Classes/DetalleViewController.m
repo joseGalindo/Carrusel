@@ -25,6 +25,10 @@
     _cerrarBtn.layer.borderWidth = 2;
     _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
     
+    _cerrarZoomBtn.layer.cornerRadius = _cerrarZoomBtn.frame.size.width / 2;
+    _cerrarZoomBtn.layer.borderWidth = 2;
+    _cerrarZoomBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    
     _retratoView.layer.masksToBounds = NO;
     _retratoView.layer.shadowOffset = CGSizeMake(10, 10);
     _retratoView.layer.shadowRadius = 5.0;
