@@ -496,7 +496,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgM-18-hJX">
-                                                <rect key="frame" x="283" y="400" width="300" height="50"/>
+                                                <rect key="frame" x="253" y="400" width="300" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="3xj-dQ-3q7"/>
                                                     <constraint firstAttribute="width" constant="300" id="xGK-OT-u6e"/>
@@ -528,7 +528,7 @@
                                         <constraints>
                                             <constraint firstItem="LzN-DP-g7v" firstAttribute="leading" secondItem="hOH-a5-yez" secondAttribute="leading" id="5V0-Sg-PYS"/>
                                             <constraint firstItem="PVI-AV-wag" firstAttribute="centerY" secondItem="hOH-a5-yez" secondAttribute="centerY" id="AdV-hp-U6q"/>
-                                            <constraint firstItem="rgM-18-hJX" firstAttribute="centerX" secondItem="hOH-a5-yez" secondAttribute="centerX" constant="-200" id="HNC-Z9-qVJ"/>
+                                            <constraint firstItem="rgM-18-hJX" firstAttribute="centerX" secondItem="hOH-a5-yez" secondAttribute="centerX" constant="-230" id="HNC-Z9-qVJ"/>
                                             <constraint firstAttribute="bottom" secondItem="LzN-DP-g7v" secondAttribute="bottom" id="J3w-fa-dAZ"/>
                                             <constraint firstAttribute="height" constant="500" id="Lav-Wp-PUa"/>
                                             <constraint firstItem="PVI-AV-wag" firstAttribute="leading" secondItem="3He-Pz-1ed" secondAttribute="trailing" constant="50" id="Mty-Qx-zV1"/>
