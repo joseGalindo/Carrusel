@@ -1,7 +1,7 @@
 [
     {
         "sid" : 0,
-        "imagen": "joseManuelHerrera-1",
+        "imagen": "joseManuelHerrera",
         "nombreCompleto" : "José Manuel de Herrera",
         "nombre" : "José manuel", 
 		"apellidoPaterno": "Herrera",
@@ -17,7 +17,7 @@
     },
     {
         "sid" : 1,
-        "imagen": "joseIgnacioGarciaIllueca_B",
+        "imagen": "joseIgnacioGarciaIllueca",
         "nombreCompleto" : "José Ignacio García Illuesca",
         "nombre" : "José Ignacio", 
 		"apellidoPaterno": "García",
@@ -49,7 +49,7 @@
     },
     {
         "sid" : 3,
-        "imagen": "lucasAlaman-1",
+        "imagen": "lucasAlaman",
         "nombreCompleto" : "Lucas Alamán y Escalada",
         "nombre" : "Lucas", 
 		"apellidoPaterno": "Alamán",
@@ -65,7 +65,7 @@
     },
     {
         "sid" : 4,
-        "imagen": "manuelGomezPedraza-1",
+        "imagen": "manuelGomezPedraza",
         "nombreCompleto" : "Manuel Gómez Pedraza",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Gómez",
@@ -81,7 +81,7 @@
     },
     {
         "sid" : 5,
-        "imagen": "sebastianCamachoCastillo-1",
+        "imagen": "sebastianCamachoCastillo",
         "nombreCompleto" : "Sebastián Camacho Castilla",
         "nombre" : "Sebastián",
 		"apellidoPaterno": "Camacho",
@@ -113,7 +113,7 @@
     },
     {
         "sid" : 7,
-        "imagen": "juanDiosCanedo-1",
+        "imagen": "juanDiosCanedo",
         "nombreCompleto" : "Juan de Dios Cañedo",
         "nombre" : "Juan de Dios", 
 		"apellidoPaterno": "Cañedo",
@@ -129,7 +129,7 @@
     },
     {
         "sid" : 8,
-        "imagen": "agustinViescaMontes-1",
+        "imagen": "agustinViescaMontes",
         "nombreCompleto" : "Agustín Viesca y Montes",
         "nombre" : "Agustín", 
 		"apellidoPaterno": "Viesca y Montes",
@@ -145,7 +145,7 @@
     },
     {
         "sid" : 9,
-        "imagen": "franciscoFagoaga-1",
+        "imagen": "franciscoFagoaga",
         "nombreCompleto" : "Francisco Fagoaga y Villaurrutia",
         "nombre" : "Francisco", 
 		"apellidoPaterno": "Fagoaga",
@@ -161,7 +161,7 @@
     },
     {
         "sid" : 10,
-        "imagen": "bernardoGonzalezPerezAngulo-1",
+        "imagen": "bernardoGonzalezPerezAngulo",
         "nombreCompleto" : "Bernardo González Pérez de Angulo",
         "nombre" : "Bernardo", 
 		"apellidoPaterno": "González",
@@ -177,7 +177,7 @@
     },
     {
         "sid" : 11,
-        "imagen": "manuelDiezBonilla-1",
+        "imagen": "manuelDiezBonilla",
         "nombreCompleto" : "Manuel Díez de Bonilla",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Díez",
@@ -193,7 +193,7 @@
     },
     {
         "sid" : 12,
-        "imagen": "joseMariaGutierrezEstrada-1",
+        "imagen": "joseMariaGutierrezEstrada",
         "nombreCompleto" : "José María Gutierrez Estrada",
         "nombre" : "josé María", 
 		"apellidoPaterno": "Gutierrez",
@@ -209,7 +209,7 @@
     },
     {
         "sid" : 13,
-        "imagen": "juanRodriguezPuebla-1",
+        "imagen": "juanRodriguezPuebla",
         "nombreCompleto" : "Juan Rodríguez Puebla",
         "nombre" : "Juan", 
 		"apellidoPaterno": "Rodríguez",
@@ -225,7 +225,7 @@
     },
     {
         "sid" : 14,
-        "imagen": "manuelEduardoGorostiza-1",
+        "imagen": "manuelEduardoGorostiza",
         "nombreCompleto" : "Manuel Eduardo de Gorostiza",
         "nombre" : "Manuel Eduardo", 
 		"apellidoPaterno": "de Gorostiza",
@@ -241,7 +241,7 @@
     },
     {
         "sid" : 15,
-        "imagen": "joseMariaBocaNegra-1",
+        "imagen": "joseMariaBocaNegra",
         "nombreCompleto" : "José María Bocanegra",
         "nombre" : "José María", 
 		"apellidoPaterno": "Bocanegra",
@@ -257,7 +257,7 @@
     },
     {
         "sid" : 16,
-        "imagen": "manuelCrecencioRejon-1",
+        "imagen": "manuelCrecencioRejon",
         "nombreCompleto" : "Manuel Crecencio Regón",
         "nombre" : "Manuel Crecencio", 
 		"apellidoPaterno": "Regón",
@@ -273,7 +273,7 @@
     },
     {
         "sid" : 17,
-        "imagen": "joseJoaquinPesadoPerez-1",
+        "imagen": "joseJoaquinPesadoPerez",
         "nombreCompleto" : "José Joaquín Pesado y Perez",
         "nombre" : "José Joaquín", 
 		"apellidoPaterno": "Pesado",
@@ -289,7 +289,7 @@
     },
     {
         "sid" : 18,
-        "imagen": "joaquinMariaCastilloLanzas-1",
+        "imagen": "joaquinMariaCastilloLanzas",
         "nombreCompleto" : "Joaquín María Castillo y Lanzas",
         "nombre" : "Joaquín", 
 		"apellidoPaterno": "Castillo",
@@ -305,7 +305,7 @@
     },
     {
         "sid" : 19,
-        "imagen": "joseMariaLafragua-1",
+        "imagen": "joseMariaLafragua",
         "nombreCompleto" : "José María Lafragua Ibarra",
         "nombre" : "José María", 
 		"apellidoPaterno": "Lafragua",
@@ -321,7 +321,7 @@
     },
     {
         "sid" : 20,
-        "imagen": "joseFernandoRamirez-1",
+        "imagen": "joseFernandoRamirez",
         "nombreCompleto" : "José Fernando Ramírez",
         "nombre" : "José Fernando", 
 		"apellidoPaterno": "Ramírez",
@@ -337,7 +337,7 @@
     },
     {
         "sid" : 21,
-        "imagen": "manuelPenaPena-1",
+        "imagen": "manuelPenaPena",
         "nombreCompleto" : "Manuel de la Peña y Peña",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "de la Peña",
@@ -353,7 +353,7 @@
     },
     {
         "sid" : 22,
-        "imagen": "luisRosaOteiza-1",
+        "imagen": "luisRosaOteiza",
         "nombreCompleto" : "Luis de la Rosa Oteiza",
         "nombre" : "Luis", 
 		"apellidoPaterno": "de la Rosa",
@@ -369,7 +369,7 @@
     },
     {
         "sid" : 23,
-        "imagen": "marianoYanez-1",
+        "imagen": "marianoYanez",
         "nombreCompleto" : "Mariano Yañez",
         "nombre" : "Mariano", 
 		"apellidoPaterno": "Yañez",
@@ -385,7 +385,7 @@
     },
     {
         "sid" : 24,
-        "imagen": "joseUrbanoFonseca-1",
+        "imagen": "joseUrbanoFonseca",
         "nombreCompleto" : "José Urbano Fonseca",
         "nombre" : "José", 
 		"apellidoPaterno": "Urbano",
@@ -433,7 +433,7 @@
     },
     {
         "sid" : 27,
-        "imagen": "juanAntonioFuente-1",
+        "imagen": "juanAntonioFuente",
         "nombreCompleto" : "Juan Antonio de la Fuente",
         "nombre" : "Juan Antonio", 
 		"apellidoPaterno": "de la Fuente",
@@ -449,7 +449,7 @@
     },
     {
         "sid" : 28,
-        "imagen": "benitoJuarez-1",
+        "imagen": "benitoJuarez",
         "nombreCompleto" : "Benito Pablo Juárez García",
         "nombre" : "Benito Pablo", 
 		"apellidoPaterno": "Juaréz",
@@ -465,7 +465,7 @@
     },
     {
         "sid" : 29,
-        "imagen": "manuelRuiz-1",
+        "imagen": "manuelRuiz",
         "nombreCompleto" : "Manuel Ruiz",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Ruiz",
@@ -481,7 +481,7 @@
     },
     {
         "sid" : 30,
-        "imagen": "melchorOcampo-1",
+        "imagen": "melchorOcampo",
         "nombreCompleto" : "Melchor Ocampo",
         "nombre" : "Melchor", 
 		"apellidoPaterno": "Ocampo",
@@ -497,7 +497,7 @@
     },
     {
         "sid" : 31,
-        "imagen": "santosDegollado-1",
+        "imagen": "santosDegollado",
         "nombreCompleto" : "Santos Degollado Sánchez",
         "nombre" : "Santos", 
 		"apellidoPaterno": "Degollado",
@@ -513,7 +513,7 @@
     },
     {
         "sid" : 32,
-        "imagen": "hilarioElguero-1",
+        "imagen": "hilarioElguero",
         "nombreCompleto" : "Hilario Elguero",
         "nombre" : "Hilario", 
 		"apellidoPaterno": "Helguero",
@@ -545,7 +545,7 @@
     },
     {
         "sid" : 34,
-        "imagen": "antonioCorona-1",
+        "imagen": "antonioCorona",
         "nombreCompleto" : "Antonio Corona",
         "nombre" : "Antonio", 
 		"apellidoPaterno": "Corona",
@@ -561,7 +561,7 @@
     },
     {
         "sid" : 35,
-        "imagen": "joseEmparan-1",
+        "imagen": "joseEmparan",
         "nombreCompleto" : "José de Emparán",
         "nombre" : "José", 
 		"apellidoPaterno": "de Emparán",
@@ -577,7 +577,7 @@
     },
     {
         "sid" : 36,
-        "imagen": "manuelDoblado-1",
+        "imagen": "manuelDoblado",
         "nombreCompleto" : "Manuel Doblado Partida",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Doblado",
@@ -593,7 +593,7 @@
     },
     {
         "sid" : 37,
-        "imagen": "franciscoZarco-1",
+        "imagen": "franciscoZarco",
         "nombreCompleto" : "Francisco Zarco Mateos",
         "nombre" : "Francisco", 
 		"apellidoPaterno": "Zarco",
@@ -609,7 +609,7 @@
     },
     {
         "sid" : 38,
-        "imagen": "leonGuzman-1",
+        "imagen": "leonGuzman",
         "nombreCompleto" : "León Guzmán Montes de Oca",
         "nombre" : "León", 
 		"apellidoPaterno": "Guzmán",
@@ -641,7 +641,7 @@
     },
     {
         "sid" : 40,
-        "imagen": "sebastianLerdoTejada-1",
+        "imagen": "sebastianLerdoTejada",
         "nombreCompleto" : "Sebastián Lerdo de Tejada",
         "nombre" : "Sebastián", 
 		"apellidoPaterno": "Lerdo de Tejada",
@@ -657,7 +657,7 @@
     },
     {
         "sid" : 41,
-        "imagen": "joseMariaCortesEsparza-1",
+        "imagen": "joseMariaCortesEsparza",
         "nombreCompleto" : "José María Cortéz Esparza",
         "nombre" : "José María", 
 		"apellidoPaterno": "Cortéz",
@@ -673,7 +673,7 @@
     },
     {
         "sid" : 42,
-        "imagen": "joseMariaEsteva-1",
+        "imagen": "joseMariaEsteva",
         "nombreCompleto" : "José María Esteva",
         "nombre" : "José María", 
 		"apellidoPaterno": "Esteva",
@@ -689,7 +689,7 @@
     },
     {
         "sid" : 43,
-        "imagen": "joseSalazarIlarregui-1",
+        "imagen": "joseSalazarIlarregui",
         "nombreCompleto" : "José Salazar Ilarregui",
         "nombre" : "José", 
 		"apellidoPaterno": "Salazar",
@@ -705,7 +705,7 @@
     },
     {
         "sid" : 44,
-        "imagen": "teofiloMarin-1",
+        "imagen": "teofiloMarin",
         "nombreCompleto" : "Teófilo Marín",
         "nombre" : "Teófilo", 
 		"apellidoPaterno": "Marin",
@@ -721,7 +721,7 @@
     },
     {
         "sid" : 45,
-        "imagen": "joseMariaIribarren-1",
+        "imagen": "joseMariaIribarren",
         "nombreCompleto" : "José María Iribarren",
         "nombre" : "José María", 
 		"apellidoPaterno": "Irabarren",
@@ -737,7 +737,7 @@
     },
     {
         "sid" : 46,
-        "imagen": "ignacioLVallarta-1",
+        "imagen": "ignacioLVallarta",
         "nombreCompleto" : "Ignacio Luis Vallarta",
         "nombre" : "Ignacio Luis", 
 		"apellidoPaterno": "Vallarta",
@@ -753,7 +753,7 @@
     },
     {
         "sid" : 47,
-        "imagen": "joseMariaIglesias-1",
+        "imagen": "joseMariaIglesias",
         "nombreCompleto" : "José María Iglesias",
         "nombre" : "José María", 
 		"apellidoPaterno": "Iglesias",
@@ -769,7 +769,7 @@
     },
     {
         "sid" : 48,
-        "imagen": "manuelSaavedra-1",
+        "imagen": "manuelSaavedra",
         "nombreCompleto" : "Manuel Saavedra",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Saavedra",
@@ -785,7 +785,7 @@
     },
     {
         "sid" : 49,
-        "imagen": "joseMariaCastilloVelasco-1",
+        "imagen": "joseMariaCastilloVelasco",
         "nombreCompleto" : "José María del Castillo Velasco",
         "nombre" : "José María", 
 		"apellidoPaterno": "del Castillo",
@@ -801,7 +801,7 @@
     },
     {
         "sid" : 50,
-        "imagen": "cayetanoGomezPerez-1",
+        "imagen": "cayetanoGomezPerez",
         "nombreCompleto" : "Cayetano Gómez Pérez",
         "nombre" : "Cayetano", 
 		"apellidoPaterno": "Gómez",
@@ -817,7 +817,7 @@
     },
     {
         "sid" : 51,
-        "imagen": "juanJoseBazPalafox-1",
+        "imagen": "juanJoseBazPalafox",
         "nombreCompleto" : "Juan José Baz y Palafox",
         "nombre" : "Juan José", 
 		"apellidoPaterno": "Baz",
@@ -833,7 +833,7 @@
     },
     {
         "sid" : 52,
-        "imagen": "protasioTagle-1",
+        "imagen": "protasioTagle",
         "nombreCompleto" : "Protasio Pérez de Tagle",
         "nombre" : "Protasio", 
 		"apellidoPaterno": "Pérez",
@@ -849,7 +849,7 @@
     },
     {
         "sid" : 53,
-        "imagen": "trinidadGarciaCadena-1",
+        "imagen": "trinidadGarciaCadena",
         "nombreCompleto" : "Trinidad Garcia de la Cadena",
         "nombre" : "Trinidad", 
 		"apellidoPaterno": "García",
@@ -865,7 +865,7 @@
     },
     {
         "sid" : 54,
-        "imagen": "eduardoGPankhurst-1",
+        "imagen": "eduardoGPankhurst",
         "nombreCompleto" : "Eduardo G. Pankhurst Cuellar",
         "nombre" : "Eduardo", 
 		"apellidoPaterno": "Pankhurst",
@@ -881,7 +881,7 @@
     },
     {
         "sid" : 55,
-        "imagen": "felipeBerriozabal-1",
+        "imagen": "felipeBerriozabal",
         "nombreCompleto" : "Felipe Berriozabal",
         "nombre" : "Felipe", 
 		"apellidoPaterno": "Berriozabal",
@@ -897,7 +897,7 @@
     },
     {
         "sid" : 56,
-        "imagen": "carlosDiezGutierrez-1",
+        "imagen": "carlosDiezGutierrez",
         "nombreCompleto" : "Carlos Díez Gutiérrez y López",
         "nombre" : "Carlos Díez", 
 		"apellidoPaterno": "Gutíerrez",
@@ -913,7 +913,7 @@
     },
     {
         "sid" : 57,
-        "imagen": "manuelRomeroRubio-1",
+        "imagen": "manuelRomeroRubio",
         "nombreCompleto" : "Manuel Romero Rubio",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Romero",
@@ -929,7 +929,7 @@
     },
     {
         "sid" : 58,
-        "imagen": "manuelGonzalezCosio-1",
+        "imagen": "manuelGonzalezCosio",
         "nombreCompleto" : "Manuel González Cosio",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "González",
@@ -945,7 +945,7 @@
     },
     {
         "sid" : 59,
-        "imagen": "ramonCorral-1",
+        "imagen": "ramonCorral",
         "nombreCompleto" : "Ramón Corral Verdugo",
         "nombre" : "Ramón", 
 		"apellidoPaterno": "Corral",
@@ -977,7 +977,7 @@
     },
     {
         "sid" : 61,
-        "imagen": "emilioVazquezGomez-1",
+        "imagen": "emilioVazquezGomez",
         "nombreCompleto" : "Emilio Vázquez Gómez",
         "nombre" : "Emilio", 
 		"apellidoPaterno": "Vázquez",
@@ -993,7 +993,7 @@
     },
     {
         "sid" : 62,
-        "imagen": "albertoGarciaGranados-1",
+        "imagen": "albertoGarciaGranados",
         "nombreCompleto" : "Alberto García Granados",
         "nombre" : "Alberto", 
 		"apellidoPaterno": "García",
@@ -1009,7 +1009,7 @@
     },
     {
         "sid" : 63,
-        "imagen": "abrahamGonzalez-1",
+        "imagen": "abrahamGonzalez",
         "nombreCompleto" : "Abraham González Casavantes",
         "nombre" : "Abraham", 
 		"apellidoPaterno": "González",
@@ -1025,7 +1025,7 @@
     },
     {
         "sid" : 64,
-        "imagen": "jesusFloresMagon-1",
+        "imagen": "jesusFloresMagon",
         "nombreCompleto" : "Jesús Flores Magón",
         "nombre" : "Jesús", 
 		"apellidoPaterno": "Flores",
@@ -1041,7 +1041,7 @@
     },
     {
         "sid" : 65,
-        "imagen": "rafaelHernandezMadero-1",
+        "imagen": "rafaelHernandezMadero",
         "nombreCompleto" : "Rafael Hernández Madero",
         "nombre" : "Rafael", 
 		"apellidoPaterno": "Hernandez",
@@ -1057,7 +1057,7 @@
     },
     {
         "sid" : 66,
-        "imagen": "victorianoHuerta-1",
+        "imagen": "victorianoHuerta",
         "nombreCompleto" : "Victoriano Huerta",
         "nombre" : "Victoriano", 
 		"apellidoPaterno": "Huerta",
@@ -1073,7 +1073,7 @@
     },
     {
         "sid" : 67,
-        "imagen": "aurelianoUrrutia-1",
+        "imagen": "aurelianoUrrutia",
         "nombreCompleto" : "Aureliano Urrutia",
         "nombre" : "Aureliano", 
 		"apellidoPaterno": "Urrutia",
@@ -1089,7 +1089,7 @@
     },
     {
         "sid" : 68,
-        "imagen": "manuelGarzaAldape-1",
+        "imagen": "manuelGarzaAldape",
         "nombreCompleto" : "Manuel Garza Aldape",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Garza",
@@ -1153,7 +1153,7 @@
     },
     {
         "sid" : 72,
-        "imagen": "rafaelZubaranCapmany-1",
+        "imagen": "rafaelZubaranCapmany",
         "nombreCompleto" : "Rafael Zubáran Capmany",
         "nombre" : "Rafael", 
 		"apellidoPaterno": "Zubáran",
@@ -1169,7 +1169,7 @@
     },
     {
         "sid" : 73,
-        "imagen": "lucioBlanco-1",
+        "imagen": "lucioBlanco",
         "nombreCompleto" : "Lucio Blanco",
         "nombre" : "Lucio", 
 		"apellidoPaterno": "Blanco",
@@ -1185,7 +1185,7 @@
     },
     {
         "sid" : 74,
-        "imagen": "joseQuevedo-1",
+        "imagen": "joseQuevedo",
         "nombreCompleto" : "José Quevedo",
         "nombre" : "José", 
 		"apellidoPaterno": "Quevedo",
@@ -1217,7 +1217,7 @@
     },
     {
         "sid" : 76,
-        "imagen": "jesusAcuna-1",
+        "imagen": "jesusAcuna",
         "nombreCompleto" : "Jesús Acuña Navarro",
         "nombre" : "Jesús", 
 		"apellidoPaterno": "Acuña",
@@ -1233,7 +1233,7 @@
     },
     {
         "sid" : 77,
-        "imagen": "manuelAguirreBerlanga-1",
+        "imagen": "manuelAguirreBerlanga",
         "nombreCompleto" : "Manuel Aguirre Berlanga",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Aguirre",
@@ -1249,7 +1249,7 @@
     },
     {
         "sid" : 78,
-        "imagen": "gilbertoValenzuela-1",
+        "imagen": "gilbertoValenzuela",
         "nombreCompleto" : "Gilberto Valenzuela Galindo",
         "nombre" : "Gilberto", 
 		"apellidoPaterno": "Valenzuela",
@@ -1265,7 +1265,7 @@
     },
     {
         "sid" : 79,
-        "imagen": "joseInocenteLugo-1",
+        "imagen": "joseInocenteLugo",
         "nombreCompleto" : "José Inocente Lugo",
         "nombre" : "José Inocente", 
 		"apellidoPaterno": "Lugo",
@@ -1281,7 +1281,7 @@
     },
     {
         "sid" : 80,
-        "imagen": "plutarcoEliasCalles-1",
+        "imagen": "plutarcoEliasCalles",
         "nombreCompleto" : "Plutarco Elías Calles",
         "nombre" : "Plutarco Elías", 
 		"apellidoPaterno": "Calles",
@@ -1297,7 +1297,7 @@
     },
     {
         "sid" : 81,
-        "imagen": "enriqueColunga-1",
+        "imagen": "enriqueColunga",
         "nombreCompleto" : "Enrique Colunga",
         "nombre" : "Enrique", 
 		"apellidoPaterno": "Colunga",
@@ -1329,7 +1329,7 @@
     },
     {
         "sid" : 83,
-        "imagen": "adalbertoTejeda-1",
+        "imagen": "adalbertoTejeda",
         "nombreCompleto" : "Adalberto Tejeda Olivares",
         "nombre" : "Adalberto", 
 		"apellidoPaterno": "Tejada",
@@ -1345,7 +1345,7 @@
     },
     {
         "sid" : 84,
-        "imagen": "emilioPortesGil-1",
+        "imagen": "emilioPortesGil",
         "nombreCompleto" : "Emilio Portes Gil",
         "nombre" : "Emilio", 
 		"apellidoPaterno": "Portes",
@@ -1361,7 +1361,7 @@
     },
     {
         "sid" : 85,
-        "imagen": "felipeCanalesSalinas-1",
+        "imagen": "felipeCanalesSalinas",
         "nombreCompleto" : "Felipe Canales Salinas",
         "nombre" : "Felipe", 
 		"apellidoPaterno": "Canales",
@@ -1377,7 +1377,7 @@
     },
     {
         "sid" : 86,
-        "imagen": "carlosRivaPalacio-1",
+        "imagen": "carlosRivaPalacio",
         "nombreCompleto" : "Carlos Riva Palacio",
         "nombre" : "Carlos", 
 		"apellidoPaterno": "Riva",
@@ -1393,7 +1393,7 @@
     },
     {
         "sid" : 87,
-        "imagen": "lazaroCardenaz-1",
+        "imagen": "lazaroCardenas",
         "nombreCompleto" : "Lázaro Cárdenas del Río",
         "nombre" : "Lázaro", 
 		"apellidoPaterno": "Cárdenas",
@@ -1409,7 +1409,7 @@
     },
     {
         "sid" : 88,
-        "imagen": "manuelCTellez-1",
+        "imagen": "manuelCTellez",
         "nombreCompleto" : "Manuel C. Téllez",
         "nombre" : "Manuel", 
 		"apellidoPaterno": "Téllez",
@@ -1425,7 +1425,7 @@
     },
     {
         "sid" : 89,
-        "imagen": "juanJoseRios-1",
+        "imagen": "juanJoseRios",
         "nombreCompleto" : "Juan José Ríos",
         "nombre" : "Juan José", 
 		"apellidoPaterno": "Ríos",
@@ -1441,7 +1441,7 @@
     },
     {
         "sid" : 90,
-        "imagen": "eduardoVasconcelos-1",
+        "imagen": "eduardoVasconcelos",
         "nombreCompleto" : "Eduardo Vasconcelos",
         "nombre" : "Eduardo", 
 		"apellidoPaterno": "Vasconcelos",
@@ -1457,7 +1457,7 @@
     },
     {
         "sid" : 91,
-        "imagen": "narcisoBossols-1",
+        "imagen": "narcisoBossols",
         "nombreCompleto" : "Narciso Bossols",
         "nombre" : "Narciso", 
 		"apellidoPaterno": "Bossols",
@@ -1473,7 +1473,7 @@
     },
     {
         "sid" : 92,
-        "imagen": "juanDiosBojorquez-1",
+        "imagen": "juanDiosBojorquez",
         "nombreCompleto" : "Juan de Dios Bojórquez León",
         "nombre" : "Juan de Dios", 
 		"apellidoPaterno": "Bojórquez",
@@ -1489,7 +1489,7 @@
     },
     {
         "sid" : 93,
-        "imagen": "silvanoBarbaGonzalez-1",
+        "imagen": "silvanoBarbaGonzalez",
         "nombreCompleto" : "Silvano Barba González",
         "nombre" : "Silvano", 
 		"apellidoPaterno": "Barba",
@@ -1505,7 +1505,7 @@
     },
     {
         "sid" : 94,
-        "imagen": "silvestreGuerrero-1",
+        "imagen": "silvestreGuerrero",
         "nombreCompleto" : "Silvestre Guerrero",
         "nombre" : "Silvestre", 
 		"apellidoPaterno": "Guerrero",
@@ -1521,7 +1521,7 @@
     },
     {
         "sid" : 95,
-        "imagen": "ignacioGarciaTellez-1",
+        "imagen": "ignacioGarciaTellez",
         "nombreCompleto" : "Ignacio García Téllez",
         "nombre" : "Ignacio", 
 		"apellidoPaterno": "García",
@@ -1537,7 +1537,7 @@
     },
     {
         "sid" : 96,
-        "imagen": "miguelAlemanValdes-1",
+        "imagen": "miguelAlemanValdes",
         "nombreCompleto" : "Miguel Alemán Valdes",
         "nombre" : "Miguel", 
 		"apellidoPaterno": "Alemán",
@@ -1553,7 +1553,7 @@
     },
     {
         "sid" : 97,
-        "imagen": "primoVillaMichel-1",
+        "imagen": "primoVillaMichel",
         "nombreCompleto" : "Primo Villa Michel",
         "nombre" : "Primo", 
 		"apellidoPaterno": "Villa",
@@ -1569,7 +1569,7 @@
     },
     {
         "sid" : 98,
-        "imagen": "hectorPerezMartinez-1",
+        "imagen": "hectorPerezMartinez",
         "nombreCompleto" : "Héctor Pérez Martínez",
         "nombre" : "Hector", 
 		"apellidoPaterno": "Pérez",
@@ -1601,7 +1601,7 @@
     },
     {
         "sid" : 100,
-        "imagen": "adolfoRuizCortinez-1",
+        "imagen": "adolfoRuizCortinez",
         "nombreCompleto" : "Adolfo Ruiz Cortines",
         "nombre" : "Adolfo", 
 		"apellidoPaterno": "Ruiz",
@@ -1617,7 +1617,7 @@
     },
     {
         "sid" : 101,
-        "imagen": "angelCarvajalBernal-1",
+        "imagen": "angelCarvajalBernal",
         "nombreCompleto" : "Ángel Carvajal Bernal",
         "nombre" : "Ángel", 
 		"apellidoPaterno": "Carvajal",
@@ -1633,7 +1633,7 @@
     },
     {
         "sid" : 102,
-        "imagen": "gustavoDiazOrdaz-1",
+        "imagen": "gustavoDiazOrdaz",
         "nombreCompleto" : "Gustavo Díaz Ordaz Bolaños-Cacho",
         "nombre" : "Gustavo Díaz", 
 		"apellidoPaterno": "Ordaz",
@@ -1649,7 +1649,7 @@
     },
     {
         "sid" : 103,
-        "imagen": "luisEcheverria-1",
+        "imagen": "luisEcheverria",
         "nombreCompleto" : "Luis Echeverría Álvarez",
         "nombre" : "Luis", 
 		"apellidoPaterno": "Echeverria",
@@ -1665,7 +1665,7 @@
     },
     {
         "sid" : 104,
-        "imagen": "marioMoyaPalencia-1",
+        "imagen": "marioMoyaPalencia",
         "nombreCompleto" : "Mario Moya Palencia",
         "nombre" : "Mario", 
 		"apellidoPaterno": "Moya",
@@ -1681,7 +1681,7 @@
     },
     {
         "sid" : 105,
-        "imagen": "jesusReyesHeroles-1",
+        "imagen": "jesusReyesHeroles",
         "nombreCompleto" : "Jesús Reyes Heroles",
         "nombre" : "Jesús", 
 		"apellidoPaterno": "Reyes",
@@ -1697,7 +1697,7 @@
     },
     {
         "sid" : 106,
-        "imagen": "enriqueOlivaresSantana-1",
+        "imagen": "enriqueOlivaresSantana",
         "nombreCompleto" : "Enrique Olivares Santana",
         "nombre" : "Enrique", 
 		"apellidoPaterno": "Olivares",
@@ -1713,7 +1713,7 @@
     },
     {
         "sid" : 107,
-        "imagen": "manuelBartlett-1",
+        "imagen": "manuelBartlett",
         "nombreCompleto" : "Manuel Bartlett Díaz",
         "nombre" : "Manuel",
 		"apellidoPaterno": "Bartlett",
@@ -1729,7 +1729,7 @@
     },
     {
         "sid" : 108,
-        "imagen": "fernandoGutierrezBarrios-1",
+        "imagen": "fernandoGutierrezBarrios",
         "nombreCompleto" : "Fernando Gutiérrez Barrios",
         "nombre" : "Fernando", 
 		"apellidoPaterno": "Gutiérrez",
@@ -1745,7 +1745,7 @@
     },
     {
         "sid" : 109,
-        "imagen": "patrocinioGonzalezBlanco-1",
+        "imagen": "patrocinioGonzalezBlanco",
         "nombreCompleto" : "Patrocinio González Blanco Garrido",
         "nombre" : "Patrocinio", 
 		"apellidoPaterno": "González",
@@ -1761,7 +1761,7 @@
     },
     {
         "sid" : 110,
-        "imagen": "jorgeCarpizo-1",
+        "imagen": "jorgeCarpizo",
         "nombreCompleto" : "Jorge Carpizo McGregor",
         "nombre" : "Jorge", 
 		"apellidoPaterno": "Carpizo",
@@ -1777,7 +1777,7 @@
     },
     {
         "sid" : 111,
-        "imagen": "estebanMoctezuma-1",
+        "imagen": "estebanMoctezuma",
         "nombreCompleto" : "Esteban Moctezuma Barragán",
         "nombre" : "Esteban", 
 		"apellidoPaterno": "Moctezuma",
@@ -1793,7 +1793,7 @@
     },
     {
         "sid" : 112,
-        "imagen": "emilioChuayffet-1",
+        "imagen": "emilioChuayffet",
         "nombreCompleto" : "Emilio Chuayffet Chemor",
         "nombre" : "Emilio", 
 		"apellidoPaterno": "Chuayffet",
@@ -1809,7 +1809,7 @@
     },
     {
         "sid" : 113,
-        "imagen": "franciscoLabastida-1",
+        "imagen": "franciscoLabastida",
         "nombreCompleto" : "Francisco Labastida Ochoa",
         "nombre" : "Francisco", 
 		"apellidoPaterno": "Labastida",
@@ -1825,7 +1825,7 @@
     },
     {
         "sid" : 114,
-        "imagen": "diodoroCarrasco-1",
+        "imagen": "diodoroCarrasco",
         "nombreCompleto" : "Diódoro Carrasco Altamirano",
         "nombre" : "Diódoro", 
 		"apellidoPaterno": "Carrasco",
@@ -1841,7 +1841,7 @@
     },
     {
         "sid" : 115,
-        "imagen": "santiagoCreel-1",
+        "imagen": "santiagoCreel",
         "nombreCompleto" : "Santiago Creel Miranda",
         "nombre" : "Santiago", 
 		"apellidoPaterno": "Creel",
@@ -1857,7 +1857,7 @@
     },
     {
         "sid" : 116,
-        "imagen": "carlosAbascal-1",
+        "imagen": "carlosAbascal",
         "nombreCompleto" : "Carlos María Abascal Carranza",
         "nombre" : "Carlos María", 
 		"apellidoPaterno": "Abascal",
@@ -1873,7 +1873,7 @@
     },
     {
         "sid" : 117,
-        "imagen": "franciscoRamirezAcuna-1",
+        "imagen": "franciscoRamirezAcuna",
         "nombreCompleto" : "Francisco Javier Ramírez Acuña",
         "nombre" : "Francisco Javier", 
 		"apellidoPaterno": "Ramirez",
@@ -1889,7 +1889,7 @@
     },
     {
         "sid" : 118,
-        "imagen": "juanCamiloMourino-1",
+        "imagen": "juanCamiloMourino",
         "nombreCompleto" : "Juan Camilo Mouriño Terrazo",
         "nombre" : "Juan Camilo", 
 		"apellidoPaterno": "Mouriño",
