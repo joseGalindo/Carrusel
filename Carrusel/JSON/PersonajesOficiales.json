@@ -17,7 +17,7 @@
     },
     {
         "sid" : 2,
-        "imagen": "vacio",
+        "imagen": "andresQuintanaRoo",
         "nombreCompleto" : "Andrés Quintana Roo",
         "nombre" : "Andrés", 
 		"apellidoPaterno": "Quintana Roo",
@@ -97,7 +97,7 @@
     },
     {
         "sid" : 6,
-        "imagen": "vacio",
+        "imagen": "juanJoseEspinosaMontero",
         "nombreCompleto" : "Juan José Espinosa de los Monteros",
         "nombre" : "Juan José",
 		"apellidoPaterno": "Espinosa",
@@ -161,7 +161,7 @@
     },
     {
         "sid" : 26,
-        "imagen": "vacio",
+        "imagen": "joseMariaOrtizMonasterio",
         "nombreCompleto" : "José María Ortíz Monasterio",
         "nombre" : "José María", 
 		"apellidoPaterno": "Ortíz",
@@ -170,8 +170,8 @@
         "fechaDefuncion": "",
         "inicioGobierno": "0000-00-00",
         "finGobierno": "0000-00-00",
-        "periodo": "1852",
-        "biografia": "JUNIO – JULIO 1831 / MARZO – AGOSTO 1832 / JUNIO 1835 / OCTUBRE 1835 / ABRIL 1837 / NOVIEMBRE 1837 – ENERO 1838 / DICIEMBRE 1838 / OCTUBRE 1840 – MAYO 1841 / ENERO – FEBRERO 1847 / SEPTIEMBRE 1847 / MAYO 1849 / ABRIL – JUNIO 1851",
+        "periodo": "JUNIO – JULIO 1831 / MARZO – AGOSTO 1832 / JUNIO 1835 / OCTUBRE 1835 / ABRIL 1837 / NOVIEMBRE 1837 – ENERO 1838 / DICIEMBRE 1838 / OCTUBRE 1840 – MAYO 1841 / ENERO – FEBRERO 1847 / SEPTIEMBRE 1847 / MAYO 1849 / ABRIL – JUNIO 1851",
+        "biografia": "",
         "posicion": 11,
         "epocaSid": "1821-1855"
     },
@@ -418,7 +418,7 @@
     },
     {
         "sid" : 25,
-        "imagen": "vacio",
+        "imagen": "joseMiguelArroyoToledano",
         "nombreCompleto" : "José Miguel Arroyo Toledano",
         "nombre" : "José Miguel", 
 		"apellidoPaterno": "Arroyo",
@@ -547,9 +547,9 @@
     
     {
         "sid" : 33,
-        "imagen": "vacio",
-        "nombreCompleto" : "Ignacio Anievas",
-        "nombre" : "Ignacio", 
+        "imagen": "joseIgnacioAnieva",
+        "nombreCompleto" : "José Ignacio Anievas",
+        "nombre" : "José Ignacio", 
 		"apellidoPaterno": "Anievas",
         "apellidoMaterno": "",
         "fechaNacimiento": "",
@@ -659,7 +659,7 @@
     },
     {
         "sid" : 39,
-        "imagen": "vacio",
+        "imagen": "juanDiosArias",
         "nombreCompleto" : "Juan De Dios Arias",
         "nombre" : "Juan De Dios", 
 		"apellidoPaterno": "Arias",
@@ -963,7 +963,7 @@
     },
     {
         "sid" : 60,
-        "imagen": "vacio",
+        "imagen": "joseVeraEstanol",
         "nombreCompleto" : "José Vera Estañol",
         "nombre" : "José", 
 		"apellidoPaterno": "Vera",
@@ -1107,7 +1107,7 @@
     },
     {
         "sid" : 69,
-        "imagen": "vacio",
+        "imagen": "adolfoLama",
         "nombreCompleto" : "Adolfo de la Lama",
         "nombre" : "Adolfo", 
 		"apellidoPaterno": "de la Lama",
@@ -1123,7 +1123,7 @@
     },
     {
         "sid" : 70,
-        "imagen": "vacio",
+        "imagen": "joseMariaLujan",
         "nombreCompleto" : "José María Luján",
         "nombre" : "José María", 
 		"apellidoPaterno": "Luján",
@@ -1139,7 +1139,7 @@
     },
     {
         "sid" : 71,
-        "imagen": "vacio",
+        "imagen": "eliseoArredondo",
         "nombreCompleto" : "Eliseo Arredondo Garza",
         "nombre" : "Eliseo", 
 		"apellidoPaterno": "Arredondo",
@@ -1187,7 +1187,7 @@
     },
     {
         "sid" : 75,
-        "imagen": "vacio",
+        "imagen": "alfredoGuichenne",
         "nombreCompleto" : "Alfredo Guichenne",
         "nombre" : "Alfredo", 
 		"apellidoPaterno": "Guichenne",
@@ -1315,7 +1315,7 @@
     },
     {
         "sid" : 82,
-        "imagen": "vacio",
+        "imagen": "romeroOrtegaCastillo",
         "nombreCompleto" : "Romero Ortega Castillo de Lerín",
         "nombre" : "Romero Ortega", 
 		"apellidoPaterno": "Castillo",
@@ -1587,7 +1587,7 @@
     },
     {
         "sid" : 99,
-        "imagen": "vacio",
+        "imagen": "ernestoUruchurtu",
         "nombreCompleto" : "Ernesto P. Uruchurtu Peralta",
         "nombre" : "Ernesto P.", 
 		"apellidoPaterno": "Uruchurtu",
@@ -1907,7 +1907,7 @@
     },
     {
         "sid" : 119,
-        "imagen": "vacio",
+        "imagen": "fernandoGomezMont",
         "nombreCompleto" : "Fernando Gómez-Mont Urueta",
         "nombre" : "Fernando", 
 		"apellidoPaterno": "Gómez-Mont",
@@ -1923,7 +1923,7 @@
     },
     {
         "sid" : 120,
-        "imagen": "vacio",
+        "imagen": "joseFranciscoBlake",
         "nombreCompleto" : "José Francisco Blake Mora",
         "nombre" : "José Francisco", 
 		"apellidoPaterno": "Blake",
