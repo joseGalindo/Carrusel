@@ -1936,21 +1936,5 @@
         "biografia": "jose_francisco_blake_mora",
         "posicion": 121,
         "epocaSid": "2000-2017"
-		},
-	    {
-	        "sid" : 121,
-	        "imagen": "vacio",
-	        "nombreCompleto" : "Alejandro A. Poiré Romero",
-	        "nombre" : "Alejandro", 
-			"apellidoPaterno": "Poiré",
-	        "apellidoMaterno": "Romero",
-	        "fechaNacimiento": "",
-	        "fechaDefuncion": "",
-	        "inicioGobierno": "0000-00-00",
-	        "finGobierno": "0000-00-00",
-	        "periodo": "NOVIEMBRE 2011 – NOVIEMBRE 2012",
-	        "biografia": "alejandro_poire_romero",
-	        "posicion": 122,
-	        "epocaSid": "2000-2017"
-			}
+		}
 ]
