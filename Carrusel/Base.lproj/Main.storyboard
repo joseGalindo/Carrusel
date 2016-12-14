@@ -226,9 +226,9 @@
                                         <color key="backgroundColor" red="3.5137193009999997e-05" green="0.18276610770000001" blue="0.10492282040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1920 - 1923" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4W-VY-ehC">
-                                        <rect key="frame" x="30" y="442" width="746" height="100"/>
+                                        <rect key="frame" x="30" y="442" width="746" height="150"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="3PA-dz-poK"/>
+                                            <constraint firstAttribute="height" constant="150" id="3PA-dz-poK"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="25"/>
                                         <nil key="highlightedColor"/>
@@ -371,7 +371,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="em9-L4-Ftw">
                                         <rect key="frame" x="10" y="0.0" width="280" height="100"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lupa2" translatesAutoresizingMaskIntoConstraints="NO" id="tar-Ra-TO4">
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lupa3" translatesAutoresizingMaskIntoConstraints="NO" id="tar-Ra-TO4">
                                                 <rect key="frame" x="10" y="30" width="40" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="iXg-xi-euC"/>
@@ -602,14 +602,14 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaZ-vH-dc9">
-                                        <rect key="frame" x="1256" y="237" width="100" height="50"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <rect key="frame" x="1286" y="237" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="8PV-AW-Tt8"/>
+                                            <constraint firstAttribute="width" constant="50" id="8PV-AW-Tt8"/>
                                             <constraint firstAttribute="height" constant="50" id="8R9-Xg-pp4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
-                                        <state key="normal" backgroundImage="cerrar"/>
+                                        <state key="normal" image="tache"/>
                                         <connections>
                                             <action selector="cerrarPopUp:" destination="E0c-nJ-yJV" eventType="touchUpInside" id="BL8-zO-U6Y"/>
                                         </connections>
@@ -617,7 +617,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="IaZ-vH-dc9" firstAttribute="leading" secondItem="hOH-a5-yez" secondAttribute="trailing" constant="-60" id="0n5-Oh-bW2"/>
+                                    <constraint firstItem="IaZ-vH-dc9" firstAttribute="leading" secondItem="hOH-a5-yez" secondAttribute="trailing" constant="-30" id="0n5-Oh-bW2"/>
                                     <constraint firstItem="IaZ-vH-dc9" firstAttribute="centerY" secondItem="2pr-7N-vdZ" secondAttribute="centerY" constant="-250" id="14G-vk-B9I"/>
                                     <constraint firstItem="sm3-Ye-Nt5" firstAttribute="centerX" secondItem="2pr-7N-vdZ" secondAttribute="centerX" constant="-180" id="40g-b6-5WP"/>
                                     <constraint firstAttribute="trailing" secondItem="hOH-a5-yez" secondAttribute="trailing" constant="50" id="DjM-eh-OJG"/>
@@ -897,7 +897,6 @@
     </scenes>
     <resources>
         <image name="adorno" width="298" height="50"/>
-        <image name="cerrar" width="67" height="29"/>
         <image name="flecha" width="15" height="20"/>
         <image name="flechasN" width="28" height="18"/>
         <image name="fondo02" width="1366" height="1024"/>
@@ -905,7 +904,6 @@
         <image name="joseIgnacioGarciaIllueca_B" width="1440" height="1690"/>
         <image name="lazaroCardenas" width="987" height="1323"/>
         <image name="libro" width="27" height="21"/>
-        <image name="lupa2" width="22" height="22"/>
         <image name="lupa3" width="24" height="22"/>
         <image name="marco" width="781" height="1048"/>
         <image name="melchorOcampo" width="1018" height="1364"/>
@@ -914,6 +912,6 @@
         <image name="tache" width="20" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1j4-ui-A6T"/>
+        <segue reference="hkM-jE-Zrn"/>
     </inferredMetricsTieBreakers>
 </document>
