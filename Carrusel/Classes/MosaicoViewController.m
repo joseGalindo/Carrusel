@@ -64,10 +64,10 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
     // Configuramos el popUp
     _popUpView.hidden = YES;
     _popUpView.alpha = 0.f;
-    //_cerrarBorderBtn.layer.cornerRadius = _cerrarBorderBtn.frame.size.width / 2;
-    //_cerrarBorderBtn.layer.masksToBounds = YES;
-    //_cerrarBorderBtn.layer.borderColor = [UIColor whiteColor].CGColor;
-    //_cerrarBorderBtn.layer.borderWidth = 2.0f;
+    _cerrarBorderBtn.layer.cornerRadius = _cerrarBorderBtn.frame.size.width / 2;
+    _cerrarBorderBtn.layer.masksToBounds = YES;
+    _cerrarBorderBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    _cerrarBorderBtn.layer.borderWidth = 2.0f;
     
     _vistaBioContainer.layer.cornerRadius = 10;
     _vistaBioContainer.layer.masksToBounds = YES;
