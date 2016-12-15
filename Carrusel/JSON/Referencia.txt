@@ -1,0 +1,12 @@
+<font face="verdana" size="6">
+<UL>
+<LI> <b>Arciniega Ávila, H. (2016).</b> El antiguo Palacio de Cobián. Sede de la Secretaría de Gobernación. México: Secretaría de Gobernación.
+<LI> <b>Díaz y de Ovando, C. y Sánchez Hernández, S.</b> Juan José Espinosa de los Monteros. Documentos inéditos. En Archivo General de la Nación, Boletín, Cuarta serie, Invierno 1994, núm. 2, pp. 39-40.
+<LI> <b>Garibay Kintana, A.M. (coord.). (1995).</b> Diccionario Porrúa. Historia, biografía y geografía de México. México: Editorial Porrúa.
+<LI> <b>Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991).</b> Diccionario histórico y geográfico de la revolución mexicana. Tomo I. México.
+<LI> <b>Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991). </b> Diccionario histórico y geográfico de la revolución mexicana. Tomo II. México.
+<LI> <b>Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991). </b> Diccionario histórico y geográfico de la revolución mexicana. Tomo V. México.
+<LI> <b>Miranda y Marrón, M. (1910).</b> Vida y escritos del héroe insurgente licenciado don Andrés Quintana Roo. México: Secretaría de Fomento.
+<LI> <b>Serrano Álvarez, P.  (coord.). (2008).</b> Ministros y Secretarios de Gobernación. Dos siglos de política interior en México. México: Instituto Nacional de Estudios Históricos de las Revoluciones de México y Secretaría de Gobernación.
+</UL>
+</font>

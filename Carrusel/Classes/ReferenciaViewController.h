@@ -11,6 +11,7 @@
 @interface ReferenciaViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *cerrarBtn;
+@property (weak, nonatomic) IBOutlet UITextView *texto;
 
 - (IBAction)cerrar:(id)sender;
 

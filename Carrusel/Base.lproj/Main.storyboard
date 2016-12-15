@@ -547,7 +547,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melchor Ocampo y mota de nombre largo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIw-Qi-3uw">
-                                                <rect key="frame" x="20" y="200.5" width="846" height="100"/>
+                                                <rect key="frame" x="20" y="200" width="846" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="QMJ-Bo-AJI"/>
                                                 </constraints>
@@ -568,7 +568,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3He-Pz-1ed">
-                                                <rect key="frame" x="20" y="320.5" width="846" height="50"/>
+                                                <rect key="frame" x="20" y="320" width="846" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="XNZ-Uz-131"/>
                                                 </constraints>
@@ -577,7 +577,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adorno" translatesAutoresizingMaskIntoConstraints="NO" id="sm3-Ye-Nt5">
-                                                <rect key="frame" x="258" y="65.5" width="391" height="75"/>
+                                                <rect key="frame" x="258" y="65" width="391" height="75"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="391" id="0Rn-qu-7eX"/>
                                                     <constraint firstAttribute="height" constant="75" id="vYl-0q-abI"/>
@@ -730,45 +730,25 @@
                                             <constraint firstAttribute="height" constant="50" id="LUI-sT-W74"/>
                                             <constraint firstAttribute="width" constant="550" id="Qlf-mb-tnW"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Trajan-Normal" family="Trajan-Normal" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Trajan-Normal" family="Trajan-Normal" pointSize="35"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dP-rh-TVI">
-                                        <rect key="frame" x="50" y="220" width="1166" height="534"/>
-                                        <mutableString key="text">Arciniega Ávila, H. (2016). El antiguo Palacio de Cobián. Sede de la Secretaría de Gobernación. México: Secretaría de Gobernación.
-Díaz y de Ovando, C. y Sánchez Hernández, S. (1994). Juan José Espinosa de los Monteros. Documentos inéditos. En Archivo General de la Nación, Boletín, Cuarta serie, Invierno 1994, núm. 2, pp. 39-40.
-Garibay Kintana, A.M. (coord.). (1995). Diccionario Porrúa. Historia, biografía y geografía de México. México: Editorial Porrúa.
-Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991). Diccionario histórico y geográfico de la revolución mexicana. Tomo I. México.
-Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991). Diccionario histórico y geográfico de la revolución mexicana. Tomo II. México.
-Instituto Nacional de Estudios Históricos de las Revoluciones de México. (1991). Diccionario histórico y geográfico de la revolución mexicana. Tomo V. México.
-Miranda y Marrón, M. (1910). Vida y escritos del héroe insurgente licenciado don Andrés Quintana Roo. México: Secretaría de Fomento.
-Serrano Álvarez, P.  (coord.). (2008). Ministros y Secretarios de Gobernación. Dos siglos de política interior en México. México: Instituto Nacional de Estudios Históricos de las Revoluciones de México y Secretaría de Gobernación.</mutableString>
-                                        <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="25"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINISTROS Y SECRETARIOS DE GOBERNACIÓN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K02-oD-glz">
-                                        <rect key="frame" x="133.5" y="120" width="1000" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="1000" id="LlP-7y-F0l"/>
-                                            <constraint firstAttribute="height" constant="50" id="nxT-KM-vXV"/>
-                                        </constraints>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Refecrencias" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tYv-aS-yCW">
+                                        <rect key="frame" x="50" y="150" width="1166" height="604"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="TrajanPro-Regular" family="Trajan Pro" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="2dP-rh-TVI" secondAttribute="trailing" constant="50" id="6YF-bW-KWy"/>
                                     <constraint firstItem="X0G-IG-pI4" firstAttribute="centerX" secondItem="Xeh-3T-Sla" secondAttribute="centerX" id="Gia-hb-xAC"/>
-                                    <constraint firstAttribute="bottom" secondItem="2dP-rh-TVI" secondAttribute="bottom" constant="50" id="Jxp-ID-DDz"/>
-                                    <constraint firstItem="2dP-rh-TVI" firstAttribute="top" secondItem="K02-oD-glz" secondAttribute="bottom" constant="50" id="Ncy-gh-10W"/>
-                                    <constraint firstItem="2dP-rh-TVI" firstAttribute="leading" secondItem="Xeh-3T-Sla" secondAttribute="leading" constant="50" id="XFO-xr-bYE"/>
-                                    <constraint firstItem="K02-oD-glz" firstAttribute="centerX" secondItem="Xeh-3T-Sla" secondAttribute="centerX" id="ana-aj-OlV"/>
-                                    <constraint firstItem="K02-oD-glz" firstAttribute="top" secondItem="X0G-IG-pI4" secondAttribute="bottom" constant="20" id="kq2-bg-K6l"/>
+                                    <constraint firstAttribute="bottom" secondItem="tYv-aS-yCW" secondAttribute="bottom" constant="50" id="P2P-gr-DWr"/>
+                                    <constraint firstItem="tYv-aS-yCW" firstAttribute="top" secondItem="X0G-IG-pI4" secondAttribute="bottom" constant="50" id="cbX-is-k5I"/>
+                                    <constraint firstAttribute="trailing" secondItem="tYv-aS-yCW" secondAttribute="trailing" constant="50" id="lgB-zr-ML6"/>
                                     <constraint firstItem="X0G-IG-pI4" firstAttribute="top" secondItem="Xeh-3T-Sla" secondAttribute="top" constant="50" id="nmn-wa-1sT"/>
+                                    <constraint firstItem="tYv-aS-yCW" firstAttribute="leading" secondItem="Xeh-3T-Sla" secondAttribute="leading" constant="50" id="tR6-zR-VIO"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egA-uo-dFl">
@@ -803,6 +783,7 @@ Serrano Álvarez, P.  (coord.). (2008). Ministros y Secretarios de Gobernación.
                     </view>
                     <connections>
                         <outlet property="cerrarBtn" destination="egA-uo-dFl" id="a0m-p0-XxT"/>
+                        <outlet property="texto" destination="tYv-aS-yCW" id="vsY-tb-vXV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Btz-Fr-hqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E3378B01E01B7C100DDF3A2 /* ReferenciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3378AF1E01B7C100DDF3A2 /* ReferenciaViewController.m */; };
+		8E80DA131E032BE700454FCC /* Referencia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E80DA121E032BE700454FCC /* Referencia.txt */; };
 		CF6163243CD2C9F8AC10CCD2 /* Pods_Carrusel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C7D540C65BA9007BB3BDC /* Pods_Carrusel.framework */; };
 		E91EE44D1DCB942600F23A1B /* CVCPersonajeSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */; };
 		E91EE44E1DCB942600F23A1B /* CVCPersonajeSimple.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91EE44C1DCB942600F23A1B /* CVCPersonajeSimple.xib */; };
@@ -214,6 +215,7 @@
 		474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.debug.xcconfig"; sourceTree = "<group>"; };
 		8E3378AE1E01B7C100DDF3A2 /* ReferenciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferenciaViewController.h; path = Classes/ReferenciaViewController.h; sourceTree = "<group>"; };
 		8E3378AF1E01B7C100DDF3A2 /* ReferenciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferenciaViewController.m; path = Classes/ReferenciaViewController.m; sourceTree = "<group>"; };
+		8E80DA121E032BE700454FCC /* Referencia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Referencia.txt; path = JSON/Referencia.txt; sourceTree = "<group>"; };
 		E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrusel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carrusel/Pods-Carrusel.release.xcconfig"; sourceTree = "<group>"; };
 		E91EE44A1DCB942600F23A1B /* CVCPersonajeSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCPersonajeSimple.h; path = CVCells/CVCPersonajeSimple.h; sourceTree = "<group>"; };
 		E91EE44B1DCB942600F23A1B /* CVCPersonajeSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCPersonajeSimple.m; path = CVCells/CVCPersonajeSimple.m; sourceTree = "<group>"; };
@@ -715,6 +717,7 @@
 				E990A5A71DDE77D800B2B964 /* PersonajesOficiales.json */,
 				E958E1511DC118AE008656A8 /* Fechas.json */,
 				E958E1581DC12CDE008656A8 /* Personajes.json */,
+				8E80DA121E032BE700454FCC /* Referencia.txt */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -1012,6 +1015,7 @@
 				E9657A191DD2349D00E00917 /* jose_antonio_romero.txt in Resources */,
 				E9E4C9061DF5EB7200765757 /* fernando_gomez_mont_urrieta.txt in Resources */,
 				E96579F41DD2349D00E00917 /* carlos_garcia_bocanegra.txt in Resources */,
+				8E80DA131E032BE700454FCC /* Referencia.txt in Resources */,
 				E9657A0B1DD2349D00E00917 /* jose_hilario_elguero.txt in Resources */,
 				E96579F91DD2349D00E00917 /* eduardo_vasconcelos.txt in Resources */,
 				E9657A741DD2354500E00917 /* ACaslonPro-Bold.otf in Resources */,
