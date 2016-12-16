@@ -10,8 +10,8 @@
 #import "PersonajesProtocol.h"
 
 @interface ViewController : UIViewController <
-                            UITableViewDelegate, UITableViewDataSource,
-                            UICollectionViewDelegate, UICollectionViewDataSource>
+UITableViewDelegate, UITableViewDataSource,
+UICollectionViewDelegate, UICollectionViewDataSource>
 
 // UI
 @property (weak, nonatomic) IBOutlet UITableView *tablaFechas;

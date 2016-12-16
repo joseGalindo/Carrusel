@@ -15,72 +15,72 @@
 @implementation DetalleViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
-    _nombrePersonaje.text = _personaje.nombreCompleto;
-    _imagenBig.image = [UIImage imageNamed:_personaje.imagen];
-    
-    _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
-    _cerrarBtn.layer.borderWidth = 2;
-    _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    _cerrarZoomBtn.layer.cornerRadius = _cerrarZoomBtn.frame.size.width / 2;
-    _cerrarZoomBtn.layer.borderWidth = 2;
-    _cerrarZoomBtn.layer.borderColor = [UIColor whiteColor].CGColor;
-    
-    _retratoView.layer.masksToBounds = NO;
-    _retratoView.layer.shadowOffset = CGSizeMake(10, 10);
-    _retratoView.layer.shadowRadius = 5.0;
-    _retratoView.layer.shadowOpacity = 0.5;
-    
-    NSString* nombreBio = _personaje.biografia;
-    NSError* error;
-    NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
-    NSString* textoBio = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-    if (!error) {
-        _biografiaPersonaje.text = textoBio;
-    } else {
-        NSLog(@"Error: %@", error.localizedDescription);
-    }
+  [super viewDidLoad];
+  
+  _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
+  _nombrePersonaje.text = _personaje.nombreCompleto;
+  _imagenBig.image = [UIImage imageNamed:_personaje.imagen];
+  
+  _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
+  _cerrarBtn.layer.borderWidth = 2;
+  _cerrarBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+  
+  _cerrarZoomBtn.layer.cornerRadius = _cerrarZoomBtn.frame.size.width / 2;
+  _cerrarZoomBtn.layer.borderWidth = 2;
+  _cerrarZoomBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+  
+  _retratoView.layer.masksToBounds = NO;
+  _retratoView.layer.shadowOffset = CGSizeMake(10, 10);
+  _retratoView.layer.shadowRadius = 5.0;
+  _retratoView.layer.shadowOpacity = 0.5;
+  
+  NSString* nombreBio = _personaje.biografia;
+  NSError* error;
+  NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
+  NSString* textoBio = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+  if (!error) {
+    _biografiaPersonaje.text = textoBio;
+  } else {
+    NSLog(@"Error: %@", error.localizedDescription);
+  }
 }
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+  [super didReceiveMemoryWarning];
 }
 
 -(void)viewDidAppear:(BOOL)animated {
-    [_biografiaPersonaje scrollRangeToVisible:(NSMakeRange(0, 0))];
+  [_biografiaPersonaje scrollRangeToVisible:(NSMakeRange(0, 0))];
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (IBAction)cerrar:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+  [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)mostrarZoom:(id)sender {
-    _zoomView.alpha = 0;
-    _zoomView.hidden = NO;
-    [UIView animateWithDuration:0.5 animations:^{
-        _zoomView.alpha = 1;
-    }];
+  _zoomView.alpha = 0;
+  _zoomView.hidden = NO;
+  [UIView animateWithDuration:0.5 animations:^{
+    _zoomView.alpha = 1;
+  }];
 }
 
 - (IBAction)cerrarZoom:(id)sender {
-    [UIView animateWithDuration:0.5 animations:^{
-        _zoomView.alpha = 0;
-    } completion:^(BOOL finished) {
-        _zoomView.hidden = YES;
-    }];
+  [UIView animateWithDuration:0.5 animations:^{
+    _zoomView.alpha = 0;
+  } completion:^(BOOL finished) {
+    _zoomView.hidden = YES;
+  }];
 }
 
 @end

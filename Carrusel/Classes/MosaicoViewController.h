@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MosaicoViewController : UIViewController <UICollectionViewDataSource,
-                                    UICollectionViewDelegate,
-                                    UICollectionViewDelegateFlowLayout,
- UITableViewDataSource, UITableViewDelegate>
+UICollectionViewDelegate,
+UICollectionViewDelegateFlowLayout,
+UITableViewDataSource, UITableViewDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UICollectionView *mCollectionView;

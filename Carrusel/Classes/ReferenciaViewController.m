@@ -26,29 +26,29 @@
   NSError* error;
   NSString* contenido = [NSString stringWithContentsOfFile:ruta encoding:NSUTF8StringEncoding error:&error];
   NSMutableAttributedString* attributtedString = [[NSMutableAttributedString alloc]
-                                           initWithData:[contenido dataUsingEncoding:NSUnicodeStringEncoding]
-                                           options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType}
-                                           documentAttributes:nil
-                                           error:nil];
-//  [attributtedString addAttribute:NSFontAttributeName
-//                            value:[UIFont fontWithName:@"Helvetica" size:28]
-//                            range:NSMakeRange(0, attributtedString.length)];
+                                                  initWithData:[contenido dataUsingEncoding:NSUnicodeStringEncoding]
+                                                  options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType}
+                                                  documentAttributes:nil
+                                                  error:nil];
+  //  [attributtedString addAttribute:NSFontAttributeName
+  //                            value:[UIFont fontWithName:@"Helvetica" size:28]
+  //                            range:NSMakeRange(0, attributtedString.length)];
   _texto.attributedText = attributtedString;
 }
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+  [super didReceiveMemoryWarning];
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (IBAction)cerrar:(id)sender {
   [self dismissViewControllerAnimated:YES completion:nil];

@@ -12,31 +12,25 @@
 @implementation CVCPersonajeSimple
 
 - (void)awakeFromNib {
-    [super awakeFromNib];
+  [super awakeFromNib];
 }
-
-/*
--(void) configurarCelda:(NSString*) nombre {
-    _imagenPersonaje.image = [UIImage imageNamed:nombre];
-}
-*/
 
 -(void) configurarCelda:(Personaje *)personaje {
-    _imagenPersonaje.image = [UIImage imageNamed:personaje.imagen];
-    _nombrePersona.text = personaje.nombreCompleto;
-    _fechaPersona.text = personaje.periodo;
+  _imagenPersonaje.image = [UIImage imageNamed:personaje.imagen];
+  _nombrePersona.text = personaje.nombreCompleto;
+  _fechaPersona.text = personaje.periodo;
 }
 
 -(void) seleccionarPersonaje {
-    [UIView animateWithDuration:0.5 animations:^{
-        _imagenPersonaje.alpha = 1.0;
-    }];
-    
+  [UIView animateWithDuration:0.5 animations:^{
+    _imagenPersonaje.alpha = 1.0;
+  }];
+  
 }
 
 
 -(void) deseleccionarPersonaje {
-    _imagenPersonaje.alpha = 0.5;
+  _imagenPersonaje.alpha = 0.5;
 }
 
 @end
