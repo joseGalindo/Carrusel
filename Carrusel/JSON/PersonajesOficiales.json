@@ -315,7 +315,7 @@
         "inicioGobierno": "0000-00-00",
         "finGobierno": "0000-00-00",
         "periodo": "ENERO – JULIO 1846",
-        "biografia": "joaquin_maria_castillo_lanzas",
+        "biografia": "joaquin_maria_castillo_velasco",
         "posicion": 20,
         "epocaSid": "1821-1855"
     },
@@ -1421,7 +1421,7 @@
         "inicioGobierno": "0000-00-00",
         "finGobierno": "0000-00-00",
         "periodo": "OCTUBRE 1931 – ENERO 1932",
-        "biografia": "manuel_c_tellez",
+        "biografia": "manuel_tellez",
         "posicion": 89,
         "epocaSid": "1920-1940"
     },
@@ -1460,16 +1460,16 @@
     {
         "sid" : 91,
         "imagen": "narcisoBossols",
-        "nombreCompleto" : "Narciso Bossols Gracía",
+        "nombreCompleto" : "Narciso Bassols Gracía",
         "nombre" : "Narciso", 
-		"apellidoPaterno": "Bossols",
+		"apellidoPaterno": "Bassols",
         "apellidoMaterno": "",
         "fechaNacimiento": "",
         "fechaDefuncion": "",
         "inicioGobierno": "0000-00-00",
         "finGobierno": "0000-00-00",
         "periodo": "MAYO – SEPTIEMBRE 1934",
-        "biografia": "narciso_bossols",
+        "biografia": "narciso_bassols",
         "posicion": 92,
         "epocaSid": "1920-1940"
     },
