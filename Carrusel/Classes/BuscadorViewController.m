@@ -8,6 +8,8 @@
 
 #import "BuscadorViewController.h"
 #import "Carrusel-Swift.h"
+#import "TVCBuscado.h"
+#import "DetalleViewController.h"
 #import <MagicalRecord/MagicalRecord.h>
 
 @interface BuscadorViewController () {
@@ -23,7 +25,9 @@
   resultado = [NSArray array];
   _buscadorIn.delegate = self;
   _tableViewResult.dataSource = self;
-  NSLog(@"Buscador cargado");
+  _tableViewResult.delegate = self;
+  UINib* nib = [UINib nibWithNibName:@"TVCBuscado" bundle:nil];
+  [_tableViewResult registerNib:nib forCellReuseIdentifier:@"Identificador"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,15 +40,22 @@
 }
 
 
-#pragma mark - UITableViewDataSource
+#pragma mark - UITableViewDataSource & Delegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
   return resultado.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-  UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Identificador"];
-  cell.textLabel.text = [resultado objectAtIndex:indexPath.row].nombreCompleto;
+  TVCBuscado* cell = [tableView dequeueReusableCellWithIdentifier:@"Identificador" forIndexPath:indexPath];
+  
+  [cell configurar:[resultado objectAtIndex:indexPath.row].nombreCompleto];
+//  cell.textLabel.text = [resultado objectAtIndex:indexPath.row].nombreCompleto;
   return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  Personaje* persona = [resultado objectAtIndex:indexPath.row];
+  [self performSegueWithIdentifier:@"mostrarDetalleBio" sender:persona];
 }
 
 #pragma mark - UITextFieldDelegate
@@ -55,15 +66,12 @@
 //  return YES;
 //}
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  Personaje* person = (Personaje*)sender;
+  DetalleViewController* controller = (DetalleViewController*)segue.destinationViewController;
+  controller.personaje = person;
+}
 
 - (IBAction)atras:(id)sender {
   [self dismissViewControllerAnimated:YES completion:nil];

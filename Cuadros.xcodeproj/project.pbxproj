@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8E3378B01E01B7C100DDF3A2 /* ReferenciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3378AF1E01B7C100DDF3A2 /* ReferenciaViewController.m */; };
 		8E80DA131E032BE700454FCC /* Referencia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E80DA121E032BE700454FCC /* Referencia.txt */; };
+		8EC17CD61E327DD300E359F0 /* TVCBuscado.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC17CD41E327DD300E359F0 /* TVCBuscado.m */; };
+		8EC17CD71E327DD300E359F0 /* TVCBuscado.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC17CD51E327DD300E359F0 /* TVCBuscado.xib */; };
 		8EF4923C1E31333E00545F1B /* BuscadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF4923B1E31333E00545F1B /* BuscadorViewController.m */; };
 		8EF4923E1E315C8300545F1B /* joaquin_maria_castillo_lanzas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8EF4923D1E315C8300545F1B /* joaquin_maria_castillo_lanzas.txt */; };
 		8EF492401E31655800545F1B /* alfredo_guichenne.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8EF4923F1E31655800545F1B /* alfredo_guichenne.txt */; };
@@ -221,6 +223,9 @@
 		8E3378AE1E01B7C100DDF3A2 /* ReferenciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferenciaViewController.h; path = Classes/ReferenciaViewController.h; sourceTree = "<group>"; };
 		8E3378AF1E01B7C100DDF3A2 /* ReferenciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferenciaViewController.m; path = Classes/ReferenciaViewController.m; sourceTree = "<group>"; };
 		8E80DA121E032BE700454FCC /* Referencia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Referencia.txt; path = JSON/Referencia.txt; sourceTree = "<group>"; };
+		8EC17CD31E327DD300E359F0 /* TVCBuscado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVCBuscado.h; path = TVCells/TVCBuscado.h; sourceTree = "<group>"; };
+		8EC17CD41E327DD300E359F0 /* TVCBuscado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVCBuscado.m; path = TVCells/TVCBuscado.m; sourceTree = "<group>"; };
+		8EC17CD51E327DD300E359F0 /* TVCBuscado.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TVCBuscado.xib; path = TVCells/TVCBuscado.xib; sourceTree = "<group>"; };
 		8EF4923A1E31333E00545F1B /* BuscadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuscadorViewController.h; path = Classes/BuscadorViewController.h; sourceTree = "<group>"; };
 		8EF4923B1E31333E00545F1B /* BuscadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuscadorViewController.m; path = Classes/BuscadorViewController.m; sourceTree = "<group>"; };
 		8EF4923D1E315C8300545F1B /* joaquin_maria_castillo_lanzas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = joaquin_maria_castillo_lanzas.txt; path = textos/joaquin_maria_castillo_lanzas.txt; sourceTree = "<group>"; };
@@ -753,6 +758,9 @@
 				E958E1601DC16BBA008656A8 /* TVCFecha.h */,
 				E958E1611DC16BBA008656A8 /* TVCFecha.m */,
 				E958E1621DC16BBA008656A8 /* TVCFecha.xib */,
+				8EC17CD31E327DD300E359F0 /* TVCBuscado.h */,
+				8EC17CD41E327DD300E359F0 /* TVCBuscado.m */,
+				8EC17CD51E327DD300E359F0 /* TVCBuscado.xib */,
 			);
 			name = TVCells;
 			sourceTree = "<group>";
@@ -967,6 +975,7 @@
 				E96579F11DD2349D00E00917 /* bernardo_gonzalez_perez_angulo.txt in Resources */,
 				E9657A511DD2349D00E00917 /* manuel_tellez.txt in Resources */,
 				E9657A3A1DD2349D00E00917 /* leon_guzman.txt in Resources */,
+				8EC17CD71E327DD300E359F0 /* TVCBuscado.xib in Resources */,
 				E9657A431DD2349D00E00917 /* manuel_crecencio_rejon.txt in Resources */,
 				E9657A281DD2349D00E00917 /* jose_maria_iglesias.txt in Resources */,
 				E9657A661DD2349D00E00917 /* sebastian_lerdo_tejada.txt in Resources */,
@@ -1121,6 +1130,7 @@
 			files = (
 				E93FED841DC2788700F87108 /* Personaje+CoreDataProperties.swift in Sources */,
 				E958E1291DC10E98008656A8 /* ViewController.m in Sources */,
+				8EC17CD61E327DD300E359F0 /* TVCBuscado.m in Sources */,
 				E93FED861DC278A000F87108 /* Cronologica+CoreDataClass.swift in Sources */,
 				E958E1631DC16BBA008656A8 /* TVCFecha.m in Sources */,
 				E93FED831DC2788700F87108 /* Cronologica+CoreDataProperties.swift in Sources */,

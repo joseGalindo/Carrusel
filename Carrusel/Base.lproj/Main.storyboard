@@ -513,7 +513,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <segue destination="Fnp-X4-Djh" kind="presentation" id="obT-op-itd"/>
+                                                    <segue destination="Fnp-X4-Djh" kind="presentation" identifier="mostrarBusqueda" id="obT-op-itd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -900,7 +900,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Nombre / Apellido" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eew-wv-7g2">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Nombre / Apellido" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="eew-wv-7g2">
                                 <rect key="frame" x="383.5" y="306" width="600" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.92941176469999998" blue="0.70980392160000005" alpha="0.64790239729999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -913,7 +913,7 @@
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XsP-zo-USJ">
                                 <rect key="frame" x="383" y="456" width="600" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="Apu-dT-31g"/>
                                 </constraints>
@@ -973,6 +973,7 @@
                         <outlet property="buscadorIn" destination="eew-wv-7g2" id="Z93-Ik-YP4"/>
                         <outlet property="nombreApellidoSegmented" destination="1e6-FK-aCa" id="bwv-OX-DlB"/>
                         <outlet property="tableViewResult" destination="XsP-zo-USJ" id="GAT-DX-h3k"/>
+                        <segue destination="Nqp-8c-Yeb" kind="presentation" identifier="mostrarDetalleBio" id="InM-I2-41L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMn-3K-N6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1218,6 +1219,6 @@
         <image name="tache" width="20" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hkM-jE-Zrn"/>
+        <segue reference="InM-I2-41L"/>
     </inferredMetricsTieBreakers>
 </document>

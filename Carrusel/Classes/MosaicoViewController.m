@@ -130,10 +130,18 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
   
   Personaje* persona = [personajesSort objectAtIndex:indexPath.row];
   celda.textLabel.font = [UIFont fontWithName:@"Trajan-Normal" size:25.f];
-  celda.textLabel.text = [NSString stringWithFormat:@"%@ %@, %@",
-                          persona.apellidoPaterno,
-                          persona.apellidoMaterno,
-                          persona.nombre];
+  NSString* nombre;
+  if ([persona.apellidoMaterno isEqualToString:@""]) {
+    nombre = [NSString stringWithFormat:@"%@, %@",
+              persona.apellidoPaterno,
+              persona.nombre];
+  } else {
+    nombre = [NSString stringWithFormat:@"%@ %@, %@",
+              persona.apellidoPaterno,
+              persona.apellidoMaterno,
+              persona.nombre];
+  }
+  celda.textLabel.text = nombre;
   celda.textLabel.textColor = [UIColor whiteColor];
   
   celda.backgroundColor = [UIColor clearColor];
