@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BuscadorViewController : UIViewController
+@interface BuscadorViewController : UIViewController <UITextFieldDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITextField *buscadorIn;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *nombreApellidoSegmented;
 @property (weak, nonatomic) IBOutlet UITableView *tableViewResult;
 
+- (IBAction)atras:(id)sender;
+- (IBAction)buscar:(id)sender;
 
 @end

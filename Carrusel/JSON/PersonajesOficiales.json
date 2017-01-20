@@ -171,7 +171,7 @@
   "inicioGobierno": "0000-00-00",
   "finGobierno": "0000-00-00",
   "periodo": "JUNIO – JULIO 1831 / MARZO – AGOSTO 1832 / JUNIO 1835 / OCTUBRE 1835 / ABRIL 1837 / NOVIEMBRE 1837 – ENERO 1838 / DICIEMBRE 1838 / OCTUBRE 1840 – MAYO 1841 / ENERO – FEBRERO 1847 / SEPTIEMBRE 1847 / MAYO 1849 / ABRIL – JUNIO 1851",
-  "biografia": "",
+  "biografia": "jose_maria_ortiz_monasterio",
   "posicion": 11,
   "epocaSid": "1821-1855"
   },
@@ -515,8 +515,8 @@
   {
   "sid" : 32,
   "imagen": "hilarioElguero",
-  "nombreCompleto" : "José Hilarlo Elguero Guisasola",
-  "nombre" : "José Hilarlo",
+  "nombreCompleto" : "José Hilario Elguero Guisasola",
+  "nombre" : "José Hilario",
 		"apellidoPaterno": "Elguero",
   "apellidoMaterno": "Guisasola",
   "fechaNacimiento": "",
@@ -1197,7 +1197,7 @@
   "inicioGobierno": "0000-00-00",
   "finGobierno": "0000-00-00",
   "periodo": "ENERO–JUNIO 1915",
-  "biografia": "",
+  "biografia": "alfredo_guichenne",
   "posicion": 75,
   "epocaSid": "1911-1920"
   },
@@ -1679,7 +1679,7 @@
   "periodo": "DICIEMBRE 1970 – NOVIEMBRE 1976",
   "biografia": "mario_moya_palencia",
   "posicion": 105,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 105,
@@ -1695,7 +1695,7 @@
   "periodo": "DICIEMBRE 1976 – MAYO 1979",
   "biografia": "jesus_reyes_heroles",
   "posicion": 106,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 106,
@@ -1711,7 +1711,7 @@
   "periodo": "MAYO 1979 – NOVIEMBRE 1982",
   "biografia": "enrique_olivares_santana",
   "posicion": 107,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 107,
@@ -1727,7 +1727,7 @@
   "periodo": "DICIEMBRE 1982 – NOVIEMBRE 1988",
   "biografia": "manuel_bartlett",
   "posicion": 108,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 108,
@@ -1743,7 +1743,7 @@
   "periodo": "DICIEMBRE 1988 – ENERO 1993",
   "biografia": "fernando_gutierrez_barrios",
   "posicion": 109,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 109,
@@ -1759,7 +1759,7 @@
   "periodo": "ENERO 1993 – ENERO 1994",
   "biografia": "patrocinio_gonzalez_blanco",
   "posicion": 110,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 110,
@@ -1775,7 +1775,7 @@
   "periodo": "ENERO 1994 – NOVIEMBRE 1994",
   "biografia": "jorge_carpizo",
   "posicion": 111,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 111,
@@ -1791,7 +1791,7 @@
   "periodo": "DICIEMBRE 1994 – JUNIO 1995",
   "biografia": "esteban_moctezuma",
   "posicion": 112,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 112,
@@ -1807,7 +1807,7 @@
   "periodo": "JULIO 1995 – ENERO 1998",
   "biografia": "emilio_chuayffet",
   "posicion": 113,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 113,
@@ -1823,7 +1823,7 @@
   "periodo": "ENERO 1998 – MAYO 1999",
   "biografia": "francisco_labastida",
   "posicion": 114,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 114,
@@ -1839,7 +1839,7 @@
   "periodo": "MAYO 1999 – NOVIEMBRE 2000",
   "biografia": "diodoro_carrasco",
   "posicion": 115,
-  "epocaSid": "1970-2000"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 115,
@@ -1855,7 +1855,7 @@
   "periodo": "DICIEMBRE 2000 – JUNIO 2005",
   "biografia": "santiago_creel",
   "posicion": 116,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 116,
@@ -1871,7 +1871,7 @@
   "periodo": "JUNIO 2005 – NOVIEMBRE 2006",
   "biografia": "carlos_maria_abascal_carranza",
   "posicion": 117,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 117,
@@ -1887,7 +1887,7 @@
   "periodo": "DICIEMBRE 2006 – ENERO 2008",
   "biografia": "francisco_ramirez_acuna",
   "posicion": 118,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 118,
@@ -1903,7 +1903,7 @@
   "periodo": "ENERO 2008 – NOVIEMBRE 2008",
   "biografia": "juan_camilo_mourino",
   "posicion": 119,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 119,
@@ -1919,7 +1919,7 @@
   "periodo": "NOVIEMBRE 2008 – JULIO 2010",
   "biografia": "fernando_gomez_mont_urrieta",
   "posicion": 120,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
   },
   {
   "sid" : 120,
@@ -1935,6 +1935,6 @@
   "periodo": "JULIO 2010 – NOVIEMBRE DEL 2011",
   "biografia": "jose_francisco_blake_mora",
   "posicion": 121,
-  "epocaSid": "2000-2017"
+  "epocaSid": "1970-2016"
 		}
   ]
