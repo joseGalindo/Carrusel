@@ -78,6 +78,7 @@
 }
 
 - (IBAction)buscar:(id)sender {
+  [self.view endEditing:YES];
   NSPredicate* predicado;
   NSString* busqueda = _buscadorIn.text;// lowercaseString];
   if (_nombreApellidoSegmented.selectedSegmentIndex == 0) {
