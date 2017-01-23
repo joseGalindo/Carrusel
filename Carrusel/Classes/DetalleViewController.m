@@ -43,6 +43,14 @@
   } else {
     NSLog(@"Error: %@", error.localizedDescription);
   }
+  
+  // Logs
+  NSLog(@"Caracteres Contenidos");
+  NSLog(@"En Nombre: %ld", _personaje.nombreCompleto.length);
+  CGRect r = [_personaje.nombreCompleto boundingRectWithSize:_nombrePersonaje.frame.size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]} context:nil];
+  NSLog(@"Rect: %@", NSStringFromCGRect(r));
+  CGSize s = [_personaje.nombreCompleto sizeWithAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]}];
+  NSLog(@"Size: %@", NSStringFromCGSize(s));
 }
 
 - (void)didReceiveMemoryWarning {
