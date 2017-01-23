@@ -1936,5 +1936,21 @@
   "biografia": "jose_francisco_blake_mora",
   "posicion": 121,
   "epocaSid": "1970-2016"
-		}
+		},
+  {
+  "sid" : 99999,
+  "imagen": "antiguoPalacioCobian",
+  "nombreCompleto" : "Antiguo Palacio de Cobián",
+  "nombre" : "Antiguo Palacio",
+  "apellidoPaterno": "Cobián",
+  "apellidoMaterno": "",
+  "fechaNacimiento": "",
+  "fechaDefuncion": "",
+  "inicioGobierno": "0000-00-00",
+  "finGobierno": "0000-00-00",
+  "periodo": "",
+  "biografia": "antiguo_palacio_cobian",
+  "posicion": 99999,
+  "epocaSid": "1970-2016"
+  }
   ]

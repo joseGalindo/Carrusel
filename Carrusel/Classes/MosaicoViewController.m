@@ -22,27 +22,13 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
   CAGradientLayer* capaBandera;
   NSArray* personajesArray;
   NSArray* personajesSort;
+  Personaje* extraCobian;
   NSIndexPath* selectedIndexPath;
   BOOL filtroNombresShowed;
 }
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  
-  // Gradiente
-  //    capaBandera = [[CAGradientLayer alloc] init];
-  //    capaBandera.frame = _fondo.frame;
-  //    capaBandera.colors = [NSArray arrayWithObjects:
-  //                          (id)[UIColor colorWithRed:(7.0/255.0) green:(100.0/255.0) blue:(26.0/255.0) alpha:1].CGColor,
-  //                          (id)[UIColor whiteColor].CGColor,
-  //                          (id)[UIColor colorWithRed:(179.0/255.0) green:0 blue:(16.0/255.0) alpha:1].CGColor, nil];
-  //    capaBandera.locations = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0],
-  //                             [NSNumber numberWithFloat:0.5],
-  //                             [NSNumber numberWithFloat:1.0], nil];
-  //    capaBandera.startPoint = CGPointMake(0, 0.0);
-  //    capaBandera.endPoint = CGPointMake(1.0, 1.0);
-  //    [_fondo.layer addSublayer:capaBandera];
-  
   
   // Mosaico de imagenes
   _mCollectionView.dataSource = self;
@@ -84,6 +70,17 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 -(void) configurarPersonajes {
   personajesArray = [Personaje MR_findAllSortedBy:@"posicion" ascending:YES];
+  
+  // Cobian
+//  NSString* ruta = [[NSBundle mainBundle] pathForResource:@"Cobian" ofType:@"json"];
+//  NSData* datos = [NSData dataWithContentsOfFile:ruta];
+//  NSError* error;
+//  id jsonCobian = [NSJSONSerialization JSONObjectWithData:datos options:NSJSONReadingMutableContainers error:&error];
+//  if (error) {
+//    NSLog(@"Error: %@", error.localizedDescription);
+//  }
+//  extraCobian = [Personaje MR_importFromObject:jsonCobian];
+  
   [_mCollectionView reloadData];
   
   personajesSort = [Personaje MR_findAllSortedBy:@"apellidoPaterno" ascending:YES];
@@ -102,7 +99,6 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   // Get the new view controller using [segue destinationViewController].
   // Pass the selected object to the new view controller.
@@ -157,14 +153,26 @@ static NSString* REUSE_IDENTIFIER = @"Cell_Reuse_Identifier";
 
 #pragma mark - UICollectionView DataSource & Delegate
 
+//-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+//  return 2;
+//}
+
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-  return personajesArray.count;
+//  if (section == 0) {
+    return personajesArray.count;
+//  } else {
+//    return 1;
+//  }
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
   CVCPersonajeSimple* cell = [collectionView dequeueReusableCellWithReuseIdentifier:REUSE_IDENTIFIER forIndexPath:indexPath];
-  
-  Personaje* persona = [personajesArray objectAtIndex:indexPath.row];
+  Personaje* persona;// = [personajesArray objectAtIndex:indexPath.row];
+//  if (indexPath.section == 0) {
+    persona = [personajesArray objectAtIndex:indexPath.row];
+//  } else {
+//    persona = extraCobian;
+//  }
   [cell configurarCelda:persona];
   
   return cell;

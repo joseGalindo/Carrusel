@@ -25,8 +25,5 @@
   {"sid" : "1970-2016",
   "fechaInicio": "1970-02-02",
   "fechaFin": "2000-02-01",
-  "descripcion" : "México contemporáneo"},
-  {"sid" : "2000-2017",
-  "fechaInicio": "2000-02-02",
-  "fechaFin": "2014-02-01",
-  "descripcion" : "México Actual"}]
+  "descripcion" : "México contemporáneo"}
+  ]

@@ -39,18 +39,23 @@
   NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
   NSString* textoBio = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
   if (!error) {
+    NSMutableAttributedString* attributtedString = [[NSMutableAttributedString alloc]
+                                                    initWithData:[textoBio dataUsingEncoding:NSUnicodeStringEncoding]
+                                                    options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType}
+                                                    documentAttributes:nil
+                                                    error:nil];
     _biografiaPersonaje.text = textoBio;
   } else {
     NSLog(@"Error: %@", error.localizedDescription);
   }
   
   // Logs
-  NSLog(@"Caracteres Contenidos");
-  NSLog(@"En Nombre: %ld", _personaje.nombreCompleto.length);
-  CGRect r = [_personaje.nombreCompleto boundingRectWithSize:_nombrePersonaje.frame.size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]} context:nil];
-  NSLog(@"Rect: %@", NSStringFromCGRect(r));
-  CGSize s = [_personaje.nombreCompleto sizeWithAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]}];
-  NSLog(@"Size: %@", NSStringFromCGSize(s));
+//  NSLog(@"Caracteres Contenidos");
+//  NSLog(@"En Nombre: %ld", _personaje.nombreCompleto.length);
+//  CGRect r = [_personaje.nombreCompleto boundingRectWithSize:_nombrePersonaje.frame.size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]} context:nil];
+//  NSLog(@"Rect: %@", NSStringFromCGRect(r));
+//  CGSize s = [_personaje.nombreCompleto sizeWithAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Trajan-Normal" size:40.f]}];
+//  NSLog(@"Size: %@", NSStringFromCGSize(s));
 }
 
 - (void)didReceiveMemoryWarning {
