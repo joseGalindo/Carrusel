@@ -19,7 +19,16 @@
   
   _imagenPersonaje.image = [UIImage imageNamed:_personaje.imagen];
   _nombrePersonaje.text = _personaje.nombreCompleto;
+  
   _imagenBig.image = [UIImage imageNamed:_personaje.imagen];
+  if (_personaje.sid == 99999) {
+    NSString* nombreColor = [NSString stringWithFormat:@"%@Color",_personaje.imagen];
+    NSString* nombreGrande = [NSString stringWithFormat:@"%@Grande",_personaje.imagen];
+    _imagenBig.image = [UIImage imageNamed:nombreGrande];
+    _imagenPersonaje.image = [UIImage imageNamed:nombreColor];
+  } else {
+    NSLog(@"Sid: %d", _personaje.sid);
+  }
   
   _cerrarBtn.layer.cornerRadius = _cerrarBtn.frame.size.width / 2;
   _cerrarBtn.layer.borderWidth = 2;
@@ -44,7 +53,8 @@
                                                     options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType}
                                                     documentAttributes:nil
                                                     error:nil];
-    _biografiaPersonaje.text = textoBio;
+    _biografiaPersonaje.attributedText = attributtedString;
+    [_biografiaPersonaje setFont:[UIFont fontWithName:@"ACaslonPro-Semibold" size:28.0]];
   } else {
     NSLog(@"Error: %@", error.localizedDescription);
   }

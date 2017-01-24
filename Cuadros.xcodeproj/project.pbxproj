@@ -1295,7 +1295,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 474BA01533C34E9955490BF9 /* Pods-Carrusel.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconUni;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 47588266MJ;
 				INFOPLIST_FILE = Carrusel/Info.plist;
@@ -1313,7 +1313,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E17489A9775EFD650DC76DE4 /* Pods-Carrusel.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconUni;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 47588266MJ;
 				INFOPLIST_FILE = Carrusel/Info.plist;
