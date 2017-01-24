@@ -1,4 +1,4 @@
-Legislador y político. Nació en Casas Grandes, Chihuahua. Se ignoran los datos acerca de su fecha de nacimiento y formación, pero se conoce que figuró varias veces como autoridad política de su lugar de origen.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nLegislador y político. Nació en Casas Grandes, Chihuahua. Se ignoran los datos acerca de su fecha de nacimiento y formación, pero se conoce que figuró varias veces como autoridad política de su lugar de origen.
 
 José Quevedo Rico apoyó el movimiento revolucionario de 1910. Fue electo diputado suplente para la XXVIII legislatura de su estado natal que inició funciones el 26 de agosto de 1911. A pesar de su inicial filiación maderista, en abril de 1912 votó el decreto mediante el cual el Congreso local desconoció al gobierno de Madero. Igualmente se contó entre los legisladores chihuahuenses que apoyaron el levantamiento encabezado por Pascual Orozco en ese mismo año.
 
@@ -15,3 +15,4 @@ Profundamente dividida y asediada militarmente, apenas se logró discutir un Pro
 Quevedo aún formó parte del Consejo ejecutivo de la misma y firmó el decreto que establecía la sede de los poderes convencionistas en Cuernavaca, el 1 de noviembre de 1915. Semanas después, junto con Gustavo Baz, se acogió a la amnistía declarada por las fuerzas leales a Venustiano Carranza, para entonces reconocido como presidente <i>de facto</i> por el gobierno norteamericano.
 
 Al final de la fase armada de la Revolución, Quevedo logró reintegrarse a la vida pública. Así, en mayo de 1921, firmó la Constitución Política de su estado natal. En enero de 1928, como diputado por Aguascalientes en el Congreso de la Unión, votó en favor de la modificación del artículo 83 Constitucional, en el sentido de prolongar el mandato presidencial a seis años y de evitar la reelección inmediata de los presidentes. Murió en 1934.
+</body>

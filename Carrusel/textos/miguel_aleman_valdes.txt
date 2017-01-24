@@ -1,4 +1,4 @@
-Nació en Sayula, Veracruz, el 29 de septiembre de 1900. Fue hijo del general revolucionario Miguel Alemán González, quien se destacó como diputado federal y opositor al gobierno de Emilio Portes Gil, y de la señora Tomasa Valdés.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en Sayula, Veracruz, el 29 de septiembre de 1900. Fue hijo del general revolucionario Miguel Alemán González, quien se destacó como diputado federal y opositor al gobierno de Emilio Portes Gil, y de la señora Tomasa Valdés.
 
 Su infancia transcurrió en Sayula, Acayucan, Coatzacoalcos y Orizaba, en donde realizó sus estudios primarios. Se trasladó a la Ciudad de México, en donde se inscribió en la Escuela Nacional Preparatoria y publicó el periódico <i>Eureka</i>.
 
@@ -23,3 +23,4 @@ La Ciudad de México mostró un crecimiento relevante debido a la construcción 
 Además, en el sexenio alemanista Baja California se convirtió en un estado libre y soberano. Asimismo, se construyeron diversas obras públicas, entre las que destacaron: la edificación de la Ciudad Universitaria, la Escuela Nacional de Maestros, el Conservatorio Nacional y numerosas escuelas para la educación primaria. Igualmente, hubo un apoyo importante para el turismo y la cinematografía; además, durante su mandato presidencial se estrecharon las relaciones diplomáticas con Estados Unidos.
 
 Cuando dejó la presidencia, Alemán fue líder dentro del Partido Revolucionario Institucional e inversionista en varias industrias. El presidente en turno, Adolfo López Mateos, lo nombró presidente del Consejo Nacional de Turismo en 1961, cargo en el que se mantuvo hasta el día de su deceso, ocurrido en la Ciudad de México, el 14 de mayo de 1983.
+</body>

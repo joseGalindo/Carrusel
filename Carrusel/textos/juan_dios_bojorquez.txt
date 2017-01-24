@@ -1,4 +1,4 @@
-Político, diplomático y escritor. Nació el 8 de marzo de 1892 en San Miguel Horcasitas, Sonora. En 1912 se tituló como ingeniero agrónomo en la Escuela Nacional de Agricultura. Durante la "Decena Trágica", en febrero de 1913, que derrocó al gobierno de Francisco I. Madero, Bojórquez se desempeñaba como empleado en la Secretaría de Comunicaciones y Obras Públicas.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nPolítico, diplomático y escritor. Nació el 8 de marzo de 1892 en San Miguel Horcasitas, Sonora. En 1912 se tituló como ingeniero agrónomo en la Escuela Nacional de Agricultura. Durante la "Decena Trágica", en febrero de 1913, que derrocó al gobierno de Francisco I. Madero, Bojórquez se desempeñaba como empleado en la Secretaría de Comunicaciones y Obras Públicas.
 
 Al darse la ruptura entre Francisco Villa y Venustiano Carranza en la Convención de Aguascalientes, Bojórquez se unió a la revolución constitucionalista aliado del titular de esa Secretaría, ingeniero Ignacio Bonillas. En 1915 regresó a Sonora para participar en las acciones que venía realizando el gobernador de la entidad, general Plutarco Elías Calles. Fue vocal y presidente de la Comisión Local Agraria y miembro del Partido Liberal Constitucionalista que se fundó a mediados de 1916.
 
@@ -29,3 +29,4 @@ Entre su producción escrita destaca la novela <i>Yorum Tamehua</i> (1923). Adem
 <LI><i>Hombres y aspectos de México en la tercera etapa de la Revolución</i> (1934) y <i>Crónicas del Constituyente</i>.</LI>
 </UL>
 Falleció en la Ciudad de México en 1967.
+</body>

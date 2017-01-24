@@ -1,4 +1,4 @@
-Nació en la Ciudad de México el 5 de enero de 1823. Realizó sus estudios en el Colegio de San Gregorio y en la Escuela de Minas. Siendo aún estudiante, fue profesor en el Colegio de San Ildefonso. Se tituló como abogado en 1845.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la Ciudad de México el 5 de enero de 1823. Realizó sus estudios en el Colegio de San Gregorio y en la Escuela de Minas. Siendo aún estudiante, fue profesor en el Colegio de San Ildefonso. Se tituló como abogado en 1845.
 
 Iglesias ingresó a la vida política como regidor del Ayuntamiento de México en 1846 y pronto destacó como eminente defensor del liberalismo a través de su labor periodística, por medio de la cual se opuso al gobierno de Antonio López de Santa Anna, estimuló la defensa del territorio nacional ante la invasión norteamericana y rechazó rotundamente el Tratado Guadalupe–Hidalgo. Durante la ocupación, fue nombrado Ministro del Supremo Tribunal de Guerra y también obtuvo la dirección del diario <i>El Siglo XIX</i>.
 
@@ -15,3 +15,4 @@ En 1873 Iglesias ocupó la presidencia de la Suprema Corte de Justicia. Tres añ
 Finalmente, las fuerzas lerdistas se rindieron ante los tuxtepecanos, que terminaron por reducir al gobierno encabezado por Iglesias, quien se exilió por breve tiempo en Estados Unidos.
 
 Iglesias regresó al país en octubre de 1877 para dedicarse a la vida privada. Murió en la Ciudad de México el 17 de diciembre de 1891 y sus restos fueron depositados en la que hoy se conoce como Rotonda de las Personas Ilustres.
+</body>

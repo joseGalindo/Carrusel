@@ -1,5 +1,6 @@
-Nació en la Ciudad de México el 11 de enero de 1963. Es hijo del fundador e ideólogo del Partido Acción Nacional Felipe Gómez Mont.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la Ciudad de México el 11 de enero de 1963. Es hijo del fundador e ideólogo del Partido Acción Nacional Felipe Gómez Mont.
 
 Es licenciado en Derecho por la Escuela Libre de Derecho y a muy temprana edad inició su carrera política al incorporarse a las filas del Partido Acción Nacional. Como servidor público fue electo diputado federal en 1991 a la LV Legislatura, en donde ocupó la presidencia de la Comisión de Justicia de la Cámara de Diputados, misma en la que tuvo una labor destacada al promover varias Reformas Constitucionales en materia de Derechos Humanos y Justicia. De igual forma colaboró en la Comisión Federal Electoral, en donde participó en la propuesta del uso de la credencial electoral con fotografía, la creación del nuevo Padrón Electoral, y la fundación del Instituto Federal Electoral.
 
 El 10 de noviembre del 2008, durante la presidencial de Felipe Calderón Hinojosa fue nombrado Secretario de Gobernación. Cargo que ocupó hasta el 14 de julio del 2010. Actualmente es socio de la firma <i>Zinser, Esponda y Gomez Mont Abogados</i>.
+</body>

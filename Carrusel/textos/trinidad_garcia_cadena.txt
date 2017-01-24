@@ -1,4 +1,4 @@
-Político y general militar. Nació en Villa del Refugio, en el estado de Zacatecas, en 1823. Realizó estudios primarios en su estado y posteriormente se inscribió en la Escuela de Leyes de la Ciudad de Guadalajara, en donde obtuvo el título de abogado.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nPolítico y general militar. Nació en Villa del Refugio, en el estado de Zacatecas, en 1823. Realizó estudios primarios en su estado y posteriormente se inscribió en la Escuela de Leyes de la Ciudad de Guadalajara, en donde obtuvo el título de abogado.
 
 Ante la invasión estadounidense de mediados del siglo XIX, García tomó las armas en defensa del país.
 
@@ -17,3 +17,4 @@ En 1880, García se unió al Gran Círculo de Obreros de México y patrocinó la
 Efectuadas las elecciones de ese año, García resultó derrotado por Manuel González; no obstante, volvió a figurar en la contienda electoral cuatro años después, teniendo ahora como contrincante a Porfirio Díaz, quien a la postre triunfó. En 1884 se le otorgó el grado de general de división; desde entonces vivió en la capital de la República mostrando su descontento hacia el régimen.
 
 Acusado de firmar un manifiesto que apareció en la ciudad texana de San Antonio, en el que se invitaba al pueblo a tomar las armas en contra del régimen porfirista, García de la Cadena se trasladó a Zacatecas e intentó aclarar esta situación; sin embargo, fue víctima de los rumores de sus enemigos, quienes hicieron creer que se había levantado en armas. El 30 de octubre de 1886 fue aprehendido y fusilado al día siguiente en la estación ferroviaria González.
+</body>

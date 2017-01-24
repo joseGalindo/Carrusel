@@ -1,3 +1,4 @@
-Nació en la ciudad de México. Hizo sus estudios de abogado en la Ciudad de México. Su acercamiento a la política porfiriana le permitió tener acceso a la vida política del país; sin embargo, fue en el gobierno de Victoriano Huerta en donde obtuvo el nombramiento de los cargos públicos de mayor importancia.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la ciudad de México. Hizo sus estudios de abogado en la Ciudad de México. Su acercamiento a la política porfiriana le permitió tener acceso a la vida política del país; sin embargo, fue en el gobierno de Victoriano Huerta en donde obtuvo el nombramiento de los cargos públicos de mayor importancia.
 
 El 8 de julio de 1913 se le nombró Secretario de Fomento, cargo que desempeñó hasta agosto de ese mismo año. El 15 de septiembre ocupó la Secretaría de Justicia y simultáneamente ocupó el cargo de Secretario de Hacienda. Al siguiente año, el 10 de febrero de 1914, se encargó de la Secretaría de Gobernación, cargo en el que se desempeñó hasta la caída del régimen huertista.
+</body>

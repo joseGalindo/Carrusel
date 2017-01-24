@@ -1,4 +1,4 @@
-Nació en Teotitlán del Camino, hoy Teotitlán de Flores Magón, Oaxaca, en 1871. Muy niño se trasladó a la Ciudad de México, donde trabajó para sostener sus estudios hasta recibirse de abogado en 1897.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en Teotitlán del Camino, hoy Teotitlán de Flores Magón, Oaxaca, en 1871. Muy niño se trasladó a la Ciudad de México, donde trabajó para sostener sus estudios hasta recibirse de abogado en 1897.
 
 Crítico del régimen porfirista, Jesús Flores Magón fundó, junto con sus hermanos Ricardo y Enrique, el periódico <i>Regeneración</i> que tenía como lema "Periódico Jurídico Independiente" y que circuló por primera vez el 7 de agosto de 1900. En sus inicios fungió como director de esta publicación y, debido a las críticas que expresó en sus páginas sobre el sistema judicial, fue encarcelado por varios meses en la prisión de Belén.
 
@@ -15,3 +15,4 @@ Después de los trágicos sucesos de febrero de 1913 que derrocaron al president
 Díaz fue nombrado embajador en Japón, con lo cual quedó inhabilitado para las elecciones de octubre. En esos comicios, Flores Magón fue propuesto por un grupo de liberales para hacer fórmula electoral con Manuel Calero. Se le hizo víctima de las persecuciones del régimen huertista y partió hacia La Habana.
 
 Posteriormente, se trasladó a Estados Unidos y regresó al país tras la muerte de Venustiano Carranza para dedicarse al ejercicio de su profesión. Murió en la Ciudad de México el 7 de diciembre de 1930.
+</body>

@@ -1,4 +1,4 @@
-Nació en San Juan Bautista, Yahualica, actual estado de Hidalgo (entonces parte de México), el 13 de diciembre de 1822. Realizó estudios primarios en su localidad y, posteriormente, fue enviado a la Ciudad de México, donde ingresó al Colegio de San Gregorio. Se recibió como abogado en 1846.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en San Juan Bautista, Yahualica, actual estado de Hidalgo (entonces parte de México), el 13 de diciembre de 1822. Realizó estudios primarios en su localidad y, posteriormente, fue enviado a la Ciudad de México, donde ingresó al Colegio de San Gregorio. Se recibió como abogado en 1846.
 
 Por un tiempo se dedicó al ejercicio de su profesión de manera independiente; después, afiliado al bando liberal, representó al Estado de México en el Congreso de la Unión, poco antes de la segunda ocupación francesa. Durante dicha etapa fue enviado a Yucatán prisionero junto con otros correligionarios.
 
@@ -13,3 +13,4 @@ La gestión de Gómez y Pérez a la cabeza de la secretaría fue fundamental par
 La prueba más importante que Gómez tuvo que enfrentar fue la elección presidencial de 1876, que puso en crisis el conjunto del aparato político.
 
 Una vez que culminó su estancia en el gobierno lerdista, se retiró de la vida pública para ejercer la abogacía y colaboró en la prensa periódica y en diversas publicaciones, entre las que cabe mencionar el semanario jurídico <i>El Publicista</i>. Murió en la Ciudad de México el 5 de marzo de 1891.
+</body>

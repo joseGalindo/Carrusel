@@ -1,4 +1,4 @@
-Abogado y político. Nació en 1845 en el Valle del Maíz, situado en el estado de San Luis Potosí. Sus padres fueron Rafael Díez Gutiérrez Barragán y Agustina López Portillo, quienes pertenecían a familias terratenientes y mineras. Realizó sus primeros estudios en su estado natal, para después trasladarse a la Ciudad de México a cursar la carrera de leyes.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nAbogado y político. Nació en 1845 en el Valle del Maíz, situado en el estado de San Luis Potosí. Sus padres fueron Rafael Díez Gutiérrez Barragán y Agustina López Portillo, quienes pertenecían a familias terratenientes y mineras. Realizó sus primeros estudios en su estado natal, para después trasladarse a la Ciudad de México a cursar la carrera de leyes.
 
 Díez Gutiérrez suspendió su formación profesional para combatir del lado liberal contra los conservadores, primero, y después contra la intervención francesa. Acabada esta contienda, concluyó la carrera de derecho y, en el trienio 1869–1871, fue diputado en el Congreso de la Unión.
 
@@ -19,3 +19,4 @@ En julio de 1879, el gobernador indígena Juan Santiago inició en Tamazunchale 
 Una medida que tomó el gobernador fue deponer al jefe político J. J. Terrazas y al administrador de rentas de Tamazunchale; sin embargo, el proceso de lucha continuó hasta noviembre del siguiente año, cuando las guardias potosina e hidalguense sofocaron el movimiento, que fue desmantelado y sus líderes ejecutados.
 
 Otra sublevación fue la de Elías Fortuna en 1893, que se propagó hasta los límites de Tamaulipas y Guanajuato. Estos disturbios reflejaron la inconformidad que provocaba el problema agrario prevaleciente en el estado. Asimismo, se vieron acompañados por huelgas mineras, que buscaban mejoras en las condiciones laborales. Díez Gutiérrez falleció en San Luis Potosí en 1898.
+</body>

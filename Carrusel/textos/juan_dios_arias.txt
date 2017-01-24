@@ -1,4 +1,4 @@
-Destacado escritor, poeta, historiador y militar, nació en la ciudad de Puebla en 1828.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nDestacado escritor, poeta, historiador y militar, nació en la ciudad de Puebla en 1828.
 Desde muy temprana edad tuvo que ganarse la vida realizando diversas labores. En 1844 se inició en el periodismo colaborando en <i>El Centinela</i>, en el que destacó por su gran habilidad como escritor. En 1856 publicó el periódico satírico <i>La pata de cabra</i>, y colaboró en otros periódicos como <i>La Orquesta</i> y <i>La Sombra</i>. Años más tarde colaboró en <i>México a través de los siglos</i>.
 
 Liberal por convicción, participó en la política desde diferentes cargos. Fue Diputado Constituyente en el Congreso de 1856–1857, Oficial de la Secretaría de Relaciones Exteriores y Secretario de la Legión Mexicana en Washington.
@@ -6,3 +6,4 @@ Liberal por convicción, participó en la política desde diferentes cargos. Fue
 De igual forma tuvo un papel destacado dentro del ejército. Alcanzó el grado de Coronel y acompañó al General Mariano Escobedo como su Secretario General durante el sitio de Querétaro. Fue gracias a ese hecho donde surge su <i>Reseña histórica del Ejército del Norte durante la intervención francesa, sitio de Querétaro y noticias oficiales sobre la captura de Maximiliano, su proceso íntegro y su muerte</i>, libro en el que relata los hechos de arma en el último periodo del gobierno de Maximiliano.
 
 Vicente Riva Palacio le dedicó en su libro <i>Los ceros. Galería de los contemporáneos</i>, una biografía en la que se destaca su valor patriótico. Murió en la Ciudad de México en1886.
+</body>

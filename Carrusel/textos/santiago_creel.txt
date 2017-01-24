@@ -1,4 +1,4 @@
-Nació en la Ciudad de México el 11 de diciembre de 1954. Cursó la primaria y parte de la secundaria en el Colegio Simón Bolívar, el último año de la preparatoria lo acreditó en el Instituto Panamericano de Humanidades y se graduó como abogado de la Facultad de Derecho de la Universidad Nacional Autónoma de México (UNAM) en 1976.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la Ciudad de México el 11 de diciembre de 1954. Cursó la primaria y parte de la secundaria en el Colegio Simón Bolívar, el último año de la preparatoria lo acreditó en el Instituto Panamericano de Humanidades y se graduó como abogado de la Facultad de Derecho de la Universidad Nacional Autónoma de México (UNAM) en 1976.
 
 Posteriormente, Creel cursó posgrados en derecho en la Universidad de Georgetown y en la Universidad de Michigan. Durante 20 años fue académico en varias universidades y para el bienio 1986–1987 llegó a ser director de la licenciatura en derecho del Instituto Tecnológico Autónomo de México (ITAM).
 
@@ -9,3 +9,4 @@ En 2000 contendió para la Jefatura de Gobierno del Distrito Federal por la coal
 Santiago Creel fue electo senador de la República para el periodo 2006–2012 en la LX legislatura, fue designado coordinador del Grupo Parlamentario de su partido y presidente de la junta de Coordinación Política del Senado de la República.
 
 Entre las asociaciones a las que pertenece destacan la Academia Mexicana de Derechos Humanos, el <i>Lawyers Committee for Human Rights</i>, la Barra Mexicana, el Colegio de Abogados y la Sociedad por la Unidad de Nuestra América.
+</body>

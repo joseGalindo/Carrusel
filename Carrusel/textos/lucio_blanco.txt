@@ -1,4 +1,4 @@
-Lucio Blanco, conocido como "El Mosquetero" y "El Caballero de la Revolución", fue un militar revolucionario que nació en la Villa de Nadadores (hoy Villa Acuña), en el municipio de Múzquiz del estado de Coahuila, en julio de 1879 o 1880. Su actividad política fue destacada y como magonista participó en el levantamiento de Las Vacas en 1906, ocurrido en su estado natal.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nLucio Blanco, conocido como "El Mosquetero" y "El Caballero de la Revolución", fue un militar revolucionario que nació en la Villa de Nadadores (hoy Villa Acuña), en el municipio de Múzquiz del estado de Coahuila, en julio de 1879 o 1880. Su actividad política fue destacada y como magonista participó en el levantamiento de Las Vacas en 1906, ocurrido en su estado natal.
 
 Tres años más tarde, Blanco se afilió al Partido Antirreeleccionista y en 1910 se levantó en armas contra Porfirio Díaz. En 1912, combatió la rebelión orozquista al mando de las tropas de Jesús Carranza y Luis Alberto Guajardo, que defendían al gobierno de Francisco I. Madero. Sus acciones de guerra fueron reconocidas otorgándole el grado de teniente coronel.
 
@@ -21,3 +21,4 @@ En 1920, tras la promulgación del Plan de Agua Prieta, Carranza fue obligado a 
 Álvaro Obregón asumió la presidencia del país y, enterado de una posible conspiración de villistas y carrancistas que se fraguaba en el vecino país del norte, sospechó que Blanco estaba implicado, por lo que mandó a un agente del servicio secreto mexicano a vigilarlo. Dicho agente, de nombre Ramón García, se allegó a Blanco, ganando su confianza y convenciéndolo de que en la frontera tamaulipeca lo esperaba un general revolucionario con su tropa.
 
 El 7 de junio de 1922 atravesó el Río Bravo al lado del coronel Aurelio Martínez. Al llegar a Nuevo Laredo, García arrestó a los dos. En esos momentos llegó Jesús Anaya Terán, quien era comandante de la aduana de Laredo, junto con hombres del 4° Regimiento. Blanco se lanzó al río arrastrando a Martínez y a García, mientras los hombres de Terán les disparaban. Sus cadáveres fueron encontrados días después.
+</body>

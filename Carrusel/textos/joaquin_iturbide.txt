@@ -1,4 +1,4 @@
-Tuvo una destacada actividad como abogado y político. Se desconoce el lugar y la fccha de su nacimiento y muerte, así como los datos precisos acerca de su formación.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nTuvo una destacada actividad como abogado y político. Se desconoce el lugar y la fccha de su nacimiento y muerte, así como los datos precisos acerca de su formación.
 
 Sin embargo, debido a los cargos que ocupó, es muy probable que se haya titulado de abogado.
 
@@ -9,3 +9,4 @@ En cuatro ocasiones y por breves periodos se hizo cargo del Ministerio del Intcr
 Tras el ascenso de Anastasio Bustamante a la presidencia en reemplazo de Corro, De Iturbide permaneció al frente de la política interna, pero con el carácter de oficial mayor encargado, hasta el 26 de abril de 1837, cuando Manuel de la Peña ocupó su lugar. Duranle los mcscs en que dirigió esta carrera, participó en diversas gestiones, como la publicación del reglamento provisional para el Gobierno interior de los departamentos, el establecimiento del uniforme que debían utilizar los individuos encargados del Poder Judicial, la rormación de un comité de representantes para calificar la elección de diputados, la disposición que daba al gobierno la facultad exclusiva para colonizar los terrenos propiedad de la República y la publicación del decreto del Congreso que declaraba abolida la esclavitud en el país, aparecido el 5 de abril de 1837.
 
 En diciembre de 1838 fungió como encargado del Ministerio del Interior por un par de días, en calidad de oficial mayor. Expidió el reglamento para elegir a los individuos que ocuparían cargos en el gobierno y, del 11 al 26 de abril repitió esas funciones con el mismo carácter. Durante la breve permanencia de Francisco Javier Echeverría en el Ejecutivo, De Iturbide encabezó, como titular formal, el Ministerio del Interior del 4 al 10 de octubre de 1841. En diciembre de 1843 ocupó por última vez un lugar en el gabinete, al encargarse interinamente de la cartera de Justlcia. Se desconoce la recha de su muerte.
+</body>

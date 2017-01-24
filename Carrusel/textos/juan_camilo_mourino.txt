@@ -1,4 +1,4 @@
-Economista y político. Mexicano por nacimiento, hijo de madre mexicana y padre español, nació el 1 de agosto de 1971 en Madrid, España. Licenciado en economía por la Universidad de Tampa, Florida, y Maestro en contaduría con especialidad en finanzas por la Universidad Autónoma de Campeche.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nEconomista y político. Mexicano por nacimiento, hijo de madre mexicana y padre español, nació el 1 de agosto de 1971 en Madrid, España. Licenciado en economía por la Universidad de Tampa, Florida, y Maestro en contaduría con especialidad en finanzas por la Universidad Autónoma de Campeche.
 
 Tras afiliarse al Partido Acción Nacional (PAN), fue designado Secretario del Comité Ejecutivo Municipal en la capital campechana y después Presidente del Comité Directivo Estatal.
 
@@ -13,3 +13,4 @@ Durante el proceso electoral de 2006, Mouriño se desempeñó como Coordinador E
 Ocupó la titularidad de la Secretaría de Gobernación a partir del 16 de enero de 2008. A la cabeza de esta dependencia, trabajó por generar un clima de civilidad política y reconciliación, lo cual fue reconocido por todas las fuerzas políticas. Reformas fundamentales como la Energética, fueron el resultado del trabajo de Mouriño Terrazo con todas las expresiones políticas organizadas.
 
 Falleció el 4 de noviembre de 2008, al volver de una gira de trabajo en San Luis Potosí, el avión que le transportaba junto con una comitiva de funcionarios públicos se accidentó en la Ciudad de México. Todos los ocupantes de la aeronave fallecieron, incluyendo los tres integrantes de la tripulación.
+</body>

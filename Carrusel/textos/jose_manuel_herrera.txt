@@ -1,4 +1,4 @@
-<body style="text-align: justify; font-family:gorgia; font-size: 30px;">
+<body style="text-align: justify; font-family: georgia; font-size: 30px">
 
 <p>Sacerdote y político. Nació en San Luis Huamantla, Tlaxcala, en 1776. De joven manifestó interés por la carrera religiosa y realizó estudios en la Universidad de México, donde obtuvo los grados de licenciado y doctor en teología en el año de 1803. Al poco tiempo de concluir los estudios ocupó los curatos de Santa Ana Acatlán y Huamuxtitlán, ubicados en los límites de los actuales estados de Guerrero y Oaxaca.</p>
 

@@ -1,4 +1,4 @@
-Nació en la Villa de Santiago del Castillo, hoy Saltillo, Coahuila, el 3 de junio de 1814. Comenzó su formación en el Seminario de Guadalajara, ciudad donde también inició la carrera de medicina, misma que tuvo que abandonar debido a problemas económicos. Posteriormente emprendió estudios en derecho y obtuvo el título en 1837.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la Villa de Santiago del Castillo, hoy Saltillo, Coahuila, el 3 de junio de 1814. Comenzó su formación en el Seminario de Guadalajara, ciudad donde también inició la carrera de medicina, misma que tuvo que abandonar debido a problemas económicos. Posteriormente emprendió estudios en derecho y obtuvo el título en 1837.
 
 De vuelta en Coahuila se dedicó al ejercicio privado de su profesión y en 1840 resultó electo diputado en el Congreso Federal. Su oposición a la postura centralista de Antonio López de Santa Anna le valió ser desterrado temporalmente en Venado, San Luis Potosí, para luego reinstalarse en Saltillo como abogado.
 
@@ -11,4 +11,4 @@ De la Fuente apoyó el movimiento de Benito Juárez tras el golpe de Estado de C
 En febrero de 1861 Juárez lo nombró Ministro Plenipotenciario ante los gobiernos de Francia y España, y en julio, ante el de la Gran Bretaña. Así, le correspondió negociar con dichos gobiernos una moratoria y posteriormente enfrentar las consecuencias del decreto de suspensión de pagos de la deuda exterior; sin embargo, las potencias europeas ejecutaron el desembarco de tropas en Veracruz en febrero de 1862, tras lo cual De la Fuente regresó al país.
 
 Al renunciar Manuel Doblado, el funcionario volvió a ocupar el Ministerio de Relaciones Exteriores y Gobernación. Desde agosto de 1862 y hasta septiembre del año siguiente, se dedicó a mantener la adhesión a la República de las distintas fuerzas políticas del país y procuró el reconocimiento internacional de su lucha frente a la invasión francesa. Cuando salió del gabinete, Juárez lo designó gobernador y comandante militar en Coahuila, cargos que desempeñó de junio a octubre de 1864; más tarde ocupó la jefatura política de Parras, así como la dirección del <i>Periódico Oficial</i> en 1866. De la Fuente encabezó nuevamente la gubernatura coahuilense de febrero a mayo de ese año. Su muerte aconteció el 9 de junio de 1867, en su natal Saltillo.
-
+</body>

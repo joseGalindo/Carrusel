@@ -1,4 +1,4 @@
-Estadista, político, científico, empresario e historiador. Nació en Guanajuato, Guanajuato, el 18 de octubre de 1792. Su nombre completo era Lucas Ignacio José Joaquín Pedro de Alcántara Juan Bautista Francisco de Paula Alamán y Escalada.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nEstadista, político, científico, empresario e historiador. Nació en Guanajuato, Guanajuato, el 18 de octubre de 1792. Su nombre completo era Lucas Ignacio José Joaquín Pedro de Alcántara Juan Bautista Francisco de Paula Alamán y Escalada.
 
 Lucas Alamán realizó estudios de química y mineralogía en el Real Seminario de Minería de la Ciudad de México. Más tarde, durante un recorrido por varios países de Europa, profundizó en ellos, pues aprendió los sistemas sajones de explotación de minas. Cursó griego en la Universidad de Catinga, así como química y ciencias naturales en París.
 
@@ -17,3 +17,4 @@ La vida de Alamán no se circunscribió a la política, pues también se ocupó 
 Convencido amante de la historia, organizó el Archivo General de la Nación, fundó el Museo de Antigüedades e Historia Natural y legó a los mexicanos las indispensables obras: <i>Disertaciones sobre la Historia de la República Mexicana: Desde la época de la Conquista que los españoles hicieron a fines del siglo XV y principios del XVI de las islas y continente americano hasta la Independencia</i> y una crónica contemporánea <i>Historia de Méjico desde los primeros movimientos que prepararon su Independencia en el año 1808 hasta la época presente</i>.
 
 Lucas Alamán se vio involucrado en la muerte del general Vicente Guerrero, acaecida en 1831, por lo que se le llevó a proceso junto con el general José Antonio Facio, pero en 1834 resultó absuelto. Posteriormente, en 1839, el general Nicolás Bravo, presidente en ausencia de Santa Anna, lo nombró director de la Junta de Industria, desde la cual propuso la creación de escuelas de artes y de agricultura. Para estos fines se adquirió la hacienda de San Jacinto. En 1853 enfermó de pulmonía, lo que le causó la muerte el 2 de junio de ese mismo año.
+</body>

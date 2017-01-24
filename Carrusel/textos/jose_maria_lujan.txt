@@ -1,3 +1,4 @@
-Nació en la ciudad de Chihuahua. Realizó sus estudios profesionales en la ciudad de México. Político de corte porfirista, inició su carrera como diputado federal por el estado de Durango en 1908. En el último periodo del gobierno de Porfirio Díaz representó al estado de Hidalgo en el Congreso de la Unión.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la ciudad de Chihuahua. Realizó sus estudios profesionales en la ciudad de México. Político de corte porfirista, inició su carrera como diputado federal por el estado de Durango en 1908. En el último periodo del gobierno de Porfirio Díaz representó al estado de Hidalgo en el Congreso de la Unión.
 
 Al triunfo de la revolución maderista se retiró a la vida privada; sin embargo, se reactivó en el servicio público una vez triunfado el golpe militar que encabezó Victoriano Huerta como Subsecretario de Gobernación, Encargado del despacho, cargo que siguió desempeñando durante el interinato del Lic. Francisco S. Carbajal.
+</body>

@@ -1,4 +1,4 @@
-Nació en el puerto sonorense de Guaymas el 25 de septiembre de 1877. Realizó estudios de normalista en la escuela de Benigno López Sierra, donde obtuvo el título en 1894. A partir de ese año, se desempeñó como maestro, tesorero municipal, inspector general de educación y administrador de hotel.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en el puerto sonorense de Guaymas el 25 de septiembre de 1877. Realizó estudios de normalista en la escuela de Benigno López Sierra, donde obtuvo el título en 1894. A partir de ese año, se desempeñó como maestro, tesorero municipal, inspector general de educación y administrador de hotel.
 
 En 1901, Calles se afilió al "Club Verde", agrupación política de corte magonista, debido en parte a su tradición liberal. Durante la primera década del siglo XX, Calles se dedicó, con dificultades, a la agricultura y a la gerencia del molino harinero <i>Excélsior</i>; pero ante el embargo de la empresa en 1910 por el Banco de Sonora, se asoció en Guaymas con su amigo Santiago Smithers en el negocio de semillas. En el local de aquel negocio, realizaron reuniones clandestinas antiporfiristas.
 
@@ -41,3 +41,4 @@ El 4 de marzo de ese año, Calles fundó el Partido Nacional Revolucionario, con
 A partir de esta época y hasta su expulsión del país en 1936, Calles protagonizó un papel clave en el manejo de la política mexicana, siendo conocido este periodo de nuestra historia como "El maximato", pues Calles era considerado como el “Jefe Máximo" de la Revolución.
 
 Como ex presidente, ocupó en 1929 la Secretaria de Guerra y Marina para combatir la rebelión escobarista y cuatro años más tarde se desempeñó como Secretario de Hacienda y Crédito Público. Exiliado en San Diego, California, por órdenes de Lázaro Cárdenas, regresó a territorio nacional durante la presidencia de Manuel Ávila Camacho, para terminar sus días en la Ciudad de México, el 19 de octubre de 1945.
+</body>

@@ -1,4 +1,4 @@
-Nació el 9 de octubre de 1830 en Guadalajara, Jalisco. Estudió en el Seminario Conciliar de su ciudad, en el Instituto de Ciencias del estado y finalmente en la Universidad de Guadalajara, donde se tituló como abogado en 1855.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 9 de octubre de 1830 en Guadalajara, Jalisco. Estudió en el Seminario Conciliar de su ciudad, en el Instituto de Ciencias del estado y finalmente en la Universidad de Guadalajara, donde se tituló como abogado en 1855.
 
 Recién egresado, Ignacio Luis Vallarta se incorporó a la administración pública local como secretario particular del gobernador Santos Degollado, al mismo tiempo que ejercía la docencia y participaba en la prensa jalisciense. Inició así una larga trayectoria política.
 
@@ -21,3 +21,4 @@ Destacaron asimismo sus gestiones ante el Ministro de Negocios Extranjeros de Gr
 A partir de entonces, Vallarta se reincorporó a la Corte. En 1880 participó en los comicios presidenciales que otorgaron el triunfo a Manuel González. A pesar de la derrota electoral mantuvo su lugar en la magistratura federal hasta 1882, cuando renunció a la Suprema Corte de Justicia de la Nación para dedicarse a la vida privada.
 
 Escribió varios trabajos relacionados con la economía y murió en la Ciudad de México el 31 de diciembre de 1893. Sus restos reposan en la Rotonda de los Hombres Ilustres de Jalisco.
+</body>

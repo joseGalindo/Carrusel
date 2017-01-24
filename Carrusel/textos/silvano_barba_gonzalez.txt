@@ -1,4 +1,4 @@
-Abogado y político. Nació en Valle de Guadalupe, Jalisco, el 29 de noviembre de 1895, en el seno de una familia de hacendados. Estudió la educación primaria en escuelas católicas de Tepatitlán y San Juan de los Lagos, donde también cursó la secundaria. En Guadalajara cursó la preparatoria y estudió en la Escuela de Jurisprudencia, de donde se tituló en 1920; en este mismo año fungió como segundo subsecretario del Comité Regional de la Acción Católica de la Juventud Mexicana (ACJM).
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nAbogado y político. Nació en Valle de Guadalupe, Jalisco, el 29 de noviembre de 1895, en el seno de una familia de hacendados. Estudió la educación primaria en escuelas católicas de Tepatitlán y San Juan de los Lagos, donde también cursó la secundaria. En Guadalajara cursó la preparatoria y estudió en la Escuela de Jurisprudencia, de donde se tituló en 1920; en este mismo año fungió como segundo subsecretario del Comité Regional de la Acción Católica de la Juventud Mexicana (ACJM).
 
 Los años que corren de 1921 a 1924, Barba González se desempeñó como diputado en la Legislatura jalisciense, siendo reelecto para un segundo periodo. Además, en marzo de 1922 ocupó el cargo de Procurador General de Justicia de la entidad.
 
@@ -21,3 +21,4 @@ Alejado de la política durante el sexenio de Miguel Alemán, Barba González re
 Entre las obras escritas por Barba González se encuentran: <i>El reeleccionismo dentro de la Revolución</i> y <i>La lucha por la tierra</i> (publicada en cinco volúmenes entre 1956 y 1966); <i>La rebelión de los cristeros</i> (1967) y <i>Licenciado y general Pedro Ogazón</i> (1967).
 
 Murió en la Ciudad de México el 14 de diciembre de 1967.
+</body>

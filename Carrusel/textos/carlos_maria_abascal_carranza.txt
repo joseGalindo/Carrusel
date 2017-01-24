@@ -1,4 +1,4 @@
-Dirigente empresarial y político. Nació en la Ciudad de México el 14 de junio de 1949. Su padre fue Salvador Abascal Infante, principal dirigente de la Unión Nacional Sinarquista, escritor y editor. Al concluir Carlos Abascal su educación primaria fue inscrito en el seminario de Temazcalcingo, en el Estado de México, en donde permaneció hasta el tercer año de secundaria.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nDirigente empresarial y político. Nació en la Ciudad de México el 14 de junio de 1949. Su padre fue Salvador Abascal Infante, principal dirigente de la Unión Nacional Sinarquista, escritor y editor. Al concluir Carlos Abascal su educación primaria fue inscrito en el seminario de Temazcalcingo, en el Estado de México, en donde permaneció hasta el tercer año de secundaria.
 
 Al término del bachillerato estudió en la Escuela Libre de Derecho, en la que obtuvo el título de abogado en 1973 con la tesis <i>Las relaciones entre el poder temporal y el poder espiritual</i>. Realizó estudios de especialización en el Instituto Panamericano de Alta Dirección de Empresas (IPADE).
 
@@ -23,3 +23,4 @@ En 2007 fue nombrado Secretario General Adjunto del Comité Ejecutivo Nacional (
 Se desempeñó como Secretario de Formación de Acción Nacional, así como director general de la Fundación Rafael Preciado Hernández.
 
 Carlos Abascal se destacó por su capacidad conciliadora y de generación de acuerdos en la economía, en el mundo laboral, en lo social y en la política desde el humanismo trascendente; es decir, desde y para la persona humana. Murió en la Ciudad de México el 2 de diciembre de 2008.
+</body>

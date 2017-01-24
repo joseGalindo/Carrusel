@@ -1,4 +1,4 @@
-Político y economista nacido en la Ciudad de México el 21 de octubre de 1954. Realizó estudios simultáneos de economía y derecho en la Universidad Nacional Autónoma de México (UNAM). Posteriormente en la Universidad de Cambridge obtuvo la maestría en política económica.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nPolítico y economista nacido en la Ciudad de México el 21 de octubre de 1954. Realizó estudios simultáneos de economía y derecho en la Universidad Nacional Autónoma de México (UNAM). Posteriormente en la Universidad de Cambridge obtuvo la maestría en política económica.
 
 En 1973 Moctezuma ingresó a la Secretaría de la Presidencia donde conoció a Ernesto Zedillo. Al término de su estancia en Inglaterra regresó a México, en 1978, para incorporarse a la Secretaría de Programación y Presupuesto como Subdirector de Planes de Desarrollo Regional. En el siguiente año partió a Japón donde realizó un diplomado sobre este tema.
 
@@ -17,3 +17,4 @@ En 1997, Moctezuma ocupó una curul en el Senado de la República. Como legislad
 Concluidas las elecciones federales de 2000, que dieron una histórica derrota al Partido Revolucionario Institucional, Moctezuma se retiró de la política. Dos años más tarde se unió al Grupo Salinas donde fue nombrado presidente de Fundación Azteca.
 
 En 1999 Moctezuma publicó, junto con Andrés Roemer, el libro <i>Por un gobierno con resultados. El servicio civil de carrera: un sistema integral de profesionalización de los servidores públicos de México</i>.
+</body>

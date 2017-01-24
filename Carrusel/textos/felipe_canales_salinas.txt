@@ -1,4 +1,4 @@
-Nació en Agualeguas, Nuevo León, el 22 de noviembre de 1895. Estudió en el Colegio Civil de Monterrey y se recibió de abogado en San Luis Potosí. Trabajó como juez de primera instancia en Cerritos y Río Verde, San Luis Potosí, así como en Tampico, Tamaulipas; igualmente, se desempeñó como procurador de Justicia en Salinas Victoria, Nuevo León.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en Agualeguas, Nuevo León, el 22 de noviembre de 1895. Estudió en el Colegio Civil de Monterrey y se recibió de abogado en San Luis Potosí. Trabajó como juez de primera instancia en Cerritos y Río Verde, San Luis Potosí, así como en Tampico, Tamaulipas; igualmente, se desempeñó como procurador de Justicia en Salinas Victoria, Nuevo León.
 
 En 1924, se adhirió al Partido Socialista Fronterizo de Tamaulipas y colaboró en la campaña de Emilio Portes Gil a la gubernatura de ese estado. Después de que su candidato ganó las elecciones, fue designado Secretario General de Gobierno. Durante ese periodo se destacó por su colaboración en los trabajos para redactar los Códigos Penal y de Procedimientos Penales del estado tamaulipeco, que entraron en vigor en 1925. Ocupó interinamente el Ejecutivo estatal en un primer periodo, del 30 de octubre al 6 de noviembre de 1926 y, en un segundo, del 24 de septiembre al 15 de octubre de 1927.
 
@@ -11,3 +11,4 @@ A lo anterior se sumaba el problema no resuelto de la Guerra Cristera, que encon
 Otro de los problemas que se vio obligado a enfrentar fue la influencia del “Jefe Máximo de la Revolución”, Plutarco Elías Calles, en las acciones de la presidencia y el reducido margen de acción que dejaba para la toma de decisiones de manera independiente.
 
 La rebelión escobarista ofreció el pretexto para que Calles diera un golpe de fuerza y lograra imponer algunos cambios en el gabinete, entre los que se contó la sustitución de Canales por Carlos Riva Palacio, elemento leal al sonorense, el 29 de abril de 1929. Canales murió en la Ciudad de México el 26 de diciembre de 1929.
+</body>

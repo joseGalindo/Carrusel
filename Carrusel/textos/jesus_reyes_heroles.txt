@@ -1,4 +1,4 @@
-Ideólogo, político e historiador. Nació en Tuxpan, Veracruz, el 3 de abril de 1921. Cursó estudios de preparatoria en el Instituto Científico y Literario de San Luis Potosí. En 1944 obtuvo el título de abogado por la Facultad de Derecho de la Universidad Nacional Autónoma de México (UNAM) con la tesis <i>Tendencias actuales del Estado</i>.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nIdeólogo, político e historiador. Nació en Tuxpan, Veracruz, el 3 de abril de 1921. Cursó estudios de preparatoria en el Instituto Científico y Literario de San Luis Potosí. En 1944 obtuvo el título de abogado por la Facultad de Derecho de la Universidad Nacional Autónoma de México (UNAM) con la tesis <i>Tendencias actuales del Estado</i>.
 
 Reyes Heroles comenzó su importante trayectoria política como ayudante del general Heriberto Jara, presidente del Partido de la Revolución Mexicana, luego Partido Revolucionario Institucional.
 
@@ -29,3 +29,4 @@ En 1968 Reyes Heroles ingresó como miembro de número a la Academia Mexicana de
 Fue autor de la reconocida obra <i>El liberalismo mexicano</i>, en tres volúmenes. Además escribió <i>Rousseau y el liberalismo mexicano, En busca de la razón de Estado, Mirabeau o la política</i> y la recopilación, selección, comentarios y estudio preliminar que hizo de las <i>Obras de Mariano Otero</i>.
 
 Con el nuevo gobierno que encabezó Miguel de la Madrid, el 1 de diciembre de 1982, Reyes Heroles comenzó nuevamente otra encomienda, pero ahora en la Secretaría de Educación Pública, cartera que desempeñó hasta su muerte ocurrida el 19 de marzo de 1985.
+</body>

@@ -1,4 +1,4 @@
-Fue abogado y político. Nació en Guanajuato, aunque se desconoce la fecha de su nacimiento. Empezó a obtener cargos públicos en 1855, como el de diputado federal representando a su estado. En su calidad de liberal moderado formó parte de la comisión encargada de elaborar el nuevo proyecto de constitución a finales de 1856 y principios de 1857, junto con Ponciano Arriaga, León Guzmán y José María Mata, entre otros.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nFue abogado y político. Nació en Guanajuato, aunque se desconoce la fecha de su nacimiento. Empezó a obtener cargos públicos en 1855, como el de diputado federal representando a su estado. En su calidad de liberal moderado formó parte de la comisión encargada de elaborar el nuevo proyecto de constitución a finales de 1856 y principios de 1857, junto con Ponciano Arriaga, León Guzmán y José María Mata, entre otros.
 
 Como diputado Secretario, Cortés juró la nueva Carta Magna que defendió frente al partido conservador y al clero. A finales de 1857 ocupó temporalmente la Secretaría de Gobernación, del 8 de octubre al 3 de noviembre, siendo relevado en el cargo por Benito Juárez. Posteriormente ocupó la presidencia de la Suprema Corte de Justicia de forma interina entre 1861 y 1863.
 
@@ -13,3 +13,4 @@ En noviembre de 1866, cuando el emperador puso a consideración del Consejo su d
 Al final de sus días Cortés residió en Orizaba, Veracruz, desacreditado y sin grandes posibilidades económicas.
 
 Desde ese lugar le escribió al presidente Juárez para felicitarlo por su ascenso a ese cargo y se lamentó de no haber seguido sus pasos. Falleció el 26 de diciembre de 1869 y fue sepultado en el Panteón de San Fernando en la Ciudad de México.
+</body>

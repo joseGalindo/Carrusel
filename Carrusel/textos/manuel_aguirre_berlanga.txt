@@ -1,4 +1,4 @@
-Escritor, legislador y político. Nació en la Congregación de San Antonio de las Alazanas, municipio de Arteaga, del estado de Coahuila, en enero de 1887. Estudió leyes en dos instituciones: el Ateneo Fuente de Saltillo, y el Instituto Científico y Literario de San Luis Potosí.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nEscritor, legislador y político. Nació en la Congregación de San Antonio de las Alazanas, municipio de Arteaga, del estado de Coahuila, en enero de 1887. Estudió leyes en dos instituciones: el Ateneo Fuente de Saltillo, y el Instituto Científico y Literario de San Luis Potosí.
 
 Desde 1904, Aguirre escribió en el periódico de oposición <i>La Voz del Pueblo</i>, que dirigía Paulino Martínez. En sus artículos denunció la reelección de Miguel Cárdenas como gobernador de Coahuila, por lo que Aguirre se vio obligado a salir del estado, víctima de las persecuciones de que fue objeto.
 
@@ -15,3 +15,4 @@ Aguirre Berlanga ocupaba el cargo de Secretario de Gobernación cuando Carranza 
 Realizó estudios jurídicos y también se interesó en la historia de México. Fue miembro de la Barra Mexicana de Abogados, de la Sociedad de Estudios Históricos de Chihuahua, de la Asociación de Diputados Constituyentes y del Instituto Nacional Autónomo de Investigaciones sobre los Archivos Públicos de los Estados. Escribió varias obras: <i>Génesis legal de la revolución constitucionalista, Revolución y reforma en 1918, Evolución del derecho constitucional mexicano, Reseña histórica de los albores de la Revolución 1910, Legislación revolucionaria del Estado de Jalisco, Reformas a la Constitución</i> y <i>Errores y aciertos de la Constitución</i>.
 
 Padeció de un mal cardiaco que lo llevó a la muerte, el 4 de octubre de 1953, en la Ciudad de México.
+</body>

@@ -1,4 +1,4 @@
-Fue registrado con el nombre de José Victoriano Huerta Márquez. Nació el 19 de diciembre de 1850 en el municipio de Colotlán, estado de Jalisco. Estudió en el Colegio Militar de la capital de la República. En 1894, se le otorgó el grado de coronel. A comienzos del siglo XX, Huerta participó en la campaña contra los mayas en Yucatán. Al concluir su misión en 1905, se trasladó a Monterrey donde fue Jefe de Obras Públicas en la administración del gobernador Bernardo Reyes.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nFue registrado con el nombre de José Victoriano Huerta Márquez. Nació el 19 de diciembre de 1850 en el municipio de Colotlán, estado de Jalisco. Estudió en el Colegio Militar de la capital de la República. En 1894, se le otorgó el grado de coronel. A comienzos del siglo XX, Huerta participó en la campaña contra los mayas en Yucatán. Al concluir su misión en 1905, se trasladó a Monterrey donde fue Jefe de Obras Públicas en la administración del gobernador Bernardo Reyes.
 
 En 1909, Huerta retornó a la Ciudad de México y, tras el estallido de la Revolución Mexicana, se reincorporó al Ejército Federal. Luego del triunfo del movimiento maderista y de la renuncia de Porfirio Díaz a la presidencia del país, escoltó el convoy que llevó al gobernante derrocado al puerto de Veracruz.
 
@@ -13,3 +13,4 @@ El 18 de febrero, Huerta mandó apresar a Madero y José María Pino Suárez, qu
 Días después, el gobernador de Coahuila, Venustiano Carranza, desconoció a Huerta y formó el ejército constitucionalista que a la postre derrocó, el 14 de julio de 1914, al gobierno que asesinó al senador Belisario Domínguez; Carranza disolvió la Cámara de Diputados y enfrentó la presión estadounidense que se ejercía mediante el desembarco de sus tropas en el puerto de Veracruz para que el presidente renunciara.
 
 Huerta huyó a Europa y buscó el apoyo del gobierno alemán para regresar al poder. Tras su retorno al continente americano, fue arrestado junto con Pascual Orozco en El Paso, Texas, acusado de conspirar en contra del gobierno de Estados Unidos. Murió en El Paso, el 13 de enero de 1916, víctima de cirrosis hepática.
+</body>

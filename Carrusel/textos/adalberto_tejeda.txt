@@ -1,3 +1,4 @@
+<body style="text-align: justify; font-family: georgia; font-size: 30px">
 Ingeniero, militar, diplomático y político. Nació el 28 de marzo de 1883 en Chicontepec, Veracruz. Realizó sus estudios en la Escuela Cantonal Porfirio Díaz y, debido a la muerte de su padre, Luis Tejeda Guzmán, se trasladó con su familia a la Ciudad de México, en donde se inscribió en la Escuela Nacional Preparatoria. Cursó la carrera de Ingeniero Topógrafo. En 1912 retornó a su estado natal para dedicarse al deslinde de terrenos.
 
 Tejeda se incorporó a la revolución constitucionalista en diciembre de 1913, bajo el mando del general Alfredo Aburto. El avance de este ejército provocó, a mediados de 1914, la caída de Victoriano Huerta y la designación de Cándido Aguilar como gobernador y comandante militar de Veracruz. Las acciones revolucionarias de Tejeda fueron reconocidas por Aguilar; en sólo tres meses obtuvo consecutivamente los grados de mayor de caballería, teniente coronel, jefe del Estado Mayor y coronel de caballería.
@@ -17,3 +18,4 @@ Terminado su gobierno en 1934, Tejeda figuró como candidato del Partido Sociali
 Con todo, Tejeda inició su labor diplomática por varias naciones cuando el presidente Cárdenas lo designó, a mediados de 1936, Ministro Plenipotenciario en Francia. En enero del año siguiente, fue nombrado embajador ante el gobierno austriaco y a finales del mismo, se hizo cargo de la embajada mexicana en España, brindando apoyo al gobierno republicano.
 
 En 1942, el presidente Manuel Ávila Camacho lo envió como embajador de México ante Perú, en donde permaneció cinco años. Al volver a México, el presidente Miguel Alemán lo ascendió a general de brigada, para retirarse del servicio activo del Ejército. Murió en la Ciudad de México el 8 de septiembre de 1960.
+</body>

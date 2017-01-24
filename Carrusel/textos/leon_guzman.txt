@@ -1,4 +1,4 @@
-Destacado abogado y político. Nació en Tenango del Valle, Estado de México, el 5 de noviembre de 1821. Estudió en el Colegio de San Ildefonso y se tituló de abogado en el Instituto Literario de Toluca.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nDestacado abogado y político. Nació en Tenango del Valle, Estado de México, el 5 de noviembre de 1821. Estudió en el Colegio de San Ildefonso y se tituló de abogado en el Instituto Literario de Toluca.
 
 Inició su carrera política como secretario de actas en la legislatura de su estado natal. Para 1850 fue electo diputado en el Congreso de la Unión; salió exiliado a Estados Unidos en 1853 debido a su oposición a los intentos del presidente Juan Bautista Cevallos por disolver el Congreso, del cual formaba parte y de organizar uno para imponer a Antonio López de Santa Anna.
 
@@ -11,3 +11,4 @@ Un año después, Guzmán se alistó en la lucha contra la invasión francesa; t
 En 1869 Guzmán fungió nuevamente como Procurador General de Justicia. En 1871 fundó la Asociación Democrática Nacional, agrupación que sostuvo la candidatura de Porfirio Díaz a la Presidencia de la República. El 29 de abril de 1872 se incorporó a la Comisión Mixta de Reclamaciones entre México y Estados Unidos, establecida en 1868 con el objetivo de saldar definitivamente las diferencias entre ambos países a raíz de la firma del Tratado de Guadalupe–Hidalgo.
 
 Más tarde se estableció en Puebla, donde llegó a ser presidente del Supremo Tribunal de Justicia. Fue autor de un volumen de poesía titulado <i>Las oraciones de la noche</i>. Su muerte ocurrió en el rancho San Isidro, Nuevo León, el 2 de mayo de 1884.
+</body>

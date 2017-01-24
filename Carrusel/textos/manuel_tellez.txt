@@ -1,4 +1,4 @@
-Nació el 16 de febrero de 1885 en Zacatecas. Estudió en la Escuela Nacional Preparatoria; al concluir este ciclo, ingresó en 1906 a la Secretaría de Relaciones Exteriores, con el puesto de meritorio interino; dos años más tarde, formó parte del cuerpo diplomático, desempeñándose como cónsul mexicano en San Antonio, Texas, y tiempo más adelante en Nueva Orleans.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 16 de febrero de 1885 en Zacatecas. Estudió en la Escuela Nacional Preparatoria; al concluir este ciclo, ingresó en 1906 a la Secretaría de Relaciones Exteriores, con el puesto de meritorio interino; dos años más tarde, formó parte del cuerpo diplomático, desempeñándose como cónsul mexicano en San Antonio, Texas, y tiempo más adelante en Nueva Orleans.
 
 El régimen de Porfirio Díaz intentó diversificar el intercambio comercial con otros países; debido a ello, Téllez viajó en 1909 a la Columbia Británica para hacerse cargo del Consulado en la ciudad de Vancouver. Tras la reorganización del Servicio Exterior por parte del gobierno provisional de Francisco León de la Barra, se le encomendó trasladarse a Kobe, Japón, para encargarse de las relaciones comerciales.
 
@@ -15,3 +15,4 @@ El 8 de septiembre de 1923, Téllez suscribió el tratado que contenía la Conve
 El 1 de enero de 1925, Téllez fue nombrado embajador Extraordinario y Plenipotenciario en Estados Unidos, cargo que desempeñó hasta octubre de 1931. En ese mismo mes, fue requerido por el presidente Pascual Ortiz Rubio para hacerse cargo de la Secretaría de Gobernación, donde permaneció tres meses para asumir posteriormente la cartera de Relaciones Exteriores, el 21 de enero de 1932. El 4 de septiembre fue ratificado por el nuevo presidente Abelardo L. Rodríguez, hasta su renuncia a la Cancillería el 21 de diciembre de ese año.
 
 Téllez partió a Europa como Enviado Extraordinario y Ministro Plenipotenciario ante los gobiernos de Italia y de Hungría en mayo de 1933. Al comienzo de 1935, se retiró del Servicio Exterior Mexicano, durante el régimen de Lázaro Cárdenas. Murió en la Ciudad de México el 25 de mayo de 1937.
+</body>

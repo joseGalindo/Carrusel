@@ -1,4 +1,4 @@
-Nació el 23 de agosto de 1829 en Zacatecas. Ejerció como militar y político. Quedó huérfano desde muy joven y se trasladó a la Ciudad de México para inscribirse en la Escuela Nacional de Ingeniería, carrera que interrumpió en julio de 1847, cuando se alistó en el Ejército Mexicano comandado por el general José Joaquín de Herrera, con el fin de combatir a los estadounidenses que habían invadido al país.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 23 de agosto de 1829 en Zacatecas. Ejerció como militar y político. Quedó huérfano desde muy joven y se trasladó a la Ciudad de México para inscribirse en la Escuela Nacional de Ingeniería, carrera que interrumpió en julio de 1847, cuando se alistó en el Ejército Mexicano comandado por el general José Joaquín de Herrera, con el fin de combatir a los estadounidenses que habían invadido al país.
 
 Al finalizar esta contienda, Berriozábal logró terminar sus estudios de ingeniería, en 1849. Dedicado entonces a su profesión, trabajó en la rectificación de los límites de los estados de México y Tlaxcala, en la desecación de los lagos del Lerma y en la canalización del río del mismo nombre; además realizó obras para evitar la inundación de la Ciudad de Toluca provocada por las aguas del Nevado, y colaboró en la fijación de los límites entre los estados de México y Michoacán.
 
@@ -27,3 +27,4 @@ Al término de la invasión francesa, Berriozábal continuó en la vida polític
 Cuatro años después, en diciembre de 1884, presidió la Comisión de Pagos Militares, y en 1886 representó al gobierno en la Junta Revisora de Reclamaciones de súbditos ingleses contra México. En ese mismo año, se encargó de la Comisión que formaría un nuevo proyecto de Ordenanza General del Ejército.
 
 El 20 de marzo de 1896, Diaz nombró a Berriozábal Secretario de Guerra y Marina, cargo en el que permaneció hasta el 9 de enero de 1900, fecha en que murió en la Ciudad de México.
+</body>

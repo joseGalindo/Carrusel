@@ -1,4 +1,4 @@
-Nació en Ciudad Victoria, Tamaulipas, el 3 de octubre de 1890. Realizó sus estudios normalistas simultáneamente a los preparatorianos, en 1906.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en Ciudad Victoria, Tamaulipas, el 3 de octubre de 1890. Realizó sus estudios normalistas simultáneamente a los preparatorianos, en 1906.
 
 Tres años más tarde, Portes Gil se desempeñó como maestro en la Escuela Municipal de Tampico. A finales de 1910, inició sus actividades revolucionarias en apoyo al movimiento encabezado por Francisco I. Madero. Hacia principios de 1911, creó la Sociedad Democrática Estudiantil que sostenía a las candidaturas de Madero y Vázquez Gómez para la presidencia y vicepresidencia de la República, respectivamente; esta sociedad editaba como órgano de difusión el periódico <i>El Cautiverio</i>, que vio la luz en septiembre de ese año.
 
@@ -29,3 +29,4 @@ Portes Gil fue Procurador General de la República entre 1932 y 1934. Al asumir 
 Portes Gil presidió la Comisión Nacional de Seguros en 1959. Fue consejero de la Constructora Nacional de Carros de Ferrocarril en 1966 y presidente del Comité Técnico Consultivo de la Comisión Nacional Bancaria y de Seguros, desde 1971 hasta su muerte.
 
 Recibió el grado de Doctor Honoris Causa por varias universidades del mundo. Escribió <i>Autobiografía de la Revolución Mexicana</i> y <i>Raigambre de la Revolución en Tamaulipas</i>. Murió en la Ciudad de México el 10 de diciembre de 1978.
+</body>

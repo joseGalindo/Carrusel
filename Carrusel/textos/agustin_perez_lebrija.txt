@@ -1,4 +1,4 @@
-Destacó como abogado y político. No pueden precisarse los datos, acerca de su nacimiento y formación profesional; sin embargo, se infiere que obtuvo el título de abogado.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nDestacó como abogado y político. No pueden precisarse los datos, acerca de su nacimiento y formación profesional; sin embargo, se infiere que obtuvo el título de abogado.
 
 Al inicio de la segunda decada del siglo XIX Pérez de Lebrija asumió el cargo de Juez de Letras de la Ciudad de México. Hacia 1824 pidió licencia para desempeñarse como diputado en el Congreso de la Unión, en el cual fue secretario en 1826. A fines del decenio se reintegró a sus labores como juez. En 1831 formó parte, de manera interina, del Supremo Tribunal de Guerra, para después reincorporarse a los juzgados.
 
@@ -9,3 +9,4 @@ Celebradas las elecciones bajo el nuevo ordcnamiento, Pérez de Lebrija resultó
 Cuando Antonio López de Santa Anna se hizo cargo del Ejecutivo el 17 dc marzo de 1839 Mantuvo a Pérez en esa responsabilidad. No obstante, el 11 de abril siguiente lo sustituyó por Joaquín de Iturbide. Durante su gestión ocurrieron levantamientos en favor del federalismo, como el iniciado en San Luis Potosí con el lema "federación o muerte" y que se extendió por el noreste de la República. A lo antnior se sumó la presión intervcncionista de Estados Unidos una vez establecida la indcpendencia de Tcxas y la ocupación del puerto de Veracruz por parle de los franceses, iniciada en marzo de 1838 y concluida un año después.
 
 Separado de la vida política tras este episodio, Pérez de Lebrija estuvo encargado del Juzgado Segundo de lo Civil hasta 1854, año en que falleció.
+</body>

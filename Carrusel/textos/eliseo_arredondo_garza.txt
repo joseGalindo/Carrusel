@@ -1,4 +1,4 @@
-Nació en el municipio de Nava en Coahuila el 5 de mayo de 1870. Sus padres fueron Juan Arredondo Villarreal y María Inés de la Garza Garza, esta última hermana de María de Jesús de la Garza Garza, madre de Venustiano Carranza.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en el municipio de Nava en Coahuila el 5 de mayo de 1870. Sus padres fueron Juan Arredondo Villarreal y María Inés de la Garza Garza, esta última hermana de María de Jesús de la Garza Garza, madre de Venustiano Carranza.
 
 Inició sus estudios en Cuatro Ciénegas, tiempo después se trasladó a Saltillo para seguir sus estudios en el Ateneo Fuente. En 1900 se graduó como abogado en la Escuela Nacional de Jurisprudencia. Siguió su carrera profesional en la Ciudad de México en donde colaboró con el jurista Jacinto Pallares. Años más tarde regresó al norte del país, donde fungió como Juez de Distrito, primero en Piedras Negras y después en Durango.
 
@@ -7,3 +7,4 @@ En 1910 se apegó al antirreeleccionismo de Francisco I. Madero, y Venustiano Ca
 Asentado el golpe militar de Huerta al gobierno de Madero, se afilió al constitucionalismo que encabezaba Venustiano Carranza, desempeñándose como agente confidencial en Washington, papel que realizó de manera destacada al obtener el reconocimiento del gobierno de Estados Unidos al gobierno interino de Carranza.
 
 Con el triunfo de la revolución constitucionalista fue nombrado Secretario de Gobernación, cargo que ocupó de agosto a noviembre de 1914. Falleció el 18 de octubre de 1923 en la ciudad de México.
+</body>

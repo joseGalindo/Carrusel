@@ -1,4 +1,4 @@
-Nació en la Ciudad de México el 6 de junio de 1872. Estudió en la Escuela Nacional Preparatoria; al finalizar ese ciclo en 1890, ingresó a la Escuela Médico Militar. En 1895, obtuvo el título de médico cirujano, al mismo tiempo que el grado de mayor en el Ejército mexicano.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en la Ciudad de México el 6 de junio de 1872. Estudió en la Escuela Nacional Preparatoria; al finalizar ese ciclo en 1890, ingresó a la Escuela Médico Militar. En 1895, obtuvo el título de médico cirujano, al mismo tiempo que el grado de mayor en el Ejército mexicano.
 
 Tras su titulación, participó en la campaña militar contra los mayas de Yucatán y, posteriormente, frente a los rebeldes levantados contra el gobernador Francisco O. Arce en Guerrero, expedición encabezada por Victoriano Huerta, con quien entabló desde entonces una estrecha amistad.
 
@@ -15,3 +15,4 @@ El hecho de que el Partido Católico Nacional mencionara a Urrutia como uno de s
 Aunque regresó a la Facultad de Medicina y se hizo cargo de la dirección del Hospital General, la inminente derrota del gobierno huertista, dados los avances de las tropas revolucionarias y la compleja situación diplomática, llevó a Urrutia a tomar la decisión de salir al exilio en mayo de 1914.
 
 Finalmente, Urrutia se estableció en San Antonio, Texas, en donde continuó su destacada trayectoria como médico, sin regresar a vivir a México. Falleció en esa ciudad en agosto de 1975.
+</body>

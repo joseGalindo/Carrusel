@@ -1,4 +1,4 @@
-Nació el 14 de diciembre de 1829 en Durango, Durango. Hizo estudios, sin concluirlos, en el Colegio de Minas de la Ciudad de México, donde adquirió notables conocimientos en historia, derecho e idiomas, entre otras disciplinas. Es considerado el más sobresaliente de los periodistas mexicanos del siglo XIX y un firme defensor del liberalismo en el país.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 14 de diciembre de 1829 en Durango, Durango. Hizo estudios, sin concluirlos, en el Colegio de Minas de la Ciudad de México, donde adquirió notables conocimientos en historia, derecho e idiomas, entre otras disciplinas. Es considerado el más sobresaliente de los periodistas mexicanos del siglo XIX y un firme defensor del liberalismo en el país.
 
 Con apenas 15 años ingresó como meritorio al Ministerio de Relaciones Exteriores en 1847, cuando a consecuencia de la invasión estadounidense el gobierno central salió hacia Querétaro, Luis de la Rosa, entonces Ministro Universal, lo nombró oficial mayor de las cuatro secretarias que componían el gabinete de Manuel de la Peña y Peña. Pedro María Anaya lo designó también oficial mayor interino de la Cancillería en noviembre de 1817, donde permaneció hasta junio del año siguiente.
 
@@ -13,3 +13,4 @@ Tras ser liberado el 25 de diciembre de 1860, retomó la dirección de <i>El Sig
 Un par de años después, Zarco resultó electo diputado nuevamente, pero la segunda intervención francesa obligó a disolver la legislatura, por lo que acompañó entonces al gobierno itinerante de Juárez. En San Luis Potosí comenzó a publicar, el 15 de junio, <i>La independencia Mexicana</i> y a partir del 16 de marzo de 1861 <i>La Acción</i>, en Saltillo, periódicos al servicio de la resistencia republicana.
 
 Enfermo salió del país y se estableció en Nueva York, donde continuó su labor periodística en favor del liberalismo. Tras el derrumbe del Imperio de Maximiliano, regresó y retomó su lugar al frente de <i>El Siglo XIX</i>. Encabezó el Congreso General en 1869. Murió el 22 de diciembre de ese año.
+</body>

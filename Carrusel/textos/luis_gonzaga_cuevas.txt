@@ -1,4 +1,4 @@
-Originario de la ciudad de Lerma. Estado de México, nació el 10 de julio de 1799. Realizó estudios de jurisprudencia en el Colegio de San Ildefonso de la Ciudad de México, donde se tituló.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nOriginario de la ciudad de Lerma. Estado de México, nació el 10 de julio de 1799. Realizó estudios de jurisprudencia en el Colegio de San Ildefonso de la Ciudad de México, donde se tituló.
 
 Sus actividades en el servicio público comenzaron en el año de 1825, cuando se le nombró secretario de la Prefectura de México. Un año más tarde ingresó al Ministerio de Relaciones Interiores y Exteriores como oficial octavo y gradualmente fue ascendiendo hasta llegar a oficial segundo. En 1834 viajó a Europa como Encargado de Negocios en el reino de Prusia y más tarde, con la misma categoría, en Francia.
 
@@ -21,3 +21,4 @@ Con Herrera una vez más como presidente a partir de junio de 1848, Cuevas fue d
 En los años de la Guerra de Reforma, cuando existían dos gobiernos paralelos en México, resultado de la guerra entre liberales y conservadores, Cuevas colaboró con el presidente conservador Félix Zuloaga, ya que fue ministro de Relaciones; pero ya no se ocupaba de la política interna pues existía un Ministerio de Gobernación.
 
 Luis Gonzaga Cuevas fue un hombre de ideas conservadoras. En los tiempos de la Reforma buscó a los moderados de cada bando, rehusó participar en el gobierno de Maximiliano y, aunque éste le otorgaba nombramientos, siempre los rechazó. Escribió un importante texto llamado Porvenir de México. Juicio sobre su estado político en 1821 y 1851. Murió el 12 de enero de 1867.
+</body>

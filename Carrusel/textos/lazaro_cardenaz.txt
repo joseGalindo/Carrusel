@@ -1,4 +1,4 @@
-Presidente, militar, político y estadista. Nació el 21 de mayo de 1895 en Jiquilpan, Michoacán. Sus padres fueron Dámaso Cárdenas y Felícitas del Río.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nPresidente, militar, político y estadista. Nació el 21 de mayo de 1895 en Jiquilpan, Michoacán. Sus padres fueron Dámaso Cárdenas y Felícitas del Río.
 
 En 1913, comenzó su labor revolucionaria cuando decidió incorporarse a las fuerzas del general Guillermo García Aragón en contra del régimen de Victoriano Huerta. Cárdenas, adscrito al Estado Mayor con el grado de capitán segundo, se encargó de la correspondencia, hasta que en octubre fue emboscado, por lo que vivió escondido, primero en Guadalajara y después en Jiquilpan.
 
@@ -33,3 +33,4 @@ En la década de los sesenta, Cárdenas participó en el Movimiento de Liberaci�
 En 1969, presidió el Consejo de Administración de la Siderúrgica Las Truchas, empresa que hoy lleva su nombre.
 
 Lázaro Cárdenas del Río murió en la Ciudad de México el 19 de octubre de 1970. Sus restos reposan en el Monumento a la Revolución.
+</body>

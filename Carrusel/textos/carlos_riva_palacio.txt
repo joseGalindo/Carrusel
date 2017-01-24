@@ -1,4 +1,4 @@
-Político y militar. Nació el 4 de octubre de 1892 en Toluca, Estado de México. Se desconocen los detalles de su formación académica.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nPolítico y militar. Nació el 4 de octubre de 1892 en Toluca, Estado de México. Se desconocen los detalles de su formación académica.
 
 Luego de haber participado en la fase armada de la Revolución, fue electo diputado Federal (1922–1924). En 1925, vinculado al grupo encabezado por los hermanos Abundio y Filiberto Gómez, participó en la fundación del Partido Socialista del Trabajo del Estado de México, brazo político del gomismo. Fungió como gobernador de su estado natal de 1925 a 1929.
 
@@ -13,3 +13,4 @@ Realizó una labor de cabildeo en el interior del Congreso y del joven Partido N
 A su regreso, se integró a la Cámara de Senadores durante la XXXV Legislatura (1932–1934). Desde esa responsabilidad, en agosto de 1933 asumió la presidencia del Partido Nacional Revolucionario para dirigir la campaña de Lázaro Cárdenas con miras a las elecciones del año siguiente. Una vez obtenido el triunfo de su candidato, se retiró del cargo el 14 de diciembre de 1934.
 
 Riva Palacio escribió la introducción a <i>La cuestión agraria mexicana</i> (1934), publicación en la que se compilaron las conferencias dictadas con el mismo nombre, que organizó la Secretaría de Acción Agraria del Partido Nacional Revolucionario. Durante el gobierno de Cárdenas, Riva Palacio fue enviado a Chile. Murió en 1936 en San José de Costa Rica.
+</body>

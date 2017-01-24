@@ -1,4 +1,4 @@
-Nació el 14 de enero de 1821 en Aguascaliemes, entonces parte integrante de Zacatecas. Realizó ahí sus estudios elementales y posteriormente viajó a Guadalajara para cursar la carrera de derecho, aunque la concluyó en Zacatecas en 1843. Tras recibirse de abogado se dedicó a litigar. Manifestó muy pronto su adhesión al bando liberal.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 14 de enero de 1821 en Aguascaliemes, entonces parte integrante de Zacatecas. Realizó ahí sus estudios elementales y posteriormente viajó a Guadalajara para cursar la carrera de derecho, aunque la concluyó en Zacatecas en 1843. Tras recibirse de abogado se dedicó a litigar. Manifestó muy pronto su adhesión al bando liberal.
 
 En 1849 fue nombrado jefe político de Aguascalicntcs, periodo en el que creó el Instituto Cientínco y Literario cuya dirección ocupó al año siguiente, después separarse del primer cargo. En 1850 resultó electo diputado por su partido al Congreso zacatecano.
 
@@ -9,3 +9,4 @@ Al estallido de la Guerra de Reforma, Tcrán se unió al bando que reconoció a 
 A finales de 1863 Juárez lo designó enviado extraordinario y ministro plenipotenciario ante las cortes europeas. Desembarcó en Cádiz en febrero siguiente y consiguió entrevistarse con Maximiliano de Habsburgo en el palacio imperial de Viena para convencerlo, sin exito, de rechazar la corona que le ofrecían los monarquistas mexicanos. Durante su permanencia en Europa realizó una campaña de propaganda contra la intervención francesa y en favor del gobierno republicano que lo llevó a recorrer las principales capitales y a entrevistarse con importantes funcionarios de los gobiernos europeos; dentro de esas actividades sobresalió la edición en Londres de La revista América, publicada en varios idiomas.
 
 Terán murió el 25 de abril de 1866 en París, poco después de que la compleja situación en Europa obligaba a Napoleón III, en febrero de ese año, a retirar el apoyo militar otorgado hasta entonces al Imperio mexicano. En 1952 sus restos fueron exhumados y depositados en la Rotonda de los Hombres Ilustres de su ciudad natal.
+</body>

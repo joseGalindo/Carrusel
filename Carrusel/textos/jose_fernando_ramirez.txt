@@ -1,4 +1,4 @@
-Nació el 5 de mayo de 1804 en Hidalgo del Parral, Chihuahua, entonces perteneciente a la intendencia de Nueva Vizcaya. Realizó estudios en el Colegio de Durango y posteriormente ingresó al Instituto San Luis Gonzaga de Zacatecas. Se recibió de abogado en 1832.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 5 de mayo de 1804 en Hidalgo del Parral, Chihuahua, entonces perteneciente a la intendencia de Nueva Vizcaya. Realizó estudios en el Colegio de Durango y posteriormente ingresó al Instituto San Luis Gonzaga de Zacatecas. Se recibió de abogado en 1832.
 
 Fue un liberal moderado. En 1833 resultó electo diputado federal por Durango, en 1842 ocupó la curul nuevamente y tuvo el encargo de elaborar un proyecto de Constitución; poco después participó en la redacción de las Bases Orgánicas. En 1845 se integró al Senado al tiempo que ocupó la Comandancia militar y la Jefatura de Fomento en Durango.
 
@@ -11,4 +11,4 @@ En el gobierno presidido por Mariano Arista, Ramírez se reincorporó al frente 
 Años más tarde, vinculado a los monarquistas mexicanos, formó parte de la junta de notables que proclamó el Imperio en julio de 1863. Maximiliano de Habsburgo, quien integró a connotados liberales moderados en su gabinete, lo nombró presidente del consejo imperial y Ministro de Negocios Extranjeros el 21 de julio de 1864, cargo en el cual se desempeñó como titular hasta el 2 de marzo de 1866.
 
 Además de colaborar durante su juventud en periódicos como <i>La Antorcha</i> y <i>Patrimonio Manifiesto</i>, escribió obras notables, la mayoría de interés histórico, entre las que se cuentan: <i>Notas y esclarecimientos a la Historia de la conquista de México del señor William Prescott, Adiciones a la Biblioteca Beristáin, Memorias para servir a la historia de las diferencias que han surgido entre México y los Estados Unidos por el Istmo de Tehuantepec, Memorias para servir a la historia del segundo Imperio mexicano, Viaje a Yucatán, México durante su guerra contra los Estados Unidos</i> y <i>Noticias históricas y estadísticas de Durango</i>. Al triunfo de la República, Ramírez se exilió nuevamente en Europa y falleció en Bonn, Alemania, el 4 de marzo de 1871.
-
+</body>

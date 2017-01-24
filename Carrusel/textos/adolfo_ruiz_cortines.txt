@@ -1,4 +1,4 @@
-Nació el 30 de diciembre de 1890 en el puerto de Veracruz. Sus padres, Adolfo Ruiz Tejeda y María Cortines, lo inscribieron en el Colegio de los Jesuitas y, posteriormente, hasta el cuarto año de preparatoria, en el Instituto Veracruzano. Dejó los estudios y trabajó durante siete años en una casa comercial de Veracruz como auxiliar de contabilidad.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 30 de diciembre de 1890 en el puerto de Veracruz. Sus padres, Adolfo Ruiz Tejeda y María Cortines, lo inscribieron en el Colegio de los Jesuitas y, posteriormente, hasta el cuarto año de preparatoria, en el Instituto Veracruzano. Dejó los estudios y trabajó durante siete años en una casa comercial de Veracruz como auxiliar de contabilidad.
 
 En 1912, Ruiz Cortines se trasladó a la Ciudad de México e hizo amistad con Alfredo Robles Domínguez. Después del derrocamiento del presidente Francisco I. Madero, se adhirió a las fuerzas constitucionalistas que lucharon contra el régimen del general Victoriano Huerta; bajo las órdenes de Robles Domínguez, se encargó de difundir la propaganda revolucionaria.
 
@@ -25,3 +25,4 @@ En concordancia con los adelantos técnicos logrados en el campo de la energía 
 Durante su sexenio se produjo un desarrollo económico sin precedentes. Los salarios de los trabajadores crecieron a un nivel superior al costo de la vida e instituyó la gratificación anual del aguinaldo para los servidores públicos. El 1 de diciembre de 1958 entregó el poder a su sucesor Adolfo López Mateos.
 
 Adolfo Ruiz Cortines fue el último presidente que había participado activamente en la Revolución Mexicana. Se retiró a la vida privada y no volvió a intervenir en la política nacional. Falleció en el puerto de Veracruz el 3 de diciembre de 1973.
+</body>

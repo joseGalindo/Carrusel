@@ -1,4 +1,4 @@
-Nació el 22 de mayo de 1858 en El Carmen, municipio de Tula, en el estado de Tamaulipas. Sus padres fueron Ignacio Vázquez y Juana Gómez Lara. En un principio se involucró en las labores del campo aun siendo niño, pero en 1874 se trasladó a la Ciudad de Saltillo, en donde trabajó como mozo. Al año siguiente, se inscribió en el Ateneo Fuente.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació el 22 de mayo de 1858 en El Carmen, municipio de Tula, en el estado de Tamaulipas. Sus padres fueron Ignacio Vázquez y Juana Gómez Lara. En un principio se involucró en las labores del campo aun siendo niño, pero en 1874 se trasladó a la Ciudad de Saltillo, en donde trabajó como mozo. Al año siguiente, se inscribió en el Ateneo Fuente.
 
 A principios de la década de los ochenta, Vázquez Gómez participó activamente en la campaña para gobernador del doctor Jesús María Gil, quien era el director del Ateneo. En enero de 1881, Evaristo Madero, vencedor en la contienda electoral, nombró a Vázquez Gómez síndico del Ayuntamiento de Saltillo.
 
@@ -39,3 +39,4 @@ Enteradas las autoridades estadounidenses de esta situación, lo arrestaron por 
 En noviembre de 1912, la policía descubrió un complot entre reyistas y vazquistas para asesinar a Madero. Tras el cuartelazo de Victoriano Huerta en febrero de 1913, que derrocó al presidente Madero, emisarios de Vázquez Gómez se entrevistaron con Venustiano Carranza y José María Maytorena, quienes propusieron reconocerlo como presidente provisional.
 
 Las acusaciones que tuvo Vázquez Gómez por sus nexos con Huerta provocaron que ambos hermanos se exiliaran. Todavía en agosto de 1917, Zapata les pidió seguir luchando para lograr el reconocimiento de Estados Unidos a la causa zapatista. Emilio Vázquez Gómez falleció en la Ciudad de México el 24 de febrero de 1926.
+</body>

@@ -1,4 +1,4 @@
-Algunas fuentes señalan que nació en la ciudad de Guanajuato en el año de 1770. Perteneció a una de las familias más ricas de la región del Bajío, lo cual le permitió estudiar la carrera de leyes en la Ciudad de México.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nAlgunas fuentes señalan que nació en la ciudad de Guanajuato en el año de 1770. Perteneció a una de las familias más ricas de la región del Bajío, lo cual le permitió estudiar la carrera de leyes en la Ciudad de México.
 
 Cuando Miguel Hidalgo tomó la plaza de Guanajuato el 28 de septiembre de 1810, José María se unióal movimiento insurgente en compañía de su padre, Bernardo Chico Valdéz, y su hermano, Bernardo Chico Linares. El caudillo se encontraba en una junta con los principales de aquella ciudad, cuando el joven José María, quien hacía unos meses se había graduado como abogado, llamó su atención. Al poco tiempo lo nombró su secretario particular para que lo acompañara durante toda la lucha. Con este cargo administró fondos y firmó diversas disposiciones de la insurgencia que dieron legalidad al movimiento; entre ellas se destaca el nombramiento de José María Morelos como jefe del Ejército del Sur.
 
@@ -11,3 +11,4 @@ para comprar armamento y continuar la lucha.
 
 Entre la comitiva se encontraban, además de Hidalgo, Allende, Mariano Abasolo, Juan Aldama, José Mariano Jiménez, José María Chico, quienes salieron por Zacatecas y continuaron por los desiertos de Coahuila. Al hacer un alto en el lugar conocido como Las Norias de Baján, el 21 de marzo, Ignacio Elizondo los traicionó y, como resultado, los jefes insurgentes fueron capturados. Chico fue enviado a Monclova en donde lo enjuiciaron y encontraron culpable de haberse rebelado contra el gobierno español, por lo que se le condenó a pena de muerte. Fue fusilado por la espalda en la ciudad de Chihuahua, el 27 de junio de 1811, junto con los también insurgentes Manuel Ignacio Solís, Vicente Valencia y
 Onofre Portugal.
+</body>

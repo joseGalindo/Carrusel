@@ -1,4 +1,4 @@
-Nació en El Real de Minas de San Matías, en la intendencia de Zacatecas, el 23 de mayo de 1805. Estudió en el Colegio de San Juan Bautista de Guadalajara y se tituló como abogado.
+<body style="text-align: justify; font-family: georgia; font-size: 30px">\nNació en El Real de Minas de San Matías, en la intendencia de Zacatecas, el 23 de mayo de 1805. Estudió en el Colegio de San Juan Bautista de Guadalajara y se tituló como abogado.
 
 En 1825 inició una importante trayectoria literaria y política al colaborar en <i>La Estrella Polar</i> y <i>El Fantasma</i>, publicaciones periódicas de ideas liberales. En 1828 se incorporó a la administración pública de Zacatecas, donde colaboró en la redacción de la Constitución Política del Estado, aprobada en 1832.
 
@@ -11,3 +11,4 @@ Fue autor de <i>Miscelánea de escritos descriptivos</i> (1848), <i>Impresiones 
 En 1852 volvió a México y se reintegró al periodismo político, pero al establecerse la dictadura de Santa Anna y como resultado de su postura crítica fue encarcelado y después confinado en Zacatecas.
 
 Apoyó la Revolución de Ayutla. Producto de tal adhesión, Luis de la Rosa fue electo gobernador de Puebla en 1855 y diputado en el Congreso Constituyente, al tiempo que ocupaba la Dirección del Colegio de Minería. El arribo de Ignacio Comonfort a la presidencia de la República truncó la permanencia de De la Rosa en el Ejecutivo Estatal, pues se le invitó para encabezar la cartera de Relaciones Exteriores, gestión que inició el 13 de diciembre del mismo 1855 y concluyó el 29 de agosto de 1856, cuando empeoró su estado de salud. Murió tres días después de su renuncia, el 2 de septiembre, en la Ciudad de México.
+</body>
