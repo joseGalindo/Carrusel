@@ -48,13 +48,17 @@
   NSString *path = [[NSBundle mainBundle] pathForResource:nombreBio ofType:@"txt"];
   NSString* textoBio = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
   if (!error) {
+    NSMutableParagraphStyle* style = [[NSMutableParagraphStyle alloc] init];
+    style.alignment = NSTextAlignmentJustified;
     NSMutableAttributedString* attributtedString = [[NSMutableAttributedString alloc]
                                                     initWithData:[textoBio dataUsingEncoding:NSUnicodeStringEncoding]
                                                     options:@{NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType}
                                                     documentAttributes:nil
                                                     error:nil];
+//    [attributtedString addAttribute:NSParagraphStyleAttributeName value:style range:NSMakeRange(0, attributtedString.length - 1)];
     _biografiaPersonaje.attributedText = attributtedString;
-    [_biografiaPersonaje setFont:[UIFont fontWithName:@"ACaslonPro-Semibold" size:28.0]];
+//    _biografiaPersonaje.text = textoBio;
+//    [_biografiaPersonaje setFont:[UIFont fontWithName:@"ACaslonPro-Semibold" size:28.0]];
   } else {
     NSLog(@"Error: %@", error.localizedDescription);
   }
